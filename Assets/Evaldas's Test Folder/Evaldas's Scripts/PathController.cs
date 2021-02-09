@@ -5,10 +5,10 @@ using UnityEngine;
 public class PathController : MonoBehaviour
 {
     private Transform Path;
-   /* public Transform Path1;
+    public Transform Path1;
     public Transform Path2;
     public Transform Path3;
-    public Transform Path4;*/
+    public Transform Path4;
     public Transform[] Waypoints;
     private Transform targetWaypoint;
     private int targetWaypointIndex = 0;
@@ -23,7 +23,7 @@ public class PathController : MonoBehaviour
     public float RotationSpeed = 5.0f;
     void Start()
     {
-        /*int a = Random.Range(1, 4);
+        int a = Random.Range(1, 4);
         if(a == 1)
         {
             Path = Path1;
@@ -39,7 +39,7 @@ public class PathController : MonoBehaviour
         if (a == 4)
         {
             Path = Path4;
-        }*/
+        }
 
         Waypoints = new Transform[Path.transform.childCount];
 
