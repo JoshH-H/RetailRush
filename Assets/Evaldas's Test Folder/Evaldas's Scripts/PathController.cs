@@ -21,6 +21,8 @@ public class PathController : MonoBehaviour
 
     public float MovementSpeed = 1.0f;
     public float RotationSpeed = 5.0f;
+
+    public Animator BetaTest; 
     void Start()
     {
         int a = Random.Range(1, 4);
@@ -68,6 +70,7 @@ public class PathController : MonoBehaviour
 
         if (rotationToTarget == ZeroToTarget)
         {
+            
             rotationToTarget = directionToLook;
             WasZero = true;
             return;
@@ -75,10 +78,12 @@ public class PathController : MonoBehaviour
         else
         {
             rotationToTarget = Quaternion.LookRotation(directionToTarget);
+            BetaTest.SetBool("IsWalking", true);
         }
 
         if(rotationToTarget == ZeroToTarget && WasZero == true)
         {
+            BetaTest.SetBool("IsWalking", false);
             rotationToTarget = directionToLook;
         }
 

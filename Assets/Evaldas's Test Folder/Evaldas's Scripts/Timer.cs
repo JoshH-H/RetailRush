@@ -26,7 +26,8 @@ public class Timer : MonoBehaviour
         CurrentTime -= 1 * Time.deltaTime;
         //Min = Mathf.FloorToInt(CurrentTime / 60);
         //Sec = Mathf.FloorToInt(CurrentTime % 60);
-        //TimerO.text = Min.ToString("00") + ":" + Sec.ToString("00");
+        //TimerO.text = Min.ToString("00") + ":" + Sec.ToString("00"); 
+        // If we decide to show the timer on the cash register
         if (CurrentTime <= 0 || Input.GetKeyDown("space"))
         {
             CurrentTime = 0;
