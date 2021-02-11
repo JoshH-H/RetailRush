@@ -7,6 +7,10 @@ public class AnswerScript : MonoBehaviour
     [SerializeField] public bool isCorrect = false;
     [SerializeField] QuestionManager questionManager;
 
+    [Header("AudioResponses")]
+    [SerializeField] AudioSource correctSound;
+    [SerializeField] AudioSource wrongSound;
+
     public void Answer()
     {
         if (isCorrect)

@@ -15,17 +15,23 @@ public class QuestionManager : MonoBehaviour
 
     [Header("Pannel UI")]
     [SerializeField] GameObject pannelUI;
+    [SerializeField] Text countdownText;
+    float currentTime = 0f;
+    float startingTime = 10f;
 
-    private void Start()
+    public void Start()
     {
+        currentTime = startingTime;
+
         generateQuestion();
- 
+
     }
 
     public void correct()
     {
         QuestionsNAnswers.RemoveAt(currentQuestion);
         generateQuestion();
+        //beginTimer();
     }
 
     void SetAnswers()
@@ -44,13 +50,15 @@ public class QuestionManager : MonoBehaviour
 
     void generateQuestion()
     {
-        if(QuestionsNAnswers.Count > 0) 
+        if (QuestionsNAnswers.Count > 0) 
         {
+            
 
             //currentQuestion =Random.Range (0, QuestionsNAnswers.Count);
 
             QuestionTxt.text = QuestionsNAnswers[currentQuestion].Question;
             SetAnswers();
+            
         }
         else
         {
@@ -58,5 +66,32 @@ public class QuestionManager : MonoBehaviour
             pannelUI.SetActive(false);
         }
 
+    }
+
+/*    void beginTimer()
+    {
+        startingTime = 10f;
+        currentTime -= 1 * Time.deltaTime;
+        countdownText.text = currentTime.ToString("0");
+
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+            //GetComponent<AnswerScript>().isCorrect = false;
+            correct();
+        }
+    }*/
+    void Update()
+    {
+        startingTime = 10f;
+        currentTime -= 1 * Time.deltaTime;
+        countdownText.text = currentTime.ToString("0");
+
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+            //GetComponent<AnswerScript>().isCorrect = false;
+            correct();
+        }
     }
 }
