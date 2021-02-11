@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class PathController : MonoBehaviour
 {
-    private Transform Path;
+    private Transform Path; // The chosen path 
     public Transform Path1;
     public Transform Path2;
     public Transform Path3;
     public Transform Path4;
-    public Transform[] Waypoints;
-    private Transform targetWaypoint;
+    public Transform[] Waypoints; // Waypoint Array
+    private Transform targetWaypoint; // Next waypoint the character will be going to
     private int targetWaypointIndex = 0;
-    private float minDis = 0.1f;
-    private int lastWaypointIndex;
-    public Transform DirectionToLook;
+    private float minDis = 0.1f; // minimum distance from the waypoint, letting the npc know it can go to another waypoint 
+    private int lastWaypointIndex; 
+    public Transform DirectionToLook; // 
+
+    public bool DoneTalking = false; // checks if the npc is done talking 
 
     private Quaternion rotationToTarget;
     bool WasZero;
