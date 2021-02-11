@@ -16,14 +16,16 @@ public class QuestionManager : MonoBehaviour
     [Header("Pannel UI")]
     [SerializeField] GameObject pannelUI;
     [SerializeField] Text countdownText;
-    float currentTime = 0f;
-    float startingTime = 10f;
+    [SerializeField] AnswerScript[] answerScript;
+    private Coroutine currentRoutine;
+    public float countdownTime = 15f;
 
-    public void Start()
+
+
+    private void Start()
     {
-        currentTime = startingTime;
-
         generateQuestion();
+        currentRoutine = StartCoroutine(CountdownStart());
 
     }
 
@@ -31,17 +33,16 @@ public class QuestionManager : MonoBehaviour
     {
         QuestionsNAnswers.RemoveAt(currentQuestion);
         generateQuestion();
-        //beginTimer();
     }
 
     void SetAnswers()
     {
-        for(int i = 0; i< options.Length; i++)
+        for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
             options[i].transform.GetChild(0).GetComponent<Text>().text = QuestionsNAnswers[currentQuestion].Answers[i];
 
-            if(QuestionsNAnswers[currentQuestion].CorrectAnswer == i + 1)
+            if (QuestionsNAnswers[currentQuestion].CorrectAnswer == i + 1)
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
@@ -50,48 +51,44 @@ public class QuestionManager : MonoBehaviour
 
     void generateQuestion()
     {
-        if (QuestionsNAnswers.Count > 0) 
+        if (QuestionsNAnswers.Count > 0)
         {
-            
-
+            if (currentRoutine != null)
+            {
+                StopCoroutine(currentRoutine);
+            }
+            currentRoutine = StartCoroutine(CountdownStart());
             //currentQuestion =Random.Range (0, QuestionsNAnswers.Count);
 
             QuestionTxt.text = QuestionsNAnswers[currentQuestion].Question;
             SetAnswers();
-            
         }
         else
         {
             Debug.Log("Complete");
             pannelUI.SetActive(false);
+            if (currentRoutine != null)
+            {
+                StopCoroutine(currentRoutine);
+            }
         }
 
     }
 
-/*    void beginTimer()
-    {
-        startingTime = 10f;
-        currentTime -= 1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString("0");
 
-        if (currentTime <= 0)
-        {
-            currentTime = 0;
-            //GetComponent<AnswerScript>().isCorrect = false;
-            correct();
-        }
-    }*/
-    void Update()
+    IEnumerator CountdownStart()
     {
-        startingTime = 10f;
-        currentTime -= 1 * Time.deltaTime;
-        countdownText.text = currentTime.ToString("0");
+        countdownTime = 15f;
 
-        if (currentTime <= 0)
+        while (countdownTime >= 0)
         {
-            currentTime = 0;
-            //GetComponent<AnswerScript>().isCorrect = false;
-            correct();
+            countdownText.text = countdownTime.ToString("0");
+            countdownTime -= Time.deltaTime;
+            yield return null;
         }
+
+        correct();
+
     }
+
 }
