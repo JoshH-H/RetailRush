@@ -4,19 +4,17 @@ using UnityEngine;
 
 public class PathController : MonoBehaviour
 {
-    private Transform Path; // The chosen path 
+    private Transform Path;
     public Transform Path1;
     public Transform Path2;
     public Transform Path3;
     public Transform Path4;
-    public Transform[] Waypoints; // Waypoint Array
-    private Transform targetWaypoint; // Next waypoint the character will be going to
+    public Transform[] Waypoints;
+    private Transform targetWaypoint;
     private int targetWaypointIndex = 0;
-    private float minDis = 0.1f; // minimum distance from the waypoint, letting the npc know it can go to another waypoint 
-    private int lastWaypointIndex; 
-    public Transform DirectionToLook; // 
-
-    public bool DoneTalking = false; // checks if the npc is done talking 
+    private float minDis = 0.1f;
+    private int lastWaypointIndex;
+    public Transform DirectionToLook;
 
     private Quaternion rotationToTarget;
     bool WasZero;
@@ -24,11 +22,14 @@ public class PathController : MonoBehaviour
     public float MovementSpeed = 1.0f;
     public float RotationSpeed = 5.0f;
 
-    public Animator BetaTest; 
+    public Animator BetaTest;
+
+    public bool DoneTalking;
+    private bool CanBeDestroyed = false;
     void Start()
     {
         int a = Random.Range(1, 4);
-        if(a == 1)
+        if (a == 1)
         {
             Path = Path1;
         }
@@ -47,7 +48,7 @@ public class PathController : MonoBehaviour
 
         Waypoints = new Transform[Path.transform.childCount];
 
-        for (int i=0; i < Path.transform.childCount; i++)
+        for (int i = 0; i < Path.transform.childCount; i++)
         {
             Waypoints[i] = Path.transform.GetChild(i);
         }
@@ -61,6 +62,7 @@ public class PathController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         float movementStep = MovementSpeed * Time.deltaTime;
         float rotationStep = RotationSpeed * Time.deltaTime;
 
@@ -72,7 +74,7 @@ public class PathController : MonoBehaviour
 
         if (rotationToTarget == ZeroToTarget)
         {
-            
+
             rotationToTarget = directionToLook;
             WasZero = true;
             return;
@@ -83,28 +85,41 @@ public class PathController : MonoBehaviour
             BetaTest.SetBool("IsWalking", true);
         }
 
-        if(rotationToTarget == ZeroToTarget && WasZero == true)
+        if (rotationToTarget == ZeroToTarget && WasZero == true)
         {
             BetaTest.SetBool("IsWalking", false);
             rotationToTarget = directionToLook;
         }
 
-        
+
         transform.rotation = Quaternion.Slerp(transform.rotation, rotationToTarget, rotationStep);
 
-        
+
 
         float distance = Vector3.Distance(transform.position, targetWaypoint.position);
         CheckDistanceToWaypoint(distance);
 
         transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, movementStep);
 
+        if (DoneTalking == true || Input.GetKeyDown("q"))
+        {
+            System.Array.Reverse(Waypoints);
+            targetWaypointIndex = 0;
+            CanBeDestroyed = true;
+            DoneTalking = false;
+        }
+
+        if (CanBeDestroyed == true && targetWaypointIndex == lastWaypointIndex)
+        {
+            Destroy(gameObject);
+        }
+
 
     }
 
     void CheckDistanceToWaypoint(float currentDistance)
     {
-        if(currentDistance <= minDis)
+        if (currentDistance <= minDis)
         {
             targetWaypointIndex++;
             UpdateTargetWaypoint();
@@ -113,7 +128,7 @@ public class PathController : MonoBehaviour
 
     void UpdateTargetWaypoint()
     {
-        if(targetWaypointIndex > lastWaypointIndex)
+        if (targetWaypointIndex > lastWaypointIndex)
         {
             targetWaypointIndex = lastWaypointIndex;
         }

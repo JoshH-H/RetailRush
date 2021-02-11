@@ -20,6 +20,7 @@ public class Timer : MonoBehaviour
     {
         ShiftsResults.SetActive(false);
         CurrentTime = StartTime;
+        Time.timeScale = 1f;
     }
     void Update()
     {
@@ -31,14 +32,22 @@ public class Timer : MonoBehaviour
         TimerO.text = Min.ToString("00") + ":" + Sec.ToString("00"); */ 
         // If we decide to show the timer on the cash register
 
-        if (CurrentTime <= 0 || Input.GetKeyDown("space"))
+        if(Input.GetKeyDown("space"))
         {
             CurrentTime = 0;
+        }
+        if (CurrentTime <= 0 )
+        {
             ShiftsResults.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
     public void RestartTheScene()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
+        SceneManager.LoadScene(1); // loads current scene
+    }
+    public void Unfreeze()
+    {
+        Time.timeScale = 1f;
     }
 }
