@@ -20,10 +20,14 @@ public class QuestionManager : MonoBehaviour
     private Coroutine currentRoutine;
     public float countdownTime = 15f;
 
+    [Header("Evaldas Char")]
+    [SerializeField] PathController pathController;
+
 
 
     private void Start()
     {
+        pannelUI.SetActive(true);
         generateQuestion();
         currentRoutine = StartCoroutine(CountdownStart());
 
@@ -65,8 +69,10 @@ public class QuestionManager : MonoBehaviour
         }
         else
         {
+            
             Debug.Log("Complete");
             pannelUI.SetActive(false);
+            pathController.DoneTalking = true;
             if (currentRoutine != null)
             {
                 StopCoroutine(currentRoutine);

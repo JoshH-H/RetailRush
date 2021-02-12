@@ -17,11 +17,14 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("That's right");
             questionManager.correct();
+            correctSound.Play();
+
         }
         else
         {
             Debug.Log("That's wrong");
             questionManager.correct();
+            wrongSound.Play();
         }
     }
 }

@@ -16,6 +16,8 @@ public class PathController : MonoBehaviour
     private int lastWaypointIndex;
     public Transform DirectionToLook;
 
+
+
     private Quaternion rotationToTarget;
     bool WasZero;
 
@@ -26,8 +28,16 @@ public class PathController : MonoBehaviour
 
     public bool DoneTalking;
     private bool CanBeDestroyed = false;
+
+    [Header("Josh Dialogue")]
+    [SerializeField] QuestionManager questionManager;
+    [SerializeField] GameObject QM;
+    [SerializeField] GameObject questionPannels;
     void Start()
     {
+        QM.SetActive(false);
+        //questionPannels.SetActive(false);
+
         int a = Random.Range(1, 4);
         if (a == 1)
         {
@@ -89,6 +99,8 @@ public class PathController : MonoBehaviour
         {
             BetaTest.SetBool("IsWalking", false);
             rotationToTarget = directionToLook;
+            QM.SetActive(true);
+            //questionPannels.SetActive(true);
         }
 
 
