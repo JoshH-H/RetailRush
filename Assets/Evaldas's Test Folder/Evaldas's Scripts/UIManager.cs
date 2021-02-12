@@ -56,6 +56,11 @@ public class UIManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void Quit()
+    {
+        Application.Quit();
+    }
+
     public void LoadSceneAssociate()
     {
         SceneManager.LoadScene(1);

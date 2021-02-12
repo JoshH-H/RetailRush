@@ -5785,7 +5785,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e05b487b89d6ea49a29e7ef07e78a15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartTime: 900
+  StartTime: 60
   ShiftsResults: {fileID: 642045920}
 --- !u!4 &2018019696
 Transform:
