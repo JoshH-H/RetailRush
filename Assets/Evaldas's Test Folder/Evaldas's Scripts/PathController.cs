@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PathController : MonoBehaviour
 {
+    public static bool SpawnNew = false;
+
     private Transform Path;
     public Transform Path1;
     public Transform Path2;
@@ -35,6 +37,7 @@ public class PathController : MonoBehaviour
     [SerializeField] GameObject questionPannels;
     void Start()
     {
+        SpawnNew = false;
         QM.SetActive(false);
         //questionPannels.SetActive(false);
 
@@ -122,8 +125,10 @@ public class PathController : MonoBehaviour
         }
 
         if (CanBeDestroyed == true && targetWaypointIndex == lastWaypointIndex)
-        {
+        { 
+            SpawnNew = true;
             Destroy(gameObject);
+           
         }
 
 
