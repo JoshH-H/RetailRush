@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: body 1
-  m_Shader: {fileID: -6465566751694194690, guid: d7cc1335974034b408bb243c6711f661,
+  m_Shader: {fileID: -6465566751694194690, guid: 82992cf74c7e5b1499b021d9c2f8668b,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -20,6 +20,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_930701A2:
+        m_Texture: {fileID: 2800000, guid: 58fd101e4987e424296c5499154cb7de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_99A724B7:
         m_Texture: {fileID: 2800000, guid: 58fd101e4987e424296c5499154cb7de, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -64,6 +68,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2B6F5815_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 43255f00fc3e23f43bb8d6f8daf35a65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_A314D7D8_Texture_1:
         m_Texture: {fileID: 2800000, guid: 43255f00fc3e23f43bb8d6f8daf35a65, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -72,7 +80,12 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_907FAAD5_Out_0:
+        m_Texture: {fileID: 2800000, guid: a4574b76828865943ba8a9503619ca75, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_2402E078: 52.37
     - Vector1_4E35DADF: 100
     - _AlphaClip: 0
     - _Blend: 0
@@ -101,6 +114,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Vector2_84C74332: {r: 0.1, g: 5.07, b: 0, a: 0}
     - Vector2_C4F4E5DC: {r: 0.2, g: 0.2, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
