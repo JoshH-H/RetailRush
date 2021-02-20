@@ -13,12 +13,22 @@ public class QuestionManager : MonoBehaviour
     [Header("Link Question Text")]
     [SerializeField] public Text QuestionTxt;
 
+    [Header("Question Help")]
+    [SerializeField] GameObject notification;
+
     [Header("Pannel UI")]
     [SerializeField] GameObject pannelUI;
     [SerializeField] Text countdownText;
     [SerializeField] AnswerScript[] answerScript;
     private Coroutine currentRoutine;
     public float countdownTime = 15f;
+    public GameObject answerPannelsTL;
+    public GameObject answerPannelsTR;
+    public GameObject answerPannelsBL;
+    public GameObject answerPannelsBR;
+
+    [Header("Other Script Connections")]
+    [SerializeField] ScoreManager scoreManager;
 
     [Header("Evaldas Char")]
     [SerializeField] PathController pathController;
@@ -29,8 +39,11 @@ public class QuestionManager : MonoBehaviour
     {
         pannelUI.SetActive(true);
         generateQuestion();
-        currentRoutine = StartCoroutine(CountdownStart());
-
+        //currentRoutine = StartCoroutine(CountdownStart());
+        answerPannelsTL.SetActive(false);
+        answerPannelsTR.SetActive(false);
+        answerPannelsBL.SetActive(false);
+        answerPannelsBR.SetActive(false);
     }
 
     public void correct()
@@ -41,6 +54,11 @@ public class QuestionManager : MonoBehaviour
 
     void SetAnswers()
     {
+        answerPannelsTL.SetActive(true);
+        answerPannelsTR.SetActive(true);
+        answerPannelsBL.SetActive(true);
+        answerPannelsBR.SetActive(true);
+        currentRoutine = StartCoroutine(CountdownStart());
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
@@ -55,17 +73,20 @@ public class QuestionManager : MonoBehaviour
 
     void generateQuestion()
     {
+        StartCoroutine(newAlert());
+        Invoke("SetAnswers", 4);
+
         if (QuestionsNAnswers.Count > 0)
         {
             if (currentRoutine != null)
             {
                 StopCoroutine(currentRoutine);
             }
-            currentRoutine = StartCoroutine(CountdownStart());
+            //currentRoutine = StartCoroutine(CountdownStart());
             //currentQuestion =Random.Range (0, QuestionsNAnswers.Count);
 
             QuestionTxt.text = QuestionsNAnswers[currentQuestion].Question;
-            SetAnswers();
+            //SetAnswers();
         }
         else
         {
@@ -81,6 +102,16 @@ public class QuestionManager : MonoBehaviour
 
     }
 
+    IEnumerator newAlert()
+    {
+        notification.SetActive(true);
+
+        //Debug.Log("Works");
+
+        yield return new WaitForSeconds(3);
+
+        notification.SetActive(false);
+    }
 
     IEnumerator CountdownStart()
     {

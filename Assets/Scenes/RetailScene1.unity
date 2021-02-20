@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1793,6 +1793,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   questionManager: {fileID: 1206166478}
+  scoreManager: {fileID: 0}
+  scoreCorrectValue: 0
+  scoreWrongValue: 0
   correctSound: {fileID: 1630914762}
   wrongSound: {fileID: 441562240}
 --- !u!114 &613873801
@@ -3050,6 +3053,54 @@ Transform:
   m_Father: {fileID: 2084872822}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &889599536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889599538}
+  - component: {fileID: 889599537}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &889599537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889599536}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892b7c42564583e488667c01c7851dbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 0
+  playerScrTxt: {fileID: 0}
+  maximum: 100
+  mask: {fileID: 0}
+  scoreSystem: {fileID: 0}
+--- !u!4 &889599538
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 889599536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &952808820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3710,6 +3761,7 @@ MonoBehaviour:
   - {fileID: 2078932398}
   currentQuestion: 0
   QuestionTxt: {fileID: 2145967740}
+  notification: {fileID: 1637076552}
   pannelUI: {fileID: 1514357876}
   countdownText: {fileID: 738881318}
   answerScript:
@@ -3718,6 +3770,11 @@ MonoBehaviour:
   - {fileID: 1406729140}
   - {fileID: 2078932400}
   countdownTime: 0
+  answerPannelsTL: {fileID: 613873798}
+  answerPannelsTR: {fileID: 2063222291}
+  answerPannelsBL: {fileID: 1406729138}
+  answerPannelsBR: {fileID: 2078932398}
+  scoreManager: {fileID: 889599537}
   pathController: {fileID: 470508066}
 --- !u!4 &1206166479
 Transform:
@@ -4109,6 +4166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   questionManager: {fileID: 1206166478}
+  scoreManager: {fileID: 0}
+  scoreCorrectValue: 0
+  scoreWrongValue: 0
   correctSound: {fileID: 1630914762}
   wrongSound: {fileID: 441562240}
 --- !u!114 &1406729141
@@ -4784,6 +4844,7 @@ RectTransform:
   - {fileID: 1494045521}
   - {fileID: 441562239}
   - {fileID: 1630914761}
+  - {fileID: 1637076553}
   m_Father: {fileID: 1492098368}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5286,6 +5347,80 @@ Transform:
   m_Father: {fileID: 2093859399}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1637076552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637076553}
+  - component: {fileID: 1637076555}
+  - component: {fileID: 1637076554}
+  m_Layer: 5
+  m_Name: Notification
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1637076553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637076552}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1514357879}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 281, y: -110}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1637076554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637076552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1637076555
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637076552}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1644280799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6412,6 +6547,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   questionManager: {fileID: 1206166478}
+  scoreManager: {fileID: 0}
+  scoreCorrectValue: 0
+  scoreWrongValue: 0
   correctSound: {fileID: 1630914762}
   wrongSound: {fileID: 441562240}
 --- !u!114 &2063222294
@@ -6659,6 +6797,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   questionManager: {fileID: 1206166478}
+  scoreManager: {fileID: 0}
+  scoreCorrectValue: 0
+  scoreWrongValue: 0
   correctSound: {fileID: 1630914762}
   wrongSound: {fileID: 441562240}
 --- !u!114 &2078932401

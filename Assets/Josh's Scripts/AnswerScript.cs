@@ -6,6 +6,9 @@ public class AnswerScript : MonoBehaviour
 {
     [SerializeField] public bool isCorrect = false;
     [SerializeField] QuestionManager questionManager;
+    [SerializeField] ScoreManager scoreManager;
+    [SerializeField] int scoreCorrectValue;
+    [SerializeField] int scoreWrongValue;
 
     [Header("AudioResponses")]
     [SerializeField] AudioSource correctSound;
@@ -17,6 +20,10 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("That's right");
             questionManager.correct();
+            questionManager.answerPannelsTL.SetActive(false);
+            questionManager.answerPannelsTR.SetActive(false);
+            questionManager.answerPannelsBL.SetActive(false);
+            questionManager.answerPannelsBR.SetActive(false);
             correctSound.Play();
 
         }
@@ -24,6 +31,11 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("That's wrong");
             questionManager.correct();
+            questionManager.correct();
+            questionManager.answerPannelsTL.SetActive(false);
+            questionManager.answerPannelsTR.SetActive(false);
+            questionManager.answerPannelsBL.SetActive(false);
+            questionManager.answerPannelsBR.SetActive(false);
             wrongSound.Play();
         }
     }
