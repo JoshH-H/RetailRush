@@ -59,6 +59,15 @@ TextureImporter:
   - first:
       213: 8359661988393023892
     second: buttons_10
+  - first:
+      213: 5310179824778099244
+    second: buttons_8
+  - first:
+      213: 8033820383572946496
+    second: buttons_9
+  - first:
+      213: -8026972116708864555
+    second: buttons_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -232,9 +241,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1049
-        y: 1443
-        width: 380
-        height: 338
+        y: 1435
+        width: 879
+        height: 342
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,8 +335,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad71a789178970900800000000000000
-      internalID: 650656284835190746
+      spriteID: c2a38558a6c81b940800000000000000
+      internalID: 5310179824778099244
       vertices: []
       indices: 
       edges: []
@@ -347,8 +356,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b53c51731a6d3a730800000000000000
-      internalID: 4009284081192125275
+      spriteID: 04e6828e21ddd7f60800000000000000
+      internalID: 8033820383572946496
       vertices: []
       indices: 
       edges: []
@@ -368,8 +377,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 499708c794c730470800000000000000
-      internalID: 8359661988393023892
+      spriteID: 5dd4a9973677a9090800000000000000
+      internalID: -8026972116708864555
       vertices: []
       indices: 
       edges: []
