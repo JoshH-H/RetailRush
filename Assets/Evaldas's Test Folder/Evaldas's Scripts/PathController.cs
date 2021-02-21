@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PathController : MonoBehaviour
 {
-    public static bool SpawnNew = false;
+    public bool CameBack = false;
 
     private Transform Path;
     public Transform Path1;
@@ -20,7 +20,7 @@ public class PathController : MonoBehaviour
 
 
 
-    private Quaternion rotationToTarget;
+    [SerializeField] Quaternion rotationToTarget;
     bool WasZero;
 
     public float MovementSpeed = 1.0f;
@@ -37,7 +37,6 @@ public class PathController : MonoBehaviour
     [SerializeField] GameObject questionPannels;
     void Start()
     {
-        SpawnNew = false;
         QM.SetActive(false);
         //questionPannels.SetActive(false);
 
@@ -70,6 +69,7 @@ public class PathController : MonoBehaviour
         targetWaypoint = Waypoints[targetWaypointIndex];
 
         Quaternion rotationToTarget = Quaternion.LookRotation(targetWaypoint.position - transform.position);
+        print("Target" + targetWaypoint);
     }
 
     // Update is called once per frame
@@ -125,9 +125,8 @@ public class PathController : MonoBehaviour
         }
 
         if (CanBeDestroyed == true && targetWaypointIndex == lastWaypointIndex)
-        { 
-            SpawnNew = true;
-            Destroy(gameObject);
+        {
+            CameBack = true;
            
         }
 

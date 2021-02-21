@@ -15,7 +15,8 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -73,7 +74,87 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: Girl(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body.002
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Sphere.001
+      parentName: Girl(Clone)
+      position: {x: -9.197156, y: 1.8338124, z: -0.12610811}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 10.078632, y: 10.078632, z: 10.078632}
+    - name: Body.003
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 0.0039307796, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: ears.001
+      parentName: Girl(Clone)
+      position: {x: -9.248206, y: 1.5254059, z: -0.063110635}
+      rotation: {x: 0.024593217, y: -0.5334052, z: 0.03894139, w: 0.844605}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: eyebrows.001
+      parentName: Girl(Clone)
+      position: {x: -9.102027, y: 1.5938454, z: 0.22529896}
+      rotation: {x: -0.7015713, y: -0.07220258, z: -0.088304885, w: 0.7034108}
+      scale: {x: 4.95812, y: 1.4542317, z: 1.9345024}
+    - name: eyelid.001
+      parentName: Girl(Clone)
+      position: {x: -9.107981, y: 1.5783, z: 0.21974899}
+      rotation: {x: -0.80019474, y: -0.17049125, z: -0.15047282, w: 0.55495864}
+      scale: {x: 5.8893623, y: 4.106414, z: 5.8893614}
+    - name: Eyes.001
+      parentName: Girl(Clone)
+      position: {x: -9.106853, y: 1.5783, z: 0.21234001}
+      rotation: {x: -0.7089129, y: -0.16462079, z: -0.16116756, w: 0.666609}
+      scale: {x: 5.4494615, y: 3.7996883, z: 5.449461}
+    - name: hair.002
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 1.6349301, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 27.026928, y: 27.026928, z: 27.026928}
+    - name: head.001
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 1.6349301, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 27.026928, y: 27.026928, z: 27.026928}
+    - name: pupil.001
+      parentName: Girl(Clone)
+      position: {x: -9.1113, y: 1.5752308, z: 0.2517735}
+      rotation: {x: 0.00000002176417, y: -0.091421336, z: 0.0000000019980773, w: 0.9958123}
+      scale: {x: 1.453575, y: 1.4535748, z: 1.453575}
+    - name: teeth_Bottom.001
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 1.3858365, z: -0.0062401276}
+      rotation: {x: 0.00000013767878, y: 0.7071069, z: -0.7071067, w: -0.00000013767875}
+      scale: {x: 7.282498, y: 0.73492247, z: 1.0627732}
+    - name: teeth_Top.001
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 1.4562039, z: 0.0102651175}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 7.282498, y: 0.73492247, z: 3.5665593}
+    - name: shoes.001
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: t-shirt.001
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: trousers.001
+      parentName: Girl(Clone)
+      position: {x: -9.017389, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
