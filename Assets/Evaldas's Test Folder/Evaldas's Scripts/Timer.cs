@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    float CurrentTime = 0f;
+    public float CurrentTime = 0f;
     public float StartTime = 900f;
 
     public GameObject ShiftsResults;
