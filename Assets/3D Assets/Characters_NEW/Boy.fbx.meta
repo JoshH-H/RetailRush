@@ -1,0 +1,168 @@
+fileFormatVersion: 2
+guid: 6182ed831cc451841a40923bb885764d
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Boy(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: Boy(Clone)
+      position: {x: 2.0587082, y: 1.5103805, z: -0.11168253}
+      rotation: {x: 0.024593217, y: -0.5334052, z: 0.03894139, w: 0.844605}
+      scale: {x: 99.99999, y: 99.99999, z: 100}
+    - name: eyebrows.012
+      parentName: Boy(Clone)
+      position: {x: 2.0585709, y: 1.5528605, z: 0.15074046}
+      rotation: {x: -0.70157135, y: -0.072202556, z: -0.088304915, w: 0.70341074}
+      scale: {x: 100.00001, y: 100.00001, z: 100}
+    - name: eyelid.015
+      parentName: Boy(Clone)
+      position: {x: 2.0585632, y: 1.5229243, z: 0.14599887}
+      rotation: {x: -0.80019474, y: -0.17049125, z: -0.15047282, w: 0.55495864}
+      scale: {x: 100, y: 100.00001, z: 100}
+    - name: Eyes.011
+      parentName: Boy(Clone)
+      position: {x: 2.0585632, y: 1.4968141, z: 0.14862923}
+      rotation: {x: -0.7089129, y: -0.16462077, z: -0.16116758, w: 0.6666089}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: hair.013
+      parentName: Boy(Clone)
+      position: {x: 2.0512314, y: 1.6561233, z: -0.12075476}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: hair.014
+      parentName: Boy(Clone)
+      position: {x: 2.062767, y: 1.7247169, z: -0.08995371}
+      rotation: {x: -0.00000023910582, y: 0.8213185, z: 0.5704699, w: 0.00000021613272}
+      scale: {x: 100, y: 100, z: 100}
+    - name: jumper1
+      parentName: Boy(Clone)
+      position: {x: 2.0610962, y: 0.8272842, z: -0.111901835}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shoes.001
+      parentName: Boy(Clone)
+      position: {x: 2.0610962, y: -2.0347655, z: -0.031772744}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: shorts
+      parentName: Boy(Clone)
+      position: {x: 2.0610962, y: -0.39690235, z: -0.09111718}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: skin
+      parentName: Boy(Clone)
+      position: {x: 2.0610962, y: 0.052637935, z: -0.06638186}
+      rotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: pupil.011
+      parentName: Boy(Clone)
+      position: {x: 2.0585632, y: 1.4940035, z: 0.18473995}
+      rotation: {x: 0.000000021764167, y: -0.09142132, z: 0.0000000019980766, w: 0.9958123}
+      scale: {x: 100.00001, y: 100, z: 100.00001}
+    - name: lips
+      parentName: Boy(Clone)
+      position: {x: 2.0580978, y: 1.3124232, z: 0.18501398}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: teeth_Top.011
+      parentName: Boy(Clone)
+      position: {x: 2.0585709, y: 1.350852, z: 0.16138257}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
