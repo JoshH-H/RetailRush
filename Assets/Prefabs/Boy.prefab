@@ -1138,6 +1138,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7884419103071806728}
   wrongSound: {fileID: 4926515053479637601}
+  happyResponse: {fileID: 7147941221363679113}
+  unhappyResponse: {fileID: 2913263459338912664}
 --- !u!1 &2267189995206164926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,6 +1742,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7884419103071806728}
   wrongSound: {fileID: 4926515053479637601}
+  happyResponse: {fileID: 7147941221363679113}
+  unhappyResponse: {fileID: 2913263459338912664}
 --- !u!1 &3314738784928808365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2327,6 +2331,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7884419103071806728}
   wrongSound: {fileID: 4926515053479637601}
+  happyResponse: {fileID: 7147941221363679113}
+  unhappyResponse: {fileID: 2913263459338912664}
 --- !u!1 &4180649555285639979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,7 +2625,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4741441022201423287}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5051921054875648516}
@@ -2627,7 +2633,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 281, y: -110}
+  m_AnchoredPosition: {x: 86, y: 462}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3739883124330859125
@@ -2657,7 +2663,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -626108884275716593, guid: 512fd4e88c32f334b887169d234a2a19,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3168,6 +3175,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7884419103071806728}
   wrongSound: {fileID: 4926515053479637601}
+  happyResponse: {fileID: 7147941221363679113}
+  unhappyResponse: {fileID: 2913263459338912664}
 --- !u!1 &5336348478717203560
 GameObject:
   m_ObjectHideFlags: 0
@@ -5468,6 +5477,12 @@ PrefabInstance:
 --- !u!4 &2532761330372696354 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e70b3652d68a1bc408fb6b4dd1a06ef2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2642650357679308489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2913263459338912664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e70b3652d68a1bc408fb6b4dd1a06ef2,
     type: 3}
   m_PrefabInstance: {fileID: 2642650357679308489}
   m_PrefabAsset: {fileID: 0}

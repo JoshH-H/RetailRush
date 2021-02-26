@@ -743,6 +743,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7013669131924715254}
   wrongSound: {fileID: 5215419993882894751}
+  happyResponse: {fileID: 8001785101641346167}
+  unhappyResponse: {fileID: 6602158700771497107}
 --- !u!1 &1389420705183814208
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,6 +1337,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7013669131924715254}
   wrongSound: {fileID: 5215419993882894751}
+  happyResponse: {fileID: 8001785101641346167}
+  unhappyResponse: {fileID: 6602158700771497107}
 --- !u!1 &2467632640824225363
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,6 +2065,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7013669131924715254}
   wrongSound: {fileID: 5215419993882894751}
+  happyResponse: {fileID: 8001785101641346167}
+  unhappyResponse: {fileID: 6602158700771497107}
 --- !u!1 &3907502774747304149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2774,8 @@ MonoBehaviour:
   scoreWrongValue: 0
   correctSound: {fileID: 7013669131924715254}
   wrongSound: {fileID: 5215419993882894751}
+  happyResponse: {fileID: 8001785101641346167}
+  unhappyResponse: {fileID: 6602158700771497107}
 --- !u!1 &5057576637277276054
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,7 +3121,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5616658276933400137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5342004603090539002}
@@ -3121,7 +3129,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 281, y: -110}
+  m_AnchoredPosition: {x: 86, y: 462}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4600462683720948107
@@ -3151,7 +3159,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -626108884275716593, guid: 512fd4e88c32f334b887169d234a2a19,
+    type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5288,6 +5297,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e70b3652d68a1bc408fb6b4dd1a06ef2, type: 3}
+--- !u!1 &6602158700771497107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e70b3652d68a1bc408fb6b4dd1a06ef2,
+    type: 3}
+  m_PrefabInstance: {fileID: 6295748098965662146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5824356047163035177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e70b3652d68a1bc408fb6b4dd1a06ef2,

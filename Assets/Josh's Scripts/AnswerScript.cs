@@ -14,6 +14,10 @@ public class AnswerScript : MonoBehaviour
     [SerializeField] AudioSource correctSound;
     [SerializeField] AudioSource wrongSound;
 
+    [Header("Emotional Responses")]
+    [SerializeField] GameObject happyResponse;
+    [SerializeField] GameObject unhappyResponse;
+
     public void Answer()
     {
         if (isCorrect)
@@ -31,12 +35,20 @@ public class AnswerScript : MonoBehaviour
         {
             Debug.Log("That's wrong");
             questionManager.correct();
-            questionManager.correct();
             questionManager.answerPannelsTL.SetActive(false);
             questionManager.answerPannelsTR.SetActive(false);
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
             wrongSound.Play();
+            happyResponse.SetActive(false);
+            unhappyResponse.SetActive(true);
+            Invoke("response", 2);
         }
+    }
+
+    public void response()
+    {
+        happyResponse.SetActive(true);
+        unhappyResponse.SetActive(false);
     }
 }
