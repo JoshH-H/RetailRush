@@ -89,7 +89,11 @@ Transform:
   m_LocalPosition: {x: -0.020103455, y: 1.5214584, z: 0.14155822}
   m_LocalScale: {x: 100.00001, y: 100, z: 100}
   m_Children: []
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Father: {fileID: 4407826675963310648}
+=======
+  m_Father: {fileID: 5918040904049670113}
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1919073042047729001
@@ -272,6 +276,180 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
+=======
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!1 &920575827076703287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 516690423447009223}
+  - component: {fileID: 8990644846048089801}
+  m_Layer: 0
+  m_Name: Icosphere.002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &516690423447009223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920575827076703287}
+  m_LocalRotation: {x: -0.59349036, y: 0.18303207, z: 0.2309743, w: 0.7489455}
+  m_LocalPosition: {x: 0.00050377846, y: 1.1142569, z: -0.058157265}
+  m_LocalScale: {x: 100.00001, y: 100, z: 99.99999}
+  m_Children: []
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &8990644846048089801
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920575827076703287}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 670224309865224971, guid: 351787c2d97706449a52132ebeb52961, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4444728127320036556, guid: 351787c2d97706449a52132ebeb52961, type: 3}
+  m_Bones:
+  - {fileID: 5818450356984447077}
+  - {fileID: 8376109208572547326}
+  - {fileID: 1137112804925967384}
+  - {fileID: 310053688277837154}
+  - {fileID: 4005687416579090839}
+  - {fileID: 429543305974678322}
+  - {fileID: 499364551755566863}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 5818450356984447077}
+  m_AABB:
+    m_Center: {x: 0.0042404532, y: 0.33255056, z: 0.030995913}
+    m_Extent: {x: 0.15424395, y: 0.055540502, z: 0.16724268}
+  m_DirtyAABB: 0
+--- !u!1 &1044404504853776420
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3835206969143061434}
+  - component: {fileID: 6205610694631653699}
+  - component: {fileID: 3820933097202909513}
+  - component: {fileID: 4755416161045825576}
+  - component: {fileID: 2214715932163920048}
+  - component: {fileID: 5459337276907319180}
+  m_Layer: 5
+  m_Name: ButtonBL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3835206969143061434
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044404504853776420}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.2141, y: 1.2141, z: 1.2141}
+  m_Children:
+  - {fileID: 8268264468972908782}
+  m_Father: {fileID: 3879302777107827387}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -686, y: -406}
+  m_SizeDelta: {x: 394.5431, y: 155.2841}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6205610694631653699
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044404504853776420}
+  m_CullTransparentMesh: 0
+--- !u!114 &3820933097202909513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044404504853776420}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
@@ -375,11 +553,20 @@ MonoBehaviour:
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   correctSound: {fileID: 8560472004488491362}
   wrongSound: {fileID: 2351988861507402218}
   happyResponse: {fileID: 0}
   unhappyResponse: {fileID: 0}
 --- !u!1 &396518359069755918
+=======
+  correctSound: {fileID: 7303525931872148024}
+  wrongSound: {fileID: 569260956589327562}
+  happyResponse: {fileID: 8746579347270355660}
+  unhappyResponse: {fileID: 1360058889217176349}
+  confusedResponse: {fileID: 6199618961868291758}
+--- !u!1 &1138491779556594246
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -482,18 +669,28 @@ GameObject:
   m_Component:
   - component: {fileID: 6101478619455009806}
   m_Layer: 0
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Name: mixamorig:RightHandIndex4
+=======
+  m_Name: AngryBrows
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_IsActive: 1
 --- !u!4 &6101478619455009806
+=======
+  m_IsActive: 0
+--- !u!4 &5596502885138365780
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_GameObject: {fileID: 614976164262143962}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.0000145924505, y: 0.053071335, z: 4.922089e-10}
@@ -501,6 +698,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8943156348864945809}
   m_RootOrder: 0
+=======
+  m_GameObject: {fileID: 1360058889217176349}
+  m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
+  m_LocalPosition: {x: 0.01231335, y: 1.609835, z: 0.14933032}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 6
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &823914461720307659
 GameObject:
@@ -772,6 +978,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_GameObject: {fileID: 1248572147640760983}
   m_LocalRotation: {x: -0.00000032210568, y: 0.0000017732004, z: 0.00009433924, w: 1}
   m_LocalPosition: {x: -0.000013216068, y: 0.06312336, z: 3.0216826e-11}
@@ -782,6 +989,25 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1339821810312224791
+=======
+  m_GameObject: {fileID: 1913211900228692819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e46b6b253d0833d4483233ac11699385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  questionManager: {fileID: 655492628112428611}
+  scoreManager: {fileID: 0}
+  scoreCorrectValue: 0
+  scoreWrongValue: 0
+  correctSound: {fileID: 7303525931872148024}
+  wrongSound: {fileID: 569260956589327562}
+  happyResponse: {fileID: 8746579347270355660}
+  unhappyResponse: {fileID: 1360058889217176349}
+  confusedResponse: {fileID: 6199618961868291758}
+--- !u!1 &1981169493518790359
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1366,11 +1592,20 @@ MonoBehaviour:
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   correctSound: {fileID: 8560472004488491362}
   wrongSound: {fileID: 2351988861507402218}
   happyResponse: {fileID: 0}
   unhappyResponse: {fileID: 0}
 --- !u!1 &2214391210408346378
+=======
+  correctSound: {fileID: 7303525931872148024}
+  wrongSound: {fileID: 569260956589327562}
+  happyResponse: {fileID: 8746579347270355660}
+  unhappyResponse: {fileID: 1360058889217176349}
+  confusedResponse: {fileID: 6199618961868291758}
+--- !u!1 &2775188203786579176
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2266,6 +2501,7 @@ MonoBehaviour:
   pannelUI: {fileID: 3950040338277572256}
   countdownText: {fileID: 3139157910226409123}
   answerScript:
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   - {fileID: 9055178498352313455}
   - {fileID: 660664894751730431}
   - {fileID: 6851633114249254320}
@@ -2278,6 +2514,20 @@ MonoBehaviour:
   scoreManager: {fileID: 0}
   pathController: {fileID: 823477685289175918}
 --- !u!1 &3393578393011566952
+=======
+  - {fileID: 6253068826695021695}
+  - {fileID: 6001128632142718434}
+  - {fileID: 5459337276907319180}
+  - {fileID: 3668186856926804443}
+  answerPannelsTL: {fileID: 1913211900228692819}
+  answerPannelsTR: {fileID: 2720967536200467012}
+  answerPannelsBL: {fileID: 1044404504853776420}
+  answerPannelsBR: {fileID: 7350034277261474021}
+  scoreManager: {fileID: 0}
+  setTimer: 0
+  pathController: {fileID: 6173207647272462676}
+--- !u!1 &4250853135101639977
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2656,6 +2906,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_GameObject: {fileID: 3918254471326001282}
   m_LocalRotation: {x: -0.0000000017076046, y: 0.99995846, z: -0.009119214, w: -0.00000018724573}
   m_LocalPosition: {x: 16.03, y: 0.61, z: 37.38}
@@ -2685,6 +2936,18 @@ Transform:
 --- !u!95 &4224665068501750335
 Animator:
   serializedVersion: 3
+=======
+  m_GameObject: {fileID: 4701735273120283777}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 0.012253046, y: 1.6799209, z: -0.13563475}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &6188043105795539709
+SkinnedMeshRenderer:
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3040,8 +3303,13 @@ Transform:
   m_LocalPosition: {x: -0.018951416, y: 1.5369407, z: -0.10603599}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Father: {fileID: 4407826675963310648}
   m_RootOrder: 3
+=======
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 14
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6029505934680130645
 SkinnedMeshRenderer:
@@ -3160,7 +3428,125 @@ Transform:
   m_Father: {fileID: 3036280908463168955}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
 --- !u!1 &4575603476524301909
+=======
+--- !u!1 &6164080664333786867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4005687416579090839}
+  m_Layer: 0
+  m_Name: mixamorig:RightShoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4005687416579090839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6164080664333786867}
+  m_LocalRotation: {x: 0.5685525, y: 0.42212197, z: -0.56272656, w: 0.4264973}
+  m_LocalPosition: {x: 0.11749906, y: 0.2808661, z: 0.0012084476}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 499364551755566863}
+  m_Father: {fileID: 5818450356984447077}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6199618961868291758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7460760950800424593}
+  - component: {fileID: 6270542366604899440}
+  m_Layer: 0
+  m_Name: ConfusedBrows
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7460760950800424593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199618961868291758}
+  m_LocalRotation: {x: 0.08588737, y: 0.93740207, z: 0.071643166, w: 0.32980007}
+  m_LocalPosition: {x: 0.014309765, y: 1.632904, z: 0.14251335}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &6270542366604899440
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199618961868291758}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 670224309865224971, guid: 351787c2d97706449a52132ebeb52961, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -7196802604745430461, guid: 351787c2d97706449a52132ebeb52961, type: 3}
+  m_Bones:
+  - {fileID: 310053688277837154}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 310053688277837154}
+  m_AABB:
+    m_Center: {x: 0.016595379, y: 0.3734849, z: 0.23662147}
+    m_Extent: {x: 0.16607626, y: 0.0271433, z: 0.031729214}
+  m_DirtyAABB: 0
+--- !u!1 &6315860707632855456
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3297,8 +3683,31 @@ Transform:
   m_LocalPosition: {x: 1.7038207e-10, y: 0.5033827, z: -4.3512996e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   - {fileID: 2527832985825061403}
   m_Father: {fileID: 7630431136136825558}
+=======
+  - {fileID: 6537756179457518556}
+  - {fileID: 6740730090428900434}
+  - {fileID: 6948434855606396193}
+  - {fileID: 4541659305072994295}
+  - {fileID: 811583477026410251}
+  - {fileID: 3287522841618076869}
+  - {fileID: 5596502885138365780}
+  - {fileID: 7460760950800424593}
+  - {fileID: 4650110118312726447}
+  - {fileID: 8784487190798179059}
+  - {fileID: 6244947794554088251}
+  - {fileID: 2773054559793704902}
+  - {fileID: 516690423447009223}
+  - {fileID: 131142369018761418}
+  - {fileID: 6920207652607218635}
+  - {fileID: 2193613745984558965}
+  - {fileID: 8824954418477711165}
+  - {fileID: 296947742285970591}
+  - {fileID: 3594956949817360229}
+  m_Father: {fileID: 0}
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4824186479614769404
@@ -3530,9 +3939,17 @@ Transform:
   m_LocalPosition: {x: -0, y: 0.2527055, z: 2.426742e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   - {fileID: 4590835014791955900}
   m_Father: {fileID: 8436108627656089919}
   m_RootOrder: 0
+=======
+  - {fileID: 8516248948529557001}
+  - {fileID: 2662992742156689482}
+  - {fileID: 1880729772600370406}
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 15
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5173918860837052397
 GameObject:
@@ -4175,6 +4592,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1906495465481483273}
@@ -4201,6 +4619,25 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6766200920020260535
+=======
+  m_GameObject: {fileID: 7350034277261474021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e46b6b253d0833d4483233ac11699385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCorrect: 0
+  questionManager: {fileID: 655492628112428611}
+  scoreManager: {fileID: 0}
+  scoreCorrectValue: 0
+  scoreWrongValue: 0
+  correctSound: {fileID: 7303525931872148024}
+  wrongSound: {fileID: 569260956589327562}
+  happyResponse: {fileID: 8746579347270355660}
+  unhappyResponse: {fileID: 1360058889217176349}
+  confusedResponse: {fileID: 6199618961868291758}
+--- !u!1 &7384618590658906691
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4259,8 +4696,13 @@ Transform:
   m_LocalPosition: {x: -0.020103455, y: 1.5522016, z: 0.14222708}
   m_LocalScale: {x: 100, y: 100.00001, z: 100.00001}
   m_Children: []
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Father: {fileID: 4407826675963310648}
   m_RootOrder: 7
+=======
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 13
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &3552593299003195969
 SkinnedMeshRenderer:
@@ -4596,8 +5038,13 @@ Transform:
   m_LocalPosition: {x: -0.020103455, y: 1.4028059, z: -0.10134466}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Father: {fileID: 4407826675963310648}
   m_RootOrder: 5
+=======
+  m_Father: {fileID: 5918040904049670113}
+  m_RootOrder: 8
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1252827757994604771
 SkinnedMeshRenderer:
@@ -4972,7 +5419,11 @@ Transform:
   m_LocalPosition: {x: -0.01782608, y: 1.5129058, z: 0.13958068}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Father: {fileID: 4407826675963310648}
+=======
+  m_Father: {fileID: 5918040904049670113}
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7534905705848964617
@@ -5069,7 +5520,11 @@ GameObject:
   - component: {fileID: 7151190941534028576}
   - component: {fileID: 317471898432098268}
   m_Layer: 0
+<<<<<<< Updated upstream:Assets/Prefabs/Tall_Basic_Lady.prefab
   m_Name: eyebrows.005
+=======
+  m_Name: NeutralBrows
+>>>>>>> Stashed changes:Assets/Prefabs/Characters/Small_Posh_Lady.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

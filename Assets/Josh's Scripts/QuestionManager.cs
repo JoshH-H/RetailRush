@@ -21,7 +21,8 @@ public class QuestionManager : MonoBehaviour
     [SerializeField] Text countdownText;
     [SerializeField] AnswerScript[] answerScript;
     private Coroutine currentRoutine;
-    public float countdownTime = 15f;
+    static float countdownTime;
+    static public float option;
     public GameObject answerPannelsTL;
     public GameObject answerPannelsTR;
     public GameObject answerPannelsBL;
@@ -29,6 +30,7 @@ public class QuestionManager : MonoBehaviour
 
     [Header("Other Script Connections")]
     [SerializeField] ScoreManager scoreManager;
+    [SerializeField] private float setTimer;
 
     [Header("Evaldas Char")]
     [SerializeField] PathController pathController;
@@ -39,11 +41,16 @@ public class QuestionManager : MonoBehaviour
     {
         pannelUI.SetActive(true);
         generateQuestion();
-        //currentRoutine = StartCoroutine(CountdownStart());
         answerPannelsTL.SetActive(false);
         answerPannelsTR.SetActive(false);
         answerPannelsBL.SetActive(false);
         answerPannelsBR.SetActive(false);
+    }
+
+    void Awake()
+    {
+        setTimer = PlayerPrefs.GetFloat("_timing");
+        Debug.Log("Timer is set to" + setTimer);
     }
 
     public void correct()
@@ -68,6 +75,11 @@ public class QuestionManager : MonoBehaviour
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
+
+            if (QuestionsNAnswers[currentQuestion].confusedAsnwer == i + 1)
+            {
+                options[i].GetComponent<AnswerScript>().isConfused = true;
+            }
         }
     }
 
@@ -82,11 +94,7 @@ public class QuestionManager : MonoBehaviour
             {
                 StopCoroutine(currentRoutine);
             }
-            //currentRoutine = StartCoroutine(CountdownStart());
-            //currentQuestion =Random.Range (0, QuestionsNAnswers.Count);
-
             QuestionTxt.text = QuestionsNAnswers[currentQuestion].Question;
-            //SetAnswers();
         }
         else
         {
@@ -106,8 +114,6 @@ public class QuestionManager : MonoBehaviour
     {
         notification.SetActive(true);
 
-        //Debug.Log("Works");
-
         yield return new WaitForSeconds(3);
 
         notification.SetActive(false);
@@ -115,7 +121,7 @@ public class QuestionManager : MonoBehaviour
 
     IEnumerator CountdownStart()
     {
-        countdownTime = 15f;
+        countdownTime = setTimer;
 
         while (countdownTime >= 0)
         {
@@ -125,7 +131,10 @@ public class QuestionManager : MonoBehaviour
         }
 
         correct();
-
+        answerPannelsTL.SetActive(false);
+        answerPannelsTR.SetActive(false);
+        answerPannelsBL.SetActive(false);
+        answerPannelsBR.SetActive(false);
     }
 
 }
