@@ -5,22 +5,24 @@ using UnityEngine.UI;
 
 public class TimerChanger : MonoBehaviour
 {
-    [SerializeField]
     private float timer;
+    [SerializeField] private float easyTimer;
+    [SerializeField] private float medTimer;
+    [SerializeField] private float highTimer;
     public Button lowestTimer;
     public Button middleTimer;
     public Button highestTimer;
 
     void Start()
     {
-        timer = 15f;
+        timer = medTimer;
         PlayerPrefs.SetFloat("_timing", timer = 15f);
     }
 
     public void Changer()
     {
-        timer = 15f;
-        PlayerPrefs.SetFloat("_timing", timer = 15f);
+        timer = easyTimer;
+        PlayerPrefs.SetFloat("_timing", timer = easyTimer);
         Debug.Log("Set " + timer);
         lowestTimer.interactable = false;
         middleTimer.interactable = true;
@@ -28,8 +30,8 @@ public class TimerChanger : MonoBehaviour
     }
     public void Changer1()
     {
-        timer = 20f;
-        PlayerPrefs.SetFloat("_timing", timer = 20f);
+        timer = medTimer;
+        PlayerPrefs.SetFloat("_timing", timer = medTimer);
         Debug.Log("Set1 " + timer);
         lowestTimer.interactable = true;
         middleTimer.interactable = false;
@@ -37,8 +39,8 @@ public class TimerChanger : MonoBehaviour
     }
     public void Changer2()
     {
-        timer = 25f;
-        PlayerPrefs.SetFloat("_timing", timer = 25f);
+        timer = highTimer;
+        PlayerPrefs.SetFloat("_timing", timer = highTimer);
         Debug.Log("Set2 " + timer);
         lowestTimer.interactable = true;
         middleTimer.interactable = true;

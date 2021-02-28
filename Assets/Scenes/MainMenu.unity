@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 131464308}
   - component: {fileID: 131464307}
   - component: {fileID: 131464305}
-  - component: {fileID: 131464306}
   m_Layer: 5
   m_Name: 20
   m_TagString: Untagged
@@ -184,7 +183,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 131464306}
+      - m_Target: {fileID: 1172365851}
         m_MethodName: Changer1
         m_Mode: 1
         m_Arguments:
@@ -195,22 +194,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &131464306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 131464304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f461adaf15de4ce47a5fea2a8a88d504, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  lowestTimer: {fileID: 890730897}
-  middleTimer: {fileID: 131464305}
-  highestTimer: {fileID: 1370784255}
 --- !u!114 &131464307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,7 +764,6 @@ GameObject:
   - component: {fileID: 890730900}
   - component: {fileID: 890730899}
   - component: {fileID: 890730897}
-  - component: {fileID: 890730898}
   m_Layer: 5
   m_Name: 15
   m_TagString: Untagged
@@ -832,7 +814,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 890730898}
+      - m_Target: {fileID: 1172365851}
         m_MethodName: Changer
         m_Mode: 1
         m_Arguments:
@@ -843,22 +825,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &890730898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 890730896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f461adaf15de4ce47a5fea2a8a88d504, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  lowestTimer: {fileID: 890730897}
-  middleTimer: {fileID: 131464305}
-  highestTimer: {fileID: 1370784255}
 --- !u!114 &890730899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1356,6 +1322,7 @@ GameObject:
   - component: {fileID: 1172365849}
   - component: {fileID: 1172365848}
   - component: {fileID: 1172365850}
+  - component: {fileID: 1172365851}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1487,6 +1454,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1172365851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172365847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f461adaf15de4ce47a5fea2a8a88d504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  easyTimer: 15
+  medTimer: 20
+  highTimer: 25
+  lowestTimer: {fileID: 890730897}
+  middleTimer: {fileID: 131464305}
+  highestTimer: {fileID: 1370784255}
 --- !u!1 &1314918278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1582,7 +1567,6 @@ GameObject:
   - component: {fileID: 1370784257}
   - component: {fileID: 1370784256}
   - component: {fileID: 1370784255}
-  - component: {fileID: 1370784254}
   m_Layer: 5
   m_Name: 25
   m_TagString: Untagged
@@ -1609,22 +1593,6 @@ RectTransform:
   m_AnchoredPosition: {x: 34.9, y: -5.9155}
   m_SizeDelta: {x: 8.951004, y: 11.830925}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1370784254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370784252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f461adaf15de4ce47a5fea2a8a88d504, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 0
-  lowestTimer: {fileID: 890730897}
-  middleTimer: {fileID: 131464305}
-  highestTimer: {fileID: 1370784255}
 --- !u!114 &1370784255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1668,7 +1636,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1370784254}
+      - m_Target: {fileID: 1172365851}
         m_MethodName: Changer2
         m_Mode: 1
         m_Arguments:
