@@ -91,7 +91,7 @@ Transform:
   m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &4547437126155954032
 SkinnedMeshRenderer:
@@ -1339,14 +1339,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 6335504942820202719}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 2622717568885542106}
+  unhappyResponse: {fileID: 4221004508269429288}
+  confusedResponse: {fileID: 9098005718357856155}
 --- !u!1 &1920531664445940315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,7 +1471,7 @@ Transform:
   m_LocalScale: {x: 100.00001, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7619785000457039332
 SkinnedMeshRenderer:
@@ -1534,7 +1536,7 @@ GameObject:
   - component: {fileID: 655882376941357329}
   - component: {fileID: 8782595142426605675}
   m_Layer: 0
-  m_Name: eyebrows.010
+  m_Name: NeutralBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1798,14 +1800,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 6335504942820202719}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 2622717568885542106}
+  unhappyResponse: {fileID: 4221004508269429288}
+  confusedResponse: {fileID: 9098005718357856155}
 --- !u!1 &2939309056892917172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,14 +2326,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 6335504942820202719}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 2622717568885542106}
+  unhappyResponse: {fileID: 4221004508269429288}
+  confusedResponse: {fileID: 9098005718357856155}
 --- !u!1 &4125612890354727523
 GameObject:
   m_ObjectHideFlags: 0
@@ -2371,12 +2377,12 @@ GameObject:
   - component: {fileID: 7341191606386609249}
   - component: {fileID: 2387791795161216398}
   m_Layer: 0
-  m_Name: Plane.001
+  m_Name: AngryBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7341191606386609249
 Transform:
   m_ObjectHideFlags: 0
@@ -2386,10 +2392,10 @@ Transform:
   m_GameObject: {fileID: 4221004508269429288}
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: -0.007400609, y: 1.6109376, z: 0.110040456}
-  m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 10
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2387791795161216398
 SkinnedMeshRenderer:
@@ -3091,14 +3097,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 6335504942820202719}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 2622717568885542106}
+  unhappyResponse: {fileID: 4221004508269429288}
+  confusedResponse: {fileID: 9098005718357856155}
 --- !u!1 &4969645014713338894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3497,6 +3505,7 @@ MonoBehaviour:
     - Yo, do you have the card then?
     - ...
     CorrectAnswer: 2
+    confusedAnswer: 0
   - Question: Yes, here it is.
     Answers:
     - Great, are you sure you don't want to exchange instead?
@@ -3504,6 +3513,7 @@ MonoBehaviour:
     - Wanna exchange?
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   - Question: No thanks. I just want to return this please.
     Answers:
     - No problem, just so you know, your refund could take a few days to show up.
@@ -3511,6 +3521,7 @@ MonoBehaviour:
     - '*sigh* Fine. I''ll do the refund for you.'
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   - Question: Thanks.
     Answers:
     - Is that it?
@@ -3518,6 +3529,7 @@ MonoBehaviour:
     - You're welcome, is there anything else I can do for you?
     - ...
     CorrectAnswer: 3
+    confusedAnswer: 0
   - Question: That's it thanks.
     Answers:
     - Sweet, have a good one!
@@ -3525,6 +3537,7 @@ MonoBehaviour:
     - Bye
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   options:
   - {fileID: 2868507716468461377}
   - {fileID: 4039326321085738376}
@@ -3540,12 +3553,12 @@ MonoBehaviour:
   - {fileID: 5382669302722656455}
   - {fileID: 2494869817599204936}
   - {fileID: 5377392246312079734}
-  countdownTime: 0
   answerPannelsTL: {fileID: 2868507716468461377}
   answerPannelsTR: {fileID: 4039326321085738376}
   answerPannelsBL: {fileID: 4889033891361720943}
   answerPannelsBR: {fileID: 1918245833056012688}
   scoreManager: {fileID: 0}
+  setTimer: 0
   pathController: {fileID: 9070320857952908692}
 --- !u!1 &5417035535680648308
 GameObject:
@@ -3840,7 +3853,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1633871920438346927
 SkinnedMeshRenderer:
@@ -4425,7 +4438,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7687420250629969417
 SkinnedMeshRenderer:
@@ -4786,7 +4799,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &4983568812307585443
 SkinnedMeshRenderer:
@@ -4967,6 +4980,8 @@ Transform:
   - {fileID: 6008188907073955334}
   - {fileID: 3848973754329499453}
   - {fileID: 655882376941357329}
+  - {fileID: 7341191606386609249}
+  - {fileID: 5747175763703934884}
   - {fileID: 1478599348865403744}
   - {fileID: 4696487258310016957}
   - {fileID: 5855623436469120264}
@@ -4974,8 +4989,6 @@ Transform:
   - {fileID: 8938871827430232585}
   - {fileID: 3907624134758950464}
   - {fileID: 4358752055396071339}
-  - {fileID: 7341191606386609249}
-  - {fileID: 5747175763703934884}
   - {fileID: 4651961415865536939}
   - {fileID: 2334067678497445959}
   - {fileID: 6071528056379592530}
@@ -5064,7 +5077,7 @@ Transform:
   - {fileID: 918517359959822719}
   - {fileID: 3626051520447288787}
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8326643588151101514
 GameObject:
@@ -5288,7 +5301,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6695240256625170788
 SkinnedMeshRenderer:
@@ -5385,12 +5398,12 @@ GameObject:
   - component: {fileID: 5747175763703934884}
   - component: {fileID: 9173430472101561669}
   m_Layer: 0
-  m_Name: Plane.003
+  m_Name: ConfusedBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5747175763703934884
 Transform:
   m_ObjectHideFlags: 0
@@ -5403,7 +5416,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 8821137418083272404}
-  m_RootOrder: 11
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &9173430472101561669
 SkinnedMeshRenderer:

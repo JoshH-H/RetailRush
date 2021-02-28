@@ -214,6 +214,7 @@ MonoBehaviour:
     - Yo, do you have the card then?
     - ...
     CorrectAnswer: 2
+    confusedAnswer: 0
   - Question: Yes, here it is.
     Answers:
     - Great, are you sure you don't want to exchange instead?
@@ -221,6 +222,7 @@ MonoBehaviour:
     - Wanna exchange?
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   - Question: No thanks. I just want to return this please.
     Answers:
     - No problem, just so you know, your refund could take a few days to show up.
@@ -228,6 +230,7 @@ MonoBehaviour:
     - '*sigh* Fine. I''ll do the refund for you.'
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   - Question: Thanks.
     Answers:
     - Is that it?
@@ -235,6 +238,7 @@ MonoBehaviour:
     - You're welcome, is there anything else I can do for you?
     - ...
     CorrectAnswer: 3
+    confusedAnswer: 0
   - Question: That's it thanks.
     Answers:
     - Sweet, have a good one!
@@ -242,6 +246,7 @@ MonoBehaviour:
     - Bye
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   options:
   - {fileID: 883293917614377836}
   - {fileID: 1090004168719995439}
@@ -257,12 +262,12 @@ MonoBehaviour:
   - {fileID: 309161554944814535}
   - {fileID: 42813155131618869}
   - {fileID: 1783677497009570341}
-  countdownTime: 0
   answerPannelsTL: {fileID: 883293917614377836}
   answerPannelsTR: {fileID: 1090004168719995439}
   answerPannelsBL: {fileID: 983799608691762135}
   answerPannelsBR: {fileID: 7604306989046989193}
   scoreManager: {fileID: 0}
+  setTimer: 0
   pathController: {fileID: 3370926221963957107}
 --- !u!1 &328146398258748343
 GameObject:
@@ -1105,14 +1110,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 3113222154942634761}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5761302866784065433}
+  unhappyResponse: {fileID: 7616618821779705170}
+  confusedResponse: {fileID: 3271078658029273313}
 --- !u!1 &946990516510057915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1383,14 +1390,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 3113222154942634761}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5761302866784065433}
+  unhappyResponse: {fileID: 7616618821779705170}
+  confusedResponse: {fileID: 3271078658029273313}
 --- !u!1 &1090004168719995439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,14 +1561,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 3113222154942634761}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5761302866784065433}
+  unhappyResponse: {fileID: 7616618821779705170}
+  confusedResponse: {fileID: 3271078658029273313}
 --- !u!1 &1199838474560497545
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,7 +2189,7 @@ Transform:
   - {fileID: 6888420445598277125}
   - {fileID: 7022798398344764073}
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 12
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2451794761518011156
 GameObject:
@@ -2216,14 +2227,14 @@ Transform:
   - {fileID: 747414762225275556}
   - {fileID: 3407186295668832146}
   - {fileID: 3113495805374463374}
+  - {fileID: 3946993395905577755}
+  - {fileID: 2082280007774609630}
   - {fileID: 4274362541862000267}
   - {fileID: 3423127655631817434}
   - {fileID: 2758347301165606209}
   - {fileID: 1085427936951237167}
   - {fileID: 243976752667397665}
   - {fileID: 7285984412046453050}
-  - {fileID: 3946993395905577755}
-  - {fileID: 2082280007774609630}
   - {fileID: 875637933670867421}
   - {fileID: 6416739558213515427}
   - {fileID: 5441143299191514895}
@@ -2353,12 +2364,12 @@ GameObject:
   - component: {fileID: 2082280007774609630}
   - component: {fileID: 3200156232607894079}
   m_Layer: 0
-  m_Name: Plane.003
+  m_Name: ConfusedBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2082280007774609630
 Transform:
   m_ObjectHideFlags: 0
@@ -2371,7 +2382,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 14
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &3200156232607894079
 SkinnedMeshRenderer:
@@ -2485,7 +2496,7 @@ Transform:
   m_LocalScale: {x: 100.00001, y: 100, z: 99.99999}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 10
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7533957259580273764
 SkinnedMeshRenderer:
@@ -2656,7 +2667,7 @@ Transform:
   m_LocalScale: {x: 100.00001, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 9
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &4144489822465817243
 SkinnedMeshRenderer:
@@ -2941,7 +2952,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100.00001, z: 100}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &405061044684886791
 SkinnedMeshRenderer:
@@ -3024,7 +3035,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100.00001, z: 100.00001}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1796127497664177695
 SkinnedMeshRenderer:
@@ -3712,7 +3723,7 @@ GameObject:
   - component: {fileID: 3113495805374463374}
   - component: {fileID: 1446116316750795468}
   m_Layer: 0
-  m_Name: eyebrows.003
+  m_Name: NeutralBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4270,7 +4281,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 11
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5674814838232569588
 SkinnedMeshRenderer:
@@ -4866,14 +4877,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 3113222154942634761}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5761302866784065433}
+  unhappyResponse: {fileID: 7616618821779705170}
+  confusedResponse: {fileID: 3271078658029273313}
 --- !u!1 &7616618821779705170
 GameObject:
   m_ObjectHideFlags: 0
@@ -4885,12 +4898,12 @@ GameObject:
   - component: {fileID: 3946993395905577755}
   - component: {fileID: 8215846336481606388}
   m_Layer: 0
-  m_Name: Plane.001
+  m_Name: AngryBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3946993395905577755
 Transform:
   m_ObjectHideFlags: 0
@@ -4900,10 +4913,10 @@ Transform:
   m_GameObject: {fileID: 7616618821779705170}
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: 0.0022893047, y: 1.6139894, z: 0.14933032}
-  m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 2976130538840099246}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &8215846336481606388
 SkinnedMeshRenderer:

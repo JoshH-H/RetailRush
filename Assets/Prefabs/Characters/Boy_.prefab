@@ -218,7 +218,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &8059851219821615721
 SkinnedMeshRenderer:
@@ -650,14 +650,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 1594958575955438982}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5955714415343981103}
+  unhappyResponse: {fileID: 8864207694364522722}
+  confusedResponse: {fileID: 4599691640098534737}
 --- !u!1 &1307400329457189769
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,7 +1461,7 @@ Transform:
   m_LocalScale: {x: 100.00001, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &3034492375360440735
 SkinnedMeshRenderer:
@@ -1823,6 +1825,8 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 4716275111802765475}
+  - {fileID: 2627531578248115883}
+  - {fileID: 1032988125709194606}
   - {fileID: 8904082214104582686}
   - {fileID: 8258398888941914259}
   - {fileID: 3654092647206996662}
@@ -1831,8 +1835,6 @@ Transform:
   - {fileID: 1442132873212415177}
   - {fileID: 833265004668634643}
   - {fileID: 8623640808267291786}
-  - {fileID: 2627531578248115883}
-  - {fileID: 1032988125709194606}
   - {fileID: 8264532337094524573}
   - {fileID: 5366025668554239858}
   - {fileID: 1879154575740286577}
@@ -2051,7 +2053,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 6
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5183493902438360702
 SkinnedMeshRenderer:
@@ -2187,7 +2189,7 @@ Transform:
   - {fileID: 5559907587806604213}
   - {fileID: 8342261313369534233}
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4163724855586141141
 GameObject:
@@ -2293,12 +2295,12 @@ GameObject:
   - component: {fileID: 1032988125709194606}
   - component: {fileID: 4528768252326903695}
   m_Layer: 0
-  m_Name: Plane.003
+  m_Name: ConfusedBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1032988125709194606
 Transform:
   m_ObjectHideFlags: 0
@@ -2311,7 +2313,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 10
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &4528768252326903695
 SkinnedMeshRenderer:
@@ -2642,7 +2644,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7286027631108931960
 SkinnedMeshRenderer:
@@ -2905,7 +2907,7 @@ GameObject:
   - component: {fileID: 4716275111802765475}
   - component: {fileID: 6969423657068366178}
   m_Layer: 0
-  m_Name: eyebrows.012
+  m_Name: NeutralBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3158,7 +3160,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &729115429406822998
 SkinnedMeshRenderer:
@@ -3814,14 +3816,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 1594958575955438982}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5955714415343981103}
+  unhappyResponse: {fileID: 8864207694364522722}
+  confusedResponse: {fileID: 4599691640098534737}
 --- !u!1 &7007573282642922278
 GameObject:
   m_ObjectHideFlags: 0
@@ -3874,6 +3878,7 @@ MonoBehaviour:
     - Yo, do you have the card then?
     - ...
     CorrectAnswer: 2
+    confusedAnswer: 0
   - Question: Yes, here it is.
     Answers:
     - Great, are you sure you don't want to exchange instead?
@@ -3881,6 +3886,7 @@ MonoBehaviour:
     - Wanna exchange?
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   - Question: No thanks. I just want to return this please.
     Answers:
     - No problem, just so you know, your refund could take a few days to show up.
@@ -3888,6 +3894,7 @@ MonoBehaviour:
     - '*sigh* Fine. I''ll do the refund for you.'
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   - Question: Thanks.
     Answers:
     - Is that it?
@@ -3895,6 +3902,7 @@ MonoBehaviour:
     - You're welcome, is there anything else I can do for you?
     - ...
     CorrectAnswer: 3
+    confusedAnswer: 0
   - Question: That's it thanks.
     Answers:
     - Sweet, have a good one!
@@ -3902,6 +3910,7 @@ MonoBehaviour:
     - Bye
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 0
   options:
   - {fileID: 6992342369477336748}
   - {fileID: 8795035562470662637}
@@ -3917,12 +3926,12 @@ MonoBehaviour:
   - {fileID: 9091229544620072948}
   - {fileID: 2204235755727450553}
   - {fileID: 5604409193602107458}
-  countdownTime: 0
   answerPannelsTL: {fileID: 6992342369477336748}
   answerPannelsTR: {fileID: 8795035562470662637}
   answerPannelsBL: {fileID: 1119264872475556689}
   answerPannelsBR: {fileID: 8557819187799333881}
   scoreManager: {fileID: 0}
+  setTimer: 0
   pathController: {fileID: 4357153550072386649}
 --- !u!1 &7012650193112346611
 GameObject:
@@ -3953,7 +3962,7 @@ Transform:
   m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2557778141287861344
 SkinnedMeshRenderer:
@@ -4582,14 +4591,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 1594958575955438982}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5955714415343981103}
+  unhappyResponse: {fileID: 8864207694364522722}
+  confusedResponse: {fileID: 4599691640098534737}
 --- !u!1 &8589048041648523619
 GameObject:
   m_ObjectHideFlags: 0
@@ -4680,7 +4691,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100.00001, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &8133219523369982822
 SkinnedMeshRenderer:
@@ -4895,14 +4906,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
+  isConfused: 0
   questionManager: {fileID: 1594958575955438982}
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
-  happyResponse: {fileID: 0}
-  unhappyResponse: {fileID: 0}
+  happyResponse: {fileID: 5955714415343981103}
+  unhappyResponse: {fileID: 8864207694364522722}
+  confusedResponse: {fileID: 4599691640098534737}
 --- !u!1 &8864207694364522722
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,12 +4927,12 @@ GameObject:
   - component: {fileID: 2627531578248115883}
   - component: {fileID: 6968435517947137860}
   m_Layer: 0
-  m_Name: Plane.001
+  m_Name: AngryBrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2627531578248115883
 Transform:
   m_ObjectHideFlags: 0
@@ -4929,10 +4942,10 @@ Transform:
   m_GameObject: {fileID: 8864207694364522722}
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: -0.009405428, y: 1.5784069, z: 0.16494004}
-  m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4322612783877979166}
-  m_RootOrder: 9
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6968435517947137860
 SkinnedMeshRenderer:
