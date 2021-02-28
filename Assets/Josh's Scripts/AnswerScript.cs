@@ -5,7 +5,6 @@ using UnityEngine;
 public class AnswerScript : MonoBehaviour
 {
     [SerializeField] public bool isCorrect = false;
-    [SerializeField] public bool isConfused = false;
     [SerializeField] QuestionManager questionManager;
     [SerializeField] ScoreManager scoreManager;
     [SerializeField] int scoreCorrectValue;
@@ -18,7 +17,6 @@ public class AnswerScript : MonoBehaviour
     [Header("Emotional Responses")]
     [SerializeField] GameObject happyResponse;
     [SerializeField] GameObject unhappyResponse;
-    [SerializeField] GameObject confusedResponse;
 
     public void Answer()
     {
@@ -44,32 +42,13 @@ public class AnswerScript : MonoBehaviour
             wrongSound.Play();
             happyResponse.SetActive(false);
             unhappyResponse.SetActive(true);
-            Invoke("angryResponse", 2);
-        }
-
-        if (isConfused)
-        {
-            questionManager.correct();
-            questionManager.answerPannelsTL.SetActive(false);
-            questionManager.answerPannelsTR.SetActive(false);
-            questionManager.answerPannelsBL.SetActive(false);
-            questionManager.answerPannelsBR.SetActive(false);
-            wrongSound.Play();
-            happyResponse.SetActive(false);
-            confusedResponse.SetActive(true);
-            Invoke("confusedAsnwer", 2);
+            Invoke("response", 2);
         }
     }
 
-    public void angryResponse()
+    public void response()
     {
         happyResponse.SetActive(true);
         unhappyResponse.SetActive(false);
-    }
-
-    public void confusedAnswer()
-    {
-        happyResponse.SetActive(true);
-        confusedResponse.SetActive(false);
     }
 }

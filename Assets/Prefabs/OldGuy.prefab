@@ -1091,13 +1091,8 @@ Transform:
   m_LocalPosition: {x: 7.928879, y: 1.5075289, z: 0.18473995}
   m_LocalScale: {x: 100.00001, y: 100, z: 100.00001}
   m_Children: []
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_Father: {fileID: 2604778085185564038}
   m_RootOrder: 11
-=======
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 8
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &8471333059269653511
 SkinnedMeshRenderer:
@@ -1505,7 +1500,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_GameObject: {fileID: 2057317668435498416}
   m_LocalRotation: {x: 0.012360923, y: -0.0011783442, z: -0.09374347, w: 0.995519}
   m_LocalPosition: {x: 0.09545885, y: 0.1715955, z: 0.000114775576}
@@ -1513,97 +1507,6 @@ Transform:
   m_Children:
   - {fileID: 5316844923752556069}
   m_Father: {fileID: 8759741470957297582}
-=======
-  m_GameObject: {fileID: 1798243203849230806}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.0001621237, y: 1.4159625, z: 0.1334447}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &4248631661283611529
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1798243203849230806}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 670224309865224971, guid: 926eb26a8c677a848a63e7fdd5dfe792, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -1075336974985347396, guid: 926eb26a8c677a848a63e7fdd5dfe792, type: 3}
-  m_Bones:
-  - {fileID: 8287064645324325869}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 8287064645324325869}
-  m_AABB:
-    m_Center: {x: 0.01455231, y: 0.08929824, z: 0.2519809}
-    m_Extent: {x: 0.051293403, y: 0.037394993, z: 0.024645753}
-  m_DirtyAABB: 0
---- !u!1 &1877432272520881851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5469643148727263876}
-  - component: {fileID: 3628765499754893668}
-  m_Layer: 0
-  m_Name: Body.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5469643148727263876
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1877432272520881851}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.0042362213, y: 1.2685411, z: -0.15239654}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2147653619232719777
@@ -1939,22 +1842,13 @@ GameObject:
   - component: {fileID: 2468464017221253467}
   - component: {fileID: 191046650993472054}
   m_Layer: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_Name: Lips
-=======
-  m_Name: ConfusedBrows
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_IsActive: 1
 --- !u!4 &2468464017221253467
-=======
-  m_IsActive: 0
---- !u!4 &1208631296742946846
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1965,13 +1859,8 @@ Transform:
   m_LocalPosition: {x: 7.926975, y: 1.3110027, z: 0.14155576}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_Father: {fileID: 2604778085185564038}
   m_RootOrder: 8
-=======
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 6
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &191046650993472054
 SkinnedMeshRenderer:
@@ -2079,7 +1968,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_GameObject: {fileID: 2743680636253626957}
   m_LocalRotation: {x: 0.00000039146676, y: -0.00000028263472, z: -0.0000014901165,
     w: 1}
@@ -2089,15 +1977,6 @@ Transform:
   - {fileID: 125766899083076613}
   m_Father: {fileID: 3688080557440418309}
   m_RootOrder: 0
-=======
-  m_GameObject: {fileID: 2507204574519908345}
-  m_LocalRotation: {x: -0.80019474, y: -0.17049125, z: -0.15047282, w: 0.55495864}
-  m_LocalPosition: {x: 0.0018444004, y: 1.628531, z: 0.1120904}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 7
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2865069022013139904
 GameObject:
@@ -2433,20 +2312,11 @@ MonoBehaviour:
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   correctSound: {fileID: 1466421529548005094}
   wrongSound: {fileID: 1344197887320343565}
   happyResponse: {fileID: 8802634958661150600}
   unhappyResponse: {fileID: 5717591111555572397}
 --- !u!1 &3218312590298223719
-=======
-  correctSound: {fileID: 4424529970669534404}
-  wrongSound: {fileID: 6238905620026442578}
-  happyResponse: {fileID: 4479205073798303811}
-  unhappyResponse: {fileID: 7319474289449506194}
-  confusedResponse: {fileID: 2397429947803605025}
---- !u!1 &2835164721344323237
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2474,46 +2344,10 @@ Transform:
   m_LocalPosition: {x: -0.00000022623215, y: 1.9093184, z: 0.0013035857}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   - {fileID: 11494615769969774}
   - {fileID: 5977337514285398573}
   - {fileID: 7790854369728085633}
   m_Father: {fileID: 2604778085185564038}
-=======
-  - {fileID: 69194596657666285}
-  m_Father: {fileID: 3631508718605287149}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3126067347775173205
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2443073352088065179}
-  - component: {fileID: 1423556974770689665}
-  m_Layer: 0
-  m_Name: Glasses.001
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2443073352088065179
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3126067347775173205}
-  m_LocalRotation: {x: 0.02838715, y: 0, z: -0, w: 0.999597}
-  m_LocalPosition: {x: -0.0019283303, y: 1.5948919, z: 0.13958068}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3297426966230098712
@@ -2575,7 +2409,6 @@ Transform:
   m_LocalPosition: {x: 4.21, y: 0.61, z: 37.38}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   - {fileID: 949592781463113044}
   - {fileID: 7721055820123417711}
   - {fileID: 4905306742776346647}
@@ -2594,63 +2427,6 @@ Transform:
   - {fileID: 8930918597139592507}
   - {fileID: 6885760960310146497}
   - {fileID: 4329013679316194928}
-=======
-  - {fileID: 100154516921190534}
-  - {fileID: 6032783385370920645}
-  - {fileID: 7878388459281334889}
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3325577615937637332
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2696815687334383982}
-  - component: {fileID: 2515184427286819224}
-  - component: {fileID: 2515184427286819227}
-  m_Layer: 0
-  m_Name: Girl_accessories
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2696815687334383982
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3325577615937637332}
-  m_LocalRotation: {x: -0.0000000017076046, y: 0.99995846, z: -0.009119214, w: -0.00000018724573}
-  m_LocalPosition: {x: 4.21, y: 0.61, z: 37.38}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_Children:
-  - {fileID: 5469643148727263876}
-  - {fileID: 1223650995915792939}
-  - {fileID: 7509838119165859148}
-  - {fileID: 9207106672696724840}
-  - {fileID: 4887640993003826815}
-  - {fileID: 4244322641072495579}
-  - {fileID: 1208631296742946846}
-  - {fileID: 8541483259677194928}
-  - {fileID: 2679945918114973841}
-  - {fileID: 2443073352088065179}
-  - {fileID: 8868815414070603633}
-  - {fileID: 8986425655326040445}
-  - {fileID: 8406859993466298957}
-  - {fileID: 7583306790113784314}
-  - {fileID: 4674064685348601358}
-  - {fileID: 835142714260373793}
-  - {fileID: 6880024489058730768}
-  - {fileID: 6789858460820596603}
-  - {fileID: 772732812382046898}
-  - {fileID: 6200931624100122364}
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.0450001, y: 180.00002, z: 0}
@@ -2698,100 +2474,10 @@ MonoBehaviour:
   RotationSpeed: 5
   BetaTest: {fileID: 2570639096029074585}
   DoneTalking: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   questionManager: {fileID: 9079071025910172679}
   QM: {fileID: 1274635813125185686}
   questionPannels: {fileID: 6956908382619491815}
 --- !u!1 &3547094762454203776
-=======
-  questionManager: {fileID: 5903748456916559301}
-  QM: {fileID: 3940221875651761966}
-  questionPannels: {fileID: 5006517544133225460}
---- !u!1 &3448145369931423171
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8986425655326040445}
-  - component: {fileID: 5782704827475125304}
-  m_Layer: 0
-  m_Name: hair.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8986425655326040445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3448145369931423171}
-  m_LocalRotation: {x: -0.00000030711115, y: 0.8213185, z: 0.5704699, w: 0.0000003140415}
-  m_LocalPosition: {x: 0.0011901855, y: 1.8354234, z: -0.13176477}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &5782704827475125304
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3448145369931423171}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 670224309865224971, guid: 926eb26a8c677a848a63e7fdd5dfe792, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -3192574081110440639, guid: 926eb26a8c677a848a63e7fdd5dfe792, type: 3}
-  m_Bones:
-  - {fileID: 8287064645324325869}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 8287064645324325869}
-  m_AABB:
-    m_Center: {x: 0.016478658, y: 0.5087456, z: 0.051650584}
-    m_Extent: {x: 0.29847857, y: 0.22659183, z: 0.4106615}
-  m_DirtyAABB: 0
---- !u!1 &3491076612819665256
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2818,285 +2504,11 @@ Transform:
   m_LocalPosition: {x: -3.172147e-10, y: 0.4354094, z: -9.56927e-10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   - {fileID: 1996546106902167317}
   m_Father: {fileID: 230861288318047324}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3695289444711327577
-=======
-  - {fileID: 3368335552490902043}
-  m_Father: {fileID: 5224806703067650765}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3688683803309462323
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6217303280252441132}
-  - component: {fileID: 4424529970669534404}
-  m_Layer: 5
-  m_Name: CorrectSound
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &6217303280252441132
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3688683803309462323}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 168285642197751418}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!82 &4424529970669534404
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3688683803309462323}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fe558facb376f484891058c562b49708, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.43
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!1 &3830247720580335118
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3985750298976184502}
-  m_Layer: 0
-  m_Name: mixamorig:LeftHandRing2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3985750298976184502
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3830247720580335118}
-  m_LocalRotation: {x: -0.000000093006314, y: -0.0000011920987, z: -0.00005283952,
-    w: 1}
-  m_LocalPosition: {x: -0.0000035352964, y: 0.05918639, z: -4.4058195e-11}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1406816295087300670}
-  m_Father: {fileID: 8725987666380351194}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3940221875651761966
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 772732812382046898}
-  - component: {fileID: 5903748456916559301}
-  m_Layer: 0
-  m_Name: Girl accessories QM
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &772732812382046898
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3940221875651761966}
-  m_LocalRotation: {x: -2.6469773e-23, y: 1.4210851e-14, z: -0, w: 1}
-  m_LocalPosition: {x: 26.806675, y: -1.3000828, z: -67.28021}
-  m_LocalScale: {x: 1, y: 1.13805, z: 1.00005}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5903748456916559301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3940221875651761966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuestionsNAnswers:
-  - Question: Hello, I would like to refund this top.
-    Answers:
-    - Hello madam, I would be happy to process this for you. Do you have the card
-      you used?
-    - How's it going. Sure I can refund this, do you have the card?
-    - Yo, do you have the card then?
-    - ...
-    CorrectAnswer: 2
-  - Question: Yes, here it is.
-    Answers:
-    - Great, are you sure you don't want to exchange instead?
-    - Ok, you feel like exchanging instead?
-    - Wanna exchange?
-    - ...
-    CorrectAnswer: 1
-  - Question: No thanks. I just want to return this please.
-    Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
-    - ...
-    CorrectAnswer: 1
-  - Question: Thanks.
-    Answers:
-    - Is that it?
-    - All good, anything else you want?
-    - You're welcome, is there anything else I can do for you?
-    - ...
-    CorrectAnswer: 3
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
-    - ...
-    CorrectAnswer: 1
-  options:
-  - {fileID: 6711124926163759136}
-  - {fileID: 2757271514699703326}
-  - {fileID: 8619357097329864475}
-  - {fileID: 8433221677549149385}
-  currentQuestion: 0
-  QuestionTxt: {fileID: 6077892969576380213}
-  notification: {fileID: 8929765284952017749}
-  pannelUI: {fileID: 5006517544133225460}
-  countdownText: {fileID: 2792650314364092550}
-  answerScript:
-  - {fileID: 18647802369912718}
-  - {fileID: 9143959938533860335}
-  - {fileID: 5165107350699999015}
-  - {fileID: 5542509992586003033}
-  answerPannelsTL: {fileID: 6711124926163759136}
-  answerPannelsTR: {fileID: 2757271514699703326}
-  answerPannelsBL: {fileID: 8619357097329864475}
-  answerPannelsBR: {fileID: 8433221677549149385}
-  scoreManager: {fileID: 0}
-  setTimer: 0
-  pathController: {fileID: 2515184427286819227}
---- !u!1 &3989860549443312190
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3280,18 +2692,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   - component: {fileID: 4599487394463818839}
   - component: {fileID: 676895136729994240}
   - component: {fileID: 4971544408043632664}
   m_Layer: 5
   m_Name: BackBoard
-=======
-  - component: {fileID: 4887640993003826815}
-  - component: {fileID: 2513618036907301419}
-  m_Layer: 0
-  m_Name: NeutralBrows
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4677,7 +4082,6 @@ MonoBehaviour:
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   correctSound: {fileID: 1466421529548005094}
   wrongSound: {fileID: 1344197887320343565}
   happyResponse: {fileID: 8802634958661150600}
@@ -4815,14 +4219,6 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 --- !u!1 &6811553464921794154
-=======
-  correctSound: {fileID: 4424529970669534404}
-  wrongSound: {fileID: 6238905620026442578}
-  happyResponse: {fileID: 4479205073798303811}
-  unhappyResponse: {fileID: 7319474289449506194}
-  confusedResponse: {fileID: 2397429947803605025}
---- !u!1 &6819958560751364097
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5047,35 +4443,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   - component: {fileID: 8205896299954522339}
   - component: {fileID: 8788095291392027431}
   - component: {fileID: 6319831757115157306}
   m_Layer: 5
   m_Name: Old Man QuestionPannels
-=======
-  - component: {fileID: 4244322641072495579}
-  - component: {fileID: 9089629461483872820}
-  m_Layer: 0
-  m_Name: AngryBrows
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
 --- !u!224 &8205896299954522339
 RectTransform:
-=======
---- !u!4 &4244322641072495579
-Transform:
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_GameObject: {fileID: 6956908382619491815}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.000017163286}
@@ -5092,15 +4475,6 @@ Transform:
   - {fileID: 4490354124944907979}
   m_Father: {fileID: 4329013679316194928}
   m_RootOrder: 0
-=======
-  m_GameObject: {fileID: 7319474289449506194}
-  m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
-  m_LocalPosition: {x: 0.0022893113, y: 1.6814507, z: 0.118942335}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 5
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5710,7 +5084,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_GameObject: {fileID: 8446280643422070844}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.000009932606, y: 0.05794795, z: 6.555325e-12}
@@ -5720,25 +5093,6 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8540646111911050982
-=======
-  m_GameObject: {fileID: 8433221677549149385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e46b6b253d0833d4483233ac11699385, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isCorrect: 0
-  questionManager: {fileID: 5903748456916559301}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
-  correctSound: {fileID: 4424529970669534404}
-  wrongSound: {fileID: 6238905620026442578}
-  happyResponse: {fileID: 4479205073798303811}
-  unhappyResponse: {fileID: 7319474289449506194}
-  confusedResponse: {fileID: 2397429947803605025}
---- !u!1 &8543264976296026811
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5934,51 +5288,11 @@ MonoBehaviour:
   scoreManager: {fileID: 0}
   scoreCorrectValue: 0
   scoreWrongValue: 0
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   correctSound: {fileID: 1466421529548005094}
   wrongSound: {fileID: 1344197887320343565}
   happyResponse: {fileID: 8802634958661150600}
   unhappyResponse: {fileID: 5717591111555572397}
 --- !u!1 &8776285574408816673
-=======
-  correctSound: {fileID: 4424529970669534404}
-  wrongSound: {fileID: 6238905620026442578}
-  happyResponse: {fileID: 4479205073798303811}
-  unhappyResponse: {fileID: 7319474289449506194}
-  confusedResponse: {fileID: 2397429947803605025}
---- !u!1 &8632692576789856782
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6032783385370920645}
-  m_Layer: 0
-  m_Name: mixamorig:RightUpLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6032783385370920645
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8632692576789856782}
-  m_LocalRotation: {x: -0.00007988526, y: -0.008142622, z: 0.99992836, w: -0.008774879}
-  m_LocalPosition: {x: 0.22316715, y: -0.14771427, z: -0.014049406}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 7990899915492374623}
-  m_Father: {fileID: 7583306790113784314}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8683121987468702921
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6032,7 +5346,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/Prefabs/OldGuy.prefab
   m_GameObject: {fileID: 8802634958661150600}
   m_LocalRotation: {x: -0.70157135, y: -0.072202556, z: -0.088304915, w: 0.70341074}
   m_LocalPosition: {x: 8.033851, y: 1.5944775, z: 0.15074006}
@@ -6041,15 +5354,6 @@ Transform:
   - {fileID: 8890620355784398482}
   m_Father: {fileID: 2604778085185564038}
   m_RootOrder: 3
-=======
-  m_GameObject: {fileID: 8787162560190411144}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: -0.0015583046, y: 1.7587194, z: -0.15707803}
-  m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 2696815687334383982}
-  m_RootOrder: 10
->>>>>>> Stashed changes:Assets/Prefabs/Characters/Girl_accessories.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2859493152083874617
 SkinnedMeshRenderer:
