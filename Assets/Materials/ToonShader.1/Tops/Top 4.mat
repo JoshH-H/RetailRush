@@ -42,7 +42,7 @@ Material:
     - Vector2_1733F114: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_18068FB4: {r: 11.25, g: 4.47, b: 0, a: 0}
     - Vector2_84C74332: {r: 0.28, g: 7.6, b: 0, a: 0}
-    - Vector3_1C8B7378: {r: -0.53, g: 0.31, b: 0, a: 0}
+    - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &5576590404936535156
 MonoBehaviour:
   m_ObjectHideFlags: 11
