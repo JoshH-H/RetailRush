@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skin14
+  m_Name: Skin15
   m_Shader: {fileID: -6465566751694194690, guid: 82992cf74c7e5b1499b021d9c2f8668b,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_930701A2:
-        m_Texture: {fileID: 2800000, guid: 9e2dde01e31cec142a787b716438f801, type: 3}
+        m_Texture: {fileID: 2800000, guid: fb150164c0dc1d049ae8052b7dbddf69, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_A160E0D1:
@@ -29,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_A250B12:
-        m_Texture: {fileID: 2800000, guid: 45dee7356b1610740a2a2ee38b2b26a9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1681fb9c9581ec64ba1a651557e9d77c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -68,7 +68,7 @@ Material:
     - Boolean_C7D89023: 0
     - Vector1_2402E078: 50
     - Vector1_64AC5942: 3.63
-    - Vector1_9F964D24: 1.16
+    - Vector1_9F964D24: 0.71
     - _AlphaClip: 0
     - _Angry: 0
     - _Blend: 0
@@ -94,7 +94,7 @@ Material:
     m_Colors:
     - Vector2_18068FB4: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_84C74332: {r: 0.3, g: 6.88, b: 0, a: 0}
-    - Vector2_F32CC68F: {r: 0.012, g: 0, b: 0, a: 0}
+    - Vector2_F32CC68F: {r: 0.01, g: -0.02, b: 0, a: 0}
     - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
