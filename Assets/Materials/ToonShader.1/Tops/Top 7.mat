@@ -28,6 +28,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 7921caaf943950b448bf4374ef3383bb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - Texture2D_A250B12:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_2B6F5815_Texture_1:
         m_Texture: {fileID: 2800000, guid: 43255f00fc3e23f43bb8d6f8daf35a65, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -38,9 +42,12 @@ Material:
     - Vector1_64AC5942: 1.53
     - Vector1_88E42461: 0
     - Vector1_92582CAD: 0
+    - Vector1_9F964D24: 2
+    - _Angry: 0
     m_Colors:
     - Vector2_18068FB4: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_84C74332: {r: 0.28, g: 15.37, b: 0, a: 0}
+    - Vector2_F32CC68F: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &5576590404936535156
 MonoBehaviour:

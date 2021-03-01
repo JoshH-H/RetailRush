@@ -3502,7 +3502,7 @@ GameObject:
   - component: {fileID: 8285817389593480232}
   - component: {fileID: 1681259018284583783}
   m_Layer: 0
-  m_Name: Body.028
+  m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4016,6 +4016,7 @@ MonoBehaviour:
   happyResponse: {fileID: 3628092045103899103}
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
+  head: {fileID: 7297518461521636911}
 --- !u!1 &7668596080127894974
 GameObject:
   m_ObjectHideFlags: 0
@@ -4419,6 +4420,7 @@ MonoBehaviour:
   happyResponse: {fileID: 3628092045103899103}
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
+  head: {fileID: 7297518461521636911}
 --- !u!1 &7800438927842108860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4673,6 +4675,7 @@ MonoBehaviour:
   happyResponse: {fileID: 3628092045103899103}
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
+  head: {fileID: 7297518461521636911}
 --- !u!1 &7887164992526667131
 GameObject:
   m_ObjectHideFlags: 0
@@ -5088,6 +5091,7 @@ MonoBehaviour:
   happyResponse: {fileID: 3628092045103899103}
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
+  head: {fileID: 7297518461521636911}
 --- !u!1 &8486176565099621247
 GameObject:
   m_ObjectHideFlags: 0

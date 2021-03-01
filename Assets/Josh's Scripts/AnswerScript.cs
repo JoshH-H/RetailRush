@@ -19,6 +19,15 @@ public class AnswerScript : MonoBehaviour
     [SerializeField] GameObject happyResponse;
     [SerializeField] GameObject unhappyResponse;
     [SerializeField] GameObject confusedResponse;
+    [SerializeField] GameObject head;
+
+    private Renderer getAngry;
+
+    private void Start() 
+    { 
+        getAngry = head.GetComponent<Renderer>();
+        getAngry.material.SetFloat("_Angry", 0f);
+    }
 
     public void Answer()
     {
@@ -30,6 +39,7 @@ public class AnswerScript : MonoBehaviour
             questionManager.answerPannelsTR.SetActive(false);
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
+            getAngry.material.SetFloat("_Angry", 0f);
             correctSound.Play();
 
         }
@@ -44,6 +54,7 @@ public class AnswerScript : MonoBehaviour
             wrongSound.Play();
             happyResponse.SetActive(false);
             unhappyResponse.SetActive(true);
+            getAngry.material.SetFloat("_Angry", 1f);
             Invoke("response", 2);
         }
         if (isConfused)
