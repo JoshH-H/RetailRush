@@ -37,9 +37,9 @@ Material:
     - Vector1_2402E078: 338.24
     - Vector1_64AC5942: 3.63
     m_Colors:
-    - Vector2_18068FB4: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_18068FB4: {r: 6, g: 5.27, b: 0, a: 0}
     - Vector2_84C74332: {r: 0.28, g: 0.45, b: 0, a: 0}
-    - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_1C8B7378: {r: 0.12, g: 0, b: 0, a: 0}
 --- !u!114 &5576590404936535156
 MonoBehaviour:
   m_ObjectHideFlags: 11
