@@ -26,7 +26,7 @@ Material:
   m_ShaderKeywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -35,6 +35,10 @@ Material:
     m_TexEnvs:
     - Texture2D_930701A2:
         m_Texture: {fileID: 2800000, guid: db3c0504bb01aff44bd08fa474d383f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A250B12:
+        m_Texture: {fileID: 2800000, guid: 49145b451331f0e438389be61d3ba8a6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -86,12 +90,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_2402E078: 50
-    - Vector1_64AC5942: 2.56
+    - Vector1_2402E078: 100
+    - Vector1_64AC5942: 9.43
+    - Vector1_9F964D24: 2
     - _AlphaClip: 0
+    - _Angry: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
@@ -99,13 +105,13 @@ Material:
     - _GlossMapScale: 0.391
     - _Glossiness: 0.278
     - _GlossyReflections: 1
-    - _Metallic: 0.028
+    - _Metallic: 0.153
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.391
+    - _Smoothness: 0.438
     - _SmoothnessTextureChannel: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -114,8 +120,11 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Vector2_84C74332: {r: 0.3, g: 0.37, b: 0, a: 0}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_18068FB4: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_84C74332: {r: -0.69, g: -0.87, b: 0, a: 0}
+    - Vector2_F32CC68F: {r: 0, g: 0, b: 0, a: 0}
+    - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 0.9027234, g: 0.91915464, b: 0.9245283, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1, g: 0.62498116, b: 0, a: 1}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 1}
