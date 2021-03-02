@@ -11,14 +11,14 @@ public class Clock : MonoBehaviour
     public Text ClockonScreen;
     void Start()
     {
-        time = timer.StartTime;
+        time = Timer.StartTime;
     }
 
     // Update is called once per frame
     void Update()
     {
         Countdown = timer.CurrentTime;
-        print(Countdown);
+        //print(Countdown);
         if(Countdown >= (float)8/(float)9 * time)
         {
             ClockonScreen.text = "09:00";
