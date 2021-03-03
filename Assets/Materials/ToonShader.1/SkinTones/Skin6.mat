@@ -67,7 +67,7 @@ Material:
     m_Floats:
     - Vector1_2402E078: 50
     - Vector1_64AC5942: 3.63
-    - Vector1_9F964D24: 4.21
+    - Vector1_9F964D24: 1.24
     - _AlphaClip: 0
     - _Angry: 0
     - _Blend: 0
@@ -93,7 +93,7 @@ Material:
     m_Colors:
     - Vector2_18068FB4: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_84C74332: {r: 0.3, g: 6.88, b: 0, a: 0}
-    - Vector2_F32CC68F: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_F32CC68F: {r: 0, g: -0.01, b: 0, a: 0}
     - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
