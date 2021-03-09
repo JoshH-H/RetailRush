@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Top 6
+  m_Name: Top 21
   m_Shader: {fileID: -6465566751694194690, guid: 82992cf74c7e5b1499b021d9c2f8668b,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_930701A2:
-        m_Texture: {fileID: 2800000, guid: 9d6224e7584b0cc4c9f07b6fd1bcdf19, type: 3}
+        m_Texture: {fileID: 2800000, guid: 40e3941f5b5843d4889960107bf98d98, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_A160E0D1:
@@ -38,15 +38,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Boolean_C7D89023: 0
-    - Vector1_2402E078: 3166.5
-    - Vector1_64AC5942: 3.63
-    - Vector1_88E42461: 0
-    - Vector1_92582CAD: 0
+    - Vector1_2402E078: 332.09
+    - Vector1_64AC5942: 7.33
     - Vector1_9F964D24: 2
     - _Angry: 0
     m_Colors:
-    - Vector2_18068FB4: {r: 1, g: 1, b: 0, a: 0}
-    - Vector2_84C74332: {r: 0.28, g: 0.45, b: 0, a: 0}
+    - Vector2_18068FB4: {r: 1.09, g: 0.85, b: 0, a: 0}
+    - Vector2_84C74332: {r: 0.28, g: 10.69, b: 0, a: 0}
     - Vector2_F32CC68F: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &5576590404936535156
