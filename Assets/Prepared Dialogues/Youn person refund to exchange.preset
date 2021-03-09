@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Youn person refund to exchange
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Question
+    value: Hiya, can I refund this sweater please.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
+    value: Hello, sure ofcourse. Did you see our new collection in case you would
+      like to exchange?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
+    value: Hello hun, sure ofcourse. Did you see our new collection in case you would
+      like to exchange?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
+    value: Hello, ofcourse. Did you consider an exchange?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Question
+    value: 'Yeah I did not see anything else I like. '
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
+    value: Sure, so what's wrong with this then?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
+    value: Sure, may I ask why you want to refund this please?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
+    value: Sure, was something wrong with this one?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Question
+    value: Nothing wrong but it did not fit like I expected.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
+    value: 'Thank you, this one is slightly oversized style so you might of needed
+      one size down. '
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
+    value: Hear you. Yeah the fit is a bit funny, other size coul help.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
+    value: Thanks, maybe you could try other size?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Question
+    value: Hmm... I did not think of that. I would not mind to give it a go.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
+    value: Great, let me know if it is better!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
+    value: Glad to hear, my colleague here will help you to get the right size, please
+      let me know how it goes!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
+    value: Great, they are right there. Let me know how it goes!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentQuestion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionTxt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: notification
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pannelUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: countdownText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scoreManager
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: setTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pathController
+    value: 
+    objectReference: {fileID: 0}

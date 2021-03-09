@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Madam, silk top
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Question
+    value: Hello, can I have this silk top please.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
+    value: Hello Madam. Sure you can.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
+    value: Hello Madam. Sure, just this?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
+    value: Hello Madam. Ofcourse! I love silk tops, so elegant.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Question
+    value: I love the feel of silk. Here's my card.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
+    value: Definetely, remember to treat it with care.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
+    value: I agree. Remember that this should be dry clean only.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
+    value: Yes silk can be considered good for your skin too!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Question
+    value: Thank you, have a nice day!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
+    value: Thanks, take care!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
+    value: Thank you, hope to see you soon!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
+    value: Thankyou and have a nice day Madam. See you soon!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].CorrectAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentQuestion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionTxt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: notification
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pannelUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: countdownText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scoreManager
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: setTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pathController
+    value: 
+    objectReference: {fileID: 0}

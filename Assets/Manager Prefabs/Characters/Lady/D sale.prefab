@@ -206,47 +206,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello, I would like to refund this top.
+  - Question: Hello, can I have this silk top please.
     Answers:
-    - Hello madam, I would be happy to process this for you. Do you have the card
-      you used?
-    - How's it going. Sure I can refund this, do you have the card?
-    - Yo, do you have the card then?
+    - Hello Madam. Sure you can.
+    - Hello Madam. Sure, just this?
+    - Hello Madam. Ofcourse! I love silk tops, so elegant.
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Yes, here it is.
+    confusedAnswer: 1
+  - Question: I love the feel of silk. Here's my card.
     Answers:
-    - Great, are you sure you don't want to exchange instead?
-    - Ok, you feel like exchanging instead?
-    - Wanna exchange?
+    - Definetely, remember to treat it with care.
+    - I agree. Remember that this should be dry clean only.
+    - Yes silk can be considered good for your skin too!
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: No thanks. I just want to return this please.
+  - Question: Thank you, have a nice day!
     Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
+    - Thanks, take care!
+    - Thank you, hope to see you soon!
+    - Thankyou and have a nice day Madam. See you soon!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Thanks.
-    Answers:
-    - Is that it?
-    - All good, anything else you want?
-    - You're welcome, is there anything else I can do for you?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 883293917614377836}
   - {fileID: 1090004168719995439}
@@ -2206,7 +2189,7 @@ GameObject:
   - component: {fileID: 3370926221963957100}
   - component: {fileID: 3370926221963957107}
   m_Layer: 0
-  m_Name: Tall_Posh_Lady
+  m_Name: D sale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

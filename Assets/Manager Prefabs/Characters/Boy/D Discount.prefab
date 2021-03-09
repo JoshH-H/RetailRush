@@ -5203,38 +5203,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Yo, how do I get to the nearest train station?
+  - Question: Somebody sold me shoes that are mixed sizes in the box!
     Answers:
-    - Hey! I'm sorry, but I just started working here, and I am still not familiar
-      with the area.
-    - Hi there, I'm sorry but I really don't know where it is.
-    - Oh... I don't know.
+    - Hello. That is impossible, please let me see.
+    - Hi! I am so sorry, can I have a quick look please?
+    - No way! Show me.
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: You see! I need a size 40, but the left foot is 38!
+    Answers:
+    - I am sorry for this trouble. Somebody must of put the 38 in the box by mistake.
+      Let me get you the right pair.
+    - Oh dear. John must of been in shift and mixed them up. I will get you the right
+      pair.
+    - So sorry, I will get someone to bring another pair.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Ok. Size 40 please. Both of them this time.
+    Answers:
+    - Okey here you go. Fresh pair of 40's.
+    - Okey here you go. I will tell John off so it does not happen again.
+    - Okey here you go. Please check that they are good for you.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: That's unfortunate. Can you like ask someone?
+  - Question: Thanks, these are fine. I live really far so it was quite a trouble
+      to come back all the way...
     Answers:
-    - Yes of course, I will be back in a few minutes.
-    - Sorry about that, I will ask my friend. Give me a moment.
-    - Okay.
+    - 'Tell me about it, I have to travel one hour to work every day. '
+    - I really appreciate youc coming back. Feel free to call as as wel in future.
+      Here is a shoe protector for no charge to make up a bit.
+    - I am very sorry to hear that. I apologise for the trouble.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Have you found oput anything?
+    confusedAnswer: 2
+  - Question: Thanks. I will head back now. Have a nice day!
     Answers:
-    - I have! The closest bus station is 5 minutes from here. Here are the driections.
-    - Sorry again about that. Here are the details...
-    - Yeah. Here are the details.
+    - Safe travels! Have a lovely day and see you soon!
+    - 'Okie dokie, see you soon! '
+    - Have a nice day and see you soon!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Thanks.
-    Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - Bye bye.
-    - ...
-    CorrectAnswer: 3
+    CorrectAnswer: 2
     confusedAnswer: 0
   options:
   - {fileID: 8146691660010494934}

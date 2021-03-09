@@ -1816,49 +1816,46 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi! I want to know if you have this shirt in another colour? I saw
-      on the website that you have it in baby blue.
+  - Question: This top was sold to me even thou it is faulty!
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hello, did you not check it before purchase?
+    - Hi, I am sorry about that. Please tell me what's the fault?
+    - Hi, please tell me what's wrong?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Thanks!
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Can you see this mark here? I just went home and noticed it straight
+      away!
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - Yes I can see that. Sorry that this have happened. Can I have the receipt please
+      and I will fix this for you.
+    - Are you sure the mark was there when you bought it?
+    - Sorry about that, do you have the receipt?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Here's the receipt. As you cans ee the labels are attached and bought
+      it just today.
+    Answers:
+    - Thanks, I will exhange this to a new one.
+    - Thank you. This is clearly a fault and I am happy to exchange it to a new one.
+      Is that ok?
+    - I will exchange this.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: Oh... okay. Can you check the storage room maybe the system is wrong...
+  - Question: 'Thank you new one will be fine. '
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - All done for you. Anything else I could help you with?
+    - Anything else for today?
+    - Sure, all done.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: That's all for now. Thank you, bye!
     Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: Aw, okay. I'll just go then.
-    Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
+    - Thank you, have a nice day and see you soon!
+    - Thanks, see you soon!
     - Okay, bye.
     - ...
     CorrectAnswer: 1
@@ -3005,7 +3002,7 @@ GameObject:
   - component: {fileID: 4275842550898509531}
   - component: {fileID: 4275842550898509528}
   m_Layer: 0
-  m_Name: F Asking about an Item Lady Window
+  m_Name: D faulty Item
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

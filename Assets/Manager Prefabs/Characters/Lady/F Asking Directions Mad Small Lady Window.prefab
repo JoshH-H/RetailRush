@@ -2117,41 +2117,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Good day, can you tell me where is the closest bus station please?
+  - Question: I am very upset! That associate told me you do not have this top in
+      my size, and they did not even check it!
     Answers:
-    - Hello madam, I would like to help you, however I just have started working
-      here and I am still not familiar with the area.
-    - Hello there, I'm sorry but I really don't know where it is.
-    - Hey, nah I don't know.
+    - Hello Madam. Sorry about that. We have actually completely sold out of that
+      top and all that is left is displayed.
+    - Hello Madam. They probably have just checked it and know we do not have it.
+    - Hello Madam. I apologise that this have happened. I will personally check this
+      for you now.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: I am very dissapointed. You should know these kind of things by know.
+  - Question: Please check it personally. I am sure I saw one size 12 just earlier
+      today!
     Answers:
-    - I am deeply sorry I could not help you with that. However, I will ask my colleagues
-      for the directions.
-    - Sorry about that. I will ask my friends if they know anyhting about that.
-    - Sorry, I'll ask around.
+    - I can see on the system that we do not have more left.
+    - Unfortunately I can see that this top indeed is completely sold out from our
+      stockroom as well.
+    - That top is one of our best sellers. I would know if we had any left.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: So? Do you know where I need to go?
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: I am sure there is some left. You are just not checking properly!
     Answers:
-    - Thank you for your patience, the closest bus station is 5 minutes from here.
-      Here are the directions.
-    - Sorry about that ma'am, I did find out. Here are the details...
-    - uhhh... Yeah here it is.
+    - I have double checked on our system and it does say 0 size 12 left. I am happy
+      to check for another store or take your details down to inform of next delivery?
+    - Sorry Madam, but we have not had this top in the stockroom for a while.
+    - As you can see here the system shows 0. Maybe other store?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Okay... Thank you
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: This is my closest store. I need it for the day after tomorrow!
     Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - BYE!
+    - 'The store up town has one and it takes only 10 minutes in the bus. '
+    - The store up town has one. You can get it from there.
+    - 'The store up town has one. I can have it in this store for tomorrow. Is that
+      ok Madam? '
     - ...
-    CorrectAnswer: 3
+    CorrectAnswer: 2
     confusedAnswer: 0
+  - Question: Well I suppose that's what we have to do then.
+    Answers:
+    - Great. I will make sure you get a call soon as it is here. Have a nice day
+      and see you soon!
+    - Great. The top will be available tomorrow. See you soon!
+    - Great, have a nice day, see you soon!
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 1
   options:
   - {fileID: 8505591692324210981}
   - {fileID: 2125253753812887535}

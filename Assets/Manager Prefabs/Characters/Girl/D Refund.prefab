@@ -2002,16 +2002,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi! I want to know if you have this shirt in another colour? I saw
-      on the website that you have it in baby blue.
+  - Question: Hi, I would like to return these trousers.
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hello, I am sorry to hear that. May I ask what was wrong with them?
+    - Hi! Are you sure you would not like exchange them instead?
+    - Is there nothing you would like to exchange to?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   - Question: Thanks!
     Answers:
     - I apologise, however we do not have these specific trousers in stock right
@@ -2022,33 +2020,56 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: Oh... okay. Can you check the storage room maybe the system is wrong...
+  - Question: The style does not fit me. I would just like the refund please.
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - Ofcourse. Do you have the receipt?
+    - Ok. I need the receipt.
+    - Sure that's fine. Can I just have the receipt please?
+    - ...
+    CorrectAnswer: 2
+    confusedAnswer: 0
+  - Question: Here it is. I got them just like last week.
+    Answers:
+    - Thank you. Looks like everything is good to go.
+    - Thank you very much. Do you have the payment card on hand as well please?
+    - Thanks, have you got the payment card?
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
+    confusedAnswer: 2
+  - Question: No, I actually lost it last weekend... This is the new card I received.
     Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
+    - I'm sorry to hear. I would just need to check the account is the same. Do you
+      use mobile banking?
+    - That's not good. I would need a proof of purchase to help you.
+    - Oh no, have you maybe got mobile banking on you?
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: Aw, okay. I'll just go then.
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Yeah sure, here's my mobile bank. What details would you need?
     Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
+    - Let me find the required information so I can process the information.
+    - If you can just show me the purchase there and I can then match the account
+      number.
+    - Show me the purchase on your statement with the account number.
     - ...
     CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Here you go. Is that all you need? Can I now have the refund?
+    Answers:
+    - Yep that's it. I have done the refund for you.
+    - Thanks, done. Anything else?
+    - Thank you, all done for you now. Could I help you with anything else today?
+    - ...
+    CorrectAnswer: 2
     confusedAnswer: 0
+  - Question: That's it for today thanks. See you, bye!
+    Answers:
+    - Thanks, bye!
+    - Thank you, have a nice day and see you soon!
+    - Great, see you soon!
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 7580066740323839943}
   - {fileID: 6418600130441116669}
@@ -2698,7 +2719,7 @@ GameObject:
   - component: {fileID: 5678168034755347641}
   - component: {fileID: 5678168034755347646}
   m_Layer: 0
-  m_Name: F asking about an Item Girl
+  m_Name: D Refund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

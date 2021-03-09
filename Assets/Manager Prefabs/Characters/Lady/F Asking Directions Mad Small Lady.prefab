@@ -2528,41 +2528,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Good day, can you tell me where is the closest bus station please?
+  - Question: I am very unhappy of the service I have received today in this store.
     Answers:
-    - Hello madam, I would like to help you, however I just have started working
-      here and I am still not familiar with the area.
-    - Hello there, I'm sorry but I really don't know where it is.
-    - Hey, nah I don't know.
+    - Good Afternoon, I'm sorry to hear. What's wrong?
+    - Hello, what is the problem?
+    - Good Afternoon Madam. I am sorry to hear this. Could you please tell me what
+      happened?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: I am very dissapointed. You should know these kind of things by know.
+  - Question: The level of service is simply terrible.
     Answers:
-    - I am deeply sorry I could not help you with that. However, I will ask my colleagues
-      for the directions.
-    - Sorry about that. I will ask my friends if they know anyhting about that.
-    - Sorry, I'll ask around.
+    - I definetely want to ensure we offer the best level of service. Could you help
+      me with details please?
+    - I am sorry to hear, please tell me exactly what happened?
+    - Please give me more details of what you mean.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: I asked them last week to call me when this top comes back to stock.
+      Here I find it, yet I got no call!
+    Answers:
+    - They must have simply forgotten. We have been very busy lately.
+    - I would like to apologise for that. You surely should not been promised that
+      if not delivered.
+    - I see, that is unfortunate. It is only a humanly mistake, I do apologise.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: So? Do you know where I need to go?
+    confusedAnswer: 2
+  - Question: Because they did not call me, the size medium is already run out and
+      I am left without!
     Answers:
-    - Thank you for your patience, the closest bus station is 5 minutes from here.
-      Here are the directions.
-    - Sorry about that ma'am, I did find out. Here are the details...
-    - uhhh... Yeah here it is.
+    - That is very unfortunate. Let me find another store that has it and get it
+      delievered here for you for tomorrow.
+    - I am very sorry to hear that. We are receiving more nect week though, I wll
+      reserve you one then.
+    - That's a shame. Please check the store down the street, I think they have some.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Okay... Thank you
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: Ok then. Bye!
     Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - BYE!
+    - Thank you very much, I will be in touch soon as your top arrives.
+    - Thank yo very much, see you soon!
+    - See you soon, bye!
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   options:
   - {fileID: 1913211900228692819}
   - {fileID: 2720967536200467012}

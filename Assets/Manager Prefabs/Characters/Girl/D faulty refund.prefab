@@ -2184,7 +2184,7 @@ GameObject:
   - component: {fileID: 2515184427286819224}
   - component: {fileID: 2515184427286819227}
   m_Layer: 0
-  m_Name: 'F Asking Directions Girl Accessories '
+  m_Name: D faulty refund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4326,39 +4326,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello! how do I get to the nearest bus station?
+  - Question: Hiya. I bought this dress last week and noticed it is faulty. The labels
+      are still attached and everything...
     Answers:
-    - Hey! I'm sorry, but I just started working here, and I am still not familiar
-      with the area.
-    - Hi there, I'm sorry but I really don't know where it is.
-    - Oh... I don't know.
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Aww that's too bad. Can you please ask someone?
-    Answers:
-    - Yes of course, I will be back in a few minutes.
-    - Sorry about that, I will ask my friend. Give me a moment.
-    - Okay.
+    - Hi! Really? So sorry. How is it faulty?
+    - Hi! I am so sorry to hear. Could you show me what's wrong with it please?
+    - Hi! What's wrong with it?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: Have you found out anything?
+  - Question: I has a rip on the left seam. I was going to wear it out tonight!
     Answers:
-    - I have! The closest bus station is 5 minutes from here. Here are the driections.
-    - Sorry again about that. Here are the details...
-    - Yeah. Here are the details.
+    - I see. I am so sorry for the inconvienience. Would you like to swap it for
+      a new one?
+    - Oh no, I am so sorry. If you get a new one from the rail I will swap it over
+      for you.
+    - I am sorry to see that. Are you sure you have not worn it yet?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: I just tried and noticed the rip. So upset... New one would be nice.
+    Answers:
+    - Unfortunately I can not take this item back. It is not resellable condition.
+    - Ofcourse. I have a new one here to swap. Could I help with anything else today?
+    - Ofcourse, if you just bring me one you want I will do the exchange.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Thank you so much!
+    confusedAnswer: 2
+  - Question: Okey. That's all. Bye!
     Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - Bye bye.
+    - Apologies again for the trouble. Have a lovely day and enjoy your dress tonight!
+    - Sorry again and hope to see you soon! Bye!
+    - Sorry about the trouble. Bye!
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   options:
   - {fileID: 2027089922839474945}
   - {fileID: 8117844963592787507}

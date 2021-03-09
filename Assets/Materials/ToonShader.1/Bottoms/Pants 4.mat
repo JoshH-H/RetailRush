@@ -139,7 +139,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Vector2_18068FB4: {r: 1, g: 1, b: 0, a: 0}
-    - Vector2_84C74332: {r: 0.3, g: 0.37, b: 0, a: 0}
+    - Vector2_84C74332: {r: 0.3, g: 5.45, b: 0, a: 0}
     - Vector2_C4F4E5DC: {r: 0.3, g: 0.37, b: 0, a: 0}
     - Vector2_F32CC68F: {r: 0, g: 0, b: 0, a: 0}
     - Vector3_1C8B7378: {r: 0, g: 0, b: 0, a: 0}

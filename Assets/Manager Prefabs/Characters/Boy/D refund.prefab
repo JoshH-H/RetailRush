@@ -3252,53 +3252,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: I want to know if you have these trousers in another colour? I saw
-      on the website that you have it in black.
+  - Question: Hiya, can I refund this sweater please.
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hello, sure ofcourse. Did you see our new collection in case you would like
+      to exchange?
+    - Hello hun, sure ofcourse. Did you see our new collection in case you would
+      like to exchange?
+    - Hello, ofcourse. Did you consider an exchange?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Thank you.
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: 'Yeah I did not see anything else I like. '
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - Sure, so what's wrong with this then?
+    - Sure, may I ask why you want to refund this please?
+    - Sure, was something wrong with this one?
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Oh... okay. Can you check the storage room maybe the system is faulty...
+    confusedAnswer: 2
+  - Question: Nothing wrong but it did not fit like I expected.
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - 'Thank you, this one is slightly oversized style so you might of needed one
+      size down. '
+    - Hear you. Yeah the fit is a bit funny, other size coul help.
+    - Thanks, maybe you could try other size?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Hmm... I did not think of that. I would not mind to give it a go.
+    Answers:
+    - Great, let me know if it is better!
+    - Glad to hear, my colleague here will help you to get the right size, please
+      let me know how it goes!
+    - Great, they are right there. Let me know how it goes!
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
-    Answers:
-    - Unfortunately, the syustem was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: I'll just go, see ya.
-    Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    confusedAnswer: 2
   options:
   - {fileID: 4897804902806635623}
   - {fileID: 1273480393917208901}

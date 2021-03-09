@@ -630,54 +630,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello... I want to know if you have this purse in another colour? Yesterday
-      I saw you had it in black.
+  - Question: That staff member over there is useless!
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hi Madam, what happened?
+    - Hi, what have John Smith done this time?
+    - Hello Madam, I am very sorry to hear. May I ask what happened?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Thank you.
+  - Question: I said I need a size medium, and he told me that would be too small
+      for me!
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - I am very sorry to hear that. He might of said it because our sizes run small.
+      I shall get it for you.
+    - He have been here for years. He is probably right.
+    - Our sizes run a bit small, and most people need to go a size up.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: This is absurd! I can believe this right now, can't you just check
-      the actual storage room. Your computer is wrong.
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: I am sorry but I ALWAYS wear a Medium. I will not tolerate his behaviour!
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - I am sorry that you feel that way.
+    - I am very sorry about that. I will tell him not to do that again.
+    - I completely understand, he should have explained it better. I will sure to
+      advise him in future.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
+    CorrectAnswer: 2
+    confusedAnswer: 1
+  - Question: Thank you, that's all. Bye!
     Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
+    - My colleague has the size for you if you like. Have a lovely day!
+    - Thank you and see you soon!
+    - Here is a size large for you to try on. See you soon!
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: Ughh...
-    Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   options:
   - {fileID: 5548885408126159527}
   - {fileID: 7197768899080491231}
@@ -5494,7 +5481,7 @@ GameObject:
   - component: {fileID: 8296860561477441155}
   - component: {fileID: 8296860561477439868}
   m_Layer: 0
-  m_Name: F asking about an Item Tall Lady
+  m_Name: D Complaint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

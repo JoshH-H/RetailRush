@@ -1055,51 +1055,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello... I want to know if you have this purse in another colour? Yesterday
-      I saw you had it in black.
+  - Question: So I am told I can not refund this top. This is ridiculous, I have
+      not worn it!
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hello Madam. You have made the choice to keep the item when you removed the
+      labels.
+    - Hello Madam. Yes items must be refunded in their original condition.
+    - Hello Madam. Unfortunately part of the refund policy is that labels must be
+      attached. I am very sorry for the inconvinience.
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Thank you.
+    confusedAnswer: 1
+  - Question: Well I did not know that, nobody told me!
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - I am sorry but unfortunately I can not provide a refund.
+    - 'I am sorry that the policy have not been explained to you. '
+    - Rules are rules, there id nothing I can do for you this time.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: This is absurd! I can believe this right now, can't you just check
-      the actual storage room. Your computer is wrong.
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: I WANT MY MONEY BACK, NOW!
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - Do you still have the receipt Madam? I can see if there is anything I can do.
+    - If you have the receipt I guess I can think of something.
+    - Sorry Madam. Make sure from now on you remove the label after you are sure
+      to keep the item.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: Here is my receipt, now give me my money back.
     Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
+    - There is not much I can do. Maybe a gift card?
+    - Sorry I am not allowed to do that.
+    - As you bought it just last week and he item is in good condition, I will authorise
+      a gift card.
     - ...
     CorrectAnswer: 3
     confusedAnswer: 0
-  - Question: Ughh...
+  - Question: Well then... I would accept a gift card.
     Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
+    - Okey here you go, bye!
+    - Here you go Madam. Make sure next time to keep the labels attached. Have a
+      nice day and see you soon!
+    - Unfortunately I can not do that either.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
