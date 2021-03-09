@@ -3196,44 +3196,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello, I would like to refund this top.
+  - Question: Hi, I got this gift card that expires next week but I can not find
+      anything.
     Answers:
-    - Hello madam, I would be happy to process this for you. Do you have the card
-      you used?
-    - How's it going. Sure I can refund this, do you have the card?
-    - Yo, do you have the card then?
+    - Hello Madam, we get new things all the time. Just come back this later this
+      week.
+    - Hello Madam, I am sorry to hear. I am happy to check if I can extend it for
+      you?
+    - Hello Madam, I might be able to extend it for you.
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Oh please call me Sylvia.  I live far and won't be back until next
+      month.
+    Answers:
+    - Sure Sylvia, I can extend this card for two months if that's ok?
+    - I guess I can extend the card for 2 months.
+    - Okey, I can extend this for 2 months if its ok?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Yeah I thinkt that works. What if I don't make it in time?
+    Answers:
+    - You can use it in other stores or online maybe.
+    - You should try to come back here in time.
+    - Just give us a call in that case and I will do something. Notice you can use
+      it online or other stores too.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Yes, here it is.
+  - Question: Okey sure. That's all, Bye!
     Answers:
-    - Great, are you sure you don't want to exchange instead?
-    - Ok, you feel like exchanging instead?
-    - Wanna exchange?
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: No thanks. I just want to return this please.
-    Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Thanks.
-    Answers:
-    - Is that it?
-    - All good, anything else you want?
-    - You're welcome, is there anything else I can do for you?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
+    - Thank you, see you soon!
+    - Thank you Sylvia and I hope to see you soon!
+    - Thanks, Bye!
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0

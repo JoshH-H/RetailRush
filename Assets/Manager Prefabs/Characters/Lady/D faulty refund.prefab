@@ -1472,7 +1472,7 @@ GameObject:
   - component: {fileID: 1641118946014733330}
   - component: {fileID: 1641118946014733293}
   m_Layer: 0
-  m_Name: Tall_Lady Window
+  m_Name: D faulty refund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2483,47 +2483,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello, I would like to refund this top.
+  - Question: Hi, I got this coat and the inseam is ripped within the first months!
     Answers:
-    - Hello madam, I would be happy to process this for you. Do you have the card
-      you used?
-    - How's it going. Sure I can refund this, do you have the card?
-    - Yo, do you have the card then?
+    - Hello Madam. I am very sorry to see that. Do you still have the receipt?
+    - Hello Madam. Sorry about that, can I have the receipt?
+    - Hello Madam. Do you have the receipt?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: No, I did not think I needed it. I really liked this coat.
+    Answers:
+    - I see. Did you happen to pay by card?
+    - Ok. I can not do much without a receipt.
+    - I understand. This is clearly a fault. May I ask what payment method you used?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Yes, here it is.
+  - Question: Yes, but my husband bought it for me.
     Answers:
-    - Great, are you sure you don't want to exchange instead?
-    - Ok, you feel like exchanging instead?
-    - Wanna exchange?
+    - Can you get the card details and date?
+    - I see. If you can find out the card number for me and rough date I will find
+      the transaction.
+    - Please ask him to come here with the card.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: No thanks. I just want to return this please.
+  - Question: I can get you the details and it was around this time two months ago.
     Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
+    - 'Thank you for that! Without him here I am afraid I can only offer an exchange
+      if you want it done today? '
+    - Thank you. I can offer you an exchange.
+    - If he comes down we can issue a refund.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: Okey that's fine then. I will have a browse.
+    Answers:
+    - Sure that's fine.
+    - Sure, my colleague here can help you, I will let you know when eveyrthing is
+      ready for you.
+    - Great, I will let you know when everything is ready.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Thanks.
-    Answers:
-    - Is that it?
-    - All good, anything else you want?
-    - You're welcome, is there anything else I can do for you?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    confusedAnswer: 2
   options:
   - {fileID: 291223244080889969}
   - {fileID: 5983819596129088522}

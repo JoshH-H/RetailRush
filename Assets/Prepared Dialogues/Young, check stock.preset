@@ -1,0 +1,282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Young, check stock
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Question
+    value: What's up. I want this top but it has a mark on it.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
+    value: Hello, is that the last one?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
+    value: Hi Madam! Sorry to see that. DId you already ask if it is the last one?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
+    value: Hi! DId you already ask if it is the last one?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Question
+    value: Yeah that staff member told me there is no more. What can you do?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
+    value: I could offer you a faulty discount but let me first see if other store
+      has any.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
+    value: I'm sure you do not want to buy a faulty top.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
+    value: Let me check if other store has it.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Question
+    value: Thanks. Yeah I would prefer a fresh one...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
+    value: Maybe you can check the store up town?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
+    value: I see that store up town has it. Would you prefer to collect or have it
+      delivered here for tomorrow?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
+    value: I see that store up town has one, I will have it delivered here for tomorrow.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Question
+    value: I want the top today really. I can go there myself straight away.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
+    value: 'That''s great. I will ask them to reserve it for you so just ask for
+      it. '
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
+    value: Sure thing.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
+    value: Great, they have few in stock.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Question
+    value: Ok that's all. Thank you, bye!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[0]
+    value: Ok, see you soon, bye!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[1]
+    value: Have a nice day and see you soon!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[2]
+    value: Sure, bye!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentQuestion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionTxt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: notification
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pannelUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: countdownText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scoreManager
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: setTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pathController
+    value: 
+    objectReference: {fileID: 0}

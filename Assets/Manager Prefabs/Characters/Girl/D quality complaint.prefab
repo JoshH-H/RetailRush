@@ -2390,7 +2390,7 @@ GameObject:
   - component: {fileID: 5678168034755347641}
   - component: {fileID: 5678168034755347646}
   m_Layer: 0
-  m_Name: Girl_
+  m_Name: D quality complaint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3786,47 +3786,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello, I would like to refund this top.
+  - Question: Hi I got these shoes and they got creased straight away!
     Answers:
-    - Hello madam, I would be happy to process this for you. Do you have the card
-      you used?
-    - How's it going. Sure I can refund this, do you have the card?
-    - Yo, do you have the card then?
+    - Hi, sorry to hear, all shoes do that over time.
+    - Hi, sorry to hear that. Have you maybe tried some product to fix it?
+    - Hi, sorry to hear. You can get this product to help it?
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: I have not been advised to use anything when I bought them.
+    Answers:
+    - Apologies that you were not offered anything. I recommend this one, it should
+      even still fix it.
+    - If you buy this one it should fix it still/
+    - You can try to find some product to fix it.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: 'Ok I guess I can try that one. '
+    Answers:
+    - I promise this will fix all your problems!
+    - No product can do magic.
+    - It should help to maintain them longer. Please note that over time shoes do
+      get worn out a bit but with good care they can last longer.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Yes, here it is.
+  - Question: Okey thanks, bye!
     Answers:
-    - Great, are you sure you don't want to exchange instead?
-    - Ok, you feel like exchanging instead?
-    - Wanna exchange?
+    - Ok. Bye!
+    - Have a nice day, see you soon!
+    - See you soon!
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: No thanks. I just want to return this please.
-    Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Thanks.
-    Answers:
-    - Is that it?
-    - All good, anything else you want?
-    - You're welcome, is there anything else I can do for you?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    confusedAnswer: 2
   options:
   - {fileID: 7263831771289104064}
   - {fileID: 8924015024350616862}

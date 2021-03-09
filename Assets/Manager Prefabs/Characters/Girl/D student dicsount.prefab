@@ -2265,39 +2265,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello, I would like to refund this top.
+  - Question: Hello! I would just like to buy this jumper please.
     Answers:
-    - Hello madam, I would be happy to process this for you. Do you have the card
-      you used?
-    - How's it going. Sure I can refund this, do you have the card?
-    - Yo, do you have the card then?
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Yes, here it is.
-    Answers:
-    - Great, are you sure you don't want to exchange instead?
-    - Ok, you feel like exchanging instead?
-    - Wanna exchange?
+    - Hi, sure thing, paying by card or cash?
+    - Hi. Sure, did you not find anything else?
+    - Hi. I love the colour, it will suit you well. Did you look for anything else?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: No thanks. I just want to return this please.
+  - Question: Thank you. I am a student, can I get a discount? Here's my ID.
     Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
+    - We do offer student discount but only through StudyID app. Do you have that?
+    - Sorry that ID is not accepted by us.
+    - Do you have StudyID app?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: I don't have the StudyID app, it takes a week to approve.. I guess
+      I will just leave it then and be back.
+    Answers:
+    - Sure we have plenty of these top so it won't sold out soon.
+    - I am sorry to hear that, I can put it on hold until Monday, you should have
+      it by then.
+    - Sure, see you when you back.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: Thanks.
+  - Question: Sure thing. Thanks bye!
     Answers:
-    - Is that it?
-    - All good, anything else you want?
-    - You're welcome, is there anything else I can do for you?
+    - Thank you and see you soon then!
+    - Thanks. See you!
+    - Ok, Bye!
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   - Question: That's it thanks.
     Answers:
     - Sweet, have a good one!
@@ -2570,7 +2571,7 @@ GameObject:
   - component: {fileID: 4275842550898509531}
   - component: {fileID: 4275842550898509528}
   m_Layer: 0
-  m_Name: Girl_accessories Window
+  m_Name: D student dicsount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
