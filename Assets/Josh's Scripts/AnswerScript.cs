@@ -37,7 +37,7 @@ public class AnswerScript : MonoBehaviour
         if (isCorrect)
         {
             globalScore += scoreCorrectValue;
-            PlayerPrefs.SetInt("_score", globalScore + scoreCorrectValue);
+            PlayerPrefs.SetInt("_score", globalScore + 15);
             Debug.Log("That's right");
             questionManager.correct();
             questionManager.answerPannelsTL.SetActive(false);
