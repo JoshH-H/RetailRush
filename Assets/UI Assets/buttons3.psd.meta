@@ -43,13 +43,13 @@ TextureImporter:
     second: buttons3_3
   - first:
       213: 5188871757253650234
-    second: no_bg
+    second: HollowBorder
   - first:
       213: -5338058935456475503
-    second: transparent
+    second: TransparentBorederless
   - first:
       213: -1338087282285777979
-    second: with_border
+    second: fullBorder
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -240,16 +240,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: no_bg
+      name: HollowBorder
       rect:
         serializedVersion: 2
         x: 92
         y: 1196
-        width: 2280
+        width: 2293
         height: 380
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -261,16 +261,16 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: transparent
+      name: TransparentBorederless
       rect:
         serializedVersion: 2
         x: 92
-        y: 808
+        y: 812
         width: 2288
         height: 368
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -282,7 +282,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: with_border
+      name: fullBorder
       rect:
         serializedVersion: 2
         x: 92
@@ -290,8 +290,8 @@ TextureImporter:
         width: 2284
         height: 372
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0

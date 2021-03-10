@@ -652,9 +652,9 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
+  scoreCorrectValue: 10
+  scoreWrongValue: 5
+  scoreConfusedValue: 5
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -3901,9 +3901,9 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
+  scoreCorrectValue: 10
+  scoreWrongValue: 5
+  scoreConfusedValue: 5
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -4677,9 +4677,9 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
+  scoreCorrectValue: 10
+  scoreWrongValue: 5
+  scoreConfusedValue: 5
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -4993,9 +4993,9 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
+  scoreCorrectValue: 10
+  scoreWrongValue: 5
+  scoreConfusedValue: 5
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}

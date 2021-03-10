@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public int playerScore;
-    public Text playerScrTxt;
+    //public Text playerScrTxt;
     public int maximum;
     public Image mask;
     public GameObject scoreSystem;
@@ -16,6 +16,7 @@ public class ScoreManager : MonoBehaviour
     {
         playerScore = 0;
         scoreSystem.SetActive(false);
+        playerScore = PlayerPrefs.GetInt("_score");
     }
     private void Update()
     {
@@ -30,7 +31,7 @@ public class ScoreManager : MonoBehaviour
 
     public void SetScore()
     {
-        playerScrTxt.text = playerScore.ToString();
+       // playerScrTxt.text = playerScore.ToString();
     }
 
     public void progressReport()
