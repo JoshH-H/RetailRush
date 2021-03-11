@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
+    public static int shiftsCompleted = 0;
+
     public float CurrentTime = 0f;
     public static float StartTime = 900f;
 
@@ -41,10 +43,17 @@ public class Timer : MonoBehaviour
             ShiftsResults.SetActive(true);
             Time.timeScale = 0f;
         }
+
+        if (shiftsCompleted == 4)
+        {
+            SceneManager.LoadScene("Certified");
+            shiftsCompleted = 0;
+        }
     }
     public void RestartTheScene()
     {
         SceneManager.LoadScene(1); // loads current scene
+        shiftsCompleted++;
     }
     public void Unfreeze()
     {

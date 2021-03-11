@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public Timer timerScript;
     public GameObject menu;
     public GameObject PauseMenu;
     bool Opened = false;
@@ -58,6 +59,7 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
+        Timer.shiftsCompleted = 0;
     }
 
     public void Quit()
@@ -69,11 +71,13 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
         Time.timeScale = 1f;
+        Timer.shiftsCompleted = 0;
     }
     public void LoadSceneManager()
     {
         SceneManager.LoadScene(2);
         Time.timeScale = 1f;
+        Timer.shiftsCompleted = 0;
     }
 
 
