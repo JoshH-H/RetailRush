@@ -11,6 +11,8 @@ public class Timer : MonoBehaviour
 
     public GameObject ShiftsResults;
 
+    public static int levelsCompleted = 0;
+
     //public Text TimerO;
 
     int Min;
@@ -24,7 +26,12 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
-        
+        if (levelsCompleted == 4)
+        {
+            SceneManager.LoadScene("Certified");
+            levelsCompleted = 0;
+        }
+
         CurrentTime -= 1 * Time.deltaTime;
 
      /* Min = Mathf.FloorToInt(CurrentTime / 60);
@@ -45,6 +52,7 @@ public class Timer : MonoBehaviour
     public void RestartTheScene()
     {
         SceneManager.LoadScene(1); // loads current scene
+        levelsCompleted++;
     }
     public void Unfreeze()
     {
