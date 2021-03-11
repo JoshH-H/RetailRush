@@ -8,9 +8,6 @@ public class UIManager : MonoBehaviour
     public GameObject menu;
     public GameObject PauseMenu;
     bool Opened = false;
-
-    public Timer timerScript;
-
     void Start()
     {
         Time.timeScale = 1f;
@@ -57,7 +54,6 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
-        Timer.levelsCompleted = 0;
     }
 
     public void Quit()
@@ -69,13 +65,11 @@ public class UIManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
         Time.timeScale = 1f;
-        Timer.levelsCompleted = 0;
     }
     public void LoadSceneManager()
     {
         SceneManager.LoadScene(2);
         Time.timeScale = 1f;
-        Timer.levelsCompleted = 0;
     }
 
 
