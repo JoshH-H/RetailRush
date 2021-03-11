@@ -2271,16 +2271,16 @@ MonoBehaviour:
     - Hello, sure. Are you sure you would not like an exchange?
     - Hello, you really did not find anything for an exchange?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: These scarfs from new collection are not my style. Sorry...
     Answers:
     - So what's wrong with this?
     - No problem at all,  can I ask why you would like to refund this please?
     - It's alright, was something wrong with this one?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: It does not match with anthing that I have.
     Answers:
     - Thank you, the refund will be received in 2-3 days. Anything else I could help
@@ -2288,8 +2288,8 @@ MonoBehaviour:
     - Sure, the refund is done. It will be received in few days.
     - Thanks, it's done. Anything else for you?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: That's all for today. Thanks though, have a nice day!
     Answers:
     - Bye!
@@ -2308,16 +2308,10 @@ MonoBehaviour:
   notification: {fileID: 7087967600745266198}
   pannelUI: {fileID: 6686679835858328759}
   countdownText: {fileID: 4571187046915651525}
-  answerScript:
-  - {fileID: 1869876613623158989}
-  - {fileID: 7445784795142853804}
-  - {fileID: 6782217669265541220}
-  - {fileID: 6150669924238652698}
   answerPannelsTL: {fileID: 4941528908518033251}
   answerPannelsTR: {fileID: 4607931294300672861}
   answerPannelsBL: {fileID: 7939698054970382424}
   answerPannelsBR: {fileID: 7834487241295063946}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 4275842550898509528}
 --- !u!1 &3662384708095706390
@@ -2563,7 +2557,7 @@ GameObject:
   - component: {fileID: 4275842550898509528}
   - component: {fileID: -1260207704081121050}
   m_Layer: 0
-  m_Name: F Refund Scarf Girl
+  m_Name: CF Refund Scarf Girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

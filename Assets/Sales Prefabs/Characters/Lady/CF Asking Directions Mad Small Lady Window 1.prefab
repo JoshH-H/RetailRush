@@ -2115,8 +2115,8 @@ MonoBehaviour:
     - Hello there, I'm sorry but I really don't know where it is.
     - Hey, nah I don't know.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: I am very dissapointed. You should know these kind of things by know.
     Answers:
     - I am deeply sorry I could not help you with that. However, I will ask my colleagues
@@ -2124,8 +2124,8 @@ MonoBehaviour:
     - Sorry about that. I will ask my friends if they know anyhting about that.
     - Sorry, I'll ask around.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: So? Do you know where I need to go?
     Answers:
     - Thank you for your patience, the closest bus station is 5 minutes from here.
@@ -2133,16 +2133,16 @@ MonoBehaviour:
     - Sorry about that ma'am, I did find out. Here are the details...
     - uhhh... Yeah here it is.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Okay... Thank you
     Answers:
     - I hope of seeing you soon again!
     - Have a nice day!
     - BYE!
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
+    CorrectAnswer: 4
+    confusedAnswer: 1
   options:
   - {fileID: 8505591692324210981}
   - {fileID: 2125253753812887535}
@@ -2153,16 +2153,10 @@ MonoBehaviour:
   notification: {fileID: 3543806273364766072}
   pannelUI: {fileID: 3690864415878882189}
   countdownText: {fileID: 5035205006128228267}
-  answerScript:
-  - {fileID: 4373246622002952301}
-  - {fileID: 6519821049351118641}
-  - {fileID: 5678298978983662796}
-  - {fileID: 6057126390105760888}
   answerPannelsTL: {fileID: 8505591692324210981}
   answerPannelsTR: {fileID: 2125253753812887535}
   answerPannelsBL: {fileID: 3447853243203335936}
   answerPannelsBR: {fileID: 2240900292527860673}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 7323907096563815132}
 --- !u!1 &4078609713396739484
@@ -4314,7 +4308,7 @@ GameObject:
   - component: {fileID: 7323907096563815132}
   - component: {fileID: -3736096500080856126}
   m_Layer: 0
-  m_Name: F Asking Directions Mad Small Lady Window 1
+  m_Name: CF Asking Directions Mad Small Lady Window 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

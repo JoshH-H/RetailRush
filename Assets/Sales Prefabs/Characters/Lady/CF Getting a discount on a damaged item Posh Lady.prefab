@@ -2115,8 +2115,8 @@ MonoBehaviour:
     - Hi, it depends, can I see the shirt?
     - Hello, can I have a look?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: So... What do you think?
     Answers:
     - Sure I'll give you 10% off, but are you sure?
@@ -2125,24 +2125,24 @@ MonoBehaviour:
       are you sure you would like to buy these ones instead of normal ones that are
       not faulty?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: That is fine, thank you.
     Answers:
     - Alright please pay here...
     - Hear you madam, please tap your card here.
     - Okay.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Okay. Thank you.
     Answers:
     - I hope of seeing you soon again!
     - Have a nice day!
     - See ya later, just letting you know we won't be able to give you a refund later.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 8505591692324210981}
   - {fileID: 2125253753812887535}
@@ -2153,16 +2153,10 @@ MonoBehaviour:
   notification: {fileID: 3543806273364766072}
   pannelUI: {fileID: 3690864415878882189}
   countdownText: {fileID: 5035205006128228267}
-  answerScript:
-  - {fileID: 4373246622002952301}
-  - {fileID: 6519821049351118641}
-  - {fileID: 5678298978983662796}
-  - {fileID: 6057126390105760888}
   answerPannelsTL: {fileID: 8505591692324210981}
   answerPannelsTR: {fileID: 2125253753812887535}
   answerPannelsBL: {fileID: 3447853243203335936}
   answerPannelsBR: {fileID: 2240900292527860673}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 7323907096563815132}
 --- !u!1 &4078609713396739484
@@ -4314,7 +4308,7 @@ GameObject:
   - component: {fileID: 7323907096563815132}
   - component: {fileID: 1668421671768317319}
   m_Layer: 0
-  m_Name: F Getting a discount on a damaged item Posh Lady
+  m_Name: CF Getting a discount on a damaged item Posh Lady
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

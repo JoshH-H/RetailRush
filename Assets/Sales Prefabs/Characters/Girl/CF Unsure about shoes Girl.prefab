@@ -2223,7 +2223,7 @@ GameObject:
   - component: {fileID: 5678168034755347646}
   - component: {fileID: -3063817860407414678}
   m_Layer: 0
-  m_Name: F Unsure about shoes Girl
+  m_Name: CF Unsure about shoes Girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3718,8 +3718,8 @@ MonoBehaviour:
     - Hi, sorry to hear that. Have you tried any product to fix it?
     - Hi, sorry to hear. Buy this product to help it.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: I have not been advised to use anything when I bought them.
     Answers:
     - Sorry that you were not offered anything. I recommend this one, it works like
@@ -3727,46 +3727,40 @@ MonoBehaviour:
     - You can try this one to fix it.
     - You can try to find some product to fix it.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Ok I guess I could give it a go.
     Answers:
     - I promise this will fix all your problems!
     - No product can do magic.
     - It should help to maintain them longer, I use it myself.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Sure thing. Thank you bye!
     Answers:
     - Ok. Bye!
     - Have a nice day, see you soon!
     - See you soon!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7263831771289104064}
+  - {fileID: 8924015024350616862}
+  - {fileID: 7295829758780497337}
+  - {fileID: 7202649493693168067}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 0}
-  pannelUI: {fileID: 0}
-  countdownText: {fileID: 0}
-  answerScript:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  answerPannelsTL: {fileID: 0}
-  answerPannelsTR: {fileID: 0}
-  answerPannelsBL: {fileID: 0}
-  answerPannelsBR: {fileID: 0}
-  scoreManager: {fileID: 0}
+  QuestionTxt: {fileID: 6411939816453631650}
+  notification: {fileID: 5492253111816058067}
+  pannelUI: {fileID: 7109544713766714782}
+  countdownText: {fileID: 2030291281045839805}
+  answerPannelsTL: {fileID: 7263831771289104064}
+  answerPannelsTR: {fileID: 8924015024350616862}
+  answerPannelsBL: {fileID: 7295829758780497337}
+  answerPannelsBR: {fileID: 7202649493693168067}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 5678168034755347646}
 --- !u!1 &7243696260719558044
 GameObject:
   m_ObjectHideFlags: 0

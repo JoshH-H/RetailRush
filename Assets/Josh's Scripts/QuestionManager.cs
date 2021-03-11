@@ -19,7 +19,7 @@ public class QuestionManager : MonoBehaviour
     [Header("Pannel UI")]
     [SerializeField] GameObject pannelUI;
     [SerializeField] Text countdownText;
-    [SerializeField] AnswerScript[] answerScript;
+    //[SerializeField] AnswerScript[] answerScript;
     private Coroutine currentRoutine;
     static float countdownTime;
     static public float option;
@@ -29,7 +29,6 @@ public class QuestionManager : MonoBehaviour
     public GameObject answerPannelsBR;
 
     [Header("Other Script Connections")]
-    [SerializeField] ScoreManager scoreManager;
     [SerializeField] private float setTimer;
 
     [Header("Evaldas Char")]
@@ -45,6 +44,7 @@ public class QuestionManager : MonoBehaviour
         answerPannelsTR.SetActive(false);
         answerPannelsBL.SetActive(false);
         answerPannelsBR.SetActive(false);
+        UIManager.instance.pauseButton.interactable = false;
     }
 
     void Awake()
@@ -100,6 +100,7 @@ public class QuestionManager : MonoBehaviour
             
             Debug.Log("Complete");
             pannelUI.SetActive(false);
+            UIManager.instance.pauseButton.interactable = true;
             pathController.DoneTalking = true;
             if (currentRoutine != null)
             {

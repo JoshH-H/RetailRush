@@ -213,8 +213,8 @@ MonoBehaviour:
     - How's it going. Sure! Tap your card whenever you are ready.
     - Hi! Just tap the card over here and you will be done with it.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Card? I am paying with cash.
     Answers:
     - I'm sorry but we do not accept cash at the moment. You will have to pay with
@@ -223,8 +223,8 @@ MonoBehaviour:
       at the moment, because of these new regulations
     - Sorry, but you are not allowed to pay with cash right now.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Excuse me, who decided this. This is absurd. I dont have my card with
       me so...
     Answers:
@@ -233,16 +233,16 @@ MonoBehaviour:
     - I am sorry ma'am but there is no way I can accept cash as payment as of right
       now. Sorry.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: FINE... I'm just gonna go...
     Answers:
     - Sorry about that ma'am...
     - Sorry about that, See ya later.
     - Bye.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 883293917614377836}
   - {fileID: 1090004168719995439}
@@ -253,16 +253,10 @@ MonoBehaviour:
   notification: {fileID: 2041924280679107473}
   pannelUI: {fileID: 6296458997790631621}
   countdownText: {fileID: 5574812184184660912}
-  answerScript:
-  - {fileID: 7006320315695530509}
-  - {fileID: 309161554944814535}
-  - {fileID: 42813155131618869}
-  - {fileID: 1783677497009570341}
   answerPannelsTL: {fileID: 883293917614377836}
   answerPannelsTR: {fileID: 1090004168719995439}
   answerPannelsBL: {fileID: 983799608691762135}
   answerPannelsBR: {fileID: 7604306989046989193}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 3370926221963957107}
 --- !u!1 &328146398258748343
@@ -2194,7 +2188,7 @@ GameObject:
   - component: {fileID: 3370926221963957107}
   - component: {fileID: 719258360382900150}
   m_Layer: 0
-  m_Name: F No Cash policy Tall Posh LAdy
+  m_Name: CF No Cash policy Tall Posh LAdy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

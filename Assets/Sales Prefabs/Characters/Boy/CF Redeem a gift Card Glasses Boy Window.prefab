@@ -385,7 +385,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a551e1ccb055aa14a944ac4ff16c0359, type: 2}
+  - {fileID: 2100000, guid: e036a89657c66dd4fba4c23c974a4598, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1145,7 +1145,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a551e1ccb055aa14a944ac4ff16c0359, type: 2}
+  - {fileID: 2100000, guid: e036a89657c66dd4fba4c23c974a4598, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1348,7 +1348,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &4401113469654572923
 SkinnedMeshRenderer:
@@ -1368,7 +1368,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 194deef1fe0bfd543863e4fae0c72815, type: 2}
+  - {fileID: 2100000, guid: 97b94ba483405b7459aa98203b17bf64, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1768,7 +1768,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &5663598113600974529
 SkinnedMeshRenderer:
@@ -1788,7 +1788,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c17b7c1220ee64440af2fa4d50746e3e, type: 2}
+  - {fileID: 2100000, guid: 1c22eba90ee549b4b947e39d25c2c64d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2253,6 +2253,89 @@ MonoBehaviour:
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
   head: {fileID: 6704231298854691440}
+--- !u!1 &4015709144030107886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7367494185378353856}
+  - component: {fileID: 5106803681612030879}
+  m_Layer: 0
+  m_Name: Glasses.002
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7367494185378353856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015709144030107886}
+  m_LocalRotation: {x: 0.02838715, y: 0, z: -0, w: 0.999597}
+  m_LocalPosition: {x: -0.0038809122, y: 1.4902723, z: 0.13958068}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 5231774076184527884}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &5106803681612030879
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4015709144030107886}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7295b42e0746404469b0fa1d552c47f8, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -369929282689029209, guid: a0adc29116f59b247975b2747038761a, type: 3}
+  m_Bones:
+  - {fileID: 2231089664173184655}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2231089664173184655}
+  m_AABB:
+    m_Center: {x: -0.003244549, y: 0.23838344, z: 0.13054562}
+    m_Extent: {x: 0.27366084, y: 0.06561041, z: 0.1854628}
+  m_DirtyAABB: 0
 --- !u!1 &4178558534845538899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,7 +2440,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &1318171694784146007
 SkinnedMeshRenderer:
@@ -2377,7 +2460,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 194deef1fe0bfd543863e4fae0c72815, type: 2}
+  - {fileID: 2100000, guid: 0df089df8294a7542983d3e62f6f8994, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2482,7 +2565,7 @@ Transform:
   - {fileID: 4489875383440528295}
   - {fileID: 45693324884416267}
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4719254854262246034
 GameObject:
@@ -2525,9 +2608,9 @@ GameObject:
   - component: {fileID: 5231774076184527884}
   - component: {fileID: 5697132352874394311}
   - component: {fileID: 5697132352874394310}
-  - component: {fileID: 8661948932944276337}
+  - component: {fileID: 2726237677233121722}
   m_Layer: 0
-  m_Name: FF Asking about an Item Window
+  m_Name: CF Redeem a gift Card Glasses Boy Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2550,6 +2633,7 @@ Transform:
   - {fileID: 9021297858864721276}
   - {fileID: 5308340088438436963}
   - {fileID: 3906353022336257609}
+  - {fileID: 7367494185378353856}
   - {fileID: 787220137189224386}
   - {fileID: 2980466739392265902}
   - {fileID: 7920577209768936479}
@@ -2612,8 +2696,8 @@ MonoBehaviour:
   questionManager: {fileID: 6225628046646896526}
   QM: {fileID: 5829191118240578657}
   questionPannels: {fileID: 1605729432156873029}
-  Walking: {fileID: 8661948932944276337}
---- !u!82 &8661948932944276337
+  Walking: {fileID: 2726237677233121722}
+--- !u!82 &2726237677233121722
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2907,7 +2991,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6491584999942079531
 SkinnedMeshRenderer:
@@ -3117,7 +3201,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a551e1ccb055aa14a944ac4ff16c0359, type: 2}
+  - {fileID: 2100000, guid: e036a89657c66dd4fba4c23c974a4598, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3242,7 +3326,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.13805, z: 1.00005}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6225628046646896526
 MonoBehaviour:
@@ -3257,62 +3341,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi, I found this top on the 50% off sale section. So excited I love
-      it!
+  - Question: I would like to use my gift card to buy this jacket...
     Answers:
-    - Hello. I am sorry to tell you that this is actually new collection. It must
-      of been misplaced.
-    - This top is not in sale.
-    - Hi, sorry but this top is actually full price.
-    - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
-  - Question: 'What? But I was so excited. It is not my fault it was put there! '
-    Answers:
-    - It's full price.
-    - I am so sorry about that. Unfotrunately anyone could have moved it there.
-    - I am sorry about that, but it is full price.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
-  - Question: Well that's just stupid. Anything you can do?
-    Answers:
-    - It's full price.
-    - Sorry there is not much I can do.
-    - For this top no. We are happy to help you to find something else?
+    - Hey, Yeah of course. Can you pass me the gift card please?
+    - Hi there! It would be my pleasure to help you with that. May I see the gift
+      card please?
+    - Hi, I can help you. Can you give me the card?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
-  - Question: Well I guess I will keep browsing then.
+  - Question: Here you go. It got plenty of time left on it.
     Answers:
-    - My colleague here will be happy to help you!
-    - Let me know when you are ready.
-    - Let us know if you need any help!
+    - Thanks, all done. See you soon, bye!
+    - Thanks. Done. See ya!
+    - Thank you, all done for you. Thank you and see you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 3
+    confusedAnswer: 1
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 4897804902806635623}
+  - {fileID: 1273480393917208901}
+  - {fileID: 3989378604433651095}
+  - {fileID: 6756729700686238159}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 0}
-  pannelUI: {fileID: 0}
-  countdownText: {fileID: 0}
-  answerScript:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  answerPannelsTL: {fileID: 0}
-  answerPannelsTR: {fileID: 0}
-  answerPannelsBL: {fileID: 0}
-  answerPannelsBR: {fileID: 0}
-  scoreManager: {fileID: 0}
+  QuestionTxt: {fileID: 2129780448024030834}
+  notification: {fileID: 4178558534845538899}
+  pannelUI: {fileID: 1605729432156873029}
+  countdownText: {fileID: 5796678518165778315}
+  answerPannelsTL: {fileID: 4897804902806635623}
+  answerPannelsTR: {fileID: 1273480393917208901}
+  answerPannelsBL: {fileID: 3989378604433651095}
+  answerPannelsBR: {fileID: 6756729700686238159}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 5697132352874394310}
 --- !u!1 &5925087471238854078
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,7 +3528,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &3785950071572217890
 SkinnedMeshRenderer:
@@ -3487,7 +3548,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1c22eba90ee549b4b947e39d25c2c64d, type: 2}
+  - {fileID: 2100000, guid: 3b465c815703026419d03e944531eb1d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3581,7 +3642,7 @@ Transform:
   m_LocalScale: {x: 99.99999, y: 99.99999, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2265750105181621964
 SkinnedMeshRenderer:
@@ -3601,7 +3662,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c17b7c1220ee64440af2fa4d50746e3e, type: 2}
+  - {fileID: 2100000, guid: 1c22eba90ee549b4b947e39d25c2c64d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3877,7 +3938,7 @@ RectTransform:
   m_Children:
   - {fileID: 4494442162523415374}
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4320,7 +4381,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 94b1ae3c1b4400d46acf77fe93744c12, type: 2}
+  - {fileID: 2100000, guid: c43dda3a5b9814a4793f350449a3441f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4436,7 +4497,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &6614298290493857638
 SkinnedMeshRenderer:
@@ -4456,7 +4517,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a551e1ccb055aa14a944ac4ff16c0359, type: 2}
+  - {fileID: 2100000, guid: e036a89657c66dd4fba4c23c974a4598, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4976,7 +5037,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &632529073433497544
 SkinnedMeshRenderer:
@@ -4996,7 +5057,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a551e1ccb055aa14a944ac4ff16c0359, type: 2}
+  - {fileID: 2100000, guid: ac4e5a4aa26154d41a16070193a34f39, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5145,7 +5206,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c17b7c1220ee64440af2fa4d50746e3e, type: 2}
+  - {fileID: 2100000, guid: 1c22eba90ee549b4b947e39d25c2c64d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5409,7 +5470,7 @@ Transform:
   m_LocalScale: {x: 100.00001, y: 100, z: 100.00001}
   m_Children: []
   m_Father: {fileID: 5231774076184527884}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &2071899814106570301
 SkinnedMeshRenderer:

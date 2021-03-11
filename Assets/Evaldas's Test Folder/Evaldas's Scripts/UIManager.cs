@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
     public GameObject menu;
     public GameObject PauseMenu;
     bool Opened = false;
+
+    [Header("Josh's Connections")]
+    [SerializeField] public Button pauseButton;
+    public static UIManager instance;
+
     void Start()
     {
         Time.timeScale = 1f;
         PauseMenu.SetActive(false);
+        instance = this;
     }
     void Update()
     {
@@ -32,10 +39,7 @@ public class UIManager : MonoBehaviour
                 Time.timeScale = 1f;
                 Opened = false;
             }
-        }
-        
-
-        
+        } 
     }
     public void Pause()
     {

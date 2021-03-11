@@ -638,8 +638,8 @@ MonoBehaviour:
     - Hi, I am not sure. Let me check that out for you.
     - I don't know. Let me check....
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Thank you.
     Answers:
     - I apologise, however we do not have these specific trousers in stock right
@@ -648,8 +648,8 @@ MonoBehaviour:
       I could help you with?
     - Yeah... no, we don't have any. Anything else?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: This is absurd! I can believe this right now, can't you just check
       the actual storage room. Your computer is wrong.
     Answers:
@@ -658,8 +658,8 @@ MonoBehaviour:
     - I will check it out.
     - '*sigh* I guess I can... One second.'
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Did you find anything?
     Answers:
     - Unfortunately, the system was correct and we do not have any in stock right
@@ -668,16 +668,16 @@ MonoBehaviour:
       help you with?
     - No, there aren't any in the back. What else do you want?
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
+    CorrectAnswer: 4
+    confusedAnswer: 1
   - Question: Ughh...
     Answers:
     - Sorry about that sir. I hope of seeing you soon again.
     - Sorry about that, Have a nice day!
     - Okay, bye.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 5548885408126159527}
   - {fileID: 7197768899080491231}
@@ -688,16 +688,10 @@ MonoBehaviour:
   notification: {fileID: 7235852359117076475}
   pannelUI: {fileID: 5309290506197791718}
   countdownText: {fileID: 4846234948584630063}
-  answerScript:
-  - {fileID: 7209335992847463566}
-  - {fileID: 7068555989014400008}
-  - {fileID: 6346242369935693799}
-  - {fileID: 6848313358404947512}
   answerPannelsTL: {fileID: 5548885408126159527}
   answerPannelsTR: {fileID: 7197768899080491231}
   answerPannelsBL: {fileID: 7114128406316713338}
   answerPannelsBR: {fileID: 3553292389714912671}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 8296860561477439868}
 --- !u!1 &1469025757644430111
@@ -5483,7 +5477,7 @@ GameObject:
   - component: {fileID: 8296860561477439868}
   - component: {fileID: 1200669239829089765}
   m_Layer: 0
-  m_Name: F asking about an Item Tall Lady
+  m_Name: CF asking about an Item Tall Lady
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

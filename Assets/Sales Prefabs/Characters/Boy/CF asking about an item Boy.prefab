@@ -1073,16 +1073,16 @@ MonoBehaviour:
     - Hi, I am not sure. Let me check that out for you.
     - Hi, I am not sure.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Thank you. I love darker shades, size Medium.
     Answers:
     - Unfortunately these ones come only in this colour.
     - Yeah, no. These come only one colour.
     - I'm afraid these don't come in other colour. We got something similar though?
     - I'm afraid these don't come in other colour. We got something similar though?
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Oh... Okay... I swear I saw them in black last week. Could you double
       check?
     Answers:
@@ -1090,24 +1090,24 @@ MonoBehaviour:
     - Ok, I will check the stockroom.
     - I guess I can, I doubt it though.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Sooo, did you find anything? I am sure I saw them.
     Answers:
     - Sorry, it is only one colour.
     - Unfortunately the system was correct, they come only in one colour.
     - The system was right.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: That's a shame. I'll just go then. Thanks bye!
     Answers:
     - Sorry about that. I hope to see you soon again.
     - Sorry about that, bye!
     - Okay, bye.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 5570970004789423527}
   - {fileID: 3864212808276670654}
@@ -1118,16 +1118,10 @@ MonoBehaviour:
   notification: {fileID: 5911180749966302852}
   pannelUI: {fileID: 1918940754123589811}
   countdownText: {fileID: 8504300920316238992}
-  answerScript:
-  - {fileID: 4870601207094977578}
-  - {fileID: 3301160131957295921}
-  - {fileID: 5354523483775694236}
-  - {fileID: 6517151715132309913}
   answerPannelsTL: {fileID: 5570970004789423527}
   answerPannelsTR: {fileID: 3864212808276670654}
   answerPannelsBL: {fileID: 4110678705884447299}
   answerPannelsBR: {fileID: 3747517514273588989}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 5780305798025559903}
 --- !u!1 &2880939992319628134
@@ -3741,7 +3735,7 @@ GameObject:
   - component: {fileID: 5780305798025559903}
   - component: {fileID: 5447502214289837041}
   m_Layer: 0
-  m_Name: FF asking about an item Boy
+  m_Name: CF asking about an item Boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

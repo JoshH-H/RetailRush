@@ -6,21 +6,21 @@ using UnityEngine.UI;
 [ExecuteInEditMode()]
 public class ScoreManager : MonoBehaviour
 {
-    public int playerScore;
-    //public Text playerScrTxt;
+    [SerializeField] int playerScore;
+    public static ScoreManager instance;
     public int maximum;
     public Image mask;
-    public GameObject scoreSystem;
 
     private void Awake()
     {
         playerScore = 0;
-        scoreSystem.SetActive(false);
-        playerScore = PlayerPrefs.GetInt("_score");
+        instance = this;
     }
     private void Update()
     {
         currentProgress();
+
+        Debug.Log("Score " + playerScore);
     }
 
     public void currentProgress()
@@ -29,14 +29,25 @@ public class ScoreManager : MonoBehaviour
         mask.fillAmount = fillAmount;
     }
 
-    public void SetScore()
+    //Scoring
+    public void RightScore()
     {
-       // playerScrTxt.text = playerScore.ToString();
+        playerScore += 15;
     }
+
+    public void WrongScore()
+    {
+        playerScore -= 5;
+    }
+
+    public void ConfusedScore()
+    {
+        playerScore += 10;
+    }
+    //Scoring End
 
     public void progressReport()
     {
-        scoreSystem.SetActive(true);
 
         if (playerScore <= 10)
         {

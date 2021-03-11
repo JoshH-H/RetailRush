@@ -2574,8 +2574,8 @@ MonoBehaviour:
       voucher please?
     - Hey, Yeah of course. Can you pass me the gift card?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Here you go...
     Answers:
     - Thanks! One second... Sorry, but the card has expired and cannot be used.
@@ -2583,8 +2583,8 @@ MonoBehaviour:
       the purchase, because the gift card has expired last week.
     - Thanks... Oh... I see the card is expired. Sorry, but I can't accept it
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: 'What do you mean? So what do we do now can''t you just extend the
       expiry day? '
     Answers:
@@ -2594,8 +2594,8 @@ MonoBehaviour:
     - No, I can't, but my manager can. One second... I'm gonna call for them.
     - Sorry I can't do that, but I will call the manager for you.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: So.... What happened, where's the manager?
     Answers:
     - Sorry, my manager has left the store for now and they will be back later today,
@@ -2604,8 +2604,8 @@ MonoBehaviour:
       in about three to four hours. Would you mind coming a little bit later?
     - 'Sorry, but the manager is not here, can you come later? '
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Why can't you do it?!? This is very annoying
     Answers:
     - I am so sorry about the inconvenience but I'm not allowed to do this, can you
@@ -2615,8 +2615,8 @@ MonoBehaviour:
       expiry dates on gift cards. It would be amazing if you could come in in a few
       hours, I am certain my manager will help you. '
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Hmm... I guess Ill come later when your manager is here. Bye.
     Answers:
     - Thank you so much for understanding, I hope to see you again soon!
@@ -2635,16 +2635,10 @@ MonoBehaviour:
   notification: {fileID: 6836592205529370965}
   pannelUI: {fileID: 1573919190766107649}
   countdownText: {fileID: 1147183248364763508}
-  answerScript:
-  - {fileID: 2561800553142507721}
-  - {fileID: 5115095187452245763}
-  - {fileID: 4768803367365553393}
-  - {fileID: 6518624047638173921}
   answerPannelsTL: {fileID: 5689238270093611432}
   answerPannelsTR: {fileID: 5590746384620308715}
   answerPannelsBL: {fileID: 5697339105611512083}
   answerPannelsBR: {fileID: 3112488555566160717}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 7814243135715920311}
 --- !u!1 &4811114361711120647
@@ -4543,7 +4537,7 @@ GameObject:
   - component: {fileID: 7814243135715920311}
   - component: {fileID: 962292025377147079}
   m_Layer: 0
-  m_Name: F Redeem Gift Card Complaint Posh Lady
+  m_Name: CF Redeem Gift Card Complaint Posh Lady
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

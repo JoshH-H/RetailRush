@@ -2100,7 +2100,7 @@ GameObject:
   - component: {fileID: 2515184427286819227}
   - component: {fileID: -8727002104604172221}
   m_Layer: 0
-  m_Name: 'F Asking Directions Girl Accessories '
+  m_Name: 'CF Asking Directions Girl Accessories '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4339,24 +4339,24 @@ MonoBehaviour:
     - Hi, sure you just go right, left then right then down and left.
     - Hi sure, I will draw you a map.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Oh thank you! Also do you have baby clothing?
     Answers:
     - Happy to help. No unfortuntaley not, but the shop opposite does.
     - No we do not.
     - Sure, No we don't I am sorry.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Oh cool, thanks for the help. Bye!
     Answers:
     - Sure, bye!
     - My pleasure, hope to see you soon again!
     - No problem, bye!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 2027089922839474945}
   - {fileID: 8117844963592787507}
@@ -4367,16 +4367,10 @@ MonoBehaviour:
   notification: {fileID: 9090593513618923787}
   pannelUI: {fileID: 6641670862708151545}
   countdownText: {fileID: 7076005580761567973}
-  answerScript:
-  - {fileID: 2977253682880838014}
-  - {fileID: 1354452277074028870}
-  - {fileID: 3118137389994078411}
-  - {fileID: 6236790609406525002}
   answerPannelsTL: {fileID: 2027089922839474945}
   answerPannelsTR: {fileID: 8117844963592787507}
   answerPannelsBL: {fileID: 6449920351902860193}
   answerPannelsBR: {fileID: 6759769459368298951}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 2515184427286819227}
 --- !u!1 &7069951174876909036

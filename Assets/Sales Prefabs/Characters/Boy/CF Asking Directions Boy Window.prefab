@@ -232,7 +232,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 194deef1fe0bfd543863e4fae0c72815, type: 2}
+  - {fileID: 2100000, guid: fb5e12d927a05124da8acc94fbd6bc86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -916,7 +916,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 15b2f0eb2abad8d4c83e0e674e830b76, type: 2}
+  - {fileID: 2100000, guid: 0f495d7d8d4ce7b4aba77a6b83e0740c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1347,9 +1347,9 @@ GameObject:
   - component: {fileID: 3168871525454969188}
   - component: {fileID: 3202251345313239340}
   - component: {fileID: 3202251345313239331}
-  - component: {fileID: 6669122807669979106}
+  - component: {fileID: 586342921299739083}
   m_Layer: 0
-  m_Name: F Losing colour Boy Window
+  m_Name: CF Asking Directions Boy Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1434,8 +1434,8 @@ MonoBehaviour:
   questionManager: {fileID: 442893108511074556}
   QM: {fileID: 8158535112573521500}
   questionPannels: {fileID: 5698415691432604482}
-  Walking: {fileID: 6669122807669979106}
---- !u!82 &6669122807669979106
+  Walking: {fileID: 586342921299739083}
+--- !u!82 &586342921299739083
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1712,7 +1712,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f417dd00ba645ac41826b613f0338a7f, type: 2}
+  - {fileID: 2100000, guid: 5d8014bbd99a13c4888bacdf4dea62d4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1972,7 +1972,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 094d0f3d89475c242810970c31421798, type: 2}
+  - {fileID: 2100000, guid: fcfbaa45ccbb13c438ef38159312ee35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2576,7 +2576,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 094d0f3d89475c242810970c31421798, type: 2}
+  - {fileID: 2100000, guid: fcfbaa45ccbb13c438ef38159312ee35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2811,7 +2811,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: eb95273d6bab6f943b9963d380834e97, type: 2}
+  - {fileID: 2100000, guid: 17a807e10067e47408ea0a8496c8168c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3484,7 +3484,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 094d0f3d89475c242810970c31421798, type: 2}
+  - {fileID: 2100000, guid: fcfbaa45ccbb13c438ef38159312ee35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3765,7 +3765,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cdcf0bf06a53f34498e9e974113557ae, type: 2}
+  - {fileID: 2100000, guid: 0f495d7d8d4ce7b4aba77a6b83e0740c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4122,7 +4122,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cdcf0bf06a53f34498e9e974113557ae, type: 2}
+  - {fileID: 2100000, guid: 17a807e10067e47408ea0a8496c8168c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4374,7 +4374,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 094d0f3d89475c242810970c31421798, type: 2}
+  - {fileID: 2100000, guid: fcfbaa45ccbb13c438ef38159312ee35, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4550,7 +4550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -10.5}
+  m_AnchoredPosition: {x: 0.0000078678, y: -10.5}
   m_SizeDelta: {x: 169.8678, y: 151.69592}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2373996048868516451
@@ -5123,63 +5123,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi, I would like these black jeans but I am worried they will loose
-      the colour.
+  - Question: Yo, how do I get to the nearest train station?
     Answers:
-    - Hi! Sure that is a common problem.These won't wash out.
-    - Hi! I understand your concern. These jeans have mix of material that avoids
-      the washing out.
-    - Hi! All denim washes out.
+    - Hey! I'm sorry, but I just started working here, and I am still not familiar
+      with the area.
+    - Hi there, I'm sorry but I really don't know where it is.
+    - Hello. I don't know.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: What if they still do fade afterall?
+    confusedAnswer: 2
+  - Question: That's unfortunate. Can you like ask someone?
     Answers:
-    - I can not promise they won't fade.
-    - Wash them right, they will be fine.
-    - All denim can fade over time, but if you use cold wash they should not.
+    - Yes ofcourse, just a moment.
+    - Sorry about that, sure I will find out for you.
+    - I guess.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
-  - Question: Okey I guess that would be fine. I am a bit unsure though.
+  - Question: Did you manage to find out the directions?
     Answers:
-    - We have not had complaints of this, but if anything happen you can ask for
-      me.
-    - Then come back to us and we will help.
-    - They will be fine, just get them.
+    - Yes, Closest station is just 5 minutes away. Here's the directions.
+    - Yep, just turn right, then left then right then go straight and then left.
+    - Yeah, here is a map for you with directions.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
-  - Question: Okey thank you. I will have them please.
+    CorrectAnswer: 1
+    confusedAnswer: 3
+  - Question: Oh cool, thank you! I will make my way then.
     Answers:
-    - Great choice. All done for you. Have a nice day and see you soon!
-    - Done. Bye!
-    - All done, hope to see you soon!
+    - Bye Bye.
+    - Have a nice day!
+    - Have a nice day, hope to see you soon!
     - ...
-    CorrectAnswer: 0
+    CorrectAnswer: 3
     confusedAnswer: 2
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8146691660010494934}
+  - {fileID: 7640682835962094743}
+  - {fileID: 2274172440004689451}
+  - {fileID: 7405164107814477443}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 0}
-  pannelUI: {fileID: 0}
-  countdownText: {fileID: 0}
-  answerScript:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  answerPannelsTL: {fileID: 0}
-  answerPannelsTR: {fileID: 0}
-  answerPannelsBL: {fileID: 0}
-  answerPannelsBR: {fileID: 0}
-  scoreManager: {fileID: 0}
+  QuestionTxt: {fileID: 7583113390797141195}
+  notification: {fileID: 983058518745281926}
+  pannelUI: {fileID: 5698415691432604482}
+  countdownText: {fileID: 6630633138500233237}
+  answerPannelsTL: {fileID: 8146691660010494934}
+  answerPannelsTR: {fileID: 7640682835962094743}
+  answerPannelsBL: {fileID: 2274172440004689451}
+  answerPannelsBR: {fileID: 7405164107814477443}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 3202251345313239331}
 --- !u!1 &8166968422442543753
 GameObject:
   m_ObjectHideFlags: 0
@@ -5229,7 +5221,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cdcf0bf06a53f34498e9e974113557ae, type: 2}
+  - {fileID: 2100000, guid: 0f495d7d8d4ce7b4aba77a6b83e0740c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5323,7 +5315,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5a323d5a07bb1ae439e652d74b71be65, type: 2}
+  - {fileID: 2100000, guid: fb5e12d927a05124da8acc94fbd6bc86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

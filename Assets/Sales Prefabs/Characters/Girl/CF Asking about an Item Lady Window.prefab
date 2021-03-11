@@ -1816,16 +1816,16 @@ MonoBehaviour:
     - Hi! I understand your concern. The material of this should not bubble.
     - Hi! Wear and tear happens to all clothes.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: What can I do if it happens anyway in the nex month or so?
     Answers:
     - It really should not happen to this top.
-    - Wash it rigt, will be fine.
+    - Wash it right, it will be fine.
     - You can avoid it by using cold wash, also there is a device that removes them.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Okey I guess that would be fine. I am a bit unsure though.
     Answers:
     - We have not had complaints of this, but if anything happen you can ask for
@@ -1833,16 +1833,16 @@ MonoBehaviour:
     - Then come back to us and we will help.
     - It will be fine. Just get it.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Okey thank you. I will have this top then please.
     Answers:
     - Great choice. All done for you. Have a nice day and see you soon!
     - Done. Bye!
     - All done, hope to see you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   options:
   - {fileID: 1202031223191515148}
   - {fileID: 1229266534633903368}
@@ -1853,16 +1853,10 @@ MonoBehaviour:
   notification: {fileID: 6247092190566948136}
   pannelUI: {fileID: 531311518040778127}
   countdownText: {fileID: 1289996154156979961}
-  answerScript:
-  - {fileID: 1870461824353861039}
-  - {fileID: 4250888707195784141}
-  - {fileID: 4045888941211143463}
-  - {fileID: 6366970960200458348}
   answerPannelsTL: {fileID: 1202031223191515148}
   answerPannelsTR: {fileID: 1229266534633903368}
   answerPannelsBL: {fileID: 3433257057667383140}
   answerPannelsBR: {fileID: 8362178966133327923}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 4275842550898509528}
 --- !u!1 &2598668796148008442
@@ -2983,7 +2977,7 @@ GameObject:
   - component: {fileID: 4275842550898509528}
   - component: {fileID: -7897332478052030527}
   m_Layer: 0
-  m_Name: F Asking about an Item Lady Window
+  m_Name: CF Asking about an Item Lady Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

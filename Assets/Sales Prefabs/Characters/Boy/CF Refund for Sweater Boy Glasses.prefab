@@ -3249,16 +3249,16 @@ MonoBehaviour:
       like to exchange?
     - Hello, of course. Did you consider an exchange?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: 'Yeah I did not see anything else I like. '
     Answers:
     - Sure, so what's wrong with this then?
     - Sure, may I ask why you want to refund this please?
     - Sure, was something wrong with this one?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: Nothing wrong but it did not fit like I expected.
     Answers:
     - 'Thank you, this one is slightly oversized style so you might of needed one
@@ -3266,16 +3266,16 @@ MonoBehaviour:
     - Hear you. Yeah the fit is a bit funny, other size coul help.
     - Thanks, maybe you could try other size?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Hmm... I did not think of that. I would not mind to give it a go.
     Answers:
     - Great, let me know if it is better!
     - Glad to hear, my colleague here will help you to get the right size!
     - Great, they are right over there!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 6692346107608156670}
   - {fileID: 1048157167688553692}
@@ -3286,16 +3286,10 @@ MonoBehaviour:
   notification: {fileID: 2799754726271496138}
   pannelUI: {fileID: 679815562341035228}
   countdownText: {fileID: 5716882850313118226}
-  answerScript:
-  - {fileID: 732359426199440931}
-  - {fileID: 2393660215666069210}
-  - {fileID: 8884488294160143290}
-  - {fileID: 1011361548441666445}
   answerPannelsTL: {fileID: 6692346107608156670}
   answerPannelsTR: {fileID: 1048157167688553692}
   answerPannelsBL: {fileID: 2916815764877522958}
   answerPannelsBR: {fileID: 4819760979002465366}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 5780305798025559903}
 --- !u!1 &5771169881268428935
@@ -3815,7 +3809,7 @@ GameObject:
   - component: {fileID: 5780305798025559903}
   - component: {fileID: 452480361744848573}
   m_Layer: 0
-  m_Name: F Refund for Sweater Boy Glasses
+  m_Name: CF Refund for Sweater Boy Glasses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
