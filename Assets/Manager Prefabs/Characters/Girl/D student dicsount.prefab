@@ -2267,7 +2267,7 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Hello! I would just like to buy this jumper please.
     Answers:
-    - Hi, sure thing, paying by card or cash?
+    - Hi, sure ofcourse.
     - Hi. Sure, did you not find anything else?
     - Hi. I love the colour, it will suit you well. Did you look for anything else?
     - ...
@@ -2285,8 +2285,7 @@ MonoBehaviour:
       I will just leave it then and be back.
     Answers:
     - Sure we have plenty of these top so it won't sold out soon.
-    - I am sorry to hear that, I can put it on hold until Monday, you should have
-      it by then.
+    - I am sorry to hear that, I can put it on hold for a week for you.
     - Sure, see you when you back.
     - ...
     CorrectAnswer: 1
@@ -2299,14 +2298,6 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
   options:
   - {fileID: 4941528908518033251}
   - {fileID: 4607931294300672861}
@@ -3349,9 +3340,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}
@@ -3614,9 +3602,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}
@@ -4976,9 +4961,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}
@@ -5178,9 +5160,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}

@@ -751,9 +751,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -2250,15 +2247,12 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
-  head: {fileID: 0}
+  head: {fileID: 6704231298854691440}
 --- !u!1 &4178558534845538899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,9 +2774,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -3751,9 +3742,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}

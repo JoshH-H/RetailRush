@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Y, sticker
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Question
+    value: Can I have this top please, excited to see it is marked down to 10!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
+    value: Hi, this item is not meant to be marked down.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
+    value: Hi, this is actually not in sale. Sorry.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
+    value: Hi, I am afraid this is actually new colletion. The sticker must of been
+      misplaced.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Question
+    value: What so you gonna make me pay full price? I want it on the marked price!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
+    value: I am sorry but this is full price item.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
+    value: I understand, but I am afraid anyone could have moved the sticker. I am
+      sorry.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
+    value: How could I know if you put the sticker there yourself?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Question
+    value: That is ridiculous. I will leave it then.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
+    value: I am sorry to hear. We do have something similar in the sale though. Would
+      you like to see?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
+    value: I am sorry to hear, maybe check the sale again?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
+    value: Are you sure?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Question
+    value: Ok I guess another look around would not hurt.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
+    value: Great, let me know how it goes!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
+    value: Sure thing!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
+    value: Great, my colleague here will help you.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentQuestion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionTxt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: notification
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pannelUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: countdownText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scoreManager
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: setTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pathController
+    value: 
+    objectReference: {fileID: 0}

@@ -1817,9 +1817,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 2022843199042655592}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 3107757712587719331}
   wrongSound: {fileID: 3066157204827051863}
   happyResponse: {fileID: 3469265691540516729}
@@ -2329,9 +2326,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 2022843199042655592}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 3107757712587719331}
   wrongSound: {fileID: 3066157204827051863}
   happyResponse: {fileID: 3469265691540516729}
@@ -3199,11 +3193,9 @@ MonoBehaviour:
   - Question: Hi, I got this gift card that expires next week but I can not find
       anything.
     Answers:
-    - Hello Madam, we get new things all the time. Just come back this later this
-      week.
-    - Hello Madam, I am sorry to hear. I am happy to check if I can extend it for
-      you?
-    - Hello Madam, I might be able to extend it for you.
+    - Hello Madam, we get new things all the time. Just come back other time.
+    - Hello Madam, I am happy to check if I can extend it for you?
+    - Hello Madam, I will extend the time.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
@@ -3211,17 +3203,16 @@ MonoBehaviour:
       month.
     Answers:
     - Sure Sylvia, I can extend this card for two months if that's ok?
-    - I guess I can extend the card for 2 months.
-    - Okey, I can extend this for 2 months if its ok?
+    - I will extend it for you.
+    - Is 2 months extension ok?
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
   - Question: Yeah I thinkt that works. What if I don't make it in time?
     Answers:
-    - You can use it in other stores or online maybe.
-    - You should try to come back here in time.
-    - Just give us a call in that case and I will do something. Notice you can use
-      it online or other stores too.
+    - You can use it in other store.
+    - Make sure to come back in time.
+    - You can always contact us, or you can use it in other store or online.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
@@ -4190,9 +4181,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 2022843199042655592}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 3107757712587719331}
   wrongSound: {fileID: 3066157204827051863}
   happyResponse: {fileID: 3469265691540516729}
@@ -5100,9 +5088,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 2022843199042655592}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 3107757712587719331}
   wrongSound: {fileID: 3066157204827051863}
   happyResponse: {fileID: 3469265691540516729}
@@ -5482,7 +5467,7 @@ GameObject:
   - component: {fileID: 8296860561477441155}
   - component: {fileID: 8296860561477439868}
   m_Layer: 0
-  m_Name: Tall_Lady
+  m_Name: D giftCard expiry
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

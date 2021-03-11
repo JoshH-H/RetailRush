@@ -633,7 +633,7 @@ MonoBehaviour:
   - Question: That staff member over there is useless!
     Answers:
     - Hi Madam, what happened?
-    - Hi, what have John Smith done this time?
+    - Hi, what have he done this time?
     - Hello Madam, I am very sorry to hear. May I ask what happened?
     - ...
     CorrectAnswer: 2
@@ -642,16 +642,16 @@ MonoBehaviour:
       for me!
     Answers:
     - I am very sorry to hear that. He might of said it because our sizes run small.
-      I shall get it for you.
+      I will get it for you.
     - He have been here for years. He is probably right.
-    - Our sizes run a bit small, and most people need to go a size up.
+    - That would be because our our sizes run small. Sorry about that.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
   - Question: I am sorry but I ALWAYS wear a Medium. I will not tolerate his behaviour!
     Answers:
-    - I am sorry that you feel that way.
-    - I am very sorry about that. I will tell him not to do that again.
+    - Sorry that you feel that way.
+    - I will tell him not to do that again.
     - I completely understand, he should have explained it better. I will sure to
       advise him in future.
     - ...
@@ -659,7 +659,7 @@ MonoBehaviour:
     confusedAnswer: 1
   - Question: Thank you, that's all. Bye!
     Answers:
-    - My colleague has the size for you if you like. Have a lovely day!
+    - My colleague has a medium size for you if you like. Have a lovely day!
     - Thank you and see you soon!
     - Here is a size large for you to try on. See you soon!
     - ...
@@ -2017,9 +2017,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 9063872580531216746}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1676386872358772816}
   wrongSound: {fileID: 949979557663620653}
   happyResponse: {fileID: 3469265691540516729}
@@ -3193,9 +3190,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 9063872580531216746}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1676386872358772816}
   wrongSound: {fileID: 949979557663620653}
   happyResponse: {fileID: 3469265691540516729}
@@ -4205,9 +4199,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 9063872580531216746}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1676386872358772816}
   wrongSound: {fileID: 949979557663620653}
   happyResponse: {fileID: 3469265691540516729}
@@ -4486,9 +4477,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 9063872580531216746}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1676386872358772816}
   wrongSound: {fileID: 949979557663620653}
   happyResponse: {fileID: 3469265691540516729}

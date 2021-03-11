@@ -1341,9 +1341,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6335504942820202719}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
   happyResponse: {fileID: 2622717568885542106}
@@ -1803,9 +1800,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6335504942820202719}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
   happyResponse: {fileID: 2622717568885542106}
@@ -2330,9 +2324,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6335504942820202719}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
   happyResponse: {fileID: 2622717568885542106}
@@ -2396,8 +2387,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: -0.007400609, y: 1.6109376, z: 0.110040456}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 5200387908243135463}
+  m_Children: []
   m_Father: {fileID: 8821137418083272404}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3103,9 +3093,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6335504942820202719}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4738884939501578958}
   wrongSound: {fileID: 943781543453282417}
   happyResponse: {fileID: 2622717568885542106}
@@ -3345,88 +3332,6 @@ Transform:
   m_Father: {fileID: 8715778799088939344}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5385394944037802883
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5200387908243135463}
-  - component: {fileID: 4728929084638381710}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5200387908243135463
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5385394944037802883}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00243, y: 0.01988, z: -0.00164}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 7341191606386609249}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &4728929084638381710
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5385394944037802883}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 3455200026851931232, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.56, y: 1.13}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &5388218144283499043
 GameObject:
   m_ObjectHideFlags: 0
@@ -3584,54 +3489,75 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello! Can I redeem my gift card I got a year ago, I would like to
-      use it for this jacket...
+  - Question: Hi, I have a gift card I would like to use to buy these trousers please.
     Answers:
-    - Hey, sure! Can you hand me the gift card?
-    - Hi, yeah sure. Can you give me the card?
-    - Good day, yes, of course. May I see the gift voucher please?
+    - Hello Sir. Yes ofcourse. Can I have the card please?
+    - Hello Sir. Sure ofcourse!
+    - Hello Sir. Good find, these trousers are so soft and comfy. Remember not to
+      was over 30 degrees!
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Here you go...
+  - Question: You might notice that the giftcard has 100 in it, but the trousers
+      are only 60...
     Answers:
-    - Thanks! One second... It is done now. Anything else I could help you with?
-    - Thank you! Bear with me for a moment... All is done. Thank you for the purchase.
-      Anything else I can help you with?
-    - Thanks... I just approved the purchase, anything else I could do?
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: No thanks. See ya later.
-    Answers:
-    - Thank you again! Have a nice day!
-    - Goodbye!
-    - I'll see you around.
+    - Yes, the rest of the balance will be available for you to use next time or
+      maybe online.
+    - Yes, you can use the left over 40 next time you come by.
+    - Yes, I can see that.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
+  - Question: Is there any way you could give me that extra 40 as cash for me? It
+      expires soon and I don't come here much...
+    Answers:
+    - Unfortunately it is not possible for me to do that.
+    - Sorry thats impossible.
+    - Unfortunately I can not change the balance into cash. I can extend it for you
+      though if that helps?
+    - ...
+    CorrectAnswer: 2
+    confusedAnswer: 0
+  - Question: Well, that's a shame. I really hate shopping, my partner enjoys it
+      much more. Are you entirely sure?
+    Answers:
+    - Yes, unfortunately gift cards are irreversible. What about these basic t-shirts,
+      3 for 40. Even your partner could like one?
+    - Yes, but if you know how computers work you can just use it online.
+    - Yes, maybe your partner would like to use it?
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 3
+  - Question: Hmm. I guess that works. Thanks.
+    Answers:
+    - I am glad, have a nice day sir!
+    - Great, my colleague here will help you to find the perfect sizes.
+    - Good to hear, bye!
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 3
   options:
-  - {fileID: 2868507716468461377}
-  - {fileID: 4039326321085738376}
-  - {fileID: 4889033891361720943}
-  - {fileID: 1918245833056012688}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentQuestion: 0
-  QuestionTxt: {fileID: 7159855214654790133}
-  notification: {fileID: 7413642860636704931}
-  pannelUI: {fileID: 1023868193458213608}
-  countdownText: {fileID: 394389256118517790}
+  QuestionTxt: {fileID: 0}
+  notification: {fileID: 0}
+  pannelUI: {fileID: 0}
+  countdownText: {fileID: 0}
   answerScript:
-  - {fileID: 5806894379091427927}
-  - {fileID: 5382669302722656455}
-  - {fileID: 2494869817599204936}
-  - {fileID: 5377392246312079734}
-  answerPannelsTL: {fileID: 2868507716468461377}
-  answerPannelsTR: {fileID: 4039326321085738376}
-  answerPannelsBL: {fileID: 4889033891361720943}
-  answerPannelsBR: {fileID: 1918245833056012688}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answerPannelsTL: {fileID: 0}
+  answerPannelsTR: {fileID: 0}
+  answerPannelsBL: {fileID: 0}
+  answerPannelsBR: {fileID: 0}
   scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 9070320857952908692}
+  pathController: {fileID: 0}
 --- !u!1 &5417035535680648308
 GameObject:
   m_ObjectHideFlags: 0

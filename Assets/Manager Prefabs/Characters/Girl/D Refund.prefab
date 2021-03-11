@@ -216,8 +216,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: 0.002289333, y: 1.6606839, z: 0.11864078}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 4617703958640964734}
+  m_Children: []
   m_Father: {fileID: 5280011805744918405}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1107,9 +1106,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6998865673326994815}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 44305203344897314}
   wrongSound: {fileID: 2328935204513669136}
   happyResponse: {fileID: 4373846953951033853}
@@ -1177,88 +1173,6 @@ Transform:
   m_Father: {fileID: 7400920523615837894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2423669009758374509
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4617703958640964734}
-  - component: {fileID: 5904985013417744100}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &4617703958640964734
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2423669009758374509}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00247, y: 0.02084, z: -0.00192}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 6254797994873922864}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &5904985013417744100
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2423669009758374509}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -7321475067355485495, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.5, y: 0.85}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2520456319012890596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2002,96 +1916,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi, I would like to return these trousers.
+  - Question: Hiya, can I refund these trousers please.
     Answers:
-    - Hello, I am sorry to hear that. May I ask what was wrong with them?
-    - Hi! Are you sure you would not like exchange them instead?
-    - Is there nothing you would like to exchange to?
-    - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
-  - Question: Thanks!
-    Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: The style does not fit me. I would just like the refund please.
-    Answers:
-    - Ofcourse. Do you have the receipt?
-    - Ok. I need the receipt.
-    - Sure that's fine. Can I just have the receipt please?
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Here it is. I got them just like last week.
-    Answers:
-    - Thank you. Looks like everything is good to go.
-    - Thank you very much. Do you have the payment card on hand as well please?
-    - Thanks, have you got the payment card?
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
-  - Question: No, I actually lost it last weekend... This is the new card I received.
-    Answers:
-    - I'm sorry to hear. I would just need to check the account is the same. Do you
-      use mobile banking?
-    - That's not good. I would need a proof of purchase to help you.
-    - Oh no, have you maybe got mobile banking on you?
+    - Hello, sure ofcourse. Did you notice our new collection in case there is anything
+      for exchange?
+    - Hello hun, sure ofcourse. Did you notice our new collection in case there is
+      anything for exchange?
+    - Hello, ofcourse. Did you consider an exchange?
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
-  - Question: Yeah sure, here's my mobile bank. What details would you need?
+  - Question: Yeah but I did not see anything I like in there.
     Answers:
-    - Let me find the required information so I can process the information.
-    - If you can just show me the purchase there and I can then match the account
-      number.
-    - Show me the purchase on your statement with the account number.
+    - So what's wrong with this?
+    - Sure, can I ask for the reason you want to refund?
+    - Sure, was something wrong with this one?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Here you go. Is that all you need? Can I now have the refund?
+  - Question: Nothing, they were just too baggy down the leg for my liking.
     Answers:
-    - Yep that's it. I have done the refund for you.
-    - Thanks, done. Anything else?
-    - Thank you, all done for you now. Could I help you with anything else today?
+    - 'This one is slightly oversized style so you might of needed one size down. '
+    - Yeah the fit is a bit funny, other size coul help.
+    - Maybe you could try other size?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: That's it for today thanks. See you, bye!
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Hmm... I did not think of that. I would not mind to give it a go.
     Answers:
-    - Thanks, bye!
-    - Thank you, have a nice day and see you soon!
-    - Great, see you soon!
+    - Great, let me know if it is better.
+    - Glad to hear, my colleague here will help you to get the right size.
+    - Great, they are on that rail over there for you.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
   options:
-  - {fileID: 7580066740323839943}
-  - {fileID: 6418600130441116669}
-  - {fileID: 2167773812596283733}
-  - {fileID: 8154926233295631564}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentQuestion: 0
-  QuestionTxt: {fileID: 324717707525117334}
-  notification: {fileID: 3355743835381272302}
-  pannelUI: {fileID: 8771979455169155640}
-  countdownText: {fileID: 6090267334216905189}
+  QuestionTxt: {fileID: 0}
+  notification: {fileID: 0}
+  pannelUI: {fileID: 0}
+  countdownText: {fileID: 0}
   answerScript:
-  - {fileID: 3631042565518870236}
-  - {fileID: 8962919404053649340}
-  - {fileID: 3146564028727487530}
-  - {fileID: 5297587143754039228}
-  answerPannelsTL: {fileID: 7580066740323839943}
-  answerPannelsTR: {fileID: 6418600130441116669}
-  answerPannelsBL: {fileID: 2167773812596283733}
-  answerPannelsBR: {fileID: 8154926233295631564}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answerPannelsTL: {fileID: 0}
+  answerPannelsTR: {fileID: 0}
+  answerPannelsBL: {fileID: 0}
+  answerPannelsBR: {fileID: 0}
   scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 5678168034755347646}
+  pathController: {fileID: 0}
 --- !u!1 &3642850772413519594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,9 +3499,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6998865673326994815}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 44305203344897314}
   wrongSound: {fileID: 2328935204513669136}
   happyResponse: {fileID: 4373846953951033853}
@@ -4462,9 +4339,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6998865673326994815}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 44305203344897314}
   wrongSound: {fileID: 2328935204513669136}
   happyResponse: {fileID: 4373846953951033853}
@@ -4970,9 +4844,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6998865673326994815}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 44305203344897314}
   wrongSound: {fileID: 2328935204513669136}
   happyResponse: {fileID: 4373846953951033853}

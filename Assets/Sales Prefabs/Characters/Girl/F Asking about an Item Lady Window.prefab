@@ -1040,9 +1040,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}
@@ -1274,9 +1271,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}
@@ -1816,75 +1810,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi! I want to know if you have this shirt in another colour? I saw
-      on the website that you have it in baby blue.
+  - Question: Hi, does this top go all bubby after couple wears?
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hi! This top should be fine.
+    - Hi! I understand your concern. The material of this should not bubble.
+    - Hi! Wear and tear happens to all clothes.
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 0
+  - Question: What can I do if it happens anyway in the nex month or so?
+    Answers:
+    - It really should not happen to this top.
+    - Wash it rigt, will be fine.
+    - You can avoid it by using cold wash, also there is a device that removes them.
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Thanks!
+    confusedAnswer: 1
+  - Question: Okey I guess that would be fine. I am a bit unsure though.
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - We have not had complaints of this, but if anything happen you can ask for
+      me.
+    - Then come back to us and we will help.
+    - It will be fine. Just get it.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Oh... okay. Can you check the storage room maybe the system is wrong...
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: Okey thank you. I will have this top then please.
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - Great choice. All done for you. Have a nice day and see you soon!
+    - Done. Bye!
+    - All done, hope to see you soon!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
-    Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: Aw, okay. I'll just go then.
-    Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 2
   options:
-  - {fileID: 1202031223191515148}
-  - {fileID: 1229266534633903368}
-  - {fileID: 3433257057667383140}
-  - {fileID: 8362178966133327923}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentQuestion: 0
-  QuestionTxt: {fileID: 9105698812267239366}
-  notification: {fileID: 6247092190566948136}
-  pannelUI: {fileID: 531311518040778127}
-  countdownText: {fileID: 1289996154156979961}
+  QuestionTxt: {fileID: 0}
+  notification: {fileID: 0}
+  pannelUI: {fileID: 0}
+  countdownText: {fileID: 0}
   answerScript:
-  - {fileID: 1870461824353861039}
-  - {fileID: 4250888707195784141}
-  - {fileID: 4045888941211143463}
-  - {fileID: 6366970960200458348}
-  answerPannelsTL: {fileID: 1202031223191515148}
-  answerPannelsTR: {fileID: 1229266534633903368}
-  answerPannelsBL: {fileID: 3433257057667383140}
-  answerPannelsBR: {fileID: 8362178966133327923}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answerPannelsTL: {fileID: 0}
+  answerPannelsTR: {fileID: 0}
+  answerPannelsBL: {fileID: 0}
+  answerPannelsBR: {fileID: 0}
   scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 4275842550898509528}
+  pathController: {fileID: 0}
 --- !u!1 &2598668796148008442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,9 +2470,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}
@@ -5229,9 +5206,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}

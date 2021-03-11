@@ -1810,9 +1810,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 7602718548337394125}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1635054753739598963}
   wrongSound: {fileID: 148902665071565166}
   happyResponse: {fileID: 955441922578402653}
@@ -2576,23 +2573,22 @@ MonoBehaviour:
     - Hello Madam, please tell me more?
     - Hello Madam. I am sorry to hear this. Do you have the item with you?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: It is a bag that is damaged after only a year. I would like to email
       them.
     Answers:
-    - I understand. Would you not prefer me to escalate your request?
-    - I am not allowed to give you any of their details.
+    - I understand. Would you not prefer me to raise a complaint for you?
+    - I will not give their details to you.
     - I am not sure if they will be able to help you.
     - ...
     CorrectAnswer: 0
-    confusedAnswer: 1
-  - Question: I want to contact them personally.
+    confusedAnswer: 2
+  - Question: I would like to contact them personally to make sure it is done right.
     Answers:
     - No problem. Here is an email you can use.
     - I am unable to provide you any details.
-    - Sure ofcourse Madam. Here is an email you can use. I recommend to add photos
-      to fasten the process.
+    - Sure Madam. Here is their email. I recommend to attach photos of the fault.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
@@ -3499,9 +3495,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 7602718548337394125}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1635054753739598963}
   wrongSound: {fileID: 148902665071565166}
   happyResponse: {fileID: 955441922578402653}
@@ -3671,9 +3664,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 7602718548337394125}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1635054753739598963}
   wrongSound: {fileID: 148902665071565166}
   happyResponse: {fileID: 955441922578402653}
@@ -3843,9 +3833,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 7602718548337394125}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 1635054753739598963}
   wrongSound: {fileID: 148902665071565166}
   happyResponse: {fileID: 955441922578402653}

@@ -751,9 +751,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -2250,15 +2247,12 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
-  head: {fileID: 0}
+  head: {fileID: 6704231298854691440}
 --- !u!1 &4015709144030107886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,9 +2858,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -3252,31 +3243,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: I would like to use my gift card for this jacket...
+  - Question: I would like to use my gift card to buy this jacket...
     Answers:
     - Hey, Yeah of course. Can you pass me the gift card please?
     - Hi there! It would be my pleasure to help you with that. May I see the gift
-      voucher please?
+      card please?
     - Hi, I can help you. Can you give me the card?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: There it is...
+  - Question: Here you go. It got plenty of time left on it.
     Answers:
-    - Thanks! One second... It is done now. Thank you and have a nice day!
-    - Thanks... I just approved the purchase, see ya!
-    - Thank you! Bear with me for a moment... All is done. Thank you for the purchase.
-      I hope to see you soon again!
+    - Thanks, all done. See you soon, bye!
+    - Thanks. Done. See ya!
+    - Thank you, all done for you. Thank you and see you soon!
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Thank you.
-    Answers:
-    - Goodbye!
-    - Thank you again! Have a nice day!
-    - I'll see you around.
-    - ...
-    CorrectAnswer: 1
     confusedAnswer: 0
   options:
   - {fileID: 4897804902806635623}
@@ -3826,9 +3808,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}

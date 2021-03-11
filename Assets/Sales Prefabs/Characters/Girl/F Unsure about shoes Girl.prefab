@@ -294,8 +294,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: 0.002289333, y: 1.6606839, z: 0.11864078}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 4617703958640964734}
+  m_Children: []
   m_Father: {fileID: 5280011805744918405}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -812,88 +811,6 @@ Transform:
   m_Father: {fileID: 7400920523615837894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2423669009758374509
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4617703958640964734}
-  - component: {fileID: 5904985013417744100}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &4617703958640964734
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2423669009758374509}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00247, y: 0.02084, z: -0.00192}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 6254797994873922864}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &5904985013417744100
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2423669009758374509}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -7321475067355485495, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.5, y: 0.85}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2520456319012890596
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,9 +3564,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6487258270166897620}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8510151552594159944}
   wrongSound: {fileID: 2160603165278091424}
   happyResponse: {fileID: 4373846953951033853}
@@ -3700,66 +3614,61 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi, I would like these shoes from the new collection but I am worried
-      they will wear off soon.
+  - Question: Hi I got these shoes and they got creased straight away!
     Answers:
-    - Good day! I personally had no complaints about these particular shoes so it
-      shouldn't be a problem.
-    - Hi! I understand your concern. However, it should not be a problem for a while.
-      In a matter of, I have these shoes my self and had no issues what so ever.
-    - Hi! They shouldn't wear of for few months, but obviously if you will wear it
-      every day they wont hold as long as you want them to.
+    - Hi, sorry to hear, all shoes do that over time.
+    - Hi, sorry to hear that. Have you tried any product to fix it?
+    - Hi, sorry to hear. Buy this product to help it.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
-  - Question: What if they still do wear off?
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: I have not been advised to use anything when I bought them.
     Answers:
-    - I mean I can not promise they won't.
-    - I suggest being extremely careful where you walk, and how long you will be
-      wearing them
-    - All Shoes wear off, however if you take extreme care, I promise they will hold
-      you for a while.
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: Okay, thank you. I will have them please.
-    Answers:
-    - Great choice. All done for you. Have a nice day and see you soon!
-    - All done for you. Have a nice day!
-    - Sure, all done. Have a nice day and see you soon!
+    - Sorry that you were not offered anything. I recommend this one, it works like
+      magic.
+    - You can try this one to fix it.
+    - You can try to find some product to fix it.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
-  - Question: Thanks.
+  - Question: Ok I guess I could give it a go.
     Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
+    - I promise this will fix all your problems!
+    - No product can do magic.
+    - It should help to maintain them longer, I use it myself.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 2
+    confusedAnswer: 0
+  - Question: Sure thing. Thank you bye!
+    Answers:
+    - Ok. Bye!
+    - Have a nice day, see you soon!
+    - See you soon!
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
-  - {fileID: 7263831771289104064}
-  - {fileID: 8924015024350616862}
-  - {fileID: 7295829758780497337}
-  - {fileID: 7202649493693168067}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentQuestion: 0
-  QuestionTxt: {fileID: 6411939816453631650}
-  notification: {fileID: 5492253111816058067}
-  pannelUI: {fileID: 7109544713766714782}
-  countdownText: {fileID: 2030291281045839805}
+  QuestionTxt: {fileID: 0}
+  notification: {fileID: 0}
+  pannelUI: {fileID: 0}
+  countdownText: {fileID: 0}
   answerScript:
-  - {fileID: 3535665413411425508}
-  - {fileID: 7187327111411980541}
-  - {fileID: 1100542870954305838}
-  - {fileID: 6905016846715344695}
-  answerPannelsTL: {fileID: 7263831771289104064}
-  answerPannelsTR: {fileID: 8924015024350616862}
-  answerPannelsBL: {fileID: 7295829758780497337}
-  answerPannelsBR: {fileID: 7202649493693168067}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answerPannelsTL: {fileID: 0}
+  answerPannelsTR: {fileID: 0}
+  answerPannelsBL: {fileID: 0}
+  answerPannelsBR: {fileID: 0}
   scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 5678168034755347646}
+  pathController: {fileID: 0}
 --- !u!1 &7243696260719558044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,9 +3895,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6487258270166897620}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8510151552594159944}
   wrongSound: {fileID: 2160603165278091424}
   happyResponse: {fileID: 4373846953951033853}
@@ -4189,9 +4095,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6487258270166897620}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8510151552594159944}
   wrongSound: {fileID: 2160603165278091424}
   happyResponse: {fileID: 4373846953951033853}
@@ -5382,9 +5285,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6487258270166897620}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8510151552594159944}
   wrongSound: {fileID: 2160603165278091424}
   happyResponse: {fileID: 4373846953951033853}

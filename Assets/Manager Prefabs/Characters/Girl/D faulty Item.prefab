@@ -1040,9 +1040,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}
@@ -1274,9 +1271,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}
@@ -1816,50 +1810,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: This top was sold to me even thou it is faulty!
+  - Question: This top was sold to me even though it is faulty!
     Answers:
-    - Hello, did you not check it before purchase?
+    - Hello, did you not check it before the purchase?
     - Hi, I am sorry about that. Please tell me what's the fault?
-    - Hi, please tell me what's wrong?
+    - Hi, tell me what's wrong?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Can you see this mark here? I just went home and noticed it straight
-      away!
+  - Question: Can you see this mark here? I went home and noticed it straight away!
     Answers:
-    - Yes I can see that. Sorry that this have happened. Can I have the receipt please
-      and I will fix this for you.
+    - Yes I can see that. Sorry about this. Can I have the receipt please and I will
+      fix this for you.
     - Are you sure the mark was there when you bought it?
     - Sorry about that, do you have the receipt?
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
-  - Question: Here's the receipt. As you cans ee the labels are attached and bought
-      it just today.
+  - Question: Here's the receipt. As you cans see the labels are still attached and
+      I bought it just today.
     Answers:
     - Thanks, I will exhange this to a new one.
-    - Thank you. This is clearly a fault and I am happy to exchange it to a new one.
-      Is that ok?
-    - I will exchange this.
+    - Thanks. I am happy to exchange this to a new one. Is that ok?
+    - I will make an exhange.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: 'Thank you new one will be fine. '
+  - Question: Thank you. Exchange to a new one will be fine.
     Answers:
-    - All done for you. Anything else I could help you with?
+    - All done. Anything else I could help you with?
     - Anything else for today?
-    - Sure, all done.
+    - Thanks, All done.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
   - Question: That's all for now. Thank you, bye!
     Answers:
-    - Thank you, have a nice day and see you soon!
+    - Thank you. Have a nice day and see you soon!
     - Thanks, see you soon!
     - Okay, bye.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   options:
   - {fileID: 1202031223191515148}
   - {fileID: 1229266534633903368}
@@ -2487,9 +2479,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}
@@ -5226,9 +5215,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 654147299046874159}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 307151624130645174}
   wrongSound: {fileID: 4431747330006884609}
   happyResponse: {fileID: 2853091404939798272}

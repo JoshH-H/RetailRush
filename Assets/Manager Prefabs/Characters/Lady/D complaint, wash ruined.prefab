@@ -731,9 +731,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}
@@ -1370,9 +1367,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}
@@ -1805,9 +1799,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}
@@ -2530,27 +2521,27 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Hello, I bought this top and after a wash it is ruined!
     Answers:
-    - Hello Madam. You can not throw this is a machine.
-    - Hello Madam. Please notice that this is dry clean only.
-    - Hello Madam. I am so sorry that have happened. This is made of silk and should
-      be dry cleaned only.
+    - Hello Madam. You can not throw this in a machine.
+    - Hello Madam. This top is dry clean only.
+    - Hello Madam. I am so sorry to hear. This is made of silk and should be dry
+      cleaned only.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
   - Question: Well nobody told me that. I expect me to be able to wash my own clothes!
     Answers:
-    - Unfortunately you should really check the label before wash.
-    - You should know to check the label.
-    - I completely understand and I am sorry you were not informed...
+    - You should really check the label before wash.
+    - You should know how to wash silk clothes.
+    - I completely understand and I am sorry you were not informed.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
   - Question: This is not my fault! I want my money back!
     Answers:
     - Unfortunately I can not do that as the wash instructions were not followed.
-      Make sure to ask for them in future.
+      Make sure to ask for them if unsure.
     - I am sorry but I can not do that.
-    - Apologies but we can not refund for your mistake.
+    - We can not refund for your mistake.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
@@ -4187,9 +4178,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}

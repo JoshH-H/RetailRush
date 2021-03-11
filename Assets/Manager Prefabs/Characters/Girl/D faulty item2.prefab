@@ -2151,97 +2151,12 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5903748456916559301}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4424529970669534404}
   wrongSound: {fileID: 6238905620026442578}
   happyResponse: {fileID: 4479205073798303811}
   unhappyResponse: {fileID: 7319474289449506194}
   confusedResponse: {fileID: 2397429947803605025}
   head: {fileID: 4440884910714221241}
---- !u!1 &2776166716067116598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1289136377318489030}
-  - component: {fileID: 7848192204593261143}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1289136377318489030
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2776166716067116598}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00229, y: 0.01925, z: -0.00205}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 4244322641072495579}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &7848192204593261143
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2776166716067116598}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -4376235197205053199, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.09, y: 0.65}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2835164721344323237
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,35 +2786,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: What's up. I want this top but it has a mark on it.
+  - Question: What's up. I want this top but it has a mark on it. What can you do?
     Answers:
     - Hello, is that the last one?
-    - Hi Madam! Sorry to see that. DId you already ask if it is the last one?
-    - Hi! DId you already ask if it is the last one?
+    - Hi Madam! DId you already ask if it is the last one?
+    - Hi! DId you already ask someone if it is the last one?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
-  - Question: Yeah that staff member told me there is no more. What can you do?
+    CorrectAnswer: 2
+    confusedAnswer: 0
+  - Question: Yeah that staff member told me there is no more. So, what can you do?
     Answers:
-    - I could offer you a faulty discount but let me first see if other store has
-      any.
+    - I can check other stores for it, or offer a faulty discount.
     - I'm sure you do not want to buy a faulty top.
-    - Let me check if other store has it.
+    - Let me check if other store has this top.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
-  - Question: Thanks. Yeah I would prefer a fresh one...
+  - Question: Thanks. I would like to get a new one if that's possible.
     Answers:
     - Maybe you can check the store up town?
-    - I see that store up town has it. Would you prefer to collect or have it delivered
-      here for tomorrow?
-    - I see that store up town has one, I will have it delivered here for tomorrow.
+    - Store up town has it. Would you prefer to collect or have it delivered here
+      tomorrow?
+    - I see that store up town has one, can you go there?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: I want the top today really. I can go there myself straight away.
+  - Question: I want the top today really. I can go there myself straightaway.
     Answers:
-    - 'That''s great. I will ask them to reserve it for you so just ask for it. '
+    - 'Great. I will ask them to reserve one for you. '
     - Sure thing.
     - Great, they have few in stock.
     - ...
@@ -2907,7 +2821,7 @@ MonoBehaviour:
     confusedAnswer: 2
   - Question: Ok that's all. Thank you, bye!
     Answers:
-    - Ok, see you soon, bye!
+    - Ok, see you soon!
     - Have a nice day and see you soon!
     - Sure, bye!
     - ...
@@ -4309,9 +4223,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5903748456916559301}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4424529970669534404}
   wrongSound: {fileID: 6238905620026442578}
   happyResponse: {fileID: 4479205073798303811}
@@ -4499,8 +4410,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: 0.0022893113, y: 1.6814507, z: 0.118942335}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 1289136377318489030}
+  m_Children: []
   m_Father: {fileID: 2696815687334383982}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5112,9 +5022,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5903748456916559301}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4424529970669534404}
   wrongSound: {fileID: 6238905620026442578}
   happyResponse: {fileID: 4479205073798303811}
@@ -5360,9 +5267,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5903748456916559301}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4424529970669534404}
   wrongSound: {fileID: 6238905620026442578}
   happyResponse: {fileID: 4479205073798303811}

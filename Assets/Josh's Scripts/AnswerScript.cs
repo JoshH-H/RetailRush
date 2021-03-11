@@ -78,7 +78,8 @@ public class AnswerScript : MonoBehaviour
             happyResponse.SetActive(false);
             confusedResponse.SetActive(true);
             Invoke("confusedAnswer", 2);
-            
+            getAngry.material.SetFloat("_Angry", 0f);
+
             Debug.Log("score " + globalScore);
         }
 

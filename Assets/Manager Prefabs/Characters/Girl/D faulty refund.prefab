@@ -1280,9 +1280,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6887901035842562396}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4729810434220853234}
   wrongSound: {fileID: 3845341696616285018}
   happyResponse: {fileID: 4479205073798303811}
@@ -1912,88 +1909,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.009970546, y: -0.6003063, z: -0.05463636}
     m_Extent: {x: 0.41992474, y: 1.1664565, z: 0.30950028}
   m_DirtyAABB: 0
---- !u!1 &2776166716067116598
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1289136377318489030}
-  - component: {fileID: 7848192204593261143}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1289136377318489030
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2776166716067116598}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00229, y: 0.01925, z: -0.00205}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 4244322641072495579}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &7848192204593261143
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2776166716067116598}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -4376235197205053199, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.09, y: 0.65}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &2835164721344323237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,9 +3591,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6887901035842562396}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4729810434220853234}
   wrongSound: {fileID: 3845341696616285018}
   happyResponse: {fileID: 4479205073798303811}
@@ -3993,9 +3905,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6887901035842562396}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4729810434220853234}
   wrongSound: {fileID: 3845341696616285018}
   happyResponse: {fileID: 4479205073798303811}
@@ -4329,35 +4238,33 @@ MonoBehaviour:
   - Question: Hiya. I bought this dress last week and noticed it is faulty. The labels
       are still attached and everything...
     Answers:
-    - Hi! Really? So sorry. How is it faulty?
-    - Hi! I am so sorry to hear. Could you show me what's wrong with it please?
+    - Hi! Sorry to hear. How is it faulty?
+    - Hi! Sorry to hear. Can you show me what's wrong with it please?
     - Hi! What's wrong with it?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
-  - Question: I has a rip on the left seam. I was going to wear it out tonight!
+  - Question: It has a rip on the left seam. I was going to wear it out tonight!
     Answers:
-    - I see. I am so sorry for the inconvienience. Would you like to swap it for
-      a new one?
-    - Oh no, I am so sorry. If you get a new one from the rail I will swap it over
-      for you.
+    - I am sorry for the inconvinience. Would you prefer an exchange?
+    - So sorry I will exchange it.
     - I am sorry to see that. Are you sure you have not worn it yet?
     - ...
     CorrectAnswer: 0
-    confusedAnswer: 2
+    confusedAnswer: 1
   - Question: I just tried and noticed the rip. So upset... New one would be nice.
     Answers:
-    - Unfortunately I can not take this item back. It is not resellable condition.
-    - Ofcourse. I have a new one here to swap. Could I help with anything else today?
-    - Ofcourse, if you just bring me one you want I will do the exchange.
+    - Bring me one and I'll do it.
+    - Ofcourse. I will sort an exchange for you right away.
+    - Sure, bring me new one and I'll do the exchange.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Okey. That's all. Bye!
+  - Question: Okey then. That's all. Bye!
     Answers:
-    - Apologies again for the trouble. Have a lovely day and enjoy your dress tonight!
+    - Sorry again. Have a nice day anjoy your dress tonight!
     - Sorry again and hope to see you soon! Bye!
-    - Sorry about the trouble. Bye!
+    - Great, Bye!
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
@@ -4648,8 +4555,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: 0.0022893113, y: 1.6814507, z: 0.118942335}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 1289136377318489030}
+  m_Children: []
   m_Father: {fileID: 2696815687334383982}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5122,9 +5028,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6887901035842562396}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4729810434220853234}
   wrongSound: {fileID: 3845341696616285018}
   happyResponse: {fileID: 4479205073798303811}

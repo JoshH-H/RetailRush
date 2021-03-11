@@ -751,9 +751,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -2250,15 +2247,12 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
-  head: {fileID: 0}
+  head: {fileID: 6704231298854691440}
 --- !u!1 &4178558534845538899
 GameObject:
   m_ObjectHideFlags: 0
@@ -2780,9 +2774,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -3168,75 +3159,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: I want to know if you have these trousers in another colour? I saw
-      on the website that you have it in black.
+  - Question: Hi, I found this top on the 50% off sale section. So excited I love
+      it!
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hello. I am sorry to tell you that this is actually new collection. It must
+      of been misplaced.
+    - This top is not in sale.
+    - Hi, sorry but this top is actually full price.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: 'What? But I was so excited. It is not my fault it was put there! '
+    Answers:
+    - It's full price.
+    - I am so sorry about that. Unfotrunately anyone could have moved it there.
+    - I am sorry about that, but it is full price.
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Well that's just stupid. Anything you can do?
+    Answers:
+    - It's full price.
+    - Sorry there is not much I can do.
+    - For this top no. We are happy to help you to find something else?
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Thank you.
+    confusedAnswer: 1
+  - Question: Well I guess I will keep browsing then.
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - My colleague here will be happy to help you!
+    - Let me know when you are ready.
+    - Let us know if you need any help!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Oh... okay. Can you check the storage room maybe the system is faulty...
-    Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Did you find anything?
-    Answers:
-    - Unfortunately, the syustem was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 0
-  - Question: I'll just go, see ya.
-    Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 2
   options:
-  - {fileID: 4897804902806635623}
-  - {fileID: 1273480393917208901}
-  - {fileID: 3989378604433651095}
-  - {fileID: 6756729700686238159}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentQuestion: 0
-  QuestionTxt: {fileID: 2129780448024030834}
-  notification: {fileID: 4178558534845538899}
-  pannelUI: {fileID: 1605729432156873029}
-  countdownText: {fileID: 5796678518165778315}
+  QuestionTxt: {fileID: 0}
+  notification: {fileID: 0}
+  pannelUI: {fileID: 0}
+  countdownText: {fileID: 0}
   answerScript:
-  - {fileID: 1517255451522220986}
-  - {fileID: 4472214649802441539}
-  - {fileID: 7236028717775920675}
-  - {fileID: 1238086615153102356}
-  answerPannelsTL: {fileID: 4897804902806635623}
-  answerPannelsTR: {fileID: 1273480393917208901}
-  answerPannelsBL: {fileID: 3989378604433651095}
-  answerPannelsBR: {fileID: 6756729700686238159}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  answerPannelsTL: {fileID: 0}
+  answerPannelsTR: {fileID: 0}
+  answerPannelsBL: {fileID: 0}
+  answerPannelsBR: {fileID: 0}
   scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 5697132352874394310}
+  pathController: {fileID: 0}
 --- !u!1 &5925087471238854078
 GameObject:
   m_ObjectHideFlags: 0
@@ -3763,9 +3741,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreCorrectValue: 10
-  scoreWrongValue: 5
-  scoreConfusedValue: 5
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}

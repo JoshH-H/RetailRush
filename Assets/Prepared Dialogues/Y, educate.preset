@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Y, educate
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Question
+    value: Hi, I would like these black jeans but I am worried they will loose the
+      colour.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
+    value: Hi! Sure that is a common problem. I can tell you that these exact ones
+      won't wash out.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
+    value: Hi! I understand your concern. These jeans have mix of material that avoids
+      the washing out.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
+    value: Hi! All dark denim and clothing can wash out over time unfortunately.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Question
+    value: What if they still do fade afterall?
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
+    value: 'I mean I can not promise they won''t fade. '
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
+    value: If you follow the washing instructions they should be fine.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
+    value: All denim can have bit of fading over time. But if you use cold was and
+      avoid washing too much they should not.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Question
+    value: Okey I guess that would be fine. I am a bit unsure though.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
+    value: So far we have not had complaints of this matter. However if anything
+      happen you are welcome to ask for me.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
+    value: Nobody never returned these jeans because of that. I ensure they are fine.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
+    value: I promise you that they will not fade.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Question
+    value: Okey thank you. I will have them please.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
+    value: Great choice. All done for you. Have a nice day and see you soon!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
+    value: All done for you. Have a nice day!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
+    value: Sure, all done. Have a nice day and see you soon!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Question
+    value: That's it thanks.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[0]
+    value: Sweet, have a good one!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[1]
+    value: Ok, bye
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[2]
+    value: Bye
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].CorrectAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[4].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: options.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: currentQuestion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionTxt
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: notification
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pannelUI
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: countdownText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[1]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[2]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerScript.Array.data[3]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsTR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBL
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: answerPannelsBR
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: scoreManager
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: setTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: pathController
+    value: 
+    objectReference: {fileID: 0}

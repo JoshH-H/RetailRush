@@ -2267,35 +2267,34 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Hiya, can I refund this scarf please.
     Answers:
-    - Hello, sure of course. Did you see our new collection in case you would like
-      to exchange?
-    - Hey girl! Yes of course you can. Maybe an exchange instead? :)
-    - Hello, no problem! Did you consider an exchange?
+    - Hello, sure. Did you notice our new scarfs in case you preferred one of them?
+    - Hello, sure. Are you sure you would not like an exchange?
+    - Hello, you really did not find anything for an exchange?
     - ...
     CorrectAnswer: 0
-    confusedAnswer: 2
+    confusedAnswer: 1
   - Question: These scarfs from new collection are not my style. Sorry...
     Answers:
-    - Sure, so what's wrong with this then?
-    - No problem at all, may I ask why you want to refund this please?
+    - So what's wrong with this?
+    - No problem at all,  can I ask why you would like to refund this please?
     - It's alright, was something wrong with this one?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: No, I just don't like it anymore...
+  - Question: It does not match with anthing that I have.
     Answers:
     - Thank you, the refund will be received in 2-3 days. Anything else I could help
       you with?
-    - Hear you. I did the refund and it should come soon. Anything else?
-    - Thanks, it's done. Anything else you want?
+    - Sure, the refund is done. It will be received in few days.
+    - Thanks, it's done. Anything else for you?
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
-  - Question: It's alright. Thank you. Have a nice day!
+  - Question: That's all for today. Thanks though, have a nice day!
     Answers:
-    - Thank you!
-    - I hope of seeing you soon again!
-    - Great, see you later!
+    - Bye!
+    - Thank you, hope to see you soon!
+    - See you soon!
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
@@ -3341,9 +3340,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}
@@ -3606,9 +3602,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}
@@ -4968,9 +4961,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}
@@ -5170,9 +5160,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5214941033276478086}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
   happyResponse: {fileID: 2853091404939798272}

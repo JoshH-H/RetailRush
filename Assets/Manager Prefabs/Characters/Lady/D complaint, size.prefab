@@ -799,9 +799,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 248347293893501839}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6244801719493061236}
   wrongSound: {fileID: 4604789758254244912}
   happyResponse: {fileID: 5290052280913047876}
@@ -1035,9 +1032,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 248347293893501839}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6244801719493061236}
   wrongSound: {fileID: 4604789758254244912}
   happyResponse: {fileID: 5290052280913047876}
@@ -1655,9 +1649,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 248347293893501839}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6244801719493061236}
   wrongSound: {fileID: 4604789758254244912}
   happyResponse: {fileID: 5290052280913047876}
@@ -2122,7 +2113,7 @@ MonoBehaviour:
     Answers:
     - Hello Madam. Sorry about that. We have actually completely sold out of that
       top and all that is left is displayed.
-    - Hello Madam. They probably have just checked it and know we do not have it.
+    - Hello Madam. My staff knows what they are talking about.
     - Hello Madam. I apologise that this have happened. I will personally check this
       for you now.
     - ...
@@ -2140,19 +2131,17 @@ MonoBehaviour:
     confusedAnswer: 1
   - Question: I am sure there is some left. You are just not checking properly!
     Answers:
-    - I have double checked on our system and it does say 0 size 12 left. I am happy
-      to check for another store or take your details down to inform of next delivery?
-    - Sorry Madam, but we have not had this top in the stockroom for a while.
-    - As you can see here the system shows 0. Maybe other store?
+    - Here you can see our system, it says 0.
+    - I would know if we had any left, that top is a best seller.
+    - I have double checked. Maybe I can check other store for it?
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
   - Question: This is my closest store. I need it for the day after tomorrow!
     Answers:
-    - 'The store up town has one and it takes only 10 minutes in the bus. '
-    - The store up town has one. You can get it from there.
-    - 'The store up town has one. I can have it in this store for tomorrow. Is that
-      ok Madam? '
+    - The store up town has one. It is only a short bus drive away.
+    - The store up town has one for you.
+    - The store up town has one. It can be delivered here for tomorrow.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
@@ -4335,7 +4324,7 @@ GameObject:
   - component: {fileID: 7323907096563815135}
   - component: {fileID: 7323907096563815132}
   m_Layer: 0
-  m_Name: F Asking Directions Mad Small Lady Window
+  m_Name: D complaint, size
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5048,9 +5037,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 248347293893501839}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6244801719493061236}
   wrongSound: {fileID: 4604789758254244912}
   happyResponse: {fileID: 5290052280913047876}

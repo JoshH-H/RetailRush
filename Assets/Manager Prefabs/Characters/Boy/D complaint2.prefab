@@ -663,9 +663,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5278884476953291287}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7743462311212839408}
   wrongSound: {fileID: 2041329700273106072}
   happyResponse: {fileID: 259865766030621999}
@@ -898,8 +895,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: -0.0074006114, y: 1.5672996, z: 0.16126047}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 1091094702634366740}
+  m_Children: []
   m_Father: {fileID: 6322345801390786965}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1654,9 +1650,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5278884476953291287}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7743462311212839408}
   wrongSound: {fileID: 2041329700273106072}
   happyResponse: {fileID: 259865766030621999}
@@ -2090,88 +2083,6 @@ Transform:
   m_Father: {fileID: 3677584894733142179}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3776922377842298437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1091094702634366740}
-  - component: {fileID: 58375650899211170}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1091094702634366740
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3776922377842298437}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00236, y: 0.01987, z: -0.00136}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 5203526062890730272}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &58375650899211170
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3776922377842298437}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -4376235197205053199, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.09, y: 0.65}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &3893238890001533918
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,9 +2869,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5278884476953291287}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7743462311212839408}
   wrongSound: {fileID: 2041329700273106072}
   happyResponse: {fileID: 259865766030621999}
@@ -3253,23 +3161,23 @@ MonoBehaviour:
   - Question: I would like to refund this jacket please.
     Answers:
     - Hi! Are you sure you would not like an exchange?
-    - Hi! What about an exchange?
+    - What about an exchange?
     - Hi! Ofcourse. Did you have a look around for exchange at all?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 0
   - Question: Yeah I did, nothing I like. Can I just refund please.
     Answers:
-    - That's a shame. Can I just have a look at the jacket and the receipt please?
-    - Ok, give me the jacket and the receipt.
-    - Sure, Can I have the jacket and receipt please.
+    - That's a shame. Can I have the jacket and the receipt please?
+    - Ok, please give me the jacket and the receipt.
+    - I need the jacket and the receipt.
     - ...
     CorrectAnswer: 0
-    confusedAnswer: 2
+    confusedAnswer: 1
   - Question: Here you go. It just does not fit me very well afterall.
     Answers:
     - I can see there is some marks inside the jacket. Did you wear it?
-    - I see that you have removed the labels and it seems like it is been worn...
+    - I see that you have removed the labels and it seems a bit worn.
     - I can see that you have worn this jacket.
     - ...
     CorrectAnswer: 1
@@ -3278,20 +3186,20 @@ MonoBehaviour:
       me.
     Answers:
     - 'I am afraid that this is not in resellable condition. '
-    - I am sorry but I am unable to refund this.
+    - I am unable to refund this.
     - You can not bring this back.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 3
+    CorrectAnswer: 0
+    confusedAnswer: 1
   - Question: What I am supposed to do? It does not fit me!
     Answers:
-    - I apologise. Please make sure you never take the labels of or wear item out
-      until you are sure.
-    - I am very sorry about that.
-    - You should not remove the labels before sure of keeping it.
+    - I apologise. Please make sure not to wear an item out before you are sure to
+      keep it.
+    - 'I am sorry about this. '
+    - Do not wear items until you are sure of it.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 3
+    CorrectAnswer: 0
+    confusedAnswer: 1
   options:
   - {fileID: 6692346107608156670}
   - {fileID: 1048157167688553692}
@@ -3812,9 +3720,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 5278884476953291287}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7743462311212839408}
   wrongSound: {fileID: 2041329700273106072}
   happyResponse: {fileID: 259865766030621999}

@@ -731,9 +731,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}
@@ -1370,9 +1367,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}
@@ -1805,9 +1799,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}
@@ -2539,10 +2530,9 @@ MonoBehaviour:
     confusedAnswer: 0
   - Question: The level of service is simply terrible.
     Answers:
-    - I definetely want to ensure we offer the best level of service. Could you help
-      me with details please?
+    - I want to ensure we offer high quality service. Could you tell me more please?
     - I am sorry to hear, please tell me exactly what happened?
-    - Please give me more details of what you mean.
+    - Give me more details of what you mean.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
@@ -2561,13 +2551,13 @@ MonoBehaviour:
     Answers:
     - That is very unfortunate. Let me find another store that has it and get it
       delievered here for you for tomorrow.
-    - I am very sorry to hear that. We are receiving more nect week though, I wll
+    - I am very sorry to hear that. We are receiving more next week though, I wll
       reserve you one then.
     - That's a shame. Please check the store down the street, I think they have some.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
-  - Question: Ok then. Bye!
+  - Question: I guess that will have to do. Bye!
     Answers:
     - Thank you very much, I will be in touch soon as your top arrives.
     - Thank yo very much, see you soon!
@@ -3643,7 +3633,7 @@ GameObject:
   - component: {fileID: 6173207647272462679}
   - component: {fileID: 6173207647272462676}
   m_Layer: 0
-  m_Name: F Asking Directions Mad Small Lady
+  m_Name: D complaint, call back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4199,9 +4189,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 655492628112428611}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 7303525931872148024}
   wrongSound: {fileID: 569260956589327562}
   happyResponse: {fileID: 8746579347270355660}

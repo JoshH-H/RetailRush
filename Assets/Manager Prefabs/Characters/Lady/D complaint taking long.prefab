@@ -247,8 +247,7 @@ MonoBehaviour:
   - Question: Hi, I am very dissapointed of the level of service I have received
       today.
     Answers:
-    - Hello Madam. I want to ensure we offer the best level of service. Please tell
-      me more?
+    - Hello Madam. We wanr offer the best level of service. Please tell me more?
     - Hello Madam, sorry to hear, what happened?
     - Hello Madam. What happened?
     - ...
@@ -265,30 +264,21 @@ MonoBehaviour:
     confusedAnswer: 0
   - Question: I do not want to wait, I am in rush and want the top!
     Answers:
-    - The item you want is sold out.
-    - I contacted them, the top is sold out.
-    - I managed to contact them, they can not find the item you have requested and
-      is looking for a replacement.You should of been informed of this.
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: I do not want to wait, I am in rush and want the top!
-    Answers:
-    - The item you want is sold out.
-    - I contacted them, the top is sold out.
-    - I managed to contact them, they can not find the item you have requested and
-      is looking for a replacement.You should of been informed of this.
+    - We don't have the top.
+    - I am sorry to inform the top is sold out.
+    - The item is sold out and they are looking for a replacement.You should of been
+      informed of this.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
   - Question: Well tell them to hurry up, I have no time for this kind of non sense.
     Answers:
-    - I have asked them to rush back. I apologise again for the miscommunication.
     - I have asked them to hurry back.
+    - I have asked them to rush back. I apologise again for the miscommunication.
     - I am sure she will be back soon.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 0
   options:
   - {fileID: 0}
   - {fileID: 0}
@@ -856,9 +846,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 4112026171397846475}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
   happyResponse: {fileID: 5290052280913047876}
@@ -1934,9 +1921,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 4112026171397846475}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
   happyResponse: {fileID: 5290052280913047876}
@@ -2738,9 +2722,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 4112026171397846475}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
   happyResponse: {fileID: 5290052280913047876}
@@ -3783,9 +3764,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 4112026171397846475}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
   happyResponse: {fileID: 5290052280913047876}
@@ -4657,7 +4635,7 @@ GameObject:
   - component: {fileID: 7323907096563815135}
   - component: {fileID: 7323907096563815132}
   m_Layer: 0
-  m_Name: Small_Posh_Lady Window
+  m_Name: D complaint taking long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

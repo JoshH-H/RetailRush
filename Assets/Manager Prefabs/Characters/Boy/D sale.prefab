@@ -751,9 +751,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -2250,15 +2247,12 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
-  head: {fileID: 0}
+  head: {fileID: 6704231298854691440}
 --- !u!1 &4015709144030107886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,7 +2609,7 @@ GameObject:
   - component: {fileID: 5697132352874394311}
   - component: {fileID: 5697132352874394310}
   m_Layer: 0
-  m_Name: FF Boy_with_Glasses Window
+  m_Name: D sale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2863,9 +2857,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -3256,14 +3247,14 @@ MonoBehaviour:
     Answers:
     - Hello. I am sorry to tell you that this is actually new collection. It must
       of been misplaced.
-    - Hello, this top is not in sale.
+    - This top is not in sale.
     - Hi, sorry but this top is actually full price.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
   - Question: 'What? But I was so excited. It is not my fault it was put there! '
     Answers:
-    - I mean, anyone could have moved it.
+    - It's full price.
     - I am so sorry about that. Unfotrunately anyone could have moved it there.
     - I am sorry about that, but it is full price.
     - ...
@@ -3271,18 +3262,17 @@ MonoBehaviour:
     confusedAnswer: 2
   - Question: Well that's just stupid. Anything you can do?
     Answers:
-    - No I can not do anything, it is full price.
+    - It's full price.
     - Sorry there is not much I can do.
-    - I can not offer anything for this top no. But we are happy to help you to find
-      something else?
+    - For this top no. We are happy to help you to find something else?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
   - Question: Well I guess I will keep browsing then.
     Answers:
     - My colleague here will be happy to help you!
-    - Cool, let me know when you are ready.
-    - Sure, just let us know if you need any help!
+    - Let me know when you are ready.
+    - Let us know if you need any help!
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
@@ -3835,9 +3825,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}

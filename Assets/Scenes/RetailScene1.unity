@@ -909,7 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 892b7c42564583e488667c01c7851dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerScore: -5
+  playerScore: 30
   maximum: 200
   mask: {fileID: 1326956452}
   scoreSystem: {fileID: 1336068450}
@@ -3107,7 +3107,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 0
+  m_FillAmount: 0.15
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0

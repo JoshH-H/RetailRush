@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Youn person refund to exchange
+  m_Name: Y, 50% off
   m_TargetType:
     m_NativeTypeID: 114
     m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
@@ -31,7 +31,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Question
-    value: Hiya, can I refund this sweater please.
+    value: Hi, I found this top on the 50% off sale section. So excited I love it!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
@@ -39,17 +39,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
-    value: Hello, sure ofcourse. Did you see our new collection in case you would
-      like to exchange?
+    value: Hello. I am sorry to tell you that this is actually new collection. It
+      must of been misplaced.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
-    value: Hello hun, sure ofcourse. Did you see our new collection in case you would
-      like to exchange?
+    value: This top is not in sale.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
-    value: Hello, ofcourse. Did you consider an exchange?
+    value: Hi, sorry but this top is actually full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
@@ -65,7 +64,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Question
-    value: 'Yeah I did not see anything else I like. '
+    value: 'What? But I was so excited. It is not my fault it was put there! '
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
@@ -73,15 +72,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
-    value: Sure, so what's wrong with this then?
+    value: It's full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
-    value: Sure, may I ask why you want to refund this please?
+    value: I am so sorry about that. Unfotrunately anyone could have moved it there.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
-    value: Sure, was something wrong with this one?
+    value: I am sorry about that, but it is full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
@@ -97,7 +96,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Question
-    value: Nothing wrong but it did not fit like I expected.
+    value: Well that's just stupid. Anything you can do?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
@@ -105,16 +104,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
-    value: 'Thank you, this one is slightly oversized style so you might of needed
-      one size down. '
+    value: It's full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
-    value: Hear you. Yeah the fit is a bit funny, other size coul help.
+    value: Sorry there is not much I can do.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
-    value: Thanks, maybe you could try other size?
+    value: For this top no. We are happy to help you to find something else?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
@@ -122,15 +120,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].CorrectAnswer
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
     value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Question
-    value: Hmm... I did not think of that. I would not mind to give it a go.
+    value: Well I guess I will keep browsing then.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
@@ -138,16 +136,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
-    value: Great, let me know if it is better!
+    value: My colleague here will be happy to help you!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
-    value: Glad to hear, my colleague here will help you to get the right size, please
-      let me know how it goes!
+    value: Let me know when you are ready.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
-    value: Great, they are right there. Let me know how it goes!
+    value: Let us know if you need any help!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
@@ -155,7 +152,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer

@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Young, check stock
+  m_Name: M, educate
   m_TargetType:
     m_NativeTypeID: 114
     m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
@@ -31,7 +31,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Question
-    value: What's up. I want this top but it has a mark on it.
+    value: Hi. I got this top and it have shrunk just after one wash!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
@@ -39,15 +39,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
-    value: Hello, is that the last one?
+    value: Hello Sir. Did you wash it correctly?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
-    value: Hi Madam! Sorry to see that. DId you already ask if it is the last one?
+    value: Hello Sir. I am very sorry about that. May I ask how it is been washed?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
-    value: Hi! DId you already ask if it is the last one?
+    value: Hello Sir. You must have washed it wrong.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
@@ -55,15 +55,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
     value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Question
-    value: Yeah that staff member told me there is no more. What can you do?
+    value: I wash it like any of my clothes. Just the normal cycle.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
@@ -71,16 +71,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
-    value: I could offer you a faulty discount but let me first see if other store
-      has any.
+    value: I understand. Unfortunately this top is 100% cotton and should be washed
+      in cold wash or it shrinks. See this label here.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
-    value: I'm sure you do not want to buy a faulty top.
+    value: This top is cotton and can not be washed over 30 degrees.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
-    value: Let me check if other store has it.
+    value: You can not wash all your clothes in same degrees.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
@@ -92,11 +92,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
-    value: 2
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Question
-    value: Thanks. Yeah I would prefer a fresh one...
+    value: No thanks. I just want to return this please.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
@@ -104,16 +104,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
-    value: Maybe you can check the store up town?
+    value: No problem, just so you know, your refund could take a few days to show
+      up.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
-    value: I see that store up town has it. Would you prefer to collect or have it
-      delivered here for tomorrow?
+    value: That's fine I can issue that refund for you.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
-    value: I see that store up town has one, I will have it delivered here for tomorrow.
+    value: '*sigh* Fine. I''ll do the refund for you.'
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
@@ -125,11 +125,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
-    value: 2
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Question
-    value: I want the top today really. I can go there myself straight away.
+    value: That's just fancy talk. Why nobody told me?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
@@ -137,16 +137,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
-    value: 'That''s great. I will ask them to reserve it for you so just ask for
-      it. '
+    value: Please always check the label before washing.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
-    value: Sure thing.
+    value: I am sorry nobody advised you. I recommend to ask for instructions in
+      future.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
-    value: Great, they have few in stock.
+    value: It is up to you to follow the instructions.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
@@ -154,15 +154,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
-    value: 2
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[4].Question
-    value: Ok that's all. Thank you, bye!
+    value: Ok then.. Thanks for your time.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.size
@@ -170,15 +170,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[0]
-    value: Ok, see you soon, bye!
+    value: Have a nice day, see you soon!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[1]
-    value: Have a nice day and see you soon!
+    value: Never hesitate to ask for help! Have a nice day and see you soon!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[2]
-    value: Sure, bye!
+    value: See you, bye!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[3]

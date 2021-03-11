@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Young, educate
+  m_Name: Y, refund to exchange
   m_TargetType:
     m_NativeTypeID: 114
     m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
@@ -27,12 +27,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.size
-    value: 5
+    value: 4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Question
-    value: Hi, I would like these black jeans but I am worried they will loose the
-      colour.
+    value: Hiya, can I refund this sweater please.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
@@ -40,17 +39,17 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
-    value: Hi! Sure that is a common problem. I can tell you that these exact ones
-      won't wash out.
+    value: Hello, sure ofcourse. Did you see our new collection in case you would
+      like to exchange?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
-    value: Hi! I understand your concern. These jeans have mix of material that avoids
-      the washing out.
+    value: Hello hun, sure ofcourse. Did you see our new collection in case you would
+      like to exchange?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
-    value: Hi! All dark denim and clothing can wash out over time unfortunately.
+    value: Hello, ofcourse. Did you consider an exchange?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
@@ -58,15 +57,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Question
-    value: What if they still do fade afterall?
+    value: 'Yeah I did not see anything else I like. '
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
@@ -74,16 +73,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
-    value: 'I mean I can not promise they won''t fade. '
+    value: Sure, so what's wrong with this then?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
-    value: If you follow the washing instructions they should be fine.
+    value: Sure, may I ask why you want to refund this please?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
-    value: All denim can have bit of fading over time. But if you use cold was and
-      avoid washing too much they should not.
+    value: Sure, was something wrong with this one?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
@@ -95,11 +93,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
-    value: 0
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Question
-    value: Okey I guess that would be fine. I am a bit unsure though.
+    value: Nothing wrong but it did not fit like I expected.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
@@ -107,16 +105,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
-    value: So far we have not had complaints of this matter. However if anything
-      happen you are welcome to ask for me.
+    value: 'Thank you, this one is slightly oversized style so you might of needed
+      one size down. '
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
-    value: Nobody never returned these jeans because of that. I ensure they are fine.
+    value: Hear you. Yeah the fit is a bit funny, other size coul help.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
-    value: I promise you that they will not fade.
+    value: Thanks, maybe you could try other size?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
@@ -128,11 +126,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
-    value: 1
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Question
-    value: Okey thank you. I will have them please.
+    value: Hmm... I did not think of that. I would not mind to give it a go.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
@@ -140,15 +138,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
-    value: Great choice. All done for you. Have a nice day and see you soon!
+    value: Great, let me know if it is better!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
-    value: All done for you. Have a nice day!
+    value: Glad to hear, my colleague here will help you to get the right size, please
+      let me know how it goes!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
-    value: Sure, all done. Have a nice day and see you soon!
+    value: Great, they are right there. Let me know how it goes!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
@@ -156,43 +155,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
     value: 2
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].Question
-    value: That's it thanks.
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.size
-    value: 4
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[0]
-    value: Sweet, have a good one!
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[1]
-    value: Ok, bye
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[2]
-    value: Bye
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].Answers.Array.data[3]
-    value: ...
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].CorrectAnswer
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: QuestionsNAnswers.Array.data[4].confusedAnswer
-    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: options.Array.size

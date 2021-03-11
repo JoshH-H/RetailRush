@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Madam, silk top
+  m_Name: 50%.2
   m_TargetType:
     m_NativeTypeID: 114
     m_ManagedTypePPtr: {fileID: 11500000, guid: 0a17733c7122c0d478ee83a44edb26c4,
@@ -27,11 +27,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.size
-    value: 3
+    value: 4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Question
-    value: Hello, can I have this silk top please.
+    value: Hello, these trousers were on the sale rail. Love them!
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.size
@@ -39,15 +39,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[0]
-    value: Hello Madam. Sure you can.
+    value: Hello. I am sorry to tell you that these are actually new collection.
+      It must of been misplaced.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[1]
-    value: Hello Madam. Sure, just this?
+    value: These trousers are not in sale.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[2]
-    value: Hello Madam. Ofcourse! I love silk tops, so elegant.
+    value: Hi, sorry but these trousers are actually full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].Answers.Array.data[3]
@@ -55,15 +56,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].CorrectAnswer
-    value: 2
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[0].confusedAnswer
-    value: 1
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Question
-    value: I love the feel of silk. Here's my card.
+    value: What? Why would they be in the sale rail then! I want the sale price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.size
@@ -71,15 +72,15 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[0]
-    value: Definetely, remember to treat it with care.
+    value: They are full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[1]
-    value: I agree. Remember that this should be dry clean only.
+    value: I am sorry, but anyone could have placed them there.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[2]
-    value: Yes silk can be considered good for your skin too!
+    value: I am sorry about that, but they are full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].Answers.Array.data[3]
@@ -91,11 +92,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[1].confusedAnswer
-    value: 0
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Question
-    value: Thank you, have a nice day!
+    value: Well that's just stupid. Anything you can do?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.size
@@ -103,15 +104,16 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[0]
-    value: Thanks, take care!
+    value: They are full price.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[1]
-    value: Thank you, hope to see you soon!
+    value: Sorry there is not much I can do. Please check the sale again.
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[2]
-    value: Thankyou and have a nice day Madam. See you soon!
+    value: For these no. I know there is similar sale ones in the stockroom, can
+      I show you?
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].Answers.Array.data[3]
@@ -124,6 +126,38 @@ Preset:
   - target: {fileID: 0}
     propertyPath: QuestionsNAnswers.Array.data[2].confusedAnswer
     value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Question
+    value: Well I guess I will keep browsing then.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[0]
+    value: My colleague here will be happy to help you!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[1]
+    value: Let me know when you are ready.
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[2]
+    value: Let us know if you need any help!
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].Answers.Array.data[3]
+    value: ...
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].CorrectAnswer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: QuestionsNAnswers.Array.data[3].confusedAnswer
+    value: 2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: options.Array.size

@@ -751,9 +751,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -2250,15 +2247,12 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
-  head: {fileID: 0}
+  head: {fileID: 6704231298854691440}
 --- !u!1 &4015709144030107886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,7 +2609,7 @@ GameObject:
   - component: {fileID: 5697132352874394311}
   - component: {fileID: 5697132352874394310}
   m_Layer: 0
-  m_Name: FF Asking about an Item Window
+  m_Name: D refund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2864,9 +2858,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}
@@ -3252,42 +3243,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hiya, can I refund this sweater please.
+  - Question: Can I have this top please, excited to see it is marked down to 10!
     Answers:
-    - Hello, sure ofcourse. Did you see our new collection in case you would like
-      to exchange?
-    - Hello hun, sure ofcourse. Did you see our new collection in case you would
-      like to exchange?
-    - Hello, ofcourse. Did you consider an exchange?
+    - Hi, this item is not meant to be marked down.
+    - Hi, this is actually not in sale. Sorry.
+    - Hi, I am afraid this is actually new colletion. The sticker must of been misplaced.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
-  - Question: 'Yeah I did not see anything else I like. '
+    CorrectAnswer: 2
+    confusedAnswer: 1
+  - Question: What so you gonna make me pay full price? I want it on the marked price!
     Answers:
-    - Sure, so what's wrong with this then?
-    - Sure, may I ask why you want to refund this please?
-    - Sure, was something wrong with this one?
+    - I am sorry but this is full price item.
+    - I understand, but I am afraid anyone could have moved the sticker. I am sorry.
+    - How could I know if you put the sticker there yourself?
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 2
-  - Question: Nothing wrong but it did not fit like I expected.
+    confusedAnswer: 0
+  - Question: That is ridiculous. I will leave it then.
     Answers:
-    - 'Thank you, this one is slightly oversized style so you might of needed one
-      size down. '
-    - Hear you. Yeah the fit is a bit funny, other size coul help.
-    - Thanks, maybe you could try other size?
+    - I am sorry to hear. We do have something similar in the sale though. Would
+      you like to see?
+    - I am sorry to hear, maybe check the sale again?
+    - Are you sure?
     - ...
     CorrectAnswer: 0
-    confusedAnswer: 2
-  - Question: Hmm... I did not think of that. I would not mind to give it a go.
+    confusedAnswer: 1
+  - Question: Ok I guess another look around would not hurt.
     Answers:
-    - Great, let me know if it is better!
-    - Glad to hear, my colleague here will help you to get the right size, please
-      let me know how it goes!
-    - Great, they are right there. Let me know how it goes!
+    - Great, let me know how it goes!
+    - Sure thing!
+    - Great, my colleague here will help you.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 0
   options:
   - {fileID: 4897804902806635623}
   - {fileID: 1273480393917208901}
@@ -3836,9 +3824,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6225628046646896526}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8381708245843082345}
   wrongSound: {fileID: 248753801874153729}
   happyResponse: {fileID: 2070732540990009526}

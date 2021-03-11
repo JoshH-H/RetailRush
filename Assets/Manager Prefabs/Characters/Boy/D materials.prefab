@@ -652,9 +652,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -3526,88 +3523,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &6851069734473291390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1969811750607628775}
-  - component: {fileID: 366099751713805618}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1969811750607628775
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6851069734473291390}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00238, y: 0.02003, z: -0.00136}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 2627531578248115883}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &366099751713805618
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6851069734473291390}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 3455200026851931232, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.5137255}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.22, y: 0.97}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &6874457598036975425
 GameObject:
   m_ObjectHideFlags: 0
@@ -3901,9 +3816,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -3957,48 +3869,38 @@ MonoBehaviour:
   - Question: Hi, I would like these black jeans but I am worried they will loose
       the colour.
     Answers:
-    - Hi! Sure that is a common problem. I can tell you that these exact ones won't
-      wash out.
+    - Hi! Sure that is a common problem.These won't wash out.
     - Hi! I understand your concern. These jeans have mix of material that avoids
       the washing out.
-    - Hi! All dark denim and clothing can wash out over time unfortunately.
+    - Hi! All denim washes out.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
   - Question: What if they still do fade afterall?
     Answers:
-    - 'I mean I can not promise they won''t fade. '
-    - If you follow the washing instructions they should be fine.
-    - All denim can have bit of fading over time. But if you use cold was and avoid
-      washing too much they should not.
+    - I can not promise they won't fade.
+    - Wash them right, they will be fine.
+    - All denim can fade over time, but if you use cold wash they should not.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Okey I guess that would be fine. I am a bit unsure though.
     Answers:
-    - So far we have not had complaints of this matter. However if anything happen
-      you are welcome to ask for me.
-    - Nobody never returned these jeans because of that. I ensure they are fine.
-    - I promise you that they will not fade.
+    - We have not had complaints of this, but if anything happen you can ask for
+      me.
+    - Then come back to us and we will help.
+    - They will be fine, just get them.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
   - Question: Okey thank you. I will have them please.
     Answers:
     - Great choice. All done for you. Have a nice day and see you soon!
-    - All done for you. Have a nice day!
-    - Sure, all done. Have a nice day and see you soon!
+    - Done. Bye!
+    - All done, hope to see you soon!
     - ...
     CorrectAnswer: 0
     confusedAnswer: 2
-  - Question: That's it thanks.
-    Answers:
-    - Sweet, have a good one!
-    - Ok, bye
-    - Bye
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
   options:
   - {fileID: 6992342369477336748}
   - {fileID: 8795035562470662637}
@@ -4681,9 +4583,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -4997,9 +4896,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 1594958575955438982}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 4412951343127138037}
   wrongSound: {fileID: 5509392689250727331}
   happyResponse: {fileID: 5955714415343981103}
@@ -5033,8 +4929,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: -0.009405428, y: 1.5784069, z: 0.16494004}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 1969811750607628775}
+  m_Children: []
   m_Father: {fileID: 4322612783877979166}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

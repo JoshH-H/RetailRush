@@ -233,8 +233,7 @@ Transform:
   m_LocalRotation: {x: 0.058809973, y: 0.9982692, z: 0.000000019247201, w: 0.000000044921066}
   m_LocalPosition: {x: 0.002289333, y: 1.6606839, z: 0.11864078}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children:
-  - {fileID: 1568407610420658161}
+  m_Children: []
   m_Father: {fileID: 5164725097175529383}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2799,88 +2798,6 @@ Transform:
   m_Father: {fileID: 6971258711345073789}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5993841378402839284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1568407610420658161}
-  - component: {fileID: 5917130649349240004}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1568407610420658161
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5993841378402839284}
-  m_LocalRotation: {x: 0.00018490144, y: 0.0015636334, z: -0.08631931, w: 0.99626625}
-  m_LocalPosition: {x: 0.00244, y: 0.02058, z: -0.00183}
-  m_LocalScale: {x: 0.0014161192, y: 0.0014161183, z: 0.0014161188}
-  m_Children: []
-  m_Father: {fileID: 6352069423942302994}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0.016, y: -179.82, z: -3.1610003}
---- !u!212 &5917130649349240004
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5993841378402839284}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -1741780472338688495, guid: 790d3466149ab774f87834ec3edff2a4,
-    type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.62, y: 1.18}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &6132847637926703145
 GameObject:
   m_ObjectHideFlags: 0
@@ -4008,9 +3925,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6119771601660087286}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8714664702982451562}
   wrongSound: {fileID: 1375451655268884610}
   happyResponse: {fileID: 3628092045103899103}
@@ -4127,59 +4041,51 @@ MonoBehaviour:
   - Question: Hello! Can I redeem my gift card I got a year ago, I would like to
       use it for this top...
     Answers:
-    - Hey, Yeah of course. Can you pass me the gift card?
-    - Hi, I'm a bit busy, but I guess I can help you. Can you give me the card?
-    - Hi there! It would be my pleasure to help you with that. May I see the gift
-      voucher please?
+    - Hi! Sure, I just need the card please.
+    - Hi. I need the gift card.
+    - Hi! Would be my pleasure to help. Can I have the giftcard please?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Here you go...
+  - Question: Here you go. Got it as a Christmas present.
     Answers:
-    - Thank you! Bear with me for a moment... I am truly sorry but I cannot authorise
-      the purchase, because the gift card has expired last week.
-    - Thanks! One second... Sorry, but the card has expired and cannot be used.
-    - Thanks... Oh... I see the card is expired. Sorry, but I can't accept it
+    - Thank you. I am truly sorry but gift card has expired last week.
+    - Thanks. This gift card is expired.
+    - Thanks. This is not valid.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 0
+    confusedAnswer: 1
   - Question: 'What do you mean? So what do we do now can''t you just extend the
       expiry day? '
     Answers:
-    - Unfortunately, this is not possible at this moment, because I do not have the
-      authority to do that, However I can call the manager, and they will gladly
-      help you...
-    - Sorry I can't do that, but I will call the manager for you.
-    - No, I can't, but my manager can. One second... I'm gonna call for them.
+    - I will ask for a manager.
+    - I am not authorised to do that. You need to ask the manager.
+    - Unfortunately I am not authorised to, I will happily ask the manager though.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 2
+  - Question: Oh ok then. Can they do it for me then?
+    Answers:
+    - I am afraid my manager have just gone for a meeting. They will be back in an
+      hour.
+    - Sorry my manager is not here, can you check back later?
+    - Sorry my manager is not available.
+    - ...
+    CorrectAnswer: 0
+    confusedAnswer: 1
+  - Question: Why can't you do it? I would prefer to get this sorted now.
+    Answers:
+    - I am sorry but I can not do anything.
+    - I am sorry for the inconvinience. Unfortunately this can be done only by manager.
+    - I am sorry but I would need my manager.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: So.... What happened?
+    confusedAnswer: 2
+  - Question: 'Well I guess I will have to come back then. '
     Answers:
-    - Sorry, my manager has left the store for now and they will be back later today,
-      can you please come later?
-    - 'Sorry, but the manager is not here, can you come later? '
-    - Unfortunately, the manager has left for the meeting today, and will be back
-      in about three to four hours. Would you mind coming a little bit later?
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
-  - Question: Why can't you do it?
-    Answers:
-    - 'I am deeply sorry, but like I mentioned earlier I have no authority extending
-      expiry dates on gift cards. It would be amazing if you could come in in a few
-      hours, I am certain my manager will help you. '
-    - I am so sorry about the inconvenience but I'm not allowed to do this, can you
-      please come later?
-    - Sorry, but I can't do anything.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
-  - Question: Hmm... I guess Ill come later when your manager is here. Bye.
-    Answers:
-    - Thank you, see ya later!
-    - Thank you so much, I hope of seeing you soon again!
-    - See ya!
+    - Thanks see you later then.
+    - Thank you for your patience, they will be back after an hour.
+    - See you!
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
@@ -4430,9 +4336,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6119771601660087286}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8714664702982451562}
   wrongSound: {fileID: 1375451655268884610}
   happyResponse: {fileID: 3628092045103899103}
@@ -4685,9 +4588,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6119771601660087286}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8714664702982451562}
   wrongSound: {fileID: 1375451655268884610}
   happyResponse: {fileID: 3628092045103899103}
@@ -5101,9 +5001,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 6119771601660087286}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 8714664702982451562}
   wrongSound: {fileID: 1375451655268884610}
   happyResponse: {fileID: 3628092045103899103}

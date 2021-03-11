@@ -469,9 +469,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 8786706939692197881}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 5675322131673854002}
   wrongSound: {fileID: 5723828835207095750}
   happyResponse: {fileID: 6181045935555501544}
@@ -950,9 +947,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 8786706939692197881}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 5675322131673854002}
   wrongSound: {fileID: 5723828835207095750}
   happyResponse: {fileID: 6181045935555501544}
@@ -2485,44 +2479,41 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Hi, I got this coat and the inseam is ripped within the first months!
     Answers:
-    - Hello Madam. I am very sorry to see that. Do you still have the receipt?
-    - Hello Madam. Sorry about that, can I have the receipt?
-    - Hello Madam. Do you have the receipt?
+    - Hello Madam. I am sorry to see that. Do you still have the receipt?
+    - Hello Madam. Can I have the receipt please?
+    - Hello Madam. I need the receipt.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
   - Question: No, I did not think I needed it. I really liked this coat.
     Answers:
-    - I see. Did you happen to pay by card?
+    - I see, how did you pay?
     - Ok. I can not do much without a receipt.
-    - I understand. This is clearly a fault. May I ask what payment method you used?
+    - I understand. May I ask what payment method you used?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 0
-  - Question: Yes, but my husband bought it for me.
+  - Question: It was paid by card, but my husband bought it for me.
     Answers:
     - Can you get the card details and date?
-    - I see. If you can find out the card number for me and rough date I will find
-      the transaction.
+    - Could you find out the card number and a rough date. I can then find the transaction.
     - Please ask him to come here with the card.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 0
   - Question: I can get you the details and it was around this time two months ago.
     Answers:
-    - 'Thank you for that! Without him here I am afraid I can only offer an exchange
-      if you want it done today? '
-    - Thank you. I can offer you an exchange.
-    - If he comes down we can issue a refund.
+    - Thank you for that! Without him here I am afraid I can only offer an exchange?
+    - Thank you. I can do an exchange.
+    - He needs to be here for a refund.
     - ...
     CorrectAnswer: 0
     confusedAnswer: 1
   - Question: Okey that's fine then. I will have a browse.
     Answers:
     - Sure that's fine.
-    - Sure, my colleague here can help you, I will let you know when eveyrthing is
-      ready for you.
-    - Great, I will let you know when everything is ready.
+    - Sure, my colleague here can help you!
+    - Great, let me know when you are ready.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
@@ -3440,9 +3431,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 8786706939692197881}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 5675322131673854002}
   wrongSound: {fileID: 5723828835207095750}
   happyResponse: {fileID: 6181045935555501544}
@@ -3869,9 +3857,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 8786706939692197881}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 5675322131673854002}
   wrongSound: {fileID: 5723828835207095750}
   happyResponse: {fileID: 6181045935555501544}
