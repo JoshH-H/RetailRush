@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 7cb702a62c619904780289bb6e60debb
+guid: bce9ba1cdb0e3e14fa8367baaa4a5f32
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6012165401644658356
-    second: UIitems_0
+      213: 1344117907316841086
+    second: text_box_0
   - first:
-      213: 4264175014692172341
-    second: UIitems_1
+      213: 6018806774223131800
+    second: text_box_1
   - first:
-      213: 8849235258620980021
-    second: UIitems_2
+      213: -4273418824829859616
+    second: text_box_2
   - first:
-      213: -576805932687373980
-    second: UIitems_3
+      213: 7076273355107891433
+    second: text_box_3
+  - first:
+      213: -1033694754338608148
+    second: text_box_4
+  - first:
+      213: -4382725466610889219
+    second: text_box_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -99,85 +105,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UIitems_0
+      name: text_box_0
       rect:
         serializedVersion: 2
-        x: 121
-        y: 908
-        width: 980
-        height: 417
+        x: 21
+        y: 712
+        width: 435
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c419318cb6f709ca0800000000000000
-      internalID: -6012165401644658356
+      spriteID: e7a9cd18d1447a210800000000000000
+      internalID: 1344117907316841086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIitems_1
+      name: text_box_1
       rect:
         serializedVersion: 2
-        x: 1297
-        y: 1051
-        width: 205
-        height: 235
+        x: 506
+        y: 712
+        width: 445
+        height: 257
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 532b2d255946d2b30800000000000000
-      internalID: 4264175014692172341
+      spriteID: 894d8454fd8178350800000000000000
+      internalID: 6018806774223131800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIitems_2
+      name: text_box_2
       rect:
         serializedVersion: 2
-        x: 1735
-        y: 1077
-        width: 215
-        height: 218
+        x: 6
+        y: 381
+        width: 457
+        height: 294
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53b27fb159cceca70800000000000000
-      internalID: 8849235258620980021
+      spriteID: 0e88c896834c1b4c0800000000000000
+      internalID: -4273418824829859616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: UIitems_3
+      name: text_box_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 84
-        width: 1306
-        height: 747
+        x: 501
+        y: 377
+        width: 452
+        height: 298
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 469c4dd6f06cef7f0800000000000000
-      internalID: -576805932687373980
+      spriteID: 9e874c0ff19f33260800000000000000
+      internalID: 7076273355107891433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: text_box_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 56
+        width: 259
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb6671091497a1f0800000000000000
+      internalID: -1033694754338608148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: text_box_5
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 52
+        width: 277
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd8996a86e6d23c0800000000000000
+      internalID: -4382725466610889219
       vertices: []
       indices: 
       edges: []
@@ -185,7 +233,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: e37f8a1898e908c499f57284cfc3d617
     internalID: 0
     vertices: []
     indices: 
