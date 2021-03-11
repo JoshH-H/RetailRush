@@ -1108,9 +1108,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 3113222154942634761}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
   happyResponse: {fileID: 5761302866784065433}
@@ -1389,9 +1386,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 3113222154942634761}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
   happyResponse: {fileID: 5761302866784065433}
@@ -1561,9 +1555,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 3113222154942634761}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
   happyResponse: {fileID: 5761302866784065433}
@@ -2201,6 +2192,7 @@ GameObject:
   - component: {fileID: 2976130538840099246}
   - component: {fileID: 3370926221963957100}
   - component: {fileID: 3370926221963957107}
+  - component: {fileID: 719258360382900150}
   m_Layer: 0
   m_Name: F No Cash policy Tall Posh LAdy
   m_TagString: Untagged
@@ -2289,6 +2281,103 @@ MonoBehaviour:
   questionManager: {fileID: 3113222154942634761}
   QM: {fileID: 247801552971142484}
   questionPannels: {fileID: 6296458997790631621}
+  Walking: {fileID: 719258360382900150}
+--- !u!82 &719258360382900150
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451794761518011156}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3132484620142462565
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,9 +4967,6 @@ MonoBehaviour:
   isCorrect: 0
   isConfused: 0
   questionManager: {fileID: 3113222154942634761}
-  scoreManager: {fileID: 0}
-  scoreCorrectValue: 0
-  scoreWrongValue: 0
   correctSound: {fileID: 6054749476187387575}
   wrongSound: {fileID: 4658737541206557610}
   happyResponse: {fileID: 5761302866784065433}

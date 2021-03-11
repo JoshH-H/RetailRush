@@ -1844,27 +1844,27 @@ MonoBehaviour:
     CorrectAnswer: 0
     confusedAnswer: 2
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1202031223191515148}
+  - {fileID: 1229266534633903368}
+  - {fileID: 3433257057667383140}
+  - {fileID: 8362178966133327923}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 0}
-  pannelUI: {fileID: 0}
-  countdownText: {fileID: 0}
+  QuestionTxt: {fileID: 9105698812267239366}
+  notification: {fileID: 6247092190566948136}
+  pannelUI: {fileID: 531311518040778127}
+  countdownText: {fileID: 1289996154156979961}
   answerScript:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  answerPannelsTL: {fileID: 0}
-  answerPannelsTR: {fileID: 0}
-  answerPannelsBL: {fileID: 0}
-  answerPannelsBR: {fileID: 0}
+  - {fileID: 1870461824353861039}
+  - {fileID: 4250888707195784141}
+  - {fileID: 4045888941211143463}
+  - {fileID: 6366970960200458348}
+  answerPannelsTL: {fileID: 1202031223191515148}
+  answerPannelsTR: {fileID: 1229266534633903368}
+  answerPannelsBL: {fileID: 3433257057667383140}
+  answerPannelsBR: {fileID: 8362178966133327923}
   scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 4275842550898509528}
 --- !u!1 &2598668796148008442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2981,6 +2981,7 @@ GameObject:
   - component: {fileID: 4385487168148891181}
   - component: {fileID: 4275842550898509531}
   - component: {fileID: 4275842550898509528}
+  - component: {fileID: -7897332478052030527}
   m_Layer: 0
   m_Name: F Asking about an Item Lady Window
   m_TagString: Untagged
@@ -3069,6 +3070,103 @@ MonoBehaviour:
   questionManager: {fileID: 654147299046874159}
   QM: {fileID: 2502627715652216435}
   questionPannels: {fileID: 531311518040778127}
+  Walking: {fileID: -7897332478052030527}
+--- !u!82 &-7897332478052030527
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005866057284467863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 16
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4103908568640499554
 GameObject:
   m_ObjectHideFlags: 0

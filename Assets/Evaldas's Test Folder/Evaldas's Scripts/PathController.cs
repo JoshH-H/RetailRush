@@ -35,6 +35,9 @@ public class PathController : MonoBehaviour
     [SerializeField] QuestionManager questionManager;
     [SerializeField] GameObject QM;
     [SerializeField] GameObject questionPannels;
+
+    [Header("Audio")]
+    [SerializeField] AudioSource Walking;
     void Start()
     {
         QM.SetActive(false);
@@ -75,6 +78,8 @@ public class PathController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+            
 
         float movementStep = MovementSpeed * Time.deltaTime;
         float rotationStep = RotationSpeed * Time.deltaTime;
@@ -118,10 +123,28 @@ public class PathController : MonoBehaviour
 
         if (DoneTalking == true || Input.GetKeyDown("q"))
         {
+            Walking.Play();
             System.Array.Reverse(Waypoints);
             targetWaypointIndex = 0;
             CanBeDestroyed = true;
             DoneTalking = false;
+            
+        }
+
+        //if (BetaTest.GetComponent<Animator>().GetBool("IsWalking") == true)
+        //{
+        //    Walking.Play();
+        //    print(BetaTest.GetComponent<Animator>().GetBool("IsWalking"));
+        //}
+        if (BetaTest.GetComponent<Animator>().GetBool("IsWalking") == true && Walking.isPlaying == false)
+        {
+            Walking.Play();
+            print(BetaTest.GetComponent<Animator>().GetBool("IsWalking"));
+        }
+        if (BetaTest.GetComponent<Animator>().GetBool("IsWalking") == false && Walking.isPlaying == true)
+        {
+            Walking.Stop();
+            print(BetaTest.GetComponent<Animator>().GetBool("IsWalking"));
         }
 
         if (CanBeDestroyed == true && targetWaypointIndex == lastWaypointIndex)
