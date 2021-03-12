@@ -809,7 +809,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 79e180cf7561fe44db5017fec55324e9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 66b7db2f0e65c234e9557ca6e972d3c4, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -1964,6 +1964,138 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.017793879, y: 0.3498385, z: 0.22916073}
     m_Extent: {x: 0.15452343, y: 0.01981926, z: 0.030346036}
   m_DirtyAABB: 0
+--- !u!1 &2916146488482043788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3287836772367586153}
+  - component: {fileID: 1810562087467866623}
+  m_Layer: 5
+  m_Name: ConfusedSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3287836772367586153
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2916146488482043788}
+  m_LocalRotation: {x: -0, y: -0, z: 1.110223e-16, w: 1.0000001}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2009938223215075641}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0010375977, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &1810562087467866623
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2916146488482043788}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a1e1d7923507f9042a9af971dc35dbb1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.43
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3009435216969365035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,7 +2173,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fe558facb376f484891058c562b49708, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 840fa6050a87ce24ea1819034c9783c0, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -2655,7 +2787,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 389b481fea8c8b84c8d1daf3a6af6cd6, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2666,7 +2798,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 5
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -2701,7 +2833,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.839
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -3434,6 +3566,7 @@ MonoBehaviour:
   questionManager: {fileID: 5214941033276478086}
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
+  confusedSound: {fileID: 1810562087467866623}
   happyResponse: {fileID: 2853091404939798272}
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
@@ -3696,6 +3829,7 @@ MonoBehaviour:
   questionManager: {fileID: 5214941033276478086}
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
+  confusedSound: {fileID: 1810562087467866623}
   happyResponse: {fileID: 2853091404939798272}
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
@@ -4325,6 +4459,7 @@ RectTransform:
   - {fileID: 4149393177144946721}
   - {fileID: 5762688500987684207}
   - {fileID: 7298421548752818418}
+  - {fileID: 3287836772367586153}
   m_Father: {fileID: 5746382813367728575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5055,6 +5190,7 @@ MonoBehaviour:
   questionManager: {fileID: 5214941033276478086}
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
+  confusedSound: {fileID: 1810562087467866623}
   happyResponse: {fileID: 2853091404939798272}
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
@@ -5254,6 +5390,7 @@ MonoBehaviour:
   questionManager: {fileID: 5214941033276478086}
   correctSound: {fileID: 2654436972006443911}
   wrongSound: {fileID: 5702798852152980497}
+  confusedSound: {fileID: 1810562087467866623}
   happyResponse: {fileID: 2853091404939798272}
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}

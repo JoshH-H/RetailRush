@@ -842,6 +842,7 @@ MonoBehaviour:
   questionManager: {fileID: 4112026171397846475}
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
+  confusedSound: {fileID: 136263732068619967}
   happyResponse: {fileID: 5290052280913047876}
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
@@ -1489,6 +1490,138 @@ Transform:
   m_Father: {fileID: 5299977092557704607}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2616020610007961990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4017178197042229354}
+  - component: {fileID: 136263732068619967}
+  m_Layer: 5
+  m_Name: ConfusedSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4017178197042229354
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2616020610007961990}
+  m_LocalRotation: {x: -0, y: -0, z: 1.110223e-16, w: 1.0000001}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000019073486}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 422793300126380339}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0010375977, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!82 &136263732068619967
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2616020610007961990}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: a1e1d7923507f9042a9af971dc35dbb1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.43
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2658093763653213848
 GameObject:
   m_ObjectHideFlags: 0
@@ -1676,6 +1809,7 @@ RectTransform:
   - {fileID: 4630507843405240029}
   - {fileID: 4901541537726881038}
   - {fileID: 7723180912778146246}
+  - {fileID: 4017178197042229354}
   m_Father: {fileID: 138423403973379309}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1917,6 +2051,7 @@ MonoBehaviour:
   questionManager: {fileID: 4112026171397846475}
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
+  confusedSound: {fileID: 136263732068619967}
   happyResponse: {fileID: 5290052280913047876}
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
@@ -2092,7 +2227,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 79e180cf7561fe44db5017fec55324e9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d27f243e382de66408e41d442f8b9649, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -2718,6 +2853,7 @@ MonoBehaviour:
   questionManager: {fileID: 4112026171397846475}
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
+  confusedSound: {fileID: 136263732068619967}
   happyResponse: {fileID: 5290052280913047876}
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
@@ -3760,6 +3896,7 @@ MonoBehaviour:
   questionManager: {fileID: 4112026171397846475}
   correctSound: {fileID: 6148340607830434224}
   wrongSound: {fileID: 4030289302217948994}
+  confusedSound: {fileID: 136263732068619967}
   happyResponse: {fileID: 5290052280913047876}
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
@@ -4727,7 +4864,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 546479c7241f6434b815c0bb95b674af, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5331,7 +5468,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: fe558facb376f484891058c562b49708, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a741891cbcac255408ec4c52c25e6fc2, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1

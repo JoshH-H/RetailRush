@@ -42,21 +42,7 @@ public class AnswerScript : MonoBehaviour
             getAngry.material.SetFloat("_Angry", 0f);
             correctSound.Play();
         }
-        else
-        {
-            ScoreManager.instance.WrongScore();
-            Debug.Log("That's wrong");
-            questionManager.correct();
-            questionManager.answerPannelsTL.SetActive(false);
-            questionManager.answerPannelsTR.SetActive(false);
-            questionManager.answerPannelsBL.SetActive(false);
-            questionManager.answerPannelsBR.SetActive(false);
-            wrongSound.Play();
-            happyResponse.SetActive(false);
-            unhappyResponse.SetActive(true);
-            getAngry.material.SetFloat("_Angry", 1f);
-            Invoke("response", 2);
-        }
+
         if (isConfused)
         {
             ScoreManager.instance.ConfusedScore();
@@ -70,6 +56,22 @@ public class AnswerScript : MonoBehaviour
             confusedResponse.SetActive(true);
             Invoke("confusedAnswer", 2);
             getAngry.material.SetFloat("_Angry", 0f);
+        }
+
+        else 
+        {
+            ScoreManager.instance.WrongScore();
+            Debug.Log("That's wrong");
+            questionManager.correct();
+            questionManager.answerPannelsTL.SetActive(false);
+            questionManager.answerPannelsTR.SetActive(false);
+            questionManager.answerPannelsBL.SetActive(false);
+            questionManager.answerPannelsBR.SetActive(false);
+            wrongSound.Play();
+            happyResponse.SetActive(false);
+            unhappyResponse.SetActive(true);
+            getAngry.material.SetFloat("_Angry", 1f);
+            Invoke("response", 2);
         }
 
     }
