@@ -2553,10 +2553,10 @@ MonoBehaviour:
   - {fileID: 1044404504853776420}
   - {fileID: 7350034277261474021}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 727342276250436141}
-  pannelUI: {fileID: 5122918748497128560}
-  countdownText: {fileID: 4519276027153525755}
+  QuestionTxt: {fileID: 4519276027153525755}
+  notification: {fileID: 3735745856921662971}
+  pannelUI: {fileID: 1835449670454294936}
+  countdownText: {fileID: 3905520348765374452}
   answerPannelsTL: {fileID: 1913211900228692819}
   answerPannelsTR: {fileID: 2720967536200467012}
   answerPannelsBL: {fileID: 1044404504853776420}

@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/RetailScene1.unity
     guid: a03bddaae0996f94395de21997ade7ba
   - enabled: 1
-    path: Assets/Scenes/ManagerScene.unity
-    guid: b94a135e5d2747a4b8cc7cfa554483ed
-  - enabled: 1
     path: Assets/Scenes/Certified.unity
     guid: 52355d51facd30944881f6679fa04409
+  - enabled: 1
+    path: Assets/Scenes/RetailSceneManager.unity
+    guid: 21e9ebfa63bb09548b8f18a243e15301
   m_configObjects: {}
