@@ -469,7 +469,7 @@ GameObject:
   - component: {fileID: 402832888}
   - component: {fileID: 402832889}
   m_Layer: 5
-  m_Name: 8 Min
+  m_Name: 5 Min
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1249,7 +1249,7 @@ GameObject:
   - component: {fileID: 943807360}
   - component: {fileID: 943807361}
   m_Layer: 5
-  m_Name: 15 Min
+  m_Name: 10 Min
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1798,8 +1798,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf0578b5eaa1374fb23797cfc7d82e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerScript: {fileID: 0}
   menu: {fileID: 370986585}
   PauseMenu: {fileID: 0}
+  pauseButton: {fileID: 0}
 --- !u!4 &1172365849
 Transform:
   m_ObjectHideFlags: 0
@@ -1942,8 +1944,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Toggle1: {fileID: 402832889}
   Toggle2: {fileID: 943807361}
-  StartTime1: 480
-  StartTime2: 900
+  StartTime1: 300
+  StartTime2: 600
 --- !u!1 &1314918278
 GameObject:
   m_ObjectHideFlags: 0
