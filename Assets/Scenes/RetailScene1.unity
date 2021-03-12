@@ -4815,7 +4815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HasCameBack: 0
+  HasCameBack: 1
   NPCs:
   - {fileID: 2355883365940831198, guid: 12f94ddaabd4ecf478e222da2e154275, type: 3}
   - {fileID: 3510223582786201252, guid: 63a48cf6bb030cc47ba1854cfe985046, type: 3}
