@@ -4371,8 +4371,8 @@ MonoBehaviour:
     Answers:
     - Unfortunately it is not possible for me to do that.
     - Sorry thats impossible.
-    - Unfortunately I can not change the balance into cash. I can extend it for you
-      though if that helps?
+    - Unfortunately I can't change the balance into cash. I can extend it for you
+      though?
     - ...
     CorrectAnswer: 3
     confusedAnswer: 1
@@ -4388,12 +4388,12 @@ MonoBehaviour:
     confusedAnswer: 3
   - Question: Hmm. I guess that works. Thanks.
     Answers:
-    - I am glad, have a nice day sir!
+    - I am glad, let me know when you are done!
     - Great, my colleague here will help you to find the perfect sizes.
     - Good to hear, bye!
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 3
+    confusedAnswer: 1
   options:
   - {fileID: 8959544084545348049}
   - {fileID: 4327943401361501996}

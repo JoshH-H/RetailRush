@@ -3305,7 +3305,7 @@ MonoBehaviour:
   - Question: Yeah I did, nothing I like. Can I just refund please.
     Answers:
     - That's a shame. Can I have the jacket and the receipt please?
-    - Ok, please give me the jacket and the receipt.
+    - Ok, please pass me the jacket and the receipt.
     - I need the jacket and the receipt.
     - ...
     CorrectAnswer: 1
@@ -3325,17 +3325,17 @@ MonoBehaviour:
     - I am unable to refund this.
     - You can not bring this back.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: What I am supposed to do? It does not fit me!
     Answers:
     - I apologise. Please make sure not to wear an item out before you are sure to
       keep it.
     - 'I am sorry about this. '
-    - Do not wear items until you are sure of it.
+    - Just do not wear items until you are sure of it.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 6692346107608156670}
   - {fileID: 1048157167688553692}

@@ -846,8 +846,8 @@ MonoBehaviour:
     - Sure, rest of the colours are right there for you.
     - Great, my colleague will bring you all the colour options shortly.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   options:
   - {fileID: 7627647088575805406}
   - {fileID: 2476370025405674639}

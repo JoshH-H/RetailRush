@@ -5130,7 +5130,7 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Somebody sold me shoes that are mixed sizes in the box!
     Answers:
-    - That is impossible, let me see.
+    - That is impossible, show me.
     - Hi! I am so sorry, can I have a quick look please?
     - No way! Can you show me?
     - ...
@@ -5162,16 +5162,16 @@ MonoBehaviour:
       bit.
     - I am very sorry to hear that. I apologise for the trouble.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: Thanks. I will head back now. Have a nice day!
     Answers:
     - Safe travels! Have a lovely day and see you soon!
     - 'Okie dokie, see you soon! '
     - Have a nice day and see you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   options:
   - {fileID: 8146691660010494934}
   - {fileID: 7640682835962094743}

@@ -1208,7 +1208,8 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: 'No, she did not give me one... '
+  - Question: No, she did not give me one... Probbly to make sure I don't bring it
+      back.
     Answers:
     - Can you ask her for it?
     - Can you ask her for it please, even picture would do?
@@ -1231,8 +1232,8 @@ MonoBehaviour:
     - Thank you, see you soon!
     - That's cool. Bye!
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 5570970004789423527}
   - {fileID: 3864212808276670654}

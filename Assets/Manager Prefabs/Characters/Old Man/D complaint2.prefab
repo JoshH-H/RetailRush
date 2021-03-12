@@ -2982,18 +2982,11 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: No thanks. I just want to return this please.
-    Answers:
-    - No problem, just so you know, your refund could take a few days to show up.
-    - That's fine I can issue that refund for you.
-    - '*sigh* Fine. I''ll do the refund for you.'
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
   - Question: That's just fancy talk. Why nobody told me?
     Answers:
     - Please always check the label before washing.
-    - I am sorry nobody advised you. I recommend to ask for instructions in future.
+    - I am sorry that nobody advised you. I recommend to ask for instructions in
+      future.
     - It is up to you to follow the instructions.
     - ...
     CorrectAnswer: 2

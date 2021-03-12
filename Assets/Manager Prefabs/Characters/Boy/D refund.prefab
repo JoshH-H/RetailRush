@@ -3366,7 +3366,7 @@ MonoBehaviour:
     - I am sorry to hear. We do have something similar in the sale though. Would
       you like to see?
     - I am sorry to hear, maybe check the sale again?
-    - Are you sure?
+    - Are you sure? It's a nice top.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
@@ -3376,8 +3376,8 @@ MonoBehaviour:
     - Sure thing!
     - Great, my colleague here will help you.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   options:
   - {fileID: 4897804902806635623}
   - {fileID: 1273480393917208901}

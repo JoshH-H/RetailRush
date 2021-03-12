@@ -3506,7 +3506,7 @@ MonoBehaviour:
   - Question: I did not see anything else I like. I would just like a refund.
     Answers:
     - Sure that's fine. May I have the receipt please?
-    - Ok. Give me the receipt please.
+    - Ok. Give me the receipt.
     - Sure. Do you have the receipt?
     - ...
     CorrectAnswer: 1
@@ -3517,8 +3517,8 @@ MonoBehaviour:
     - Thank you. All of the other items here have been fine?
     - Thanks, just this top to refund then?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Yes thank you. Here's my card you can refund to.
     Answers:
     - Thank you sir. I notice te card is not the one you paid with. It ended 1234.
@@ -3530,7 +3530,7 @@ MonoBehaviour:
   - Question: Oh... I must of left that card home. Can you just refund to this one
       instead?
     Answers:
-    - Sorry, but the refund must go back to the same card made the payment with.
+    - Sorry, but the refund must go back to the same card.
     - If you read the refund policy you would know you need the same card.
     - Unfortunately I can do a refund only to the original payment method.
     - ...

@@ -3498,7 +3498,7 @@ MonoBehaviour:
     Answers:
     - It's full price.
     - Sorry there is not much I can do.
-    - For this top no. We are happy to help you to find something else?
+    - For this top no. I'm happy to help you to find something else?
     - ...
     CorrectAnswer: 3
     confusedAnswer: 2
@@ -3506,9 +3506,9 @@ MonoBehaviour:
     Answers:
     - My colleague here will be happy to help you!
     - Let me know when you are ready.
-    - Let us know if you need any help!
+    - Let me know if you need any help!
     - ...
-    CorrectAnswer: 0
+    CorrectAnswer: 1
     confusedAnswer: 2
   options:
   - {fileID: 4897804902806635623}

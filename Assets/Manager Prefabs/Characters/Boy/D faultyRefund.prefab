@@ -5197,8 +5197,8 @@ MonoBehaviour:
     confusedAnswer: 2
   - Question: Are you being serious? I want to make a complaint!
     Answers:
-    - I am so sorry I can not help in store. To escalate your query you can contact
-      here.
+    - I am so sorry that I can not help in store. To escalate your query you can
+      contact here.
     - You can make a further complaint here.
     - I am not allowed to give you any details for head office.
     - ...
@@ -5210,8 +5210,8 @@ MonoBehaviour:
     - I apologise for the trouble. I wish you a lovely day regardless!
     - I am sorry. See you soon!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 8146691660010494934}
   - {fileID: 7640682835962094743}

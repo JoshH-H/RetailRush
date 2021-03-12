@@ -3980,7 +3980,7 @@ MonoBehaviour:
   - Question: What if they still do fade afterall?
     Answers:
     - I can not promise they won't fade.
-    - Wash them right, they will be fine.
+    - If you wash them right, they should be fine.
     - All denim can fade over time, but if you use cold wash they should not.
     - ...
     CorrectAnswer: 3
@@ -4000,8 +4000,8 @@ MonoBehaviour:
     - Done. Bye!
     - All done, hope to see you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   options:
   - {fileID: 6992342369477336748}
   - {fileID: 8795035562470662637}

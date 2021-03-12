@@ -2963,8 +2963,8 @@ MonoBehaviour:
     confusedAnswer: 2
   - Question: Yeah new pair would be nice. But what if this happens again?
     Answers:
-    - Just come back if it does.
-    - They will be fine.
+    - Please come back if it does.
+    - They will be fine. Our products never break.
     - I doubt it will, but if it does here's my name, you can ask for me directly.
     - ...
     CorrectAnswer: 3
@@ -2975,8 +2975,8 @@ MonoBehaviour:
     - Happy to help you. Hope to see you soon!
     - Thank you and bye!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 8754463170562582640}
   - {fileID: 4358821165619467974}
