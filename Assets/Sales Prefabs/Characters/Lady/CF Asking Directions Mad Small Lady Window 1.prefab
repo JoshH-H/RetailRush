@@ -2246,38 +2246,27 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Good day, can you tell me where is the closest bus station please?
     Answers:
-    - Hello madam, I would like to help you, however I just have started working
-      here and I am still not familiar with the area.
-    - Hello there, I'm sorry but I really don't know where it is.
-    - Hey, nah I don't know.
+    - Hello Madam, sorry but I don't know.
+    - Hello Madam, I would need to check.
+    - Hello Madam, I will need to find out as I am new. Just a moment.
     - ...
     CorrectAnswer: 3
-    confusedAnswer: 1
-  - Question: I am very dissapointed. You should know these kind of things by know.
+    confusedAnswer: 2
+  - Question: Call me Hannah. Can you hurry up, I do have a bus to catch!
     Answers:
-    - I am deeply sorry I could not help you with that. However, I will ask my colleagues
-      for the directions.
-    - Sorry about that. I will ask my friends if they know anyhting about that.
-    - Sorry, I'll ask around.
+    - Here we go Hannah, I drew a map for you.
+    - So just take a left, walk untill you see a red post box and then turn right.
+    - Sorry Hannah, my map application does not want to work.
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Ok well I got to run. Bye!
+    Answers:
+    - Enjoy you day Madam! See you soon.
+    - Enjoy you day Hannah! See you soon.
+    - Enjoy you day Anna! See you soon.
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: So? Do you know where I need to go?
-    Answers:
-    - Thank you for your patience, the closest bus station is 5 minutes from here.
-      Here are the directions.
-    - Sorry about that ma'am, I did find out. Here are the details...
-    - uhhh... Yeah here it is.
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: Okay... Thank you
-    Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - BYE!
-    - ...
-    CorrectAnswer: 4
     confusedAnswer: 1
   options:
   - {fileID: 8505591692324210981}

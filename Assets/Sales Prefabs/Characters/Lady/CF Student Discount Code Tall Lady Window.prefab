@@ -2738,8 +2738,8 @@ MonoBehaviour:
     confusedAnswer: 2
   - Question: Fine then, I won't buy anything here then. Goodbye.
     Answers:
-    - I'm soprry to hear that, I hope of seeing you soon again.
-    - Alright, sorry about that.
+    - I'm sorry to hear that, I hope to see you soon again!
+    - Sorry about that. See ya!
     - Okay, See ya later.
     - ...
     CorrectAnswer: 1

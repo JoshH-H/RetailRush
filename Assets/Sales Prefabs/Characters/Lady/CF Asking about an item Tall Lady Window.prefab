@@ -1055,53 +1055,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello... I want to know if you have this purse in another colour? Yesterday
-      I saw you had it in black.
+  - Question: Hello. I want to know if you have this purse in another colour? Yesterday
+      I saw you had it in beige.
     Answers:
-    - Good Afternoon, I will gladly check the system for you if we have any in our
-      storage room
-    - Hi, I am not sure. Let me check that out for you.
-    - I don't know. Let me check....
+    - Hi, If its not on the display we don't most probably have it.
+    - Hi, I need to check that.
+    - Hi, bare with me while I will check the system for you.
     - ...
     CorrectAnswer: 3
-    confusedAnswer: 1
-  - Question: Thank you.
+    confusedAnswer: 2
+  - Question: Thank you. I think the beige version would match this outfit better.
     Answers:
-    - I apologise, however we do not have these specific trousers in stock right
-      now. Would you like to buy these instead?
-    - Sorry about that, but we don't have any at the moment. Is there anything else
-      I could help you with?
-    - Yeah... no, we don't have any. Anything else?
+    - I am sorry, we don't stock it. Did you see the red one, it would look lovely?
+    - Just order it online if you saw it there.
+    - Apologies, we do not stock the beige one.
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 3
+  - Question: Can you please go and double check the stockroom. I do not trust your
+      system.
+    Answers:
+    - Ok, I will.
+    - Sure no problem madam.
+    - I will just double check the system.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
-  - Question: This is absurd! I can believe this right now, can't you just check
-      the actual storage room. Your computer is wrong.
+  - Question: Well, did you find it? I really want the black one.
     Answers:
-    - 'I am deeply sorry for the inconvenience it caused you I will check that right
-      now. '
-    - I will check it out.
-    - '*sigh* I guess I can... One second.'
+    - Unfortunately I could not find one. You could do click and collect from online?
+    - Sorry, we haven't got any.
+    - There is none in the stockroom. Could you order it online?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: Did you find anything?
+    CorrectAnswer: 1
+    confusedAnswer: 3
+  - Question: Online shopping is so complicated. I do not know how to do it.
     Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
+    - It's easy, you can not go wrong.
+    - If you do it now you can ask in case you have any problems.
+    - I understand, however, my colleague here can walk you through it.
     - ...
-    CorrectAnswer: 4
-    confusedAnswer: 1
-  - Question: Ughh...
+    CorrectAnswer: 3
+    confusedAnswer: 2
+  - Question: Okey I will give it a go I guess. Thanks.
     Answers:
-    - Sorry about that sir. I hope of seeing you soon again.
-    - Sorry about that, Have a nice day!
-    - Okay, bye.
+    - Glad to hear Madam.
+    - Good luck!
+    - 'Glad to hear, it arrives here within two days. '
     - ...
-    CorrectAnswer: 2
+    CorrectAnswer: 3
     confusedAnswer: 1
   options:
   - {fileID: 6220278179819392855}

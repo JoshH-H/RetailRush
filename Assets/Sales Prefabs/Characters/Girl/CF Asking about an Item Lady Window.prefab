@@ -1813,7 +1813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi, does this top go all bubby after couple wears?
+  - Question: Hi, does this top go all bubbly after couple wears?
     Answers:
     - Hi! This top should be fine.
     - Hi! I understand your concern. The material of this should not bubble.

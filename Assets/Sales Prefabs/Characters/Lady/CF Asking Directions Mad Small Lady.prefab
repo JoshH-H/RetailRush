@@ -2523,41 +2523,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Good day, can you tell me where is the closest bus station please?
+  - Question: So I bought this top and it has a hole. How bad quality your stuff
+      really is?!
     Answers:
-    - Hello madam, I would like to help you, however I just have started working
-      here and I am still not familiar with the area.
-    - Hello there, I'm sorry but I really don't know where it is.
-    - Hey, nah I don't know.
+    - Hello Madam, do you still have the receipt?
+    - If you have the receipt I can have a look.
+    - Hello Madam, I am very sorry to see this. Do you still have the receipt?
     - ...
     CorrectAnswer: 3
     confusedAnswer: 1
-  - Question: I am very dissapointed. You should know these kind of things by know.
+  - Question: I am very dissapointed. As you can see it is brand new, I noticed straight
+      when I got home.
     Answers:
-    - I am deeply sorry I could not help you with that. However, I will ask my colleagues
-      for the directions.
-    - Sorry about that. I will ask my friends if they know anyhting about that.
-    - Sorry, I'll ask around.
+    - My apologies. What would you like to do? Would you prefer a new one?
+    - Sorry about it, I will get you a replacement ready for exchange.
+    - Are you sure you did not accidentally rip it on anything?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
-  - Question: So? Do you know where I need to go?
+  - Question: Don't be silly, I want my money back. I am not buying more of this
+      rubbish.
     Answers:
-    - Thank you for your patience, the closest bus station is 5 minutes from here.
-      Here are the directions.
-    - Sorry about that ma'am, I did find out. Here are the details...
-    - uhhh... Yeah here it is.
+    - Sure, I will just have to get my manager to deal with this.
+    - Our product is really good quality, maybe you are too heavy handed.
+    - I am very sorry to hear you feel this way. I will just get my manager to deal
+      with this.
+    - ...
+    CorrectAnswer: 3
+    confusedAnswer: 1
+  - Question: I would like to have your manager to escalate a complaint of this as
+      well.
+    Answers:
+    - I don't think they would do that for this reason.
+    - I am sure they can do that. I will inform them you would like to do this.
+    - Please provide them the details.
     - ...
     CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: Okay... Thank you
-    Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - BYE!
-    - ...
-    CorrectAnswer: 4
-    confusedAnswer: 1
+    confusedAnswer: 3
   options:
   - {fileID: 1913211900228692819}
   - {fileID: 2720967536200467012}

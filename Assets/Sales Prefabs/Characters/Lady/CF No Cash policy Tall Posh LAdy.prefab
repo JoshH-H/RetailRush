@@ -206,42 +206,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Good day. I'd like to get these trouser, they are fitting me so nicely.
+  - Question: Good day. I'd like to get these trousers, they are fitting me so nicely.
     Answers:
-    - Hello madam, I would be happy to process this for you. You can pay with your
-      card as soon as you are ready.
-    - How's it going. Sure! Tap your card whenever you are ready.
-    - Hi! Just tap the card over here and you will be done with it.
+    - Hi Madam! Sure, did you not find anything else today?
+    - Hi Madam! I am sure they do. It is a very nice fit! Did you look for anything
+      else?
+    - Hi, Nothing else for today?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Card? I am paying with cash.
+  - Question: I was looking for a top to go with them but did not see anything I
+      liked.
     Answers:
-    - I'm sorry but we do not accept cash at the moment. You will have to pay with
-      cash.
-    - I am so sorry to inform you, but we do not accept any type of physical money
-      at the moment, because of these new regulations
-    - Sorry, but you are not allowed to pay with cash right now.
+    - I see, did you notice those tops, they look amazing with these trousers.
+    - Oh sorry to hear. Did you have a look on that section?
+    - Are you sure? We have plenty of options to go with these.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: Excuse me, who decided this. This is absurd. I dont have my card with
-      me so...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Oh I would actually like to try on some of those. They seem quite nice.
     Answers:
-    - Sorry, but there is nothing I can do to help you.
-    - You will have to bring your card next time you buy something from here.
-    - I am sorry ma'am but there is no way I can accept cash as payment as of right
-      now. Sorry.
+    - Great! Let me know if you need anything.
+    - Great! Let me know when you are ready.
+    - Great! If you give your size for my colleague here they will help you.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: FINE... I'm just gonna go...
-    Answers:
-    - Sorry about that ma'am...
-    - Sorry about that, See ya later.
-    - Bye.
-    - ...
-    CorrectAnswer: 2
+    CorrectAnswer: 3
     confusedAnswer: 1
   options:
   - {fileID: 883293917614377836}

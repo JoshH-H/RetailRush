@@ -2568,65 +2568,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hello! Can I redeem my gift card I got a year ago, I would like to
-      use it for this top...
+  - Question: Hi! I would like to buy this cardigan. I got a gift  card for my birthday.
     Answers:
-    - Hi, I'm a bit busy, but I guess I can help you. Can you give me the card?
-    - Hi there! It would be my pleasure to help you with that. May I see the gift
-      voucher please?
-    - Hey, Yeah of course. Can you pass me the gift card?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 1
-  - Question: Here you go...
-    Answers:
-    - Thanks! One second... Sorry, but the card has expired and cannot be used.
-    - Thank you! Bear with me for a moment... I am truly sorry but I cannot authorise
-      the purchase, because the gift card has expired last week.
-    - Thanks... Oh... I see the card is expired. Sorry, but I can't accept it
+    - Hello Madam! Please give me the card and I'll process it.
+    - Hello Madam! Lovely, when was your birthday? If I can just have the card please.
+    - Hello! May I have the card please.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
+  - Question: Here you go. Oh my birthday was last month, but this gift was actually
+      from last year.
+    Answers:
+    - This is expired last month then.
+    - Oh I see, I am afraid but our giftcards are valid for a year, so this is expired.
+    - Our giftcards are valid only for a year.
+    - ...
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: 'What do you mean? So what do we do now can''t you just extend the
       expiry day? '
     Answers:
-    - Unfortunately, this is not possible at this moment, because I do not have the
-      authority to do that, However I can call the manager, and they will gladly
-      help you...
-    - No, I can't, but my manager can. One second... I'm gonna call for them.
-    - Sorry I can't do that, but I will call the manager for you.
-    - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
-  - Question: So.... What happened, where's the manager?
-    Answers:
-    - Sorry, my manager has left the store for now and they will be back later today,
-      can you please come later?
-    - Unfortunately, the manager has left for the meeting today, and will be back
-      in about three to four hours. Would you mind coming a little bit later?
-    - 'Sorry, but the manager is not here, can you come later? '
-    - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
-  - Question: Why can't you do it?!? This is very annoying
-    Answers:
-    - I am so sorry about the inconvenience but I'm not allowed to do this, can you
-      please come later?
-    - Sorry, but I really can't do anything in this situation...
-    - 'I am deeply sorry, but like I mentioned earlier I have no authority extending
-      expiry dates on gift cards. It would be amazing if you could come in in a few
-      hours, I am certain my manager will help you. '
+    - I would need to get my manager to do it.
+    - I will get my manager.
+    - I'm afraid only managers can do that. Let me call them, one moment.
     - ...
     CorrectAnswer: 3
     confusedAnswer: 1
-  - Question: Hmm... I guess Ill come later when your manager is here. Bye.
+  - Question: So, where is the manager? I do not have all day to spend here!
     Answers:
-    - Thank you so much for understanding, I hope to see you again soon!
-    - Okay, bye!
-    - Thank you, see ya later!
+    - I am afraid our manager is in a meeting. It might be an hour or two.
+    - Unfortunately my manager is out of store right now.
+    - Sorry but my manager is busy.
     - ...
-    CorrectAnswer: 0
+    CorrectAnswer: 1
     confusedAnswer: 2
+  - Question: Why can't you do it?! This is very annoying. I would make a complaint.
+    Answers:
+    - 'Sorry about this. They should be back in two hours. '
+    - I apologise. If I can take your details, my manager will call you soon as they
+      are back?
+    - Sorry, please come back later today.
+    - ...
+    CorrectAnswer: 2
+    confusedAnswer: 1
+  - Question: Hm. Okey then. I am not pleased but if you really can not do anything.
+      Bye!
+    Answers:
+    - Thanks, see you!
+    - Thank you for understanding. They will call you back soon as possible.
+    - Thank you, see you soon Madam.
+    - ...
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 5689238270093611432}
   - {fileID: 5590746384620308715}

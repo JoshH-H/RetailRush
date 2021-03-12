@@ -1076,16 +1076,16 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Thank you. I love darker shades, size Medium.
+  - Question: Thank you. I really liked the black version of them.
     Answers:
-    - Unfortunately these ones come only in this colour.
-    - Yeah, no. These come only one colour.
-    - I'm afraid these don't come in other colour. We got something similar though?
-    - I'm afraid these don't come in other colour. We got something similar though?
+    - Unfortunately we have these trousers ones only indigo.
+    - Sorry these trousers do not exist in black.
+    - I'm afraid we don't stock the black ones. We got something similar though?
+    - ...
     CorrectAnswer: 3
     confusedAnswer: 1
-  - Question: Oh... Okay... I swear I saw them in black last week. Could you double
-      check?
+  - Question: Oh... Okay... I swear I saw them in black last week over there. Could
+      you double check?
     Answers:
     - Sure, I will gladly check the stockroom for you just in case.
     - Ok, I will check the stockroom.
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   - Question: Sooo, did you find anything? I am sure I saw them.
     Answers:
     - Sorry, it is only one colour.
-    - Unfortunately the system was correct, they come only in one colour.
+    - Unfortunately the system was correct, we got only indigo.
     - The system was right.
     - ...
     CorrectAnswer: 2

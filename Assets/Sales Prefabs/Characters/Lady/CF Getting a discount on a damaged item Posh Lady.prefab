@@ -2112,38 +2112,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Good afternoon, this t shirt has a whole in it? May I get a discount
+  - Question: Good afternoon, this t shirt has a hole in it? May I get a discount
       for it?
     Answers:
-    - Hello madam, can I see the t-shirt please?
+    - Hello Madam, can I see the t-shirt please?
     - Hi, it depends, can I see the shirt?
-    - Hello, can I have a look?
+    - Hello, show me?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: So... What do you think?
+  - Question: It should be pretty obvious that this can not be sold for full price.
     Answers:
-    - Sure I'll give you 10% off, but are you sure?
-    - I see, yeah I can get you 10% off, but do you really want that?
-    - That is quite unfortunate. I can give you a 10% discount on this item, but
-      are you sure you would like to buy these ones instead of normal ones that are
-      not faulty?
-    - ...
-    CorrectAnswer: 3
-    confusedAnswer: 2
-  - Question: That is fine, thank you.
-    Answers:
-    - Alright please pay here...
-    - Hear you madam, please tap your card here.
-    - Okay.
+    - I will give you a faulty discount.
+    - If this is the last in stock I can offer you a 10% faulty discount.
+    - I am sure you do not want a faulty item.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
-  - Question: Okay. Thank you.
+  - Question: I don't mind having this one if I get a discount. Would not mind to
+      save the 10%.
     Answers:
-    - I hope of seeing you soon again!
-    - Have a nice day!
-    - See ya later, just letting you know we won't be able to give you a refund later.
+    - Sure, please notice that faulty items are not refundable. Is that ok?
+    - Faulty items can not be refunded.
+    - Are you sure that is what you want?
+    - ...
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Yes, I really like the top and I can fix the hole. I am happy with
+      it.
+    Answers:
+    - Okie dokie.
+    - Ok, all done for you then.
+    - Sure. All done for you. I have highlighted the refund policy for this.
+    CorrectAnswer: 1
+    confusedAnswer: 2
+  - Question: Great, that's all. Have a nice day!
+    Answers:
+    - Thank you, have a nice day and see you soon!
+    - Thanks, see ya!
+    - Sure, bye!
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
