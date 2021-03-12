@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf0578b5eaa1374fb23797cfc7d82e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timerScript: {fileID: 0}
   menu: {fileID: 0}
   PauseMenu: {fileID: 2034543785}
   pauseButton: {fileID: 1668824542}

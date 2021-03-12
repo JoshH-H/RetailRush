@@ -12,6 +12,7 @@ public class AnswerScript : MonoBehaviour
     [Header("AudioResponses")]
     [SerializeField] AudioSource correctSound;
     [SerializeField] AudioSource wrongSound;
+    [SerializeField] AudioSource confusedSound;
 
     [Header("Emotional Responses")]
     [SerializeField] GameObject happyResponse;
@@ -64,7 +65,7 @@ public class AnswerScript : MonoBehaviour
             questionManager.answerPannelsTR.SetActive(false);
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
-            wrongSound.Play();
+            confusedSound.Play();
             happyResponse.SetActive(false);
             confusedResponse.SetActive(true);
             Invoke("confusedAnswer", 2);
@@ -84,5 +85,6 @@ public class AnswerScript : MonoBehaviour
     {
         happyResponse.SetActive(true);
         confusedResponse.SetActive(false);
+        getAngry.material.SetFloat("_Angry", 0f);
     }
 }
