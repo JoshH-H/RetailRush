@@ -3514,11 +3514,11 @@ MonoBehaviour:
   - Question: Here you go. I bought it just couple days ago.
     Answers:
     - Thank you. Seems ok.
-    - Thank you. All of the other items here have been fine?
+    - Thank you. All of the other items you bought have been fine?
     - Thanks, just this top to refund then?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: Yes thank you. Here's my card you can refund to.
     Answers:
     - Thank you sir. I notice te card is not the one you paid with. It ended 1234.
