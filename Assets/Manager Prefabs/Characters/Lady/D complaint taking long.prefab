@@ -251,8 +251,8 @@ MonoBehaviour:
     - Hello Madam, sorry to hear, what happened?
     - Hello Madam. What happened?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: I have been waiting for a top from stockroom for 15 minutes!
     Answers:
     - I see. Let me find out what's going on.
@@ -260,8 +260,8 @@ MonoBehaviour:
       for you.
     - I am sure she will be back shortly Madam.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: I do not want to wait, I am in rush and want the top!
     Answers:
     - We don't have the top.
@@ -269,8 +269,8 @@ MonoBehaviour:
     - The item is sold out and they are looking for a replacement.You should of been
       informed of this.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Well tell them to hurry up, I have no time for this kind of non sense.
     Answers:
     - I have asked them to hurry back.
@@ -280,27 +280,21 @@ MonoBehaviour:
     CorrectAnswer: 1
     confusedAnswer: 0
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 3063860621669699803}
+  - {fileID: 1570292375016257996}
+  - {fileID: 4500896253342708652}
+  - {fileID: 6199359012276601709}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 0}
-  pannelUI: {fileID: 0}
-  countdownText: {fileID: 0}
-  answerScript:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  answerPannelsTL: {fileID: 0}
-  answerPannelsTR: {fileID: 0}
-  answerPannelsBL: {fileID: 0}
-  answerPannelsBR: {fileID: 0}
-  scoreManager: {fileID: 0}
+  QuestionTxt: {fileID: 1062757758516646003}
+  notification: {fileID: 274741596798553715}
+  pannelUI: {fileID: 2986113974087008784}
+  countdownText: {fileID: 449004291441048700}
+  answerPannelsTL: {fileID: 3063860621669699803}
+  answerPannelsTR: {fileID: 1570292375016257996}
+  answerPannelsBL: {fileID: 4500896253342708652}
+  answerPannelsBR: {fileID: 6199359012276601709}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 7323907096563815132}
 --- !u!1 &789833564451948193
 GameObject:
   m_ObjectHideFlags: 0
@@ -4634,6 +4628,7 @@ GameObject:
   - component: {fileID: 7073193272899587177}
   - component: {fileID: 7323907096563815135}
   - component: {fileID: 7323907096563815132}
+  - component: {fileID: 8075752391850290671}
   m_Layer: 0
   m_Name: D complaint taking long
   m_TagString: Untagged
@@ -4721,7 +4716,103 @@ MonoBehaviour:
   questionManager: {fileID: 4112026171397846475}
   QM: {fileID: 774778763937222391}
   questionPannels: {fileID: 2986113974087008784}
-  Walking: {fileID: 0}
+  Walking: {fileID: 8075752391850290671}
+--- !u!82 &8075752391850290671
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7593868741640492755}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &7685038926113633672
 GameObject:
   m_ObjectHideFlags: 0

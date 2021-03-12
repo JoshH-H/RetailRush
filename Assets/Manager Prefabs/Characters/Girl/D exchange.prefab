@@ -821,24 +821,24 @@ MonoBehaviour:
     - You would not like an exchange instead?
     - Hello, sure. Was there nothing to exchange to?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Yeah I had a look. I am not really into any the new things you have.
     Answers:
     - Are you entirely sure?
     - May I ask for the reason of the refund please?
     - Was something wrong with this top?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: It was ok, the colour just does not suit me. I prefer more colourful.
     Answers:
     - It does come in other colours.
     - This top does come in multiple colours, would you like to see them first?
     - Sure, what about another colour?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: Hmm, I did not see that. Sure I will have a look.
     Answers:
     - Ok, let me know if you find one you prefer.
@@ -848,27 +848,21 @@ MonoBehaviour:
     CorrectAnswer: 2
     confusedAnswer: 1
   options:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 7627647088575805406}
+  - {fileID: 2476370025405674639}
+  - {fileID: 6872319567578221549}
+  - {fileID: 1678336106530929566}
   currentQuestion: 0
-  QuestionTxt: {fileID: 0}
-  notification: {fileID: 0}
-  pannelUI: {fileID: 0}
-  countdownText: {fileID: 0}
-  answerScript:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  answerPannelsTL: {fileID: 0}
-  answerPannelsTR: {fileID: 0}
-  answerPannelsBL: {fileID: 0}
-  answerPannelsBR: {fileID: 0}
-  scoreManager: {fileID: 0}
+  QuestionTxt: {fileID: 5722837700540506741}
+  notification: {fileID: 4543900497321556901}
+  pannelUI: {fileID: 7011217780780291511}
+  countdownText: {fileID: 4677412548111198929}
+  answerPannelsTL: {fileID: 7627647088575805406}
+  answerPannelsTR: {fileID: 2476370025405674639}
+  answerPannelsBL: {fileID: 6872319567578221549}
+  answerPannelsBR: {fileID: 1678336106530929566}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 4622508931722796188}
 --- !u!1 &2476370025405674639
 GameObject:
   m_ObjectHideFlags: 0
@@ -2933,6 +2927,7 @@ GameObject:
   - component: {fileID: 5164725097175529383}
   - component: {fileID: 4622508931722796187}
   - component: {fileID: 4622508931722796188}
+  - component: {fileID: 380018745454101776}
   m_Layer: 0
   m_Name: D exchange
   m_TagString: Untagged
@@ -3020,7 +3015,103 @@ MonoBehaviour:
   questionManager: {fileID: 1390264678445777728}
   QM: {fileID: 2277157581781815803}
   questionPannels: {fileID: 7011217780780291511}
-  Walking: {fileID: 0}
+  Walking: {fileID: 380018745454101776}
+--- !u!82 &380018745454101776
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5541427210541427997}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5640791074092120377
 GameObject:
   m_ObjectHideFlags: 0

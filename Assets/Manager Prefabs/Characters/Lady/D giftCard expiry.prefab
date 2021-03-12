@@ -3197,8 +3197,8 @@ MonoBehaviour:
     - Hello Madam, I am happy to check if I can extend it for you?
     - Hello Madam, I will extend the time.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: Oh please call me Sylvia.  I live far and won't be back until next
       month.
     Answers:
@@ -3206,24 +3206,24 @@ MonoBehaviour:
     - I will extend it for you.
     - Is 2 months extension ok?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Yeah I thinkt that works. What if I don't make it in time?
     Answers:
     - You can use it in other store.
     - Make sure to come back in time.
     - You can always contact us, or you can use it in other store or online.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Okey sure. That's all, Bye!
     Answers:
     - Thank you, see you soon!
     - Thank you Sylvia and I hope to see you soon!
     - Thanks, Bye!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 7055051247834362592}
   - {fileID: 3956692082346362523}
@@ -3234,16 +3234,10 @@ MonoBehaviour:
   notification: {fileID: 8090403883688812534}
   pannelUI: {fileID: 6870724971478344833}
   countdownText: {fileID: 2484675563577930843}
-  answerScript:
-  - {fileID: 8826051846966978407}
-  - {fileID: 5083293665984458956}
-  - {fileID: 3284752813993376118}
-  - {fileID: 7243612855474902930}
   answerPannelsTL: {fileID: 7055051247834362592}
   answerPannelsTR: {fileID: 3956692082346362523}
   answerPannelsBL: {fileID: 3436594757744479552}
   answerPannelsBR: {fileID: 8402287523150969472}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 8296860561477439868}
 --- !u!1 &6003609120554398549
@@ -5466,6 +5460,7 @@ GameObject:
   - component: {fileID: 8407912391579910032}
   - component: {fileID: 8296860561477441155}
   - component: {fileID: 8296860561477439868}
+  - component: {fileID: 8303910246134870549}
   m_Layer: 0
   m_Name: D giftCard expiry
   m_TagString: Untagged
@@ -5554,4 +5549,100 @@ MonoBehaviour:
   questionManager: {fileID: 2022843199042655592}
   QM: {fileID: 5943713477304600192}
   questionPannels: {fileID: 6870724971478344833}
-  Walking: {fileID: 0}
+  Walking: {fileID: 8303910246134870549}
+--- !u!82 &8303910246134870549
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215833138474378538}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -1804,6 +1804,7 @@ GameObject:
   - component: {fileID: 4322612783877979166}
   - component: {fileID: 4357153550072386646}
   - component: {fileID: 4357153550072386649}
+  - component: {fileID: -2249101653665898441}
   m_Layer: 0
   m_Name: D materials
   m_TagString: Untagged
@@ -1890,7 +1891,103 @@ MonoBehaviour:
   questionManager: {fileID: 1594958575955438982}
   QM: {fileID: 7007573282642922278}
   questionPannels: {fileID: 6851030914153461304}
-  Walking: {fileID: 0}
+  Walking: {fileID: -2249101653665898441}
+--- !u!82 &-2249101653665898441
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510223582786201252}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3525817386461104336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3875,16 +3972,16 @@ MonoBehaviour:
       the washing out.
     - Hi! All denim washes out.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: What if they still do fade afterall?
     Answers:
     - I can not promise they won't fade.
     - Wash them right, they will be fine.
     - All denim can fade over time, but if you use cold wash they should not.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Okey I guess that would be fine. I am a bit unsure though.
     Answers:
     - We have not had complaints of this, but if anything happen you can ask for
@@ -3892,8 +3989,8 @@ MonoBehaviour:
     - Then come back to us and we will help.
     - They will be fine, just get them.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Okey thank you. I will have them please.
     Answers:
     - Great choice. All done for you. Have a nice day and see you soon!
@@ -3912,16 +4009,10 @@ MonoBehaviour:
   notification: {fileID: 2135709201219449084}
   pannelUI: {fileID: 6851030914153461304}
   countdownText: {fileID: 5477409610466946415}
-  answerScript:
-  - {fileID: 259827628468519296}
-  - {fileID: 9091229544620072948}
-  - {fileID: 2204235755727450553}
-  - {fileID: 5604409193602107458}
   answerPannelsTL: {fileID: 6992342369477336748}
   answerPannelsTR: {fileID: 8795035562470662637}
   answerPannelsBL: {fileID: 1119264872475556689}
   answerPannelsBR: {fileID: 8557819187799333881}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 4357153550072386649}
 --- !u!1 &7012650193112346611

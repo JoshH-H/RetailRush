@@ -636,8 +636,8 @@ MonoBehaviour:
     - Hi, what have he done this time?
     - Hello Madam, I am very sorry to hear. May I ask what happened?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: I said I need a size medium, and he told me that would be too small
       for me!
     Answers:
@@ -646,8 +646,8 @@ MonoBehaviour:
     - He have been here for years. He is probably right.
     - That would be because our our sizes run small. Sorry about that.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: I am sorry but I ALWAYS wear a Medium. I will not tolerate his behaviour!
     Answers:
     - Sorry that you feel that way.
@@ -655,16 +655,16 @@ MonoBehaviour:
     - I completely understand, he should have explained it better. I will sure to
       advise him in future.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Thank you, that's all. Bye!
     Answers:
     - My colleague has a medium size for you if you like. Have a lovely day!
     - Thank you and see you soon!
     - Here is a size large for you to try on. See you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 5548885408126159527}
   - {fileID: 7197768899080491231}
@@ -675,18 +675,12 @@ MonoBehaviour:
   notification: {fileID: 7235852359117076475}
   pannelUI: {fileID: 5309290506197791718}
   countdownText: {fileID: 4846234948584630063}
-  answerScript:
-  - {fileID: 7209335992847463566}
-  - {fileID: 7068555989014400008}
-  - {fileID: 6346242369935693799}
-  - {fileID: 6848313358404947512}
   answerPannelsTL: {fileID: 5548885408126159527}
   answerPannelsTR: {fileID: 7197768899080491231}
   answerPannelsBL: {fileID: 7114128406316713338}
   answerPannelsBR: {fileID: 3553292389714912671}
-  scoreManager: {fileID: 0}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 8296860561477439868}
 --- !u!1 &1469025757644430111
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +5379,7 @@ GameObject:
   - component: {fileID: 8407912391579910032}
   - component: {fileID: 8296860561477441155}
   - component: {fileID: 8296860561477439868}
+  - component: {fileID: -5533435421849994380}
   m_Layer: 0
   m_Name: D Complaint
   m_TagString: Untagged
@@ -5472,4 +5467,100 @@ MonoBehaviour:
   questionManager: {fileID: 9063872580531216746}
   QM: {fileID: 1243390894449247835}
   questionPannels: {fileID: 5309290506197791718}
-  Walking: {fileID: 0}
+  Walking: {fileID: -5533435421849994380}
+--- !u!82 &-5533435421849994380
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9215833138474378538}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

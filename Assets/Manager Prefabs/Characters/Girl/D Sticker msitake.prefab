@@ -2407,6 +2407,7 @@ GameObject:
   - component: {fileID: 5164725097175529383}
   - component: {fileID: 4622508931722796187}
   - component: {fileID: 4622508931722796188}
+  - component: {fileID: -8172816002274630364}
   m_Layer: 0
   m_Name: D Sticker msitake
   m_TagString: Untagged
@@ -2494,7 +2495,103 @@ MonoBehaviour:
   questionManager: {fileID: 6119771601660087286}
   QM: {fileID: 7693787410844477038}
   questionPannels: {fileID: 7800438927842108860}
-  Walking: {fileID: 0}
+  Walking: {fileID: -8172816002274630364}
+--- !u!82 &-8172816002274630364
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5541427210541427997}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &5640791074092120377
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,24 +4143,24 @@ MonoBehaviour:
     - How's it going. Sure I can refund this, do you have the card?
     - Do you have the right card?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Yes ofcourse, here it is. Anything else you need?
     Answers:
     - Thank you, that is all I need.
     - Thank you. This will do. Anything else I could help you with today?
     - Thank you.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Do you know when you are getting new collection in?
     Answers:
     - We get new stuff every week.
     - Not sure, maybe next week.
     - Every week, here's the catalogue.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Cool thanks. I will come by and have a look next week then.
     Answers:
     - If you are after a specific item feel free to call to check before hand.
@@ -4090,16 +4187,10 @@ MonoBehaviour:
   notification: {fileID: 4815178977749380337}
   pannelUI: {fileID: 7800438927842108860}
   countdownText: {fileID: 1353226093396821919}
-  answerScript:
-  - {fileID: 4610454747470599366}
-  - {fileID: 7877947151974957279}
-  - {fileID: 121453388321501452}
-  - {fileID: 5852736555263987477}
   answerPannelsTL: {fileID: 7648453971481753314}
   answerPannelsTR: {fileID: 8445072550053053756}
   answerPannelsBL: {fileID: 7770233680453141915}
   answerPannelsBR: {fileID: 7862835602155119073}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 4622508931722796188}
 --- !u!1 &7756171208203983457

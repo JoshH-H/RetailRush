@@ -4219,8 +4219,8 @@ MonoBehaviour:
     - Hello Sir. Good find, these trousers are so soft and comfy. Remember not to
       was over 30 degrees!
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: You might notice that the giftcard has 100 in it, but the trousers
       are only 60...
     Answers:
@@ -4229,8 +4229,8 @@ MonoBehaviour:
     - Yes, you can use the left over 40 next time you come by.
     - Yes, I can see that.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Is there any way you could give me that extra 40 as cash for me? It
       expires soon and I don't come here much...
     Answers:
@@ -4239,8 +4239,8 @@ MonoBehaviour:
     - Unfortunately I can not change the balance into cash. I can extend it for you
       though if that helps?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Well, that's a shame. I really hate shopping, my partner enjoys it
       much more. Are you entirely sure?
     Answers:
@@ -4249,7 +4249,7 @@ MonoBehaviour:
     - Yes, but if you know how computers work you can just use it online.
     - Yes, maybe your partner would like to use it?
     - ...
-    CorrectAnswer: 0
+    CorrectAnswer: 1
     confusedAnswer: 3
   - Question: Hmm. I guess that works. Thanks.
     Answers:
@@ -4257,7 +4257,7 @@ MonoBehaviour:
     - Great, my colleague here will help you to find the perfect sizes.
     - Good to hear, bye!
     - ...
-    CorrectAnswer: 0
+    CorrectAnswer: 2
     confusedAnswer: 3
   options:
   - {fileID: 8959544084545348049}
@@ -4269,16 +4269,10 @@ MonoBehaviour:
   notification: {fileID: 4356241748281873537}
   pannelUI: {fileID: 7016483519219267543}
   countdownText: {fileID: 8616245876911088235}
-  answerScript:
-  - {fileID: 700375937225526965}
-  - {fileID: 1430587500343622113}
-  - {fileID: 1564956691277615764}
-  - {fileID: 2303658448012236309}
   answerPannelsTL: {fileID: 8959544084545348049}
   answerPannelsTR: {fileID: 4327943401361501996}
   answerPannelsBL: {fileID: 7742668471206700001}
   answerPannelsBR: {fileID: 7043504902934330969}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 0}
 --- !u!1 &7647178312480330164
@@ -4710,6 +4704,7 @@ GameObject:
   - component: {fileID: 8821137418083272404}
   - component: {fileID: 9070320857952908691}
   - component: {fileID: 9070320857952908692}
+  - component: {fileID: 3781676447964966362}
   m_Layer: 0
   m_Name: D GiftCard
   m_TagString: Untagged
@@ -4797,7 +4792,103 @@ MonoBehaviour:
   questionManager: {fileID: 6717557916866136787}
   QM: {fileID: 7608351896944792048}
   questionPannels: {fileID: 7016483519219267543}
-  Walking: {fileID: 0}
+  Walking: {fileID: 3781676447964966362}
+--- !u!82 &3781676447964966362
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8151841959237049454}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8279094266908852021
 GameObject:
   m_ObjectHideFlags: 0

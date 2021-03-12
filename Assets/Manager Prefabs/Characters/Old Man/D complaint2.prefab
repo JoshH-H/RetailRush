@@ -2835,8 +2835,8 @@ MonoBehaviour:
     - Hello Sir. I am very sorry about that. May I ask how it is been washed?
     - Hello Sir. You must have washed it wrong.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: I wash it like any of my clothes. Just the normal cycle.
     Answers:
     - I understand. Unfortunately this top is 100% cotton and should be washed in
@@ -2844,32 +2844,32 @@ MonoBehaviour:
     - This top is cotton and can not be washed over 30 degrees.
     - You can not wash all your clothes in same degrees.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: No thanks. I just want to return this please.
     Answers:
     - No problem, just so you know, your refund could take a few days to show up.
     - That's fine I can issue that refund for you.
     - '*sigh* Fine. I''ll do the refund for you.'
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: That's just fancy talk. Why nobody told me?
     Answers:
     - Please always check the label before washing.
     - I am sorry nobody advised you. I recommend to ask for instructions in future.
     - It is up to you to follow the instructions.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Ok then.. Thanks for your time.
     Answers:
     - Have a nice day, see you soon!
     - Never hesitate to ask for help! Have a nice day and see you soon!
     - See you, bye!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 3310232499875317041}
   - {fileID: 3616429641363302392}
@@ -2880,16 +2880,10 @@ MonoBehaviour:
   notification: {fileID: 7844213496803285715}
   pannelUI: {fileID: 291380236907550872}
   countdownText: {fileID: 1101011955394054766}
-  answerScript:
-  - {fileID: 6532622792614037543}
-  - {fileID: 4651557935820485303}
-  - {fileID: 2927687869492122680}
-  - {fileID: 4656413857370823430}
   answerPannelsTL: {fileID: 3310232499875317041}
   answerPannelsTR: {fileID: 3616429641363302392}
   answerPannelsBL: {fileID: 5325475848770437151}
   answerPannelsBR: {fileID: 1198036741344789472}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 8637608015577300964}
 --- !u!1 &4668300207827138248
@@ -5323,6 +5317,7 @@ GameObject:
   - component: {fileID: 8094177738351889572}
   - component: {fileID: 8637608015577300963}
   - component: {fileID: 8637608015577300964}
+  - component: {fileID: 9156188055405331232}
   m_Layer: 0
   m_Name: D complaint2
   m_TagString: Untagged
@@ -5409,4 +5404,100 @@ MonoBehaviour:
   questionManager: {fileID: 6760622498457572015}
   QM: {fileID: 4667844480292604616}
   questionPannels: {fileID: 291380236907550872}
-  Walking: {fileID: 0}
+  Walking: {fileID: 9156188055405331232}
+--- !u!82 &9156188055405331232
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8871980662759265822}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

@@ -2271,16 +2271,16 @@ MonoBehaviour:
     - Hi. Sure, did you not find anything else?
     - Hi. I love the colour, it will suit you well. Did you look for anything else?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Thank you. I am a student, can I get a discount? Here's my ID.
     Answers:
     - We do offer student discount but only through StudyID app. Do you have that?
     - Sorry that ID is not accepted by us.
     - Do you have StudyID app?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: I don't have the StudyID app, it takes a week to approve.. I guess
       I will just leave it then and be back.
     Answers:
@@ -2288,8 +2288,8 @@ MonoBehaviour:
     - I am sorry to hear that, I can put it on hold for a week for you.
     - Sure, see you when you back.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Sure thing. Thanks bye!
     Answers:
     - Thank you and see you soon then!
@@ -2308,16 +2308,10 @@ MonoBehaviour:
   notification: {fileID: 7087967600745266198}
   pannelUI: {fileID: 6686679835858328759}
   countdownText: {fileID: 4571187046915651525}
-  answerScript:
-  - {fileID: 1869876613623158989}
-  - {fileID: 7445784795142853804}
-  - {fileID: 6782217669265541220}
-  - {fileID: 6150669924238652698}
   answerPannelsTL: {fileID: 4941528908518033251}
   answerPannelsTR: {fileID: 4607931294300672861}
   answerPannelsBL: {fileID: 7939698054970382424}
   answerPannelsBR: {fileID: 7834487241295063946}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 4275842550898509528}
 --- !u!1 &3662384708095706390
@@ -2561,6 +2555,7 @@ GameObject:
   - component: {fileID: 4385487168148891181}
   - component: {fileID: 4275842550898509531}
   - component: {fileID: 4275842550898509528}
+  - component: {fileID: -8526095207854431639}
   m_Layer: 0
   m_Name: D student dicsount
   m_TagString: Untagged
@@ -2649,7 +2644,103 @@ MonoBehaviour:
   questionManager: {fileID: 5214941033276478086}
   QM: {fileID: 3395459200493183085}
   questionPannels: {fileID: 6686679835858328759}
-  Walking: {fileID: 0}
+  Walking: {fileID: -8526095207854431639}
+--- !u!82 &-8526095207854431639
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4005866057284467863}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &4103908568640499554
 GameObject:
   m_ObjectHideFlags: 0

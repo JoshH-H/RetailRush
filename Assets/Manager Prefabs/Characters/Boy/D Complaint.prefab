@@ -1690,6 +1690,7 @@ GameObject:
   - component: {fileID: 4322612783877979166}
   - component: {fileID: 4357153550072386646}
   - component: {fileID: 4357153550072386649}
+  - component: {fileID: -3229024109879287912}
   m_Layer: 0
   m_Name: D Complaint
   m_TagString: Untagged
@@ -1776,7 +1777,103 @@ MonoBehaviour:
   questionManager: {fileID: 2745849135768468097}
   QM: {fileID: 5135117504979164777}
   questionPannels: {fileID: 5900272650443492027}
-  Walking: {fileID: 0}
+  Walking: {fileID: -3229024109879287912}
+--- !u!82 &-3229024109879287912
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3510223582786201252}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3569390153046935058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2849,8 +2946,8 @@ MonoBehaviour:
     - Hi there, I am very sorry to see that. Seems like a factory fault.
     - Hi, sorry about that.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: I pretty much just pulled them on and as you can see the seam have
       came out. Here's my receipt, got them 2 days ago.
     Answers:
@@ -2859,16 +2956,16 @@ MonoBehaviour:
     - Thanks, I will get you a new pair to exchange.
     - Thank you honey. You are correct.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Yeah new pair would be nice. But what if this happens again?
     Answers:
     - Just come back if it does.
     - They will be fine.
     - I doubt it will, but if it does here's my name, you can ask for me directly.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Ok sure. Thank you and bye!
     Answers:
     - Sure, Bye!
@@ -2887,16 +2984,10 @@ MonoBehaviour:
   notification: {fileID: 2981273722758507655}
   pannelUI: {fileID: 5900272650443492027}
   countdownText: {fileID: 6243447412377158981}
-  answerScript:
-  - {fileID: 7742674002021791654}
-  - {fileID: 1836739107682050988}
-  - {fileID: 8844040619266570185}
-  - {fileID: 6016946487261982654}
   answerPannelsTL: {fileID: 8754463170562582640}
   answerPannelsTR: {fileID: 4358821165619467974}
   answerPannelsBL: {fileID: 3196496637890865712}
   answerPannelsBR: {fileID: 4279798689279040460}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 4357153550072386649}
 --- !u!1 &5152315969032741898

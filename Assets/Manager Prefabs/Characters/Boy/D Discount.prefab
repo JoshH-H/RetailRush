@@ -1347,6 +1347,7 @@ GameObject:
   - component: {fileID: 3168871525454969188}
   - component: {fileID: 3202251345313239340}
   - component: {fileID: 3202251345313239331}
+  - component: {fileID: 7192992708641163833}
   m_Layer: 0
   m_Name: D Discount
   m_TagString: Untagged
@@ -1433,7 +1434,103 @@ MonoBehaviour:
   questionManager: {fileID: 442893108511074556}
   QM: {fileID: 8158535112573521500}
   questionPannels: {fileID: 5698415691432604482}
-  Walking: {fileID: 0}
+  Walking: {fileID: 7192992708641163833}
+--- !u!82 &7192992708641163833
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2355883365940831198}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: adbecc10fc13387409c637bf88d9f6e1, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2371477854126149034
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,8 +5129,8 @@ MonoBehaviour:
     - Hi! I am so sorry, can I have a quick look please?
     - No way! Can you show me?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   - Question: You see! I need a size 40, but the left foot is 38!
     Answers:
     - I am sorry for this trouble. Somebody must of put the 38 in the box by mistake.
@@ -5042,16 +5139,16 @@ MonoBehaviour:
       pair.
     - So sorry, I will get someone to bring another pair.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Ok. Size 40 please. Both of them this time.
     Answers:
     - Okey here you go. Fresh pair of 40's.
     - Okey here you go. I will tell John off so it does not happen again.
     - Okey here you go. Please check that they are good for you.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Thanks, these are fine. I live really far so it was quite a trouble
       to come back all the way...
     Answers:
@@ -5080,16 +5177,10 @@ MonoBehaviour:
   notification: {fileID: 983058518745281926}
   pannelUI: {fileID: 5698415691432604482}
   countdownText: {fileID: 6630633138500233237}
-  answerScript:
-  - {fileID: 1413005936401761530}
-  - {fileID: 7939177271348271758}
-  - {fileID: 1049358562709828803}
-  - {fileID: 6755903874388348216}
   answerPannelsTL: {fileID: 8146691660010494934}
   answerPannelsTR: {fileID: 7640682835962094743}
   answerPannelsBL: {fileID: 2274172440004689451}
   answerPannelsBR: {fileID: 7405164107814477443}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 3202251345313239331}
 --- !u!1 &8166968422442543753

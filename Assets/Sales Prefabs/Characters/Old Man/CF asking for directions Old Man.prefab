@@ -4905,7 +4905,7 @@ MonoBehaviour:
   answerPannelsBL: {fileID: 2585988601534337588}
   answerPannelsBR: {fileID: 1867132887929783134}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 8637608015577300964}
 --- !u!1 &8041115755684322805
 GameObject:
   m_ObjectHideFlags: 0
@@ -5401,9 +5401,9 @@ MonoBehaviour:
   RotationSpeed: 5
   BetaTest: {fileID: 8637608015577300963}
   DoneTalking: 0
-  questionManager: {fileID: 0}
-  QM: {fileID: 0}
-  questionPannels: {fileID: 0}
+  questionManager: {fileID: 492387798850168892}
+  QM: {fileID: 822728603782802418}
+  questionPannels: {fileID: 766349167836595977}
   Walking: {fileID: -3062067711949602047}
 --- !u!82 &-3062067711949602047
 AudioSource:

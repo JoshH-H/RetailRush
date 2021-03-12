@@ -212,16 +212,16 @@ MonoBehaviour:
     - Hello Madam. Sure, just this?
     - Hello Madam. Ofcourse! I love silk tops, so elegant.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: I love the feel of silk. Here's my card.
     Answers:
     - Definetely, remember to treat it with care.
     - I agree. Remember that this should be dry clean only.
     - Yes silk can be considered good for your skin too!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: Thank you, have a nice day!
     Answers:
     - Thanks, take care!
@@ -240,16 +240,10 @@ MonoBehaviour:
   notification: {fileID: 2041924280679107473}
   pannelUI: {fileID: 6296458997790631621}
   countdownText: {fileID: 5574812184184660912}
-  answerScript:
-  - {fileID: 7006320315695530509}
-  - {fileID: 309161554944814535}
-  - {fileID: 42813155131618869}
-  - {fileID: 1783677497009570341}
   answerPannelsTL: {fileID: 883293917614377836}
   answerPannelsTR: {fileID: 1090004168719995439}
   answerPannelsBL: {fileID: 983799608691762135}
   answerPannelsBR: {fileID: 7604306989046989193}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 3370926221963957107}
 --- !u!1 &328146398258748343
@@ -2179,6 +2173,7 @@ GameObject:
   - component: {fileID: 2976130538840099246}
   - component: {fileID: 3370926221963957100}
   - component: {fileID: 3370926221963957107}
+  - component: {fileID: -19774802695088106}
   m_Layer: 0
   m_Name: D sale
   m_TagString: Untagged
@@ -2267,7 +2262,103 @@ MonoBehaviour:
   questionManager: {fileID: 3113222154942634761}
   QM: {fileID: 247801552971142484}
   questionPannels: {fileID: 6296458997790631621}
-  Walking: {fileID: 0}
+  Walking: {fileID: -19774802695088106}
+--- !u!82 &-19774802695088106
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451794761518011156}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3132484620142462565
 GameObject:
   m_ObjectHideFlags: 0

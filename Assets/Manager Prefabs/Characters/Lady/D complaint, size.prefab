@@ -2117,8 +2117,8 @@ MonoBehaviour:
     - Hello Madam. I apologise that this have happened. I will personally check this
       for you now.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Please check it personally. I am sure I saw one size 12 just earlier
       today!
     Answers:
@@ -2127,24 +2127,24 @@ MonoBehaviour:
       stockroom as well.
     - That top is one of our best sellers. I would know if we had any left.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: I am sure there is some left. You are just not checking properly!
     Answers:
     - Here you can see our system, it says 0.
     - I would know if we had any left, that top is a best seller.
     - I have double checked. Maybe I can check other store for it?
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: This is my closest store. I need it for the day after tomorrow!
     Answers:
     - The store up town has one. It is only a short bus drive away.
     - The store up town has one for you.
     - The store up town has one. It can be delivered here for tomorrow.
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 0
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Well I suppose that's what we have to do then.
     Answers:
     - Great. I will make sure you get a call soon as it is here. Have a nice day
@@ -2152,8 +2152,8 @@ MonoBehaviour:
     - Great. The top will be available tomorrow. See you soon!
     - Great, have a nice day, see you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 8505591692324210981}
   - {fileID: 2125253753812887535}
@@ -2164,16 +2164,10 @@ MonoBehaviour:
   notification: {fileID: 3543806273364766072}
   pannelUI: {fileID: 3690864415878882189}
   countdownText: {fileID: 5035205006128228267}
-  answerScript:
-  - {fileID: 4373246622002952301}
-  - {fileID: 6519821049351118641}
-  - {fileID: 5678298978983662796}
-  - {fileID: 6057126390105760888}
   answerPannelsTL: {fileID: 8505591692324210981}
   answerPannelsTR: {fileID: 2125253753812887535}
   answerPannelsBL: {fileID: 3447853243203335936}
   answerPannelsBR: {fileID: 2240900292527860673}
-  scoreManager: {fileID: 0}
   setTimer: 0
   pathController: {fileID: 7323907096563815132}
 --- !u!1 &4078609713396739484
@@ -4323,6 +4317,7 @@ GameObject:
   - component: {fileID: 7073193272899587177}
   - component: {fileID: 7323907096563815135}
   - component: {fileID: 7323907096563815132}
+  - component: {fileID: -4515918746740544171}
   m_Layer: 0
   m_Name: D complaint, size
   m_TagString: Untagged
@@ -4410,7 +4405,103 @@ MonoBehaviour:
   questionManager: {fileID: 248347293893501839}
   QM: {fileID: 3981831929308245595}
   questionPannels: {fileID: 3690864415878882189}
-  Walking: {fileID: 0}
+  Walking: {fileID: -4515918746740544171}
+--- !u!82 &-4515918746740544171
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7593868741640492755}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.839
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &7685038926113633672
 GameObject:
   m_ObjectHideFlags: 0
