@@ -2403,8 +2403,8 @@ MonoBehaviour:
     - Hi. Sure, did you not find anything else?
     - Hi. I love the colour, it will suit you well. Did you look for anything else?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Thank you. I am a student, can I get a discount? Here's my ID.
     Answers:
     - We do offer student discount but only through StudyID app. Do you have that?
@@ -2428,8 +2428,8 @@ MonoBehaviour:
     - Thanks. See you!
     - Ok, Bye!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 4941528908518033251}
   - {fileID: 4607931294300672861}

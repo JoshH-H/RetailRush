@@ -247,7 +247,7 @@ MonoBehaviour:
   - Question: Hi, I am very dissapointed of the level of service I have received
       today.
     Answers:
-    - Hello Madam. We wanr offer the best level of service. Please tell me more?
+    - Hello Madam. We want to offer the best level of service. Please tell me more?
     - Hello Madam, sorry to hear, what happened?
     - Hello Madam. What happened?
     - ...
@@ -269,7 +269,7 @@ MonoBehaviour:
     - The item is sold out and they are looking for a replacement.You should of been
       informed of this.
     - ...
-    CorrectAnswer: 1
+    CorrectAnswer: 3
     confusedAnswer: 2
   - Question: Well tell them to hurry up, I have no time for this kind of non sense.
     Answers:
@@ -277,8 +277,8 @@ MonoBehaviour:
     - I have asked them to rush back. I apologise again for the miscommunication.
     - I am sure she will be back soon.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 3063860621669699803}
   - {fileID: 1570292375016257996}

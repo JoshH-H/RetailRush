@@ -2916,8 +2916,8 @@ MonoBehaviour:
     - Sure thing.
     - Great, they have few in stock.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Ok that's all. Thank you, bye!
     Answers:
     - Ok, see you soon!

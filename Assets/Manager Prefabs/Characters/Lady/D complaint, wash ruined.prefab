@@ -2538,8 +2538,8 @@ MonoBehaviour:
     - You should know how to wash silk clothes.
     - I completely understand and I am sorry you were not informed.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: This is not my fault! I want my money back!
     Answers:
     - Unfortunately I can not do that as the wash instructions were not followed.

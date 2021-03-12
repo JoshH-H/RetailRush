@@ -2732,8 +2732,8 @@ MonoBehaviour:
     - We appreciate your feedback, I will forward it. Have a nice day!
     - Sure thing, bye!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 0
+    CorrectAnswer: 2
+    confusedAnswer: 1
   options:
   - {fileID: 5689238270093611432}
   - {fileID: 5590746384620308715}

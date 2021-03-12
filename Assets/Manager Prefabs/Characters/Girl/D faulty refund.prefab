@@ -4500,8 +4500,8 @@ MonoBehaviour:
     - Sorry again and hope to see you soon! Bye!
     - Great, Bye!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 2027089922839474945}
   - {fileID: 8117844963592787507}

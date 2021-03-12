@@ -4168,16 +4168,16 @@ MonoBehaviour:
     - Sure, see you then!
     - Good to hear, I will be happy to see you then!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 2
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: Sure, thank you for your time. Bye now!
     Answers:
     - Bye!
     - Thanks, see you!
     - Thank you, have a nice day and see you soon1
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   options:
   - {fileID: 7648453971481753314}
   - {fileID: 8445072550053053756}

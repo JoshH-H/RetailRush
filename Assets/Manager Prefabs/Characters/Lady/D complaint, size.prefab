@@ -2131,16 +2131,16 @@ MonoBehaviour:
       stockroom as well.
     - That top is one of our best sellers. I would know if we had any left.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: I am sure there is some left. You are just not checking properly!
     Answers:
     - Here you can see our system, it says 0.
     - I would know if we had any left, that top is a best seller.
     - I have double checked. Maybe I can check other store for it?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: This is my closest store. I need it for the day after tomorrow!
     Answers:
     - The store up town has one. It is only a short bus drive away.

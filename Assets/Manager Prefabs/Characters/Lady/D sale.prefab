@@ -208,17 +208,17 @@ MonoBehaviour:
   QuestionsNAnswers:
   - Question: Hello, can I have this silk top please.
     Answers:
-    - Hello Madam. Sure you can.
+    - Sure, ofcourse.
     - Hello Madam. Sure, just this?
     - Hello Madam. Ofcourse! I love silk tops, so elegant.
     - ...
     CorrectAnswer: 3
     confusedAnswer: 2
-  - Question: I love the feel of silk. Here's my card.
+  - Question: I just adore the feel of silk. Here's my card.
     Answers:
-    - Definetely, remember to treat it with care.
+    - Remember to read the care label.
     - I agree. Remember that this should be dry clean only.
-    - Yes silk can be considered good for your skin too!
+    - Thank you, I will process the sale.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
@@ -228,8 +228,8 @@ MonoBehaviour:
     - Thank you, hope to see you soon!
     - Thankyou and have a nice day Madam. See you soon!
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   options:
   - {fileID: 883293917614377836}
   - {fileID: 1090004168719995439}

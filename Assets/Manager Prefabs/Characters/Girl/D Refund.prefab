@@ -2070,8 +2070,8 @@ MonoBehaviour:
   - Question: Nothing, they were just too baggy down the leg for my liking.
     Answers:
     - 'This one is slightly oversized style so you might of needed one size down. '
-    - Yeah the fit is a bit funny, other size coul help.
-    - Maybe you could try other size?
+    - Yeah the fit is weird, other size coul help.
+    - Maybe you could try if other size fits better?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 3
@@ -2081,8 +2081,8 @@ MonoBehaviour:
     - Glad to hear, my colleague here will help you to get the right size.
     - Great, they are on that rail over there for you.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 7580066740323839943}
   - {fileID: 6418600130441116669}

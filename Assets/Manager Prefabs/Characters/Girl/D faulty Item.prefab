@@ -1845,16 +1845,16 @@ MonoBehaviour:
     - Anything else for today?
     - Thanks, All done.
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: That's all for now. Thank you, bye!
     Answers:
-    - Thank you. Have a nice day and see you soon!
+    - Okay, bye!
     - Thanks, see you soon!
-    - Okay, bye.
+    - Thank you. Have a nice day and see you soon!
     - ...
-    CorrectAnswer: 0
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   options:
   - {fileID: 1202031223191515148}
   - {fileID: 1229266534633903368}

@@ -836,7 +836,7 @@ MonoBehaviour:
     Answers:
     - It does come in other colours.
     - This top does come in multiple colours, would you like to see them first?
-    - Sure, what about another colour?
+    - I see, what about another colour?
     - ...
     CorrectAnswer: 2
     confusedAnswer: 3
