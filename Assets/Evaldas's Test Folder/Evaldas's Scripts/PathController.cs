@@ -6,6 +6,7 @@ public class PathController : MonoBehaviour
 {
     public bool CameBack = false;
 
+
     private Transform Path;
     public Transform Path1;
     public Transform Path2;
@@ -40,6 +41,7 @@ public class PathController : MonoBehaviour
     [SerializeField] AudioSource Walking;
     void Start()
     {
+
         QM.SetActive(false);
         //questionPannels.SetActive(false);
 
@@ -73,13 +75,12 @@ public class PathController : MonoBehaviour
 
         Quaternion rotationToTarget = Quaternion.LookRotation(targetWaypoint.position - transform.position);
         print("Target" + targetWaypoint);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-            
 
         float movementStep = MovementSpeed * Time.deltaTime;
         float rotationStep = RotationSpeed * Time.deltaTime;

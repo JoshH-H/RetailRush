@@ -4409,7 +4409,7 @@ MonoBehaviour:
   answerPannelsBL: {fileID: 7742668471206700001}
   answerPannelsBR: {fileID: 7043504902934330969}
   setTimer: 0
-  pathController: {fileID: 0}
+  pathController: {fileID: 9070320857952908692}
 --- !u!1 &7647178312480330164
 GameObject:
   m_ObjectHideFlags: 0
