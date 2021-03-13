@@ -2097,6 +2097,7 @@ MonoBehaviour:
   answerPannelsTR: {fileID: 6418600130441116669}
   answerPannelsBL: {fileID: 2167773812596283733}
   answerPannelsBR: {fileID: 8154926233295631564}
+  countDownClock: {fileID: 6149366225207717751}
   setTimer: 0
   pathController: {fileID: 5678168034755347646}
 --- !u!1 &3642850772413519594

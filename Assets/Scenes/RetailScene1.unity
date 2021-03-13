@@ -178,7 +178,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 41884236}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 278634bd8fcb98341a9cdf0a561b9471, type: 3}
@@ -1363,84 +1363,6 @@ Transform:
   m_Father: {fileID: 2093859399}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 106.698006, z: 0}
---- !u!1 &724795071
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 724795072}
-  - component: {fileID: 724795074}
-  - component: {fileID: 724795073}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &724795072
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724795071}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.58722, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 856843456}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7, y: 10.3}
-  m_SizeDelta: {x: 129.7915, y: 43.432144}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &724795073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724795071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 2a0cdbf4c3c4dbd4d80ee8e4e58759cd, type: 3}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Your first customer \nis on their way!"
---- !u!222 &724795074
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 724795071}
-  m_CullTransparentMesh: 0
 --- !u!1 &726090940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,8 +2129,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 11.335686, y: 6.864971, z: 1}
   m_Children:
+  - {fileID: 918336632}
   - {fileID: 938007639}
-  - {fileID: 724795072}
   m_Father: {fileID: 1492098368}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2382,6 +2304,84 @@ RectTransform:
   m_AnchoredPosition: {x: -0.14299965, y: -0.21000004}
   m_SizeDelta: {x: -2.1668053, y: -2.182818}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &918336631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 918336632}
+  - component: {fileID: 918336634}
+  - component: {fileID: 918336633}
+  m_Layer: 5
+  m_Name: First Customer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &918336632
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918336631}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.08553734, y: 0.14028066, z: 0.9630228}
+  m_Children: []
+  m_Father: {fileID: 856843456}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -50, y: 68.9}
+  m_SizeDelta: {x: 973.46643, y: 229.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &918336633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918336631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4b229ca001256e246a1e65108283e68e, type: 3}
+    m_FontSize: 90
+    m_FontStyle: 3
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 155
+    m_Alignment: 4
+    m_AlignByGeometry: 1
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Your first customer \nis on their way!"
+--- !u!222 &918336634
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918336631}
+  m_CullTransparentMesh: 0
 --- !u!1 &938007638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2413,7 +2413,7 @@ RectTransform:
   m_LocalScale: {x: 0.08553734, y: 0.14028066, z: 0.9630228}
   m_Children: []
   m_Father: {fileID: 856843456}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -2439,7 +2439,15 @@ MonoBehaviour:
   - 'Pro-Tip: Try to memorize your new stock so you won''t be unsure if a customer
     asks you.'
   - 'Pro-Tip: Maintain a positive work-life balance.'
+  - 'Pro-Tip: Kill them with kindness!'
+  - "Pro-Tip: Ask your client\u2019s opinion, what their ideal solution is for an
+    issue!"
+  - 'Pro-Tip: Never assume what your client needs!'
+  - 'Pro-Tip: Always strive to offer your client options of action so they feel they
+    are in control!'
   tipText: {fileID: 938007641}
+  mainPannel: {fileID: 856843455}
+  timeToDisappear: 5
 --- !u!114 &938007641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4990,13 +4998,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2131347155}
   - component: {fileID: 2131347154}
+  - component: {fileID: 2131347156}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2131347154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5004,7 +5013,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131347153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
   m_Name: 
@@ -5055,3 +5064,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131347156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131347153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HasCameBack: 0
+  NPCs:
+  - {fileID: 2355883365940831198, guid: 5651b0f822a9c254e929b573865a8bcd, type: 3}
+  Main: {fileID: 0}
+  MainController: {fileID: 0}

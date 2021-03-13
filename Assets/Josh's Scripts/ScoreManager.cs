@@ -32,18 +32,18 @@ public class ScoreManager : MonoBehaviour
     //Scoring
     public void RightScore()
     {
-        playerScore += 15;
+        playerScore += 10;
     }
 
     public void WrongScore()
     {
-        playerScore -= 5;
+        playerScore -= 10;
     }
 
-    public void ConfusedScore()
+/*    public void ConfusedScore()
     {
         playerScore += 10;
-    }
+    }*/
     //Scoring End
 
     public void progressReport()

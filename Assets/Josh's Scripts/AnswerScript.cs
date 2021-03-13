@@ -39,26 +39,28 @@ public class AnswerScript : MonoBehaviour
             questionManager.answerPannelsTR.SetActive(false);
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
-            getAngry.material.SetFloat("_Angry", 0f);
+            questionManager.countDownClock.SetActive(false);
+            //getAngry.material.SetFloat("_Angry", 0f);
             correctSound.Play();
         }
 
         if (isConfused)
         {
-            ScoreManager.instance.ConfusedScore();
+            //ScoreManager.instance.ConfusedScore();
             questionManager.correct();
             questionManager.answerPannelsTL.SetActive(false);
             questionManager.answerPannelsTR.SetActive(false);
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
+            questionManager.countDownClock.SetActive(false);
             confusedSound.Play();
             happyResponse.SetActive(false);
             confusedResponse.SetActive(true);
             Invoke("confusedAnswer", 2);
-            getAngry.material.SetFloat("_Angry", 0f);
+            //getAngry.material.SetFloat("_Angry", 0f);
         }
 
-        else 
+        if (!isCorrect && !isConfused)
         {
             ScoreManager.instance.WrongScore();
             Debug.Log("That's wrong");
@@ -67,6 +69,7 @@ public class AnswerScript : MonoBehaviour
             questionManager.answerPannelsTR.SetActive(false);
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
+            questionManager.countDownClock.SetActive(false);
             wrongSound.Play();
             happyResponse.SetActive(false);
             unhappyResponse.SetActive(true);
@@ -87,6 +90,6 @@ public class AnswerScript : MonoBehaviour
     {
         happyResponse.SetActive(true);
         confusedResponse.SetActive(false);
-        getAngry.material.SetFloat("_Angry", 0f);
+        //getAngry.material.SetFloat("_Angry", 0f);
     }
 }

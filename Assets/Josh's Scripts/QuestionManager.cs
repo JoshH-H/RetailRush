@@ -19,7 +19,6 @@ public class QuestionManager : MonoBehaviour
     [Header("Pannel UI")]
     [SerializeField] GameObject pannelUI;
     [SerializeField] Text countdownText;
-    //[SerializeField] AnswerScript[] answerScript;
     private Coroutine currentRoutine;
     static float countdownTime;
     static public float option;
@@ -27,6 +26,7 @@ public class QuestionManager : MonoBehaviour
     public GameObject answerPannelsTR;
     public GameObject answerPannelsBL;
     public GameObject answerPannelsBR;
+    public GameObject countDownClock;
 
     [Header("Other Script Connections")]
     [SerializeField] private float setTimer;
@@ -44,6 +44,7 @@ public class QuestionManager : MonoBehaviour
         answerPannelsTR.SetActive(false);
         answerPannelsBL.SetActive(false);
         answerPannelsBR.SetActive(false);
+        countDownClock.SetActive(false);
         UIManager.instance.pauseButton.interactable = false;
     }
 
@@ -65,10 +66,12 @@ public class QuestionManager : MonoBehaviour
         answerPannelsTR.SetActive(true);
         answerPannelsBL.SetActive(true);
         answerPannelsBR.SetActive(true);
+        countDownClock.SetActive(true);
         currentRoutine = StartCoroutine(CountdownStart());
         for (int i = 0; i < options.Length; i++)
         {
             options[i].GetComponent<AnswerScript>().isCorrect = false;
+            options[i].GetComponent<AnswerScript>().isConfused = false;
             options[i].transform.GetChild(0).GetComponent<Text>().text = QuestionsNAnswers[currentQuestion].Answers[i];
 
             if (QuestionsNAnswers[currentQuestion].CorrectAnswer == i + 1)
@@ -134,7 +137,7 @@ public class QuestionManager : MonoBehaviour
         answerPannelsTR.SetActive(false);
         answerPannelsBL.SetActive(false);
         answerPannelsBR.SetActive(false);
+        countDownClock.SetActive(false);
         correct();
     }
-
 }
