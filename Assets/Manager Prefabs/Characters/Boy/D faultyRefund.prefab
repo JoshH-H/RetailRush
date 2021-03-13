@@ -5190,8 +5190,7 @@ MonoBehaviour:
     Answers:
     - This is way out of return time. Sorry but I do not believe you.
     - The refund time have passed. I can not help you.
-    - As I can see it is quite over the refund time. Unfortunately I can not take
-      this back as it is not resellable either.
+    - I see you bought this quite a while back. I'm afraid I can't offer you a refund.
     - ...
     CorrectAnswer: 3
     confusedAnswer: 2

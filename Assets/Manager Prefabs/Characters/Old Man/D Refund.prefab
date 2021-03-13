@@ -400,7 +400,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877024, y: 0.0000076293945}
+  m_AnchoredPosition: {x: -18, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8285102469501903182
@@ -736,7 +736,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877024, y: 0.0000076293945}
+  m_AnchoredPosition: {x: -12, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &690723871961959888
@@ -3192,7 +3192,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5132305433555536971}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 6818594300205044512}
@@ -3200,7 +3200,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877024, y: 0.0000076293945}
+  m_AnchoredPosition: {x: 16, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8437161756164128544
@@ -3498,8 +3498,7 @@ MonoBehaviour:
     Answers:
     - Hi. Are you sure you would not like an exchange instead?
     - Did you consider an exchange?
-    - Hello sir! Did you notice our new collection in case there would of been something
-      to exchange to?
+    - Hello sir! Did you see our new collection in case of an exchange?
     - ...
     CorrectAnswer: 3
     confusedAnswer: 1
@@ -3521,9 +3520,9 @@ MonoBehaviour:
     confusedAnswer: 3
   - Question: Yes thank you. Here's my card you can refund to.
     Answers:
-    - Thank you sir. I notice te card is not the one you paid with. It ended 1234.
+    - Thank you sir. I notice te card is not the payment card. It ended 1234.
     - Thank you. Sorry but I see this is not the same card?
-    - Thanks. This is not the right card though.
+    - Thanks. This card is wrong.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
@@ -3539,17 +3538,16 @@ MonoBehaviour:
   - Question: Well, nobody told me that. How could I have known?
     Answers:
     - Apologies if you have not been informed.  I am happy to offer you a gift card
-      or small extension on the refund time so you can come back?
+      or I can extend the refund time a little?
     - It is a standard policy in most retail I am afraid. Maybe you can return with
       the correct card?
     - It is a commonly known rule. Come back with the correct card.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Well ok then. If I find something for exchange is that fine?
+  - Question: Well ok then. So if I find something for exchange is that fine?
     Answers:
-    - Ofcourse, when you find something let me know and I will put it through for
-      you.
+    - Ofcourse, when you find something let me know.
     - Sure, you can do that.
     - That is perfectly fine. My colleague here will help you to find something.
     - ...
@@ -4699,7 +4697,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7431108082046671495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 4796728646254021605}
@@ -4707,7 +4705,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877024, y: 0.0000076293945}
+  m_AnchoredPosition: {x: 10, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8632674438543481346

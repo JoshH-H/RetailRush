@@ -3932,7 +3932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Hi I got these shoes and they got creased straight away!
+  - Question: Hiya. I got these shoes and they got creased straight away!
     Answers:
     - Hi, sorry to hear, all shoes do that over time.
     - Hi, sorry to hear that. Have you tried any product to fix it?
