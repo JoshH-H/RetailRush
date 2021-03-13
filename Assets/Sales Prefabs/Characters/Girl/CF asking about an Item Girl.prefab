@@ -1921,10 +1921,11 @@ MonoBehaviour:
     Answers:
     - Hello. Sure you can. Did you not find anything else?
     - Hello. Sure, just this?
-    - Hello, sure. I love this one, so soft and warm! Did you look for anything else?
+    - Hello, sure. I love this jumper, so soft and warm! Did you look for anything
+      else?
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 2
+    confusedAnswer: 3
   - Question: Just the jumper this time. Here's my card.
     Answers:
     - 'Thanks, rememeber to care for it. '
