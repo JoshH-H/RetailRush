@@ -1843,7 +1843,7 @@ MonoBehaviour:
     Answers:
     - All done. Anything else I could help you with?
     - Anything else for today?
-    - Thanks, All done.
+    - That's it then?
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
