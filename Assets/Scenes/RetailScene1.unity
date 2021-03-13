@@ -2436,15 +2436,18 @@ MonoBehaviour:
   - 'Pro-Tip: Aim to educate your clients about the product.'
   - 'Pro-Tip: Instead of asking for a ''larger'' size, ask for the ''next'' size.'
   - 'Pro-Tip: Try to always make a positve remark about what the customer is purchasing.'
-  - 'Pro-Tip: Try to memorize your new stock so you won''t be unsure if a customer
-    asks you.'
-  - 'Pro-Tip: Maintain a positive work-life balance.'
+  - 'Pro-Tip: Know what you have in stockroom to help you find add on''s and alternatives!'
+  - 'Pro-Tip: Maintain a good work-life balance to keep yourself energised!'
   - 'Pro-Tip: Kill them with kindness!'
   - "Pro-Tip: Ask your client\u2019s opinion, what their ideal solution is for an
     issue!"
   - 'Pro-Tip: Never assume what your client needs!'
   - 'Pro-Tip: Always strive to offer your client options of action so they feel they
     are in control!'
+  - 'Pro-Tip: If you do not have the requested item in stock, find an alternative!'
+  - 'Pro-Tip: Practice outfit building to always be able to offer an add on!'
+  - 'Pro-Tip: Customers have different personal styles, reflect to them!'
+  - 'Pro-Tip: Ask questions to determine your customers needs and style!'
   tipText: {fileID: 938007641}
   mainPannel: {fileID: 856843455}
   timeToDisappear: 5
