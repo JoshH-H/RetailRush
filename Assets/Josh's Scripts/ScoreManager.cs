@@ -39,11 +39,6 @@ public class ScoreManager : MonoBehaviour
     {
         playerScore -= 10;
     }
-
-/*    public void ConfusedScore()
-    {
-        playerScore += 10;
-    }*/
     //Scoring End
 
     public void progressReport()

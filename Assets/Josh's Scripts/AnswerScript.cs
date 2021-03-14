@@ -40,13 +40,11 @@ public class AnswerScript : MonoBehaviour
             questionManager.answerPannelsBL.SetActive(false);
             questionManager.answerPannelsBR.SetActive(false);
             questionManager.countDownClock.SetActive(false);
-            //getAngry.material.SetFloat("_Angry", 0f);
             correctSound.Play();
         }
 
         if (isConfused)
         {
-            //ScoreManager.instance.ConfusedScore();
             questionManager.correct();
             questionManager.answerPannelsTL.SetActive(false);
             questionManager.answerPannelsTR.SetActive(false);
@@ -57,7 +55,6 @@ public class AnswerScript : MonoBehaviour
             happyResponse.SetActive(false);
             confusedResponse.SetActive(true);
             Invoke("confusedAnswer", 2);
-            //getAngry.material.SetFloat("_Angry", 0f);
         }
 
         if (!isCorrect && !isConfused)
@@ -90,6 +87,5 @@ public class AnswerScript : MonoBehaviour
     {
         happyResponse.SetActive(true);
         confusedResponse.SetActive(false);
-        //getAngry.material.SetFloat("_Angry", 0f);
     }
 }

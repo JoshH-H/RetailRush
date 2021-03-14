@@ -88,7 +88,7 @@ public class QuestionManager : MonoBehaviour
     void generateQuestion()
     {
         StartCoroutine(newAlert());
-        Invoke("SetAnswers", 4);
+        Invoke("SetAnswers", 6);
 
         if (QuestionsNAnswers.Count > 0)
         {

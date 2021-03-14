@@ -50,6 +50,9 @@ TextureImporter:
   - first:
       213: -1338087282285777979
     second: fullBorder
+  - first:
+      213: 2642733955239242257
+    second: BlankButton
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -298,6 +301,27 @@ TextureImporter:
       bones: []
       spriteID: 5cb63ecc4b82e6de0800000000000000
       internalID: -1338087282285777979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlankButton
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 3057
+        width: 793
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ae5edc780eca420800000000000000
+      internalID: 2642733955239242257
       vertices: []
       indices: 
       edges: []

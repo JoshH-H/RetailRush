@@ -3020,7 +3020,7 @@ MonoBehaviour:
   answerPannelsTR: {fileID: 3616429641363302392}
   answerPannelsBL: {fileID: 5325475848770437151}
   answerPannelsBR: {fileID: 1198036741344789472}
-  countDownClock: {fileID: 8871980662759265822}
+  countDownClock: {fileID: 4235032519142992670}
   setTimer: 0
   pathController: {fileID: 8637608015577300964}
 --- !u!1 &4668300207827138248
@@ -5619,9 +5619,7 @@ MonoBehaviour:
   Path3: {fileID: 5292242484992276551, guid: eabfb74874f411c498dccaecc10a6753, type: 3}
   Path4: {fileID: 7931631175184857032, guid: 76c521710848e904f8bc9edc8a9a3c23, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 6760918604960180392, guid: e54bcbe15f855e04eab5f74a44e9240d,
-    type: 3}
-  rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
+  LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5
   BetaTest: {fileID: 8637608015577300963}
