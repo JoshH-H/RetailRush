@@ -1882,8 +1882,8 @@ MonoBehaviour:
   CameBack: 0
   Path1: {fileID: 5292242484992276551, guid: eabfb74874f411c498dccaecc10a6753, type: 3}
   Path2: {fileID: 7931631175184857032, guid: 76c521710848e904f8bc9edc8a9a3c23, type: 3}
-  Path3: {fileID: 5292242484992276551, guid: eabfb74874f411c498dccaecc10a6753, type: 3}
-  Path4: {fileID: 7931631175184857032, guid: 76c521710848e904f8bc9edc8a9a3c23, type: 3}
+  Path3: {fileID: 5793722200935530371, guid: 67c26b87a88a76743a4436648300ca87, type: 3}
+  Path4: {fileID: 4731633260438991701, guid: 291ff021327eebd44ba6259b82e74e19, type: 3}
   Waypoints: []
   DirectionToLook: {fileID: 6760918604960180392, guid: 49e33e79a0aa2434baf14b5b6058db31,
     type: 3}

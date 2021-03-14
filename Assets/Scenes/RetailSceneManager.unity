@@ -1292,7 +1292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &642045921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4629,7 +4629,7 @@ MonoBehaviour:
   CurrentTime: 0
   ShiftsResults: {fileID: 642045920}
   AllSounds: {fileID: 0}
-  mainNPC: {fileID: 0}
+  mainNPC: {fileID: 2131347154}
 --- !u!4 &2018019696
 Transform:
   m_ObjectHideFlags: 0
@@ -5079,7 +5079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2141441909
 RectTransform:
   m_ObjectHideFlags: 0

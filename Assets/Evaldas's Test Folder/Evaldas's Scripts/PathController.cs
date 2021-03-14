@@ -70,10 +70,10 @@ public class PathController : MonoBehaviour
             Waypoints[i] = Path.transform.GetChild(i);
         }
 
-        lastWaypointIndex = Waypoints.Length - 1;
+        lastWaypointIndex = Waypoints.Length - 1; //here it gets messy
         targetWaypoint = Waypoints[targetWaypointIndex];
 
-        Quaternion rotationToTarget = Quaternion.LookRotation(targetWaypoint.position - transform.position);
+         rotationToTarget = Quaternion.LookRotation(targetWaypoint.position - transform.position);
         print("Target" + targetWaypoint);
 
     }
