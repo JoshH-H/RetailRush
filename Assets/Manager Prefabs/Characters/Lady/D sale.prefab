@@ -2388,9 +2388,7 @@ MonoBehaviour:
   Path3: {fileID: 5793722200935530371, guid: 67c26b87a88a76743a4436648300ca87, type: 3}
   Path4: {fileID: 4731633260438991701, guid: 291ff021327eebd44ba6259b82e74e19, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 6760918604960180392, guid: fd1941395fb4867439adc3c600ced7fb,
-    type: 3}
-  rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
+  LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5
   BetaTest: {fileID: 3370926221963957100}
@@ -2455,7 +2453,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0.839
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0

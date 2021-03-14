@@ -2177,9 +2177,7 @@ MonoBehaviour:
   Path3: {fileID: 5793722200935530371, guid: 67c26b87a88a76743a4436648300ca87, type: 3}
   Path4: {fileID: 4731633260438991701, guid: 291ff021327eebd44ba6259b82e74e19, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 2037875342615964934, guid: ecd1e8b8356adf84e8e9751cafe94403,
-    type: 3}
-  rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
+  LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5
   BetaTest: {fileID: 2515184427286819224}
@@ -2198,7 +2196,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 389b481fea8c8b84c8d1daf3a6af6cd6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 83e08998bd782474c8e38edd8e0e705b, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
