@@ -2433,9 +2433,7 @@ MonoBehaviour:
   Path3: {fileID: 5793722200935530371, guid: 67c26b87a88a76743a4436648300ca87, type: 3}
   Path4: {fileID: 4731633260438991701, guid: 291ff021327eebd44ba6259b82e74e19, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 2089664458826530695, guid: 66b90405531a4ca4a9bcfef89ebf0661,
-    type: 3}
-  rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
+  LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5
   BetaTest: {fileID: 5678168034755347641}
@@ -3858,11 +3856,11 @@ MonoBehaviour:
     Answers:
     - Sorry that you were not offered anything. I recommend this one, it works like
       magic.
-    - You can try this one to fix it.
+    - Maybe you can try this product to fix it?
     - You can try to find some product to fix it.
     - ...
     CorrectAnswer: 1
-    confusedAnswer: 3
+    confusedAnswer: 2
   - Question: Ok I guess I could give it a go.
     Answers:
     - I promise this will fix all your problems!

@@ -4358,8 +4358,8 @@ MonoBehaviour:
     - Thanks. See ya later.
     - Thank you, bye!
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   options:
   - {fileID: 8959544084545348049}
   - {fileID: 4327943401361501996}

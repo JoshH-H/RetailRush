@@ -2536,8 +2536,8 @@ MonoBehaviour:
     - Sorry about it, I will get you a replacement ready for exchange.
     - Are you sure you did not accidentally rip it on anything?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 2
   - Question: Don't be silly, I want my money back. I am not buying more of this
       rubbish.
     Answers:
@@ -3700,9 +3700,7 @@ MonoBehaviour:
   Path3: {fileID: 5292242484992276551, guid: eabfb74874f411c498dccaecc10a6753, type: 3}
   Path4: {fileID: 7931631175184857032, guid: 76c521710848e904f8bc9edc8a9a3c23, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 6760918604960180392, guid: fd1941395fb4867439adc3c600ced7fb,
-    type: 3}
-  rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
+  LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5
   BetaTest: {fileID: 6173207647272462679}

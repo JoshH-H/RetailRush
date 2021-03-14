@@ -1579,7 +1579,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 79e180cf7561fe44db5017fec55324e9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 54dc43052dc5f27489d4e2efb6bbd1fe, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -3698,7 +3698,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0a16f13d1adeed74b84f47d9b8f13b23, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 79214f236c6b9ad448887b7e1ed11e31, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -5269,7 +5269,7 @@ MonoBehaviour:
     confusedAnswer: 2
   - Question: That's unfortunate. Can you like ask someone?
     Answers:
-    - Yes ofcourse, just a moment.
+    - Yes of course, just a moment.
     - Sorry about that, sure I will find out for you.
     - I guess.
     - ...
@@ -5279,7 +5279,7 @@ MonoBehaviour:
     Answers:
     - Yes, Closest station is just 5 minutes away. Here's the directions.
     - Yep, just turn right, then left then right then go straight and then left.
-    - Yeah, here is a map for you with directions.
+    - Yeah, heres the directions.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 3
