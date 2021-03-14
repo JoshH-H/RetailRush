@@ -14,15 +14,13 @@ public class PathController : MonoBehaviour
     public Transform Path4;
     public Transform[] Waypoints;
     private Transform targetWaypoint;
+
     private int targetWaypointIndex = 0;
+
     private float minDis = 0.1f;
     private int lastWaypointIndex;
-    public Transform DirectionToLook;
 
-
-
-    [SerializeField] Quaternion rotationToTarget;
-    bool WasZero;
+    public bool LastWayPoint;
 
     public float MovementSpeed = 1.0f;
     public float RotationSpeed = 5.0f;
@@ -73,9 +71,6 @@ public class PathController : MonoBehaviour
         lastWaypointIndex = Waypoints.Length - 1; //here it gets messy
         targetWaypoint = Waypoints[targetWaypointIndex];
 
-         rotationToTarget = Quaternion.LookRotation(targetWaypoint.position - transform.position);
-        print("Target" + targetWaypoint);
-
     }
 
     // Update is called once per frame
@@ -86,57 +81,37 @@ public class PathController : MonoBehaviour
         float rotationStep = RotationSpeed * Time.deltaTime;
 
         Vector3 directionToTarget = targetWaypoint.position - transform.position;
-        Vector3 Zero = new Vector3(0, 0, 0);
-
-        Quaternion ZeroToTarget = Quaternion.LookRotation(Zero);
-        Quaternion directionToLook = Quaternion.LookRotation(DirectionToLook.position);
-
-        if (rotationToTarget == ZeroToTarget)
-        {
-
-            rotationToTarget = directionToLook;
-            WasZero = true;
-            return;
-        }
-        else
-        {
-            rotationToTarget = Quaternion.LookRotation(directionToTarget);
-            BetaTest.SetBool("IsWalking", true);
-        }
-
-        if (rotationToTarget == ZeroToTarget && WasZero == true)
-        {
-            BetaTest.SetBool("IsWalking", false);
-            rotationToTarget = directionToLook;
-            QM.SetActive(true);
-            //questionPannels.SetActive(true);
-        }
-
+        Quaternion rotationToTarget = Quaternion.LookRotation(directionToTarget);
 
         transform.rotation = Quaternion.Slerp(transform.rotation, rotationToTarget, rotationStep);
 
+        if (LastWayPoint == true)
+        {
+            BetaTest.SetBool("IsWalking", false);
+            QM.SetActive(true);
+            //questionPannels.SetActive(true);
+        }
+        else
+        {
+            BetaTest.SetBool("IsWalking", true);
+        }
 
+        if (DoneTalking == true || Input.GetKeyDown("q"))
+        {
+            BetaTest.SetBool("IsWalking", true);
+            Walking.Play();
+            System.Array.Reverse(Waypoints);
+            targetWaypointIndex = 0;
+            CanBeDestroyed = true;
+            DoneTalking = false;
+        }
 
         float distance = Vector3.Distance(transform.position, targetWaypoint.position);
         CheckDistanceToWaypoint(distance);
 
         transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, movementStep);
 
-        if (DoneTalking == true || Input.GetKeyDown("q"))
-        {
-            Walking.Play();
-            System.Array.Reverse(Waypoints);
-            targetWaypointIndex = 0;
-            CanBeDestroyed = true;
-            DoneTalking = false;
-            
-        }
 
-        //if (BetaTest.GetComponent<Animator>().GetBool("IsWalking") == true)
-        //{
-        //    Walking.Play();
-        //    print(BetaTest.GetComponent<Animator>().GetBool("IsWalking"));
-        //}
         if (BetaTest.GetComponent<Animator>().GetBool("IsWalking") == true && Walking.isPlaying == false)
         {
             Walking.Play();
@@ -148,10 +123,12 @@ public class PathController : MonoBehaviour
             print(BetaTest.GetComponent<Animator>().GetBool("IsWalking"));
         }
 
+
+
         if (CanBeDestroyed == true && targetWaypointIndex == lastWaypointIndex)
         {
             CameBack = true;
-           
+
         }
 
 
@@ -168,9 +145,14 @@ public class PathController : MonoBehaviour
 
     void UpdateTargetWaypoint()
     {
+
         if (targetWaypointIndex > lastWaypointIndex)
         {
-            targetWaypointIndex = lastWaypointIndex;
+            LastWayPoint = true;
+        }
+        else
+        {
+            LastWayPoint = false;
         }
         targetWaypoint = Waypoints[targetWaypointIndex];
     }

@@ -5,7 +5,6 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public bool HasCameBack;
-    public List<GameObject> npcs = new List<GameObject>();
     public GameObject[] NPCs;
     public GameObject Main;
     [SerializeField] PathController MainController;
@@ -21,13 +20,14 @@ public class Spawner : MonoBehaviour
         Main = Instantiate(NPCs[c], NPCs[c].transform);
         MainController = Main.GetComponent<PathController>();
         HasCameBack = MainController.CameBack;
+        RemoveAt(ref NPCs, c);
     }
     void Update()
     {
         HasCameBack = MainController.CameBack;
         if (HasCameBack == true)
         {
-            RemoveAt(ref NPCs, 2); // removes Color.white.
+            
             Destroy(Main);
             int a = 0;
             int b = NPCs.Length;
@@ -39,6 +39,7 @@ public class Spawner : MonoBehaviour
             MainController = Main.GetComponent<PathController>();
             HasCameBack = false;
             HasCameBack = MainController.CameBack;
+            RemoveAt(ref NPCs, c);
         }
 
     }

@@ -4823,7 +4823,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8151841959237049454}
   m_LocalRotation: {x: -0.0000000017076046, y: 0.99995846, z: -0.009119214, w: -0.00000018724573}
-  m_LocalPosition: {x: 15.4, y: -0.7, z: -29.9}
+  m_LocalPosition: {x: 6.82, y: -0.93, z: -42.33}
   m_LocalScale: {x: 1.5, y: 1.70715, z: 1.5}
   m_Children:
   - {fileID: 6008188907073955334}
@@ -4883,14 +4883,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameBack: 0
-  Path1: {fileID: 8003267736075839171, guid: 486b99b21e6c46b46a993845e1ceae47, type: 3}
-  Path2: {fileID: 4925181608630993971, guid: b4b853e9c48e7694ca216aece46b66cc, type: 3}
-  Path3: {fileID: 8003267736075839171, guid: 486b99b21e6c46b46a993845e1ceae47, type: 3}
-  Path4: {fileID: 4925181608630993971, guid: b4b853e9c48e7694ca216aece46b66cc, type: 3}
+  Path1: {fileID: 939620044445118850, guid: 58d57a2002c386b4896b45432661b894, type: 3}
+  Path2: {fileID: 5717717991781014498, guid: 7fb65a373d2c6fd40b2cd93e012c15cd, type: 3}
+  Path3: {fileID: 3040344736687441764, guid: ccdae5975123e6e42a26910b75181a83, type: 3}
+  Path4: {fileID: 6208584093791709087, guid: f0afab54867493948adc2d4741c1c658, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 6760918604960180392, guid: e54bcbe15f855e04eab5f74a44e9240d,
-    type: 3}
-  rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
+  LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5
   BetaTest: {fileID: 9070320857952908691}
