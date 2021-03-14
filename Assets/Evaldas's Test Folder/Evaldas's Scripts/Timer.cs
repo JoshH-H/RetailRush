@@ -13,6 +13,9 @@ public class Timer : MonoBehaviour
 
     public GameObject ShiftsResults;
 
+    [SerializeField] public AudioSource AllSounds;
+    public Spawner mainNPC;
+
     //public Text TimerO;
 
     int Min;
@@ -26,7 +29,7 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
-        
+        AllSounds = mainNPC.Main.GetComponent<AudioSource>();
         CurrentTime -= 1 * Time.deltaTime;
 
      /* Min = Mathf.FloorToInt(CurrentTime / 60);
@@ -40,6 +43,7 @@ public class Timer : MonoBehaviour
         }
         if (CurrentTime <= 0 )
         {
+            AllSounds.mute = true;
             ShiftsResults.SetActive(true);
             Time.timeScale = 0f;
         }
@@ -53,6 +57,11 @@ public class Timer : MonoBehaviour
     public void RestartTheScene()
     {
         SceneManager.LoadScene(1); // loads current scene
+        shiftsCompleted++;
+    }
+    public void LoadManager()
+    {
+        SceneManager.LoadScene(3); // loads current scene
         shiftsCompleted++;
     }
     public void Unfreeze()

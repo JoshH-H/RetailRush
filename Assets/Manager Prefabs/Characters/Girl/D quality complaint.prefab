@@ -2491,7 +2491,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 93387b2644716bc45beb122f094906c7, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 2
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2516,7 +2516,7 @@ MonoBehaviour:
   Path3: {fileID: 5292242484992276551, guid: eabfb74874f411c498dccaecc10a6753, type: 3}
   Path4: {fileID: 7931631175184857032, guid: 76c521710848e904f8bc9edc8a9a3c23, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 6760918604960180392, guid: 90f3bf9c6e9118846b879e6df495a9d8,
+  DirectionToLook: {fileID: 2037875342615964934, guid: ecd1e8b8356adf84e8e9751cafe94403,
     type: 3}
   rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
   MovementSpeed: 5
@@ -2542,7 +2542,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128

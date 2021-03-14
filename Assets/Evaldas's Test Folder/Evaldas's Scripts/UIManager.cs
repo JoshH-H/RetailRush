@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Timer timerScript;
+    [SerializeField] public AudioSource AllSounds;
+    public Spawner mainNPC;
     public GameObject menu;
     public GameObject PauseMenu;
     bool Opened = false;
@@ -23,34 +24,42 @@ public class UIManager : MonoBehaviour
     }
     void Update()
     {
-        if(Opened == false)
+        AllSounds = mainNPC.Main.GetComponent<AudioSource>();
+        if (Opened == false)
         {
             if(Input.GetKeyDown(KeyCode.Escape))
             {
                 PauseMenu.SetActive(true);
+                AllSounds.mute = true;
                 Time.timeScale = 0f;
                 Opened = true;
             }
+            
         }
         else
         {
             if (Input.GetKeyDown(KeyCode.Escape))
             {
                 PauseMenu.SetActive(false);
+                AllSounds.mute = false;
                 Time.timeScale = 1f;
                 Opened = false;
             }
+            
         } 
     }
     public void Pause()
     {
         PauseMenu.SetActive(true);
+        AllSounds.mute = true;
         Time.timeScale = 0f;
         Opened = true;
+        
     }
     public void Continue()
     {
         PauseMenu.SetActive(false);
+        AllSounds.mute = false;
         Time.timeScale = 1f;
         Opened = false;
     }

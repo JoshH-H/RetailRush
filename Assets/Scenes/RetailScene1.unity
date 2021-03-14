@@ -167,7 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf0578b5eaa1374fb23797cfc7d82e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerScript: {fileID: 0}
+  AllSounds: {fileID: 0}
+  mainNPC: {fileID: 2131347154}
   menu: {fileID: 0}
   PauseMenu: {fileID: 2034543785}
   pauseButton: {fileID: 1668824542}
@@ -474,17 +475,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1995193590}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -4725,6 +4715,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentTime: 0
   ShiftsResults: {fileID: 642045920}
+  AllSounds: {fileID: 0}
+  mainNPC: {fileID: 2131347154}
 --- !u!4 &2018019696
 Transform:
   m_ObjectHideFlags: 0
@@ -5001,7 +4993,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2131347155}
   - component: {fileID: 2131347154}
-  - component: {fileID: 2131347156}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -5016,12 +5007,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131347153}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HasCameBack: 1
+  HasCameBack: 0
+  npcs: []
   NPCs:
   - {fileID: 2355883365940831198, guid: 12f94ddaabd4ecf478e222da2e154275, type: 3}
   - {fileID: 3510223582786201252, guid: 63a48cf6bb030cc47ba1854cfe985046, type: 3}
@@ -5067,20 +5059,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2131347156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131347153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HasCameBack: 0
-  NPCs:
-  - {fileID: 2355883365940831198, guid: 5651b0f822a9c254e929b573865a8bcd, type: 3}
-  Main: {fileID: 0}
-  MainController: {fileID: 0}

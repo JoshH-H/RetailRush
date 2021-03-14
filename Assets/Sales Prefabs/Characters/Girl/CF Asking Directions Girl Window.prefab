@@ -2994,7 +2994,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 93387b2644716bc45beb122f094906c7, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 2
+  m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -3019,7 +3019,7 @@ MonoBehaviour:
   Path3: {fileID: 8003267736075839171, guid: 486b99b21e6c46b46a993845e1ceae47, type: 3}
   Path4: {fileID: 4925181608630993971, guid: b4b853e9c48e7694ca216aece46b66cc, type: 3}
   Waypoints: []
-  DirectionToLook: {fileID: 6760918604960180392, guid: 90f3bf9c6e9118846b879e6df495a9d8,
+  DirectionToLook: {fileID: 2089664458826530695, guid: 66b90405531a4ca4a9bcfef89ebf0661,
     type: 3}
   rotationToTarget: {x: 0, y: 0, z: 0, w: 0}
   MovementSpeed: 5

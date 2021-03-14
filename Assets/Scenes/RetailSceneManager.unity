@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf0578b5eaa1374fb23797cfc7d82e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AllSounds: {fileID: 0}
+  mainNPC: {fileID: 2131347154}
   timerScript: {fileID: 0}
   menu: {fileID: 0}
   PauseMenu: {fileID: 2034543785}
@@ -1949,7 +1951,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2018019695}
-        m_MethodName: RestartTheScene
+        m_MethodName: LoadManager
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4905,6 +4907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HasCameBack: 0
+  npcs: []
   NPCs:
   - {fileID: 3510223582786201252, guid: 42b99859d3339fc4f99a08aedfca71f5, type: 3}
   - {fileID: 6698731362534609711, guid: c7ac7f62f0c2678489c1cf9ef9fcc63b, type: 3}
