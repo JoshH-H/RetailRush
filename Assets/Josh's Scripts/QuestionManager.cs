@@ -88,7 +88,7 @@ public class QuestionManager : MonoBehaviour
     void generateQuestion()
     {
         StartCoroutine(newAlert());
-        Invoke("SetAnswers", 6);
+        Invoke("SetAnswers", 4);
 
         if (QuestionsNAnswers.Count > 0)
         {
@@ -138,6 +138,10 @@ public class QuestionManager : MonoBehaviour
         answerPannelsBL.SetActive(false);
         answerPannelsBR.SetActive(false);
         countDownClock.SetActive(false);
+        ScoreManager.instance.WrongScore();
+        AnswerScript.remember.getAngry.material.SetFloat("_Angry", 1f);
+        AnswerScript.remember.wrongSound.Play();
+        AnswerScript.remember.Invoke("response", 2);
         correct();
     }
 }

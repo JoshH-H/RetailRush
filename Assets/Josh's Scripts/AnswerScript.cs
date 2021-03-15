@@ -8,10 +8,11 @@ public class AnswerScript : MonoBehaviour
     [SerializeField] public bool isCorrect = false;
     [SerializeField] public bool isConfused = false;
     [SerializeField] QuestionManager questionManager;
+    public static AnswerScript remember;
 
     [Header("AudioResponses")]
     [SerializeField] AudioSource correctSound;
-    [SerializeField] AudioSource wrongSound;
+    [SerializeField] public AudioSource wrongSound;
     [SerializeField] AudioSource confusedSound;
 
     [Header("Emotional Responses")]
@@ -20,12 +21,13 @@ public class AnswerScript : MonoBehaviour
     [SerializeField] GameObject confusedResponse;
     [SerializeField] GameObject head;
 
-    private Renderer getAngry;
+    public Renderer getAngry;
 
     private void Start() 
     { 
         getAngry = head.GetComponent<Renderer>();
         getAngry.material.SetFloat("_Angry", 0f);
+        remember = this;
     }
 
     public void Answer()

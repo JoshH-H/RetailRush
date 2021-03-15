@@ -10,6 +10,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
     public int maximum;
     public Image mask;
+    [SerializeField] GameObject nextShift;
 
     private void Awake()
     {
@@ -21,7 +22,18 @@ public class ScoreManager : MonoBehaviour
         currentProgress();
 
         Debug.Log("Score " + playerScore);
+
+        if (playerScore <= 0)
+        {
+            playerScore = 0;
+        }
+
+        if (playerScore >= maximum)
+        {
+            playerScore = maximum;
+        }
     }
+
 
     public void currentProgress()
     {
@@ -43,25 +55,29 @@ public class ScoreManager : MonoBehaviour
 
     public void progressReport()
     {
-
-        if (playerScore <= 10)
+        if (playerScore >= 40)
         {
-            Debug.Log("OK Score");
+            nextShift.SetActive(true);
+            Debug.Log("too good");
         }
-
-        if (playerScore > 11 && playerScore <= 20)
+        else
         {
-            Debug.Log("Decent Score");
+            nextShift.SetActive(false);
+            Debug.Log("too bad");
         }
+    }
 
-        if (playerScore > 21 && playerScore <= 30)
+    public void progressReportManager()
+    {
+        if (playerScore >=230)
         {
-            Debug.Log("Alright Score");
+            nextShift.SetActive(true);
+            Debug.Log("too good");
         }
-
-        if (playerScore > 31 && playerScore <= 40)
+        else
         {
-            Debug.Log("Nice Score");
+            nextShift.SetActive(false);
+            Debug.Log("too bad");
         }
     }
 
