@@ -8,16 +8,21 @@ public class Spawner : MonoBehaviour
     public GameObject[] NPCs;
     public GameObject Main;
     [SerializeField] PathController MainController;
+    public GameObject[] RandomBG;
 
     void Start()
     {
         int a = 0;
         int b = NPCs.Length;
         int c;
+        int d = RandomBG.Length;
+        int e;
 
         c = Random.Range(a, b);
+        e = Random.Range(a, d);
 
         Main = Instantiate(NPCs[c], NPCs[c].transform);
+        Instantiate(RandomBG[e], RandomBG[e].transform);
         MainController = Main.GetComponent<PathController>();
         HasCameBack = MainController.CameBack;
         RemoveAt(ref NPCs, c);
