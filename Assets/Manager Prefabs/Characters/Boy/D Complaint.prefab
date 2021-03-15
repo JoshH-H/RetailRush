@@ -1486,6 +1486,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8864207694364522722}
   confusedResponse: {fileID: 4599691640098534737}
   head: {fileID: 7012650193112346611}
+  getAngry: {fileID: 0}
 --- !u!1 &3211990783308216001
 GameObject:
   m_ObjectHideFlags: 0
@@ -2399,6 +2400,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8864207694364522722}
   confusedResponse: {fileID: 4599691640098534737}
   head: {fileID: 7012650193112346611}
+  getAngry: {fileID: 0}
 --- !u!1 &4347993447517345036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2600,6 +2602,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8864207694364522722}
   confusedResponse: {fileID: 4599691640098534737}
   head: {fileID: 7012650193112346611}
+  getAngry: {fileID: 0}
 --- !u!1 &4497014009643391411
 GameObject:
   m_ObjectHideFlags: 0
@@ -5186,6 +5189,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8864207694364522722}
   confusedResponse: {fileID: 4599691640098534737}
   head: {fileID: 7012650193112346611}
+  getAngry: {fileID: 0}
 --- !u!1 &8788228882937692486
 GameObject:
   m_ObjectHideFlags: 0
