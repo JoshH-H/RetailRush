@@ -5,7 +5,7 @@ public class PathController : MonoBehaviour
     public bool CameBack = false;
 
 
-    private Transform Path;
+    [SerializeField] Transform Path;
     public Transform Path1;
     public Transform Path2;
     public Transform Path3;
@@ -45,20 +45,20 @@ public class PathController : MonoBehaviour
         QM.SetActive(false);
         //questionPannels.SetActive(false);
 
-        int a = Random.Range(1, 4);
-        if (a == 1)
+        int a = Random.Range(0, 4);
+        if (a == 0)
         {
             Path = Path1;
         }
-        if (a == 2)
+        if (a == 1)
         {
             Path = Path2;
         }
-        if (a == 3)
+        if (a == 2)
         {
             Path = Path3;
         }
-        if (a == 4)
+        if (a == 3)
         {
             Path = Path4;
         }
@@ -98,13 +98,14 @@ public class PathController : MonoBehaviour
         }
 
         if (DoneTalking == true || Input.GetKeyDown("q"))
-        {
+        {   
+            RemoveAt(ref Waypoints, lastWaypointIndex);
+            targetWaypointIndex = 0;
+            CanBeDestroyed = true;
             MovementSpeed = 3.0f;
             BetaTest.SetBool("IsWalking", true);
             Walking.Play();
             System.Array.Reverse(Waypoints);
-            targetWaypointIndex = 0;
-            CanBeDestroyed = true;
             GoBack = true;
             DoneTalking = false;
         }
@@ -142,12 +143,13 @@ public class PathController : MonoBehaviour
 
 
 
-        if (CanBeDestroyed == true && targetWaypointIndex == lastWaypointIndex)
+        if (CanBeDestroyed == true && targetWaypointIndex == SecondLastIndex)
         {
             CameBack = true;
 
         }
 
+        //print(targetWaypointIndex + " = " + lastWaypointIndex);
 
     }
 
@@ -167,7 +169,6 @@ public class PathController : MonoBehaviour
         {
             SecondLast = true;
             LastWayPoint = true;
-            RemoveAt(ref Waypoints, lastWaypointIndex);
         }
         else
         {
