@@ -11,6 +11,8 @@ public class ScoreManager : MonoBehaviour
     public int maximum;
     public Image mask;
     [SerializeField] GameObject nextShift;
+    [SerializeField] GameObject backToMenu;
+    [SerializeField] GameObject backToMenu2;
 
     [SerializeField] string[] results;
     [SerializeField] Text resultText;
@@ -60,21 +62,25 @@ public class ScoreManager : MonoBehaviour
 
     public void progressReport()
     {
-        if (playerScore >= 40)
+        if (playerScore >= 150)
         {
             nextShift.SetActive(true);
+            backToMenu2.SetActive(true);
+            backToMenu.SetActive(false);
             Debug.Log("too good");
         }
         else
         {
             nextShift.SetActive(false);
+            backToMenu2.SetActive(false);
+            backToMenu.SetActive(true);
             Debug.Log("too bad");
         }
     }
 
     public void progressReportManager()
     {
-        if (playerScore >=230)
+        if (playerScore >=250)
         {
             nextShift.SetActive(true);
             Debug.Log("too good");
@@ -88,27 +94,33 @@ public class ScoreManager : MonoBehaviour
 
     private void ResultTexts()
     {
-        if (playerScore < 250)
+        if (playerScore >= 210)
         {
             string goodResult = results[0];
             resultText.text = goodResult.ToString();
         }
 
-        if (playerScore <= 249 && playerScore > 200)
+        if (playerScore <= 109 && playerScore >= 170)
         {
             string okResult = results[1];
             resultText.text = okResult.ToString();
         }
 
-        if (playerScore <= 199 && playerScore > 100)
+        if (playerScore <= 169 && playerScore >= 150)
         {
             string badResult = results[2];
             resultText.text = badResult.ToString();
         }
 
-        if (playerScore <= 99)
+        if (playerScore <= 138 && playerScore >= 90)
         {
             string worstResult = results[3];
+            resultText.text = worstResult.ToString();
+        }
+
+        if (playerScore <= 90)
+        {
+            string worstResult = results[4];
             resultText.text = worstResult.ToString();
         }
     }
