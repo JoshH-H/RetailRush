@@ -12,6 +12,9 @@ public class ScoreManager : MonoBehaviour
     public Image mask;
     [SerializeField] GameObject nextShift;
 
+    [SerializeField] string[] results;
+    [SerializeField] Text resultText;
+
     private void Awake()
     {
         playerScore = 0;
@@ -32,6 +35,8 @@ public class ScoreManager : MonoBehaviour
         {
             playerScore = maximum;
         }
+
+        ResultTexts();
     }
 
 
@@ -78,6 +83,33 @@ public class ScoreManager : MonoBehaviour
         {
             nextShift.SetActive(false);
             Debug.Log("too bad");
+        }
+    }
+
+    private void ResultTexts()
+    {
+        if (playerScore < 250)
+        {
+            string goodResult = results[0];
+            resultText.text = goodResult.ToString();
+        }
+
+        if (playerScore <= 249 && playerScore > 200)
+        {
+            string okResult = results[1];
+            resultText.text = okResult.ToString();
+        }
+
+        if (playerScore <= 199 && playerScore > 100)
+        {
+            string badResult = results[2];
+            resultText.text = badResult.ToString();
+        }
+
+        if (playerScore <= 99)
+        {
+            string worstResult = results[3];
+            resultText.text = worstResult.ToString();
         }
     }
 
