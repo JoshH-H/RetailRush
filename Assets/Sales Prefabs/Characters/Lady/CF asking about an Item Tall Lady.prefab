@@ -653,26 +653,16 @@ MonoBehaviour:
     - You can check other stores or online.
     - I see that the store uptown has one, maybe you can go there?
     - ...
-    CorrectAnswer: 3
-    confusedAnswer: 1
-  - Question: Did you find anything?
-    Answers:
-    - Unfortunately, the system was correct and we do not have any in stock right
-      now. Is there anything else I could help you with?
-    - Sorry, but we don't have any at the moment. Is there anything else I could
-      help you with?
-    - No, there aren't any in the back. What else do you want?
-    - ...
-    CorrectAnswer: 4
-    confusedAnswer: 1
+    CorrectAnswer: 1
+    confusedAnswer: 3
   - Question: You know, I will have a think about it. See you soon, bye!
     Answers:
     - That's fine Lydia. Have a nice day and see you soon!
     - Sure, Have a nice day and see you doon!
     - That's fine Sylvia. Have a nice day and see you soon!
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 1
+    CorrectAnswer: 3
+    confusedAnswer: 2
   options:
   - {fileID: 5548885408126159527}
   - {fileID: 7197768899080491231}
@@ -2027,6 +2017,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3769542882613263212}
   confusedResponse: {fileID: 8108314983161034463}
   head: {fileID: 8084039662613436852}
+  getAngry: {fileID: 0}
 --- !u!1 &3589197059018614742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,6 +3273,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3769542882613263212}
   confusedResponse: {fileID: 8108314983161034463}
   head: {fileID: 8084039662613436852}
+  getAngry: {fileID: 0}
 --- !u!1 &5567891206081237431
 GameObject:
   m_ObjectHideFlags: 0
@@ -4292,6 +4284,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3769542882613263212}
   confusedResponse: {fileID: 8108314983161034463}
   head: {fileID: 8084039662613436852}
+  getAngry: {fileID: 0}
 --- !u!1 &7167817599877197201
 GameObject:
   m_ObjectHideFlags: 0
@@ -4571,6 +4564,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3769542882613263212}
   confusedResponse: {fileID: 8108314983161034463}
   head: {fileID: 8084039662613436852}
+  getAngry: {fileID: 0}
 --- !u!1 &7235852359117076475
 GameObject:
   m_ObjectHideFlags: 0

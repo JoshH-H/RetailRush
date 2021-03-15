@@ -1925,8 +1925,8 @@ MonoBehaviour:
     - Hello, sure. I love this jumper, so soft and warm! Did you look for anything
       else?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Just the jumper this time. Here's my card.
     Answers:
     - 'Thanks, rememeber to care for it. '
