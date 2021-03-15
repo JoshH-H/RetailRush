@@ -8,19 +8,19 @@ public class Minutes : MonoBehaviour
     public Toggle Toggle1;
     public Toggle Toggle2;
 
-    public float StartTime1 = 480;
-    public float StartTime2 = 900;
+    public float StartTime1 = 300f;
+    public float StartTime2 = 480f;
 
-    public static bool Is8Min;
+    public static bool Is5Min = true;
 
     void Start()
     {
-        if(Is8Min == true)
+        if(Is5Min == true)
         {
             Timer.StartTime = StartTime1;
             Toggle1.isOn = true;
         }
-        if (Is8Min == false)
+        if (Is5Min == false)
         {
             Timer.StartTime = StartTime2;
             Toggle2.isOn = true;
@@ -37,7 +37,7 @@ public class Minutes : MonoBehaviour
     {
         if(check1)
         {
-            Is8Min = true;
+            Is5Min = true;
             Toggle2.isOn = false;
             Timer.StartTime = StartTime1;
         }
@@ -50,7 +50,7 @@ public class Minutes : MonoBehaviour
     {
         if (check2)
         {
-            Is8Min = false;
+            Is5Min = false;
             Toggle1.isOn = false;
             Timer.StartTime = StartTime2;
         }

@@ -1500,7 +1500,7 @@ GameObject:
   - component: {fileID: 943807360}
   - component: {fileID: 943807361}
   m_Layer: 5
-  m_Name: 10 Min
+  m_Name: 8 Min
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

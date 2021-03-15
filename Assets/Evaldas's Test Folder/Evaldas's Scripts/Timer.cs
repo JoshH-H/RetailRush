@@ -9,7 +9,7 @@ public class Timer : MonoBehaviour
     public static int shiftsCompleted = 0;
 
     public float CurrentTime = 0f;
-    public static float StartTime = 480f;
+    public static float StartTime = 300f;
 
     public GameObject ShiftsResults;
 
