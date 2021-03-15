@@ -2718,36 +2718,37 @@ MonoBehaviour:
   - Question: Good afternoon, I would like to buy this scarf, also I have a student
       discount.
     Answers:
-    - Hello madam, I would be happy to process this for you. May I please see the
-      student discount voucher?
-    - How's it going. Sure I can do that. Can you show me the discount code?
-    - Hello, yeah. Can you show me the code?
+    - Hello madam, I would be happy to process this for you. Do you have the StudentID
+      app?
+    - How's it going. Sure I can do if you have StudentID app.
+    - Hi, sure. Show me your StudentID app.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: What student discount code? What is that?
+  - Question: Student ID APP? What is that meant to be?
     Answers:
-    - This store accepts student discounts which are on the Student Discount app.
-    - No problem, the discount code is a code, which can be obtained by having student
-      discount app on your phone.
-    - It should be on your smartphone.
+    - Mobe app. You need it to get student discount.
+    - It is an mobile application, we offer student discounts for those who hold
+      an account.
+    - Student ID mobile app.
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
   - Question: Well I don't have that, can't you check my student ID card?
     Answers:
-    - Well I can't add the discount code, the student ID card is only valid to your
-      university/college.
-    - I am truly sorry, but without that code I have no way of giving you the discount.
-    - I'm so sorry, but without the code I am not able to process the discount.
+    - No stores take just any student ID anymore. You need the app.
+    - Unfortunately without the app I can not do the discount.
+    - I am truly sorry but I can only accept the app. We can help you to install
+      it to your phone?
     - ...
     CorrectAnswer: 3
     confusedAnswer: 2
-  - Question: Fine then, I won't buy anything here then. Goodbye.
+  - Question: Fine. You should really offer more ways to get student discount. Show
+      me how to get it then.
     Answers:
-    - I'm sorry to hear that, I hope to see you soon again!
-    - Sorry about that. See ya!
-    - Okay, See ya later.
+    - I will gladgly forward your feedback. My colleague here will help you!
+    - Sure, my colleague will do that.
+    - Just install it. It's easy.
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
