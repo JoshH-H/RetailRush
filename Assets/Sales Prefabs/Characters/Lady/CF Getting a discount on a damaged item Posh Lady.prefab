@@ -806,6 +806,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
   head: {fileID: 1190869557696712174}
+  getAngry: {fileID: 0}
 --- !u!1 &2157308640589661869
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,6 +1041,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
   head: {fileID: 1190869557696712174}
+  getAngry: {fileID: 0}
 --- !u!1 &2304935786620476929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,6 +1660,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
   head: {fileID: 1190869557696712174}
+  getAngry: {fileID: 0}
 --- !u!1 &3497459021889052425
 GameObject:
   m_ObjectHideFlags: 0
@@ -2141,8 +2144,8 @@ MonoBehaviour:
     - Okie dokie.
     - Ok, all done for you then.
     - Sure. All done for you. I have highlighted the refund policy for this.
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Great, that's all. Have a nice day!
     Answers:
     - Thank you, have a nice day and see you soon!
@@ -5271,6 +5274,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 2510751621716543637}
   confusedResponse: {fileID: 7350267735897474342}
   head: {fileID: 1190869557696712174}
+  getAngry: {fileID: 0}
 --- !u!1 &8511872039831402499
 GameObject:
   m_ObjectHideFlags: 0
