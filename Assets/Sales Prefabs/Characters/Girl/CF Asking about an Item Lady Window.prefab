@@ -1045,6 +1045,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &1212558852107602923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1278,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &1233133927057896500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1818,7 +1820,7 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 2
     confusedAnswer: 1
-  - Question: What can I do if it happens anyway in the nex month or so?
+  - Question: What can I do if it happens anyway in the next month or so?
     Answers:
     - It really should not happen to this top.
     - Wash it right, it will be fine.
@@ -2472,6 +2474,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &3662384708095706390
 GameObject:
   m_ObjectHideFlags: 0
@@ -2880,7 +2883,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 884356c9e2f58b24aa0cd34c5deaac04, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2ae449befc6d8174eb91018c90b50b97, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -5444,6 +5447,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &8425466110785463876
 GameObject:
   m_ObjectHideFlags: 0

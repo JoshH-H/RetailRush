@@ -590,7 +590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: -8, y: -0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2346437451782951694
@@ -752,7 +752,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641686550175953537}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.0676395e-10}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 1166105443265636654}
@@ -760,7 +760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: 10.999985, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6299891271162948007
@@ -1971,7 +1971,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4455080507240186183}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000031419077}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 5934549778923570233}
@@ -1979,7 +1979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: -7.9999847, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5700087972815372952
@@ -2653,7 +2653,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5675598024506530146}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 646070035877517513}
@@ -2661,7 +2661,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: 11, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6039799893847021211
@@ -4035,6 +4035,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
   head: {fileID: 7297518461521636911}
+  getAngry: {fileID: 0}
 --- !u!1 &7668596080127894974
 GameObject:
   m_ObjectHideFlags: 0
@@ -4442,6 +4443,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
   head: {fileID: 7297518461521636911}
+  getAngry: {fileID: 0}
 --- !u!1 &7800438927842108860
 GameObject:
   m_ObjectHideFlags: 0
@@ -4693,6 +4695,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
   head: {fileID: 7297518461521636911}
+  getAngry: {fileID: 0}
 --- !u!1 &7887164992526667131
 GameObject:
   m_ObjectHideFlags: 0
@@ -5107,6 +5110,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 527544162393486171}
   confusedResponse: {fileID: 4865198615846649576}
   head: {fileID: 7297518461521636911}
+  getAngry: {fileID: 0}
 --- !u!1 &8486176565099621247
 GameObject:
   m_ObjectHideFlags: 0

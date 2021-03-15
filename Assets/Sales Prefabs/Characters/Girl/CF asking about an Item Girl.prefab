@@ -565,7 +565,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1786451808146951339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5.6183275e-13}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 2156830733531612396}
@@ -573,7 +573,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: 6, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3810370623369700487
@@ -1113,6 +1113,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &2353827641752231327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1692,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: -13, y: -0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2377125583058234709
@@ -2230,7 +2231,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3860374878377087467}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 7513180756507085583}
@@ -2238,7 +2239,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: 6, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &785014712186481478
@@ -3728,6 +3729,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &6535783318343888610
 GameObject:
   m_ObjectHideFlags: 0
@@ -4009,7 +4011,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6879647427996915961}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.0000031419968}
   m_LocalScale: {x: 0.90414, y: 0.90414, z: 0.90414}
   m_Children: []
   m_Father: {fileID: 7318588905270978057}
@@ -4017,7 +4019,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.4877319, y: 0}
+  m_AnchoredPosition: {x: -12.999985, y: 0}
   m_SizeDelta: {x: -49.095406, y: -30.382652}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2325842930731200883
@@ -4569,6 +4571,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &7589707629436078691
 GameObject:
   m_ObjectHideFlags: 0
@@ -5075,6 +5078,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &8209312914860267443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5476,7 +5480,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &3836196867599989403
 RectTransform:
   m_ObjectHideFlags: 0
