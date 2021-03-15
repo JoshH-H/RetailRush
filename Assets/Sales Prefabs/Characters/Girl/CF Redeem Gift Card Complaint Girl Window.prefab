@@ -2488,6 +2488,9 @@ MonoBehaviour:
   Path3: {fileID: 3040344736687441764, guid: ccdae5975123e6e42a26910b75181a83, type: 3}
   Path4: {fileID: 6208584093791709087, guid: f0afab54867493948adc2d4741c1c658, type: 3}
   Waypoints: []
+  SecondLast: 0
+  SecondLastIndex: 0
+  GoBack: 0
   LastWayPoint: 0
   MovementSpeed: 5
   RotationSpeed: 5

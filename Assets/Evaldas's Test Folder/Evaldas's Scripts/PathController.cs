@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PathController : MonoBehaviour
 {
@@ -17,12 +15,16 @@ public class PathController : MonoBehaviour
 
     private int targetWaypointIndex = 0;
 
+    public bool SecondLast;
+    [SerializeField] int SecondLastIndex;
+    public bool GoBack;
+
     private float minDis = 0.1f;
     private int lastWaypointIndex;
 
     public bool LastWayPoint;
 
-    public float MovementSpeed = 1.0f;
+    public float MovementSpeed = 5.0f;
     public float RotationSpeed = 5.0f;
 
     public Animator BetaTest;
@@ -70,13 +72,12 @@ public class PathController : MonoBehaviour
 
         lastWaypointIndex = Waypoints.Length - 1; //here it gets messy
         targetWaypoint = Waypoints[targetWaypointIndex];
-
+        SecondLastIndex = lastWaypointIndex - 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-
         float movementStep = MovementSpeed * Time.deltaTime;
         float rotationStep = RotationSpeed * Time.deltaTime;
 
@@ -98,18 +99,34 @@ public class PathController : MonoBehaviour
 
         if (DoneTalking == true || Input.GetKeyDown("q"))
         {
+            MovementSpeed = 3.0f;
             BetaTest.SetBool("IsWalking", true);
             Walking.Play();
             System.Array.Reverse(Waypoints);
             targetWaypointIndex = 0;
             CanBeDestroyed = true;
+            GoBack = true;
             DoneTalking = false;
         }
 
-        float distance = Vector3.Distance(transform.position, targetWaypoint.position);
-        CheckDistanceToWaypoint(distance);
 
-        transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+        if (!SecondLast)
+        {
+            float distance = Vector3.Distance(transform.position, targetWaypoint.position);
+            CheckDistanceToWaypoint(distance);
+            transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+        }
+
+
+        if (GoBack)
+        {
+            float distance = Vector3.Distance(transform.position, targetWaypoint.position);
+            CheckDistanceToWaypoint(distance);
+            transform.position = Vector3.MoveTowards(transform.position, targetWaypoint.position, movementStep);
+        }
+
+
+
 
 
         if (BetaTest.GetComponent<Animator>().GetBool("IsWalking") == true && Walking.isPlaying == false)
@@ -146,14 +163,26 @@ public class PathController : MonoBehaviour
     void UpdateTargetWaypoint()
     {
 
-        if (targetWaypointIndex > lastWaypointIndex)
+        if (targetWaypointIndex > SecondLastIndex)
         {
+            SecondLast = true;
             LastWayPoint = true;
+            RemoveAt(ref Waypoints, lastWaypointIndex);
         }
         else
         {
+            SecondLast = false;
             LastWayPoint = false;
         }
         targetWaypoint = Waypoints[targetWaypointIndex];
+    }
+    public static void RemoveAt<T>(ref T[] arr, int index)
+    {
+        for (int a = index; a < arr.Length - 1; a++)
+        {
+            arr[a] = arr[a + 1];
+        }
+
+        System.Array.Resize(ref arr, arr.Length - 1);
     }
 }
