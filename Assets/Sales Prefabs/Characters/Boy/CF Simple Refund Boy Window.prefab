@@ -3972,8 +3972,8 @@ MonoBehaviour:
   - Question: Hello, I would like to refund this top, here's the receipt. I do not
       like anything else in the shop.
     Answers:
-    - Hello, I would be happy to help. Do you have the card you used?
-    - How's it going. Sure I can refund this, do you have the card?
+    - Hello, I would be happy to help. Do you have the same card?
+    - Sure I can refund this, do you have the card?
     - Hi, I need the payment card.
     - ...
     CorrectAnswer: 1
@@ -3992,8 +3992,8 @@ MonoBehaviour:
     - Not sure, maybe next week.
     - Every week, here's the catalogue.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Cool thanks. I will come by and have a look next week then.
     Answers:
     - If you are after a specific item feel free to call to check before hand.
