@@ -11,8 +11,8 @@ public class ScoreManager : MonoBehaviour
     public int maximum;
     public Image mask;
     [SerializeField] GameObject nextShift;
-    [SerializeField] GameObject backToMenu;
-    [SerializeField] GameObject backToMenu2;
+    [SerializeField] GameObject winMenu;
+    [SerializeField] GameObject failMenu;
 
     [SerializeField] string[] results;
     [SerializeField] Text resultText;
@@ -38,7 +38,7 @@ public class ScoreManager : MonoBehaviour
             playerScore = maximum;
         }
 
-        ResultTexts();
+        ResultTexts(); 
     }
 
 
@@ -65,29 +65,15 @@ public class ScoreManager : MonoBehaviour
         if (playerScore >= 150)
         {
             nextShift.SetActive(true);
-            backToMenu2.SetActive(true);
-            backToMenu.SetActive(false);
+            winMenu.SetActive(true);
+            failMenu.SetActive(false);
             Debug.Log("too good");
         }
         else
         {
             nextShift.SetActive(false);
-            backToMenu2.SetActive(false);
-            backToMenu.SetActive(true);
-            Debug.Log("too bad");
-        }
-    }
-
-    public void progressReportManager()
-    {
-        if (playerScore >=250)
-        {
-            nextShift.SetActive(true);
-            Debug.Log("too good");
-        }
-        else
-        {
-            nextShift.SetActive(false);
+            winMenu.SetActive(false);
+            failMenu.SetActive(true);
             Debug.Log("too bad");
         }
     }

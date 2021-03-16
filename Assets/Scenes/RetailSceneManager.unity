@@ -503,7 +503,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
       - m_Target: {fileID: 359335515}
-        m_MethodName: progressReportManager
+        m_MethodName: progressReport
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 157886459}
   - component: {fileID: 157886458}
   m_Layer: 5
-  m_Name: menu1
+  m_Name: FailedMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1238,9 +1238,9 @@ MonoBehaviour:
   playerScore: 0
   maximum: 250
   mask: {fileID: 869420914}
-  nextShift: {fileID: 157886456}
-  backToMenu: {fileID: 0}
-  backToMenu2: {fileID: 1123552245}
+  nextShift: {fileID: 755425425}
+  winMenu: {fileID: 1123552245}
+  failMenu: {fileID: 157886456}
   results:
   - You provided excellent and efficient service! Next!
   - You provided luxury service, but you took your time! Next!
@@ -1744,7 +1744,7 @@ GameObject:
   - component: {fileID: 719676912}
   - component: {fileID: 719676911}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: OpinionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2150,7 +2150,7 @@ GameObject:
   - component: {fileID: 755425428}
   - component: {fileID: 755425427}
   m_Layer: 5
-  m_Name: next
+  m_Name: NextShift
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2905,7 +2905,7 @@ GameObject:
   - component: {fileID: 1123552248}
   - component: {fileID: 1123552247}
   m_Layer: 5
-  m_Name: menu2
+  m_Name: WinMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4826,7 +4826,7 @@ GameObject:
   - component: {fileID: 1752666651}
   - component: {fileID: 1752666650}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Results
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5610,6 +5610,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2131347155}
   - component: {fileID: 2131347154}
+  - component: {fileID: 2131347156}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -5624,7 +5625,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131347153}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
   m_Name: 
@@ -5681,6 +5682,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2131347156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131347153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HasCameBack: 0
+  NPCs:
+  - {fileID: 2355883365940831198, guid: 54e244fc8dcc75a4ab291c1c82af1b14, type: 3}
+  Main: {fileID: 0}
+  MainController: {fileID: 0}
+  RandomBG: []
 --- !u!1 &2141441908
 GameObject:
   m_ObjectHideFlags: 0
