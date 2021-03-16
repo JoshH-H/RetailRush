@@ -1208,8 +1208,8 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: No, she did not give me one... Probbly to make sure I don't bring it
-      back.
+  - Question: No, she did not give me one... Probably to make sure I don't bring
+      it back.
     Answers:
     - Can you ask her for it?
     - Can you ask her for it please, even picture would do?
