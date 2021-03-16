@@ -1950,6 +1950,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3100026054843832214}
   confusedResponse: {fileID: 8057818820441905701}
   head: {fileID: 5203900237257318362}
+  getAngry: {fileID: 0}
 --- !u!1 &3125976906639179965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3631,6 +3632,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3100026054843832214}
   confusedResponse: {fileID: 8057818820441905701}
   head: {fileID: 5203900237257318362}
+  getAngry: {fileID: 0}
 --- !u!1 &5689238270093611432
 GameObject:
   m_ObjectHideFlags: 0
@@ -3801,6 +3803,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3100026054843832214}
   confusedResponse: {fileID: 8057818820441905701}
   head: {fileID: 5203900237257318362}
+  getAngry: {fileID: 0}
 --- !u!1 &5697339105611512083
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,6 +3974,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 3100026054843832214}
   confusedResponse: {fileID: 8057818820441905701}
   head: {fileID: 5203900237257318362}
+  getAngry: {fileID: 0}
 --- !u!1 &5733726538305191807
 GameObject:
   m_ObjectHideFlags: 0
@@ -4750,15 +4754,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 546479c7241f6434b815c0bb95b674af, type: 3}
+  m_audioClip: {fileID: 8300000, guid: fa9a4f4553995be44b760970696bd5c7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

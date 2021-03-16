@@ -2859,8 +2859,10 @@ MonoBehaviour:
     are in control!'
   - 'Pro-Tip: If you do not have the requested item in stock, find an alternative!'
   - 'Pro-Tip: Practice outfit building to always be able to offer an add on!'
-  - 'Pro-Tip: Customers have different personal styles, reflect to them!'
-  - 'Pro-Tip: Ask questions to determine your customers needs and style!'
+  - 'Pro-Tip: Clients have different personal styles, reflect to them!'
+  - 'Pro-Tip: Ask questions to determine your client''s needs and style!'
+  - 'Pro-Tip: Explain to your client what you are doing, and why!'
+  - "Pro- Tip: It might be a clich\xE9, but the customer is always right!"
   tipText: {fileID: 938007641}
   mainPannel: {fileID: 856843455}
   timeToDisappear: 5
@@ -5703,7 +5705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2131347154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5752,6 +5754,7 @@ MonoBehaviour:
   - {fileID: 3158233002616329865, guid: eda2b54f2e2a4e341bb643f8b2bdd38d, type: 3}
   - {fileID: 4498470962963037480, guid: 694ec3381b0824f40b4297b05c7a263d, type: 3}
   - {fileID: 7502414551339515963, guid: 4eb4b06658af1c94d82009971e0c82a8, type: 3}
+  - {fileID: 3668563199129614168, guid: d2c5f9ce0cea40742a9e081602bde98e, type: 3}
 --- !u!4 &2131347155
 Transform:
   m_ObjectHideFlags: 0

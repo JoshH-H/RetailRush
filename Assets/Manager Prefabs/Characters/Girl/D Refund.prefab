@@ -533,16 +533,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522480289265838087}
-  m_LocalRotation: {x: -0, y: -0, z: 1.110223e-16, w: 1.0000001}
-  m_LocalPosition: {x: 0, y: 0, z: -0.000019073486}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0000000017076045, y: -0.99995846, z: 0.009119214, w: -0.00000018724575}
+  m_LocalPosition: {x: 0, y: 0, z: 22.904928}
+  m_LocalScale: {x: 0.18437493, y: 0.18437502, z: 0.18437499}
   m_Children: []
-  m_Father: {fileID: 3836196867599989403}
-  m_RootOrder: 9
+  m_Father: {fileID: 5280011805744918405}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00091552734, y: -0.000061035156}
+  m_AnchoredPosition: {x: -174.19333, y: 110.69615}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &6328809327080853792
@@ -773,16 +773,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1835399909843123942}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0000000017076045, y: -0.99995846, z: 0.009119214, w: -0.00000018724573}
+  m_LocalPosition: {x: 0, y: 0, z: 22.904926}
+  m_LocalScale: {x: 0.18437493, y: 0.18437502, z: 0.18437499}
   m_Children: []
-  m_Father: {fileID: 3836196867599989403}
-  m_RootOrder: 8
+  m_Father: {fileID: 5280011805744918405}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -174.1935, y: 110.69615}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &44305203344897314
@@ -936,16 +936,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058422939671111149}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.0000000017076045, y: -0.99995846, z: 0.009119214, w: -0.00000018724573}
+  m_LocalPosition: {x: 0, y: 0, z: 22.904926}
+  m_LocalScale: {x: 0.18437493, y: 0.18437502, z: 0.18437499}
   m_Children: []
-  m_Father: {fileID: 3836196867599989403}
-  m_RootOrder: 7
+  m_Father: {fileID: 5280011805744918405}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -174.1935, y: 110.69615}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &2328935204513669136
@@ -1245,6 +1245,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &2353827641752231327
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,6 +2764,9 @@ Transform:
   - {fileID: 1375391565404878490}
   - {fileID: 7471849987005672328}
   - {fileID: 6269594460709507108}
+  - {fileID: 551111102549696360}
+  - {fileID: 7982750020322095600}
+  - {fileID: 6806429756848390936}
   - {fileID: 5357604114804057063}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2832,10 +2836,10 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 5
@@ -3351,7 +3355,7 @@ RectTransform:
   m_Children:
   - {fileID: 3836196867599989403}
   m_Father: {fileID: 5280011805744918405}
-  m_RootOrder: 18
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3734,6 +3738,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &6535783318343888610
 GameObject:
   m_ObjectHideFlags: 0
@@ -4575,6 +4580,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &7589707629436078691
 GameObject:
   m_ObjectHideFlags: 0
@@ -5081,6 +5087,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 700488144028511097}
   confusedResponse: {fileID: 5579463520283043530}
   head: {fileID: 7759538055448393229}
+  getAngry: {fileID: 0}
 --- !u!1 &8209312914860267443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5501,9 +5508,6 @@ RectTransform:
   - {fileID: 7318588905270978057}
   - {fileID: 7513180756507085583}
   - {fileID: 3697015189200871232}
-  - {fileID: 551111102549696360}
-  - {fileID: 7982750020322095600}
-  - {fileID: 6806429756848390936}
   m_Father: {fileID: 5357604114804057063}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

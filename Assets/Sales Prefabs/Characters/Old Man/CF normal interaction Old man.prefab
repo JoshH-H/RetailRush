@@ -2187,6 +2187,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 4221004508269429288}
   confusedResponse: {fileID: 9098005718357856155}
   head: {fileID: 109252359568233747}
+  getAngry: {fileID: 0}
 --- !u!1 &4352475518566333568
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,6 +4156,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 4221004508269429288}
   confusedResponse: {fileID: 9098005718357856155}
   head: {fileID: 109252359568233747}
+  getAngry: {fileID: 0}
 --- !u!1 &7221838602036355920
 GameObject:
   m_ObjectHideFlags: 0
@@ -4579,6 +4581,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 4221004508269429288}
   confusedResponse: {fileID: 9098005718357856155}
   head: {fileID: 109252359568233747}
+  getAngry: {fileID: 0}
 --- !u!1 &7830391658289877551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4919,7 +4922,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 5
@@ -5393,6 +5396,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 4221004508269429288}
   confusedResponse: {fileID: 9098005718357856155}
   head: {fileID: 109252359568233747}
+  getAngry: {fileID: 0}
 --- !u!1 &8978773577863584745
 GameObject:
   m_ObjectHideFlags: 0

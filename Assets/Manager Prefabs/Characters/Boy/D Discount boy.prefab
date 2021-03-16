@@ -32,7 +32,7 @@ RectTransform:
   m_Children:
   - {fileID: 8670363215875470956}
   m_Father: {fileID: 3454365965241451886}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -526,7 +526,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3454365965241451886}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1351,7 +1351,7 @@ GameObject:
   - component: {fileID: 3202251345313239331}
   - component: {fileID: 7192992708641163833}
   m_Layer: 0
-  m_Name: D Discount
+  m_Name: D Discount boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1457,10 +1457,10 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 5
@@ -3109,8 +3109,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -0.000017163286}
   m_LocalScale: {x: 0.9210419, y: 0.8984899, z: 0.8984899}
   m_Children:
-  - {fileID: 4053593487056743261}
   - {fileID: 6840172950894083568}
+  - {fileID: 4053593487056743261}
   - {fileID: 4375866488852145590}
   - {fileID: 2937940478944969569}
   - {fileID: 8403569038468094570}
