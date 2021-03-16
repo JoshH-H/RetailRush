@@ -4155,7 +4155,7 @@ MonoBehaviour:
   - Question: Here you go. Got it as a Christmas present.
     Answers:
     - Thank you. I am truly sorry but gift card has expired last week.
-    - Thanks. This gift card is expired.
+    - Thanks. This gift card is expired, sorry.
     - Thanks. This is not valid.
     - ...
     CorrectAnswer: 1
@@ -4163,12 +4163,12 @@ MonoBehaviour:
   - Question: 'What do you mean? So what do we do now can''t you just extend the
       expiry day? '
     Answers:
-    - I will ask for a manager.
-    - I am not authorised to do that. You need to ask the manager.
+    - I will get the manager to help you.
+    - I am not authorised to do that. You need to find the manager.
     - Unfortunately I am not authorised to, I will happily ask the manager though.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Oh ok then. Can they do it for me then?
     Answers:
     - I am afraid my manager have just gone for a meeting. They will be back in an
