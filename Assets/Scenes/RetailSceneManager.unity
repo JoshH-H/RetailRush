@@ -5610,7 +5610,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2131347155}
   - component: {fileID: 2131347154}
-  - component: {fileID: 2131347156}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -5625,7 +5624,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131347153}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
   m_Name: 
@@ -5682,24 +5681,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2131347156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131347153}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7d81105cf154a3147bb31ce83d985306, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HasCameBack: 0
-  NPCs:
-  - {fileID: 2355883365940831198, guid: 54e244fc8dcc75a4ab291c1c82af1b14, type: 3}
-  Main: {fileID: 0}
-  MainController: {fileID: 0}
-  RandomBG: []
 --- !u!1 &2141441908
 GameObject:
   m_ObjectHideFlags: 0
