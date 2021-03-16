@@ -1147,7 +1147,7 @@ MonoBehaviour:
   failMenu: {fileID: 1123552245}
   results:
   - You provided excellent and efficient service! Next!
-  - You provided luxury service, but you took your time! Next!
+  - You provided luxury service, but you could be faster! Next!
   - You provided good service. Next!
   - 'You need to improve your customer service to move on. '
   - You should return to study the basics to move on.
@@ -1498,7 +1498,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &642045921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5327,7 +5327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2034543786
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5703,7 +5703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2131347154
 MonoBehaviour:
   m_ObjectHideFlags: 0

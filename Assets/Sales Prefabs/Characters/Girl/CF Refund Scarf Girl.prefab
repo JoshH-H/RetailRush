@@ -809,7 +809,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 060f8366f0c583c419cc3698565ff7c7, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 64d7f7307ce9df84f8f158cb73768f2e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -2296,8 +2296,8 @@ MonoBehaviour:
     - Thank you, hope to see you soon!
     - See you soon!
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 3
   options:
   - {fileID: 4941528908518033251}
   - {fileID: 4607931294300672861}
@@ -3445,6 +3445,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &4657236756948811321
 GameObject:
   m_ObjectHideFlags: 0
@@ -3708,6 +3709,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &5018932850606047866
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,6 +5200,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &7912070248350049175
 GameObject:
   m_ObjectHideFlags: 0
@@ -5398,6 +5401,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 8944885370914742993}
   confusedResponse: {fileID: 4103908568640499554}
   head: {fileID: 2598668796148008442}
+  getAngry: {fileID: 0}
 --- !u!1 &7961272211430323533
 GameObject:
   m_ObjectHideFlags: 0

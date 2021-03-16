@@ -206,15 +206,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QuestionsNAnswers:
-  - Question: Good day. I'd like to get these trousers, they are fitting me so nicely.
+  - Question: Good day. I'd like to get these trousers. Absolutely love the fit of
+      them.
     Answers:
     - Hi Madam! Sure, did you not find anything else today?
     - Hi Madam! I am sure they do. It is a very nice fit! Did you look for anything
       else?
     - Hi, Nothing else for today?
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 2
+    CorrectAnswer: 2
+    confusedAnswer: 1
   - Question: I was looking for a top to go with them but did not see anything I
       liked.
     Answers:
@@ -1099,6 +1100,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 7616618821779705170}
   confusedResponse: {fileID: 3271078658029273313}
   head: {fileID: 757128666711639326}
+  getAngry: {fileID: 0}
 --- !u!1 &946990516510057915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,6 +1380,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 7616618821779705170}
   confusedResponse: {fileID: 3271078658029273313}
   head: {fileID: 757128666711639326}
+  getAngry: {fileID: 0}
 --- !u!1 &1090004168719995439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +1551,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 7616618821779705170}
   confusedResponse: {fileID: 3271078658029273313}
   head: {fileID: 757128666711639326}
+  getAngry: {fileID: 0}
 --- !u!1 &1199838474560497545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5096,6 +5100,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 7616618821779705170}
   confusedResponse: {fileID: 3271078658029273313}
   head: {fileID: 757128666711639326}
+  getAngry: {fileID: 0}
 --- !u!1 &7616618821779705170
 GameObject:
   m_ObjectHideFlags: 0

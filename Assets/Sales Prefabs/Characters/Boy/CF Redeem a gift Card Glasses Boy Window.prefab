@@ -46,7 +46,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c5409f8796b716c4795e37c404894bcc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 79214f236c6b9ad448887b7e1ed11e31, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.43
   m_Pitch: 1
@@ -758,6 +758,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
   head: {fileID: 6704231298854691440}
+  getAngry: {fileID: 0}
 --- !u!1 &1546801928332337579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,6 +2386,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
   head: {fileID: 6704231298854691440}
+  getAngry: {fileID: 0}
 --- !u!1 &4015709144030107886
 GameObject:
   m_ObjectHideFlags: 0
@@ -3100,6 +3102,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
   head: {fileID: 6704231298854691440}
+  getAngry: {fileID: 0}
 --- !u!1 &5272777689987484966
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,6 +4049,7 @@ MonoBehaviour:
   unhappyResponse: {fileID: 604610791880638704}
   confusedResponse: {fileID: 5526651818062400835}
   head: {fileID: 6704231298854691440}
+  getAngry: {fileID: 0}
 --- !u!1 &6895431143654613993
 GameObject:
   m_ObjectHideFlags: 0

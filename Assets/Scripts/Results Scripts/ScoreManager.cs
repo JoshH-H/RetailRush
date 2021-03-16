@@ -86,7 +86,7 @@ public class ScoreManager : MonoBehaviour
             resultText.text = goodResult.ToString();
         }
 
-        if (playerScore <= 109 && playerScore >= 170)
+        if (playerScore <= 209 && playerScore >= 170)
         {
             string okResult = results[1];
             resultText.text = okResult.ToString();
@@ -98,7 +98,7 @@ public class ScoreManager : MonoBehaviour
             resultText.text = badResult.ToString();
         }
 
-        if (playerScore <= 138 && playerScore >= 90)
+        if (playerScore <= 149 && playerScore >= 90)
         {
             string worstResult = results[3];
             resultText.text = worstResult.ToString();
@@ -106,8 +106,8 @@ public class ScoreManager : MonoBehaviour
 
         if (playerScore <= 90)
         {
-            string worstResult = results[4];
-            resultText.text = worstResult.ToString();
+            string theWorstResult = results[4];
+            resultText.text = theWorstResult.ToString();
         }
     }
 

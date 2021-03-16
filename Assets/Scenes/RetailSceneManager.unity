@@ -234,7 +234,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &41884238
 MonoBehaviour:
@@ -1243,7 +1243,7 @@ MonoBehaviour:
   failMenu: {fileID: 157886456}
   results:
   - You provided excellent and efficient service! Next!
-  - You provided luxury service, but you took your time! Next!
+  - You provided luxury service, but you could be faster! Next!
   - You provided good service. Next!
   - You need to improve your customer service to move on.
   - 'You should return to study the basics to move on. '
@@ -1260,7 +1260,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &384286446
 GameObject:
@@ -1554,7 +1554,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &642045921
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1807,8 +1807,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -49.99, y: 54.33}
-  m_SizeDelta: {x: 1151.0808, y: 138.53555}
+  m_AnchoredPosition: {x: -48.23, y: 56.33}
+  m_SizeDelta: {x: 806.1189, y: 159.49867}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &726090940
 GameObject:
@@ -2797,7 +2797,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002963136
 GameObject:
@@ -4996,12 +4996,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816984064}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -48.24955, y: -104.203606, z: -36.50094}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 2018019696}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1995193590
 GameObject:
@@ -5126,9 +5126,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1816984065}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2020715791
 GameObject:
@@ -5679,7 +5680,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141441908
 GameObject:
@@ -5842,7 +5843,7 @@ PrefabInstance:
     - target: {fileID: 8101108674907917248, guid: 23b54c1c915f5fa44b798b8eaa503143,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8101108674907917248, guid: 23b54c1c915f5fa44b798b8eaa503143,
         type: 3}
