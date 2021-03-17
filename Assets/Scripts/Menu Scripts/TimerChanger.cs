@@ -16,7 +16,7 @@ public class TimerChanger : MonoBehaviour
     void Start()
     {
         timer = medTimer;
-        PlayerPrefs.SetFloat("_timing", timer = 15f);
+        PlayerPrefs.SetFloat("_timing", timer = easyTimer);
     }
 
     public void Changer()
