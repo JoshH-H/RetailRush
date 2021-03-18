@@ -839,8 +839,8 @@ MonoBehaviour:
     - Not sure, maybe next week.
     - Every week, here's the catalogue.
     - ...
-    CorrectAnswer: 1
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 1
   - Question: Cool thanks. I will come by and have a look next week then.
     Answers:
     - If you are after a specific item feel free to call to check before hand.

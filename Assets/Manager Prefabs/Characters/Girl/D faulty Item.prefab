@@ -493,8 +493,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -0.000017163286}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3225851519440709519}
   - {fileID: 7088199439863517235}
+  - {fileID: 3225851519440709519}
   - {fileID: 8253004505208093423}
   - {fileID: 4326851269900418397}
   - {fileID: 7390856639251811715}
@@ -1829,7 +1829,7 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 3
-  - Question: Here's the receipt. As you cans see the labels are still attached and
+  - Question: Here's the receipt. As you can see the labels are still attached and
       I bought it just today.
     Answers:
     - Thanks, I will exhange this to a new one.
@@ -4323,7 +4323,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2259501485745183254}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -5421,7 +5421,7 @@ RectTransform:
   m_Children:
   - {fileID: 7319622804854104455}
   m_Father: {fileID: 2259501485745183254}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
