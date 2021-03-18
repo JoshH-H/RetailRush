@@ -2600,7 +2600,8 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 1
     confusedAnswer: 2
-  - Question: Why can't you do it?! This is very annoying. I would make a complaint.
+  - Question: Why can't you do it?! This is very annoying. I would like to make a
+      complaint.
     Answers:
     - 'Sorry about this. They should be back in two hours. '
     - I apologise. If I can take your details, my manager will call you soon as they
