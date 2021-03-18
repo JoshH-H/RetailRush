@@ -6,7 +6,7 @@ using UnityEngine.UI;
 [ExecuteInEditMode()]
 public class ScoreManager : MonoBehaviour
 {
-    [SerializeField] int playerScore;
+    [SerializeField] public int playerScore;
     public static ScoreManager instance;
     public int maximum;
     public Image mask;
