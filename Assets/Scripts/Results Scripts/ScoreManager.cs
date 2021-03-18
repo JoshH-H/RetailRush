@@ -8,14 +8,14 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] public int playerScore;
     public static ScoreManager instance;
-    public static int maximum;
+    public static int maximum = 200;
     public Image mask;
     [SerializeField] GameObject nextShift;
     [SerializeField] GameObject winMenu;
     [SerializeField] GameObject failMenu;
 
-    public static int[] Scores = {0, 0, 0, 0, 0, 0, 0, 0};
-    public static int minimum;
+    public static int[] Scores = { 190, 180, 160, 159, 120, 100, 70, 50 };
+    public static int minimum = 110;
 
     [SerializeField] string[] results;
     [SerializeField] Text resultText;
