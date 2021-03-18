@@ -11,22 +11,19 @@ public class Minutes : MonoBehaviour
     public float StartTime1 = 300f;
     public float StartTime2 = 480f;
 
-    public int ScOne = 250;
-    public int ScTwo = 400;
-
     public static bool Is5Min = true;
+
+
 
     void Start()
     {
         if(Is5Min == true)
         {
-            ScoreManager.maximum = ScOne;
             Timer.StartTime = StartTime1;
             Toggle1.isOn = true;
         }
         if (Is5Min == false)
         {
-            ScoreManager.maximum = ScTwo;
             Timer.StartTime = StartTime2;
             Toggle2.isOn = true;
         }
@@ -37,18 +34,15 @@ public class Minutes : MonoBehaviour
     {
         if (Is5Min == true)
         {
-            ScoreManager.maximum = ScOne;
             Timer.StartTime = StartTime1;
             Toggle1.isOn = true;
         }
         if (Is5Min == false)
         {
-            ScoreManager.maximum = ScTwo;
             Timer.StartTime = StartTime2;
             Toggle2.isOn = true;
         }
         //print(Timer.StartTime);
-        print(ScoreManager.maximum);
     }
 
     public void FirstChoice(bool check1)

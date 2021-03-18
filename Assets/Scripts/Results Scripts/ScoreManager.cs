@@ -8,7 +8,7 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] public int playerScore;
     public static ScoreManager instance;
-    public static int maximum;
+    public int maximum;
     public Image mask;
     [SerializeField] GameObject nextShift;
     [SerializeField] GameObject winMenu;
@@ -39,6 +39,7 @@ public class ScoreManager : MonoBehaviour
         }
 
         ResultTexts();
+        print(maximum);
     }
 
 
