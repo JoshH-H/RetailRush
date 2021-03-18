@@ -1141,7 +1141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerScore: 0
-  maximum: 250
   mask: {fileID: 869420914}
   nextShift: {fileID: 755425425}
   winMenu: {fileID: 309120863}
@@ -1181,7 +1180,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimerO: {fileID: 2018019695}
   ShiftsResults: {fileID: 642045920}
-  AllSounds: {fileID: 0}
   mainNPC: {fileID: 2131347154}
   ScM: {fileID: 359335515}
 --- !u!1 &407802716

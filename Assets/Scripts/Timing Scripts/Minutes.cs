@@ -14,12 +14,12 @@ public class Minutes : MonoBehaviour
     public static bool Is5Min = true;
 
     int[] Scores8 = {350, 349, 270, 269, 240, 239, 145, 144};
-    int[] Scores5 = { 210, 209, 170, 169, 150, 149, 90, 89 };
+    int[] Scores5 = {210, 209, 170, 169, 150, 149, 90, 89};
 
     int minimum5 = 150;
     int minimum8 = 200;
 
-    int maximum5 = 200;
+    int maximum5 = 250;
     int maximum8 = 400;
 
     void Start()
