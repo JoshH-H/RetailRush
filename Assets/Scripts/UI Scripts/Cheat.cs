@@ -86,6 +86,30 @@ public class Cheat : MonoBehaviour
             Time.timeScale = 0f;
         }
 
+        if (Input.GetKeyDown(KeyCode.Keypad6))
+        {
+            TimerO.CurrentTime = 0;
+            ScM.playerScore = 300;
+        }
+        if (TimerO.CurrentTime <= 0)
+        {
+            AllSounds.mute = true;
+            ShiftsResults.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Keypad7))
+        {
+            TimerO.CurrentTime = 0;
+            ScM.playerScore = 350;
+        }
+        if (TimerO.CurrentTime <= 0)
+        {
+            AllSounds.mute = true;
+            ShiftsResults.SetActive(true);
+            Time.timeScale = 0f;
+        }
+
         if (shiftsCompleted == 4)
         {
             SceneManager.LoadScene("Certified");

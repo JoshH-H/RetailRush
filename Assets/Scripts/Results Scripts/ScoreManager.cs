@@ -8,11 +8,14 @@ public class ScoreManager : MonoBehaviour
 {
     [SerializeField] public int playerScore;
     public static ScoreManager instance;
-    public int maximum;
+    public static int maximum;
     public Image mask;
     [SerializeField] GameObject nextShift;
     [SerializeField] GameObject winMenu;
     [SerializeField] GameObject failMenu;
+
+    public static int[] Scores = {0, 0, 0, 0, 0, 0, 0, 0};
+    public static int minimum;
 
     [SerializeField] string[] results;
     [SerializeField] Text resultText;
@@ -26,7 +29,7 @@ public class ScoreManager : MonoBehaviour
     {
         currentProgress();
 
-        Debug.Log("Score " + playerScore);
+        //Debug.Log("Score " + playerScore);
 
         if (playerScore <= 0)
         {
@@ -39,7 +42,8 @@ public class ScoreManager : MonoBehaviour
         }
 
         ResultTexts();
-        print(maximum);
+        print(Scores[0] + " " + Scores[1] + " " + " " + Scores[2] + " " + Scores[3] + " " + Scores[4] + " " + Scores[5] + " " + Scores[6] + " " + Scores[7]);
+        
     }
 
 
@@ -63,7 +67,7 @@ public class ScoreManager : MonoBehaviour
 
     public void progressReport()
     {
-        if (playerScore >= 150)
+        if (playerScore >= minimum)
         {
             nextShift.SetActive(true);
             winMenu.SetActive(true);
@@ -81,31 +85,31 @@ public class ScoreManager : MonoBehaviour
 
     private void ResultTexts()
     {
-        if (playerScore >= 210)
+        if (playerScore >= Scores[0])
         {
             string goodResult = results[0];
             resultText.text = goodResult.ToString();
         }
 
-        if (playerScore <= 209 && playerScore >= 170)
+        if (playerScore <= Scores[1] && playerScore >= Scores[2])
         {
             string okResult = results[1];
             resultText.text = okResult.ToString();
         }
 
-        if (playerScore <= 169 && playerScore >= 150)
+        if (playerScore <= Scores[3] && playerScore >= Scores[4])
         {
             string badResult = results[2];
             resultText.text = badResult.ToString();
         }
 
-        if (playerScore <= 149 && playerScore >= 90)
+        if (playerScore <= Scores[5] && playerScore >= Scores[6])
         {
             string worstResult = results[3];
             resultText.text = worstResult.ToString();
         }
 
-        if (playerScore <= 90)
+        if (playerScore <= Scores[7])
         {
             string theWorstResult = results[4];
             resultText.text = theWorstResult.ToString();

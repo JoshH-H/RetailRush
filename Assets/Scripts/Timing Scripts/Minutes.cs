@@ -13,36 +13,56 @@ public class Minutes : MonoBehaviour
 
     public static bool Is5Min = true;
 
+    int[] Scores5 = {210, 209, 170, 169, 150, 149, 90, 90};
+    int[] Scores8 = {350, 349, 270, 269, 240, 239, 145, 144};
 
+    int minimum5 = 150;
+    int minimum8 = 240;
+
+    int maximum5 = 250;
+    int maximum8 = 400;
 
     void Start()
     {
         if(Is5Min == true)
         {
+            ScoreManager.minimum = minimum5;
+            ScoreManager.maximum = maximum5;
+            ScoreManager.Scores = Scores5;
             Timer.StartTime = StartTime1;
             Toggle1.isOn = true;
         }
         if (Is5Min == false)
         {
+            ScoreManager.minimum = minimum8;
+            ScoreManager.maximum = maximum8;
+            ScoreManager.Scores = Scores8;
             Timer.StartTime = StartTime2;
             Toggle2.isOn = true;
         }
-
+        
     }
 
     void Update()
     {
         if (Is5Min == true)
         {
+            ScoreManager.minimum = minimum5;
+            ScoreManager.maximum = maximum5;
+            ScoreManager.Scores = Scores5;
             Timer.StartTime = StartTime1;
             Toggle1.isOn = true;
         }
         if (Is5Min == false)
         {
+            ScoreManager.minimum = minimum8;
+            ScoreManager.maximum = maximum8;
+            ScoreManager.Scores = Scores8;
             Timer.StartTime = StartTime2;
             Toggle2.isOn = true;
         }
-        //print(Timer.StartTime);
+
+        print(ScoreManager.minimum + " " + ScoreManager.maximum);
     }
 
     public void FirstChoice(bool check1)
