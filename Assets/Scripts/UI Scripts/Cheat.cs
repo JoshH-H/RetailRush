@@ -20,43 +20,43 @@ public class Cheat : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 50;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad2))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 100;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad3))
+        if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 150;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad4))
+        if (Input.GetKeyDown(KeyCode.Alpha4))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 200;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad5))
+        if (Input.GetKeyDown(KeyCode.Alpha5))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 250;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad6))
+        if (Input.GetKeyDown(KeyCode.Alpha6))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 300;
         }
 
-        if (Input.GetKeyDown(KeyCode.Keypad7))
+        if (Input.GetKeyDown(KeyCode.Alpha7))
         {
             TimerO.CurrentTime = 0;
             ScM.playerScore = 350;
