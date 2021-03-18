@@ -2974,8 +2974,8 @@ MonoBehaviour:
     - ...
     CorrectAnswer: 3
     confusedAnswer: 2
-  - Question: Well... I bought this last Monday for my grandson, but he said he didn't
-      like them.
+  - Question: Well... I bought these last Monday for my grandson, but he said he
+      didn't like them.
     Answers:
     - I see. That is unfortunate, we do have some new collection at the back if you
       like to see?
