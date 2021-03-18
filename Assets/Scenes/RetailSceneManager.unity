@@ -1276,7 +1276,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TimerO: {fileID: 2018019695}
   ShiftsResults: {fileID: 642045920}
-  AllSounds: {fileID: 0}
   mainNPC: {fileID: 2131347154}
   ScM: {fileID: 359335515}
 --- !u!1 &384286446
@@ -2630,7 +2629,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: NaN
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -2818,80 +2817,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &996208240
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 6.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -42.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.0000000017076046
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.99995846
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.009119214
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -0.00000018724573
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 1.0450001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180.00002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1246605950059089153, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1875473461302351803, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_Name
-      value: CF Asking about an item Tall Lady Window
-      objectReference: {fileID: 0}
-    - target: {fileID: 6532935409198147344, guid: 3ea4486393e4c1c48974e6f29a4ff6fc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3ea4486393e4c1c48974e6f29a4ff6fc, type: 3}
 --- !u!1 &1002963136
 GameObject:
   m_ObjectHideFlags: 0
