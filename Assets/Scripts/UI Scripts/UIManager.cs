@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour
                 Opened = false;
             }
             
-        } 
+        }
     }
     public void Pause()
     {

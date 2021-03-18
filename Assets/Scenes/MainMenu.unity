@@ -2348,6 +2348,8 @@ MonoBehaviour:
   Toggle2: {fileID: 943807361}
   StartTime1: 300
   StartTime2: 480
+  ScOne: 250
+  ScTwo: 400
 --- !u!114 &1172365853
 MonoBehaviour:
   m_ObjectHideFlags: 0
