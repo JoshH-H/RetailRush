@@ -14,8 +14,8 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] GameObject winMenu;
     [SerializeField] GameObject failMenu;
 
-    public static int[] Scores = { 190, 180, 160, 159, 120, 100, 70, 50 };
-    public static int minimum = 110;
+    public static int[] Scores = { 210, 209, 170, 169, 150, 149, 90, 89 };
+    public static int minimum = 150;
 
     [SerializeField] string[] results;
     [SerializeField] Text resultText;
