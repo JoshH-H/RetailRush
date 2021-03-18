@@ -2972,8 +2972,8 @@ MonoBehaviour:
     - Hi, sure, was something wrong with them?
     - Hi, I will gladly help you, can you please tell me why you wish a refund?
     - ...
-    CorrectAnswer: 2
-    confusedAnswer: 3
+    CorrectAnswer: 3
+    confusedAnswer: 2
   - Question: Well... I bought this last Monday for my grandson, but he said he didn't
       like them.
     Answers:
