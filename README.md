@@ -1,10 +1,12 @@
 # RetailRush
 Engineers:
-Main Focuses
-Josh Hall-Hems - NPC Dialogue System
-Evaldas Matutis - NPC Movement
+Josh Hall-Hems 
+- NPC Dialogue System
+Evaldas Matutis 
+- NPC Movement
 
 Artists:
-Main Focuses
-Anne Tsjornaja - 3D environment and characters, UI design and User Experience, Website
-Leena Jarvenpaa - In-game 2D elements, Main Menu, Story boarding and environment design, Shaders, User Experience amd Accessibility planning.
+Anne Tsjornaja  
+- 3D environment and characters, UI design and User Experience, Website
+Leena Jarvenpaa 
+-In-game 2D elements, Main Menu, Story boarding and environment design, Shaders, User Experience amd Accessibility planning.
