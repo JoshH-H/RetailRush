@@ -1,5 +1,5 @@
 # RetailRush
-# Engineers:
+### Engineers:
 Josh Hall-Hems 
 - NPC Dialogue System
 Evaldas Matutis 
