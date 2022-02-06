@@ -4,7 +4,7 @@ Demo available [here](https://www.youtube.com/watch?v=-IliUzlasNI)
 
 ### Engineers:
 ### Josh Hall-Hems 
-- [NPC Dialogue System] (https://github.com/JoshH-H/RetailRush/wiki/2.2.2.-Retail-Rush-~-FINAL-Design-progress-~-Engineers)
+[- NPC Dialogue System](https://github.com/JoshH-H/RetailRush/wiki/2.2.2.-Retail-Rush-~-FINAL-Design-progress-~-Engineers)
 ### Evaldas Matutis 
 - NPC Movement
 
